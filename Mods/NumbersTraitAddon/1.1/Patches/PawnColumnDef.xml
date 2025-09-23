@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+
+<Operation Class="PatchOperationFindMod">
+
+
+<mods>
+
+<li>Numbers</li>
+
+</mods>
+
+
+<match Class="PatchOperationInsert">
+
+<xpath>/Defs/PawnColumnDef[defName = "Numbers_Faction"]</xpath>
+
+
+<value>
+<PawnColumnDef>
+
+<defName>Numbers_Traits</defName>
+
+<workerClass>Numbers.PawnColumnWorker_Traits</workerClass>
+
+<sortable>true</sortable>
+
+<label>Traits</label>
+
+</PawnColumnDef>
+
+</value>
+
+</match>
+
+</Operation>
+
+</Patch>

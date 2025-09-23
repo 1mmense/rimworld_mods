@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2444485789
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: outline
+      Dependencies: {}

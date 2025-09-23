@@ -1,0 +1,239 @@
+# Changelog for MarkThatPawn
+
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
+1.5.14 - Fixed issue with death refusal corpses
+
+
+1.5.13 - Fixed markings for corpses both on map and in containers like the gibblet cage
+
+
+1.5.12 - Fixed the pawntypes application order
+
+
+1.5.11 - Pawns can now match multiple pawn-types correctly
+
+
+1.5.10 - Downed rule should no longer apply to pawns whos age cause them to be always downed, like babies
+
+
+1.5.9 - Added rules for royalty titles and ideology roles
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.5.8 - Fixed the pawn type-filtering and gizmo hiding
+
+
+1.5.7 - Added Trader and Loyal enemy as pawn types
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.5.6 - Added support for corpses
+Fixed the animal and mech-selectors
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.5.5 - Added guest-rule
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.5.4 - Removes dead and destroyed pawns from the Pawn-lists on save, to avoid null-errors on load
+
+
+1.5.3 - Added downed rule
+Added error handling when rules cannot be loaded correctly
+Added support for importing badgeDefs from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2526040241]Pawn Badge[/url]
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.5.2 - Added support for the fog of war in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2938891185]CAI 5000[/url]
+
+
+1.5.1 - Added loading directive
+
+
+1.5.0 - Updated for 1.5, added animal-option to the pawn-type selector for the rules
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.37 - Fixed issue with newly created TD Find rules only being editable after reload of save
+
+
+1.4.36 - Fixed TD Find Lib rules from breaking the rule-list when using multiple savegames
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.35 - Added faction-leader rule.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.34 - Added mechanoid-rule.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.33 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895299310]TD Find Lib[/url].
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.32 - Fixes an issue with saving the mental state rule.
+Updated chinese translation by hawnhan
+
+
+1.4.31 - Fixed issue with the new string-handling causing some rules to only apply if two or more options were selected
+Fixed a loading issue connected to CE patches removing default projectiles
+
+
+1.4.30 - Fixed issue with the new string-handling causing some rules to only apply if two or more options were selected
+Fixed a loading issue connected to CE patches removing default projectiles
+
+
+1.4.29 - Added OR-support for the relevant rule-types
+Added multiselect to weapon, apparel, gene
+Cleaned up the string-handling for the marker-blobs
+Updated Chinese translation by HawnHan.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.28 - Added option to show ideology icon
+Added option to show faction icon.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.27 - Fixed temporary icons not showing when alone. Also added a smoother for the expanding of the icons
+
+
+1.4.26 - Auto-rules will now always apply even if only one is applicable.
+
+
+1.4.25 - Fix for broken gizmo icon when auto-icon is removed
+
+
+1.4.24 - Added drafted only-option on the weapon-rule
+Added any permanent bad hediff, like scars
+Fixed a bug with multi view of basic icons.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.23 - Added option to show multiple icons
+Added option for showing all temporary icons
+Added option for showing all normal icons
+Added option for the icon-spacing when showing mutliple icons
+Added option to rotate the active icon instead of showing all
+Added option to show all icons when selecting pawn
+Added option to show all icons when having mouse over the icon.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.22 - Added apparel rule
+Added apparel type rule
+Added regular reevaluation of non-temporary rules.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.21 - Added xenotype rule
+Added gene rule.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.20 - Added gender rule
+Added age-range rule
+Added rule-duplication option
+Moved buttons to drop-down for readability.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.19 - Added animal rule.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.18 - Added support for hediffs, temporary as priority rule and permanent as a normal rule
+Fixed scaled icons for large dropdown lists since vanilla does not support scaling icons
+Added option to reset the auto-icon, to recalculate the icon when removing a permanent hediff like a bionic limb for example
+Added indicator for sub-menu in dropdowns
+Simplified the priority-rules handling
+Restructured the files in the solution.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.17 - Added another XCOM set, thanks to Lekoda
+
+
+1.4.16 - Added support for passions for skills
+Fixed prio typo
+
+
+1.4.15 - Removed the option to create new/reset rules when editing a rule.
+
+
+1.4.14 - Forgot to initialize the new override directory when loading a save-game
+
+
+1.4.13 - Added rule for pawns being drafted
+Added rule for pawns being in a mental state
+Added a generic symbol icon-set.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.12 - Auto-markings will no longer override any existing markers
+
+
+1.4.11 - Moved markings from map-components to one game-component to avoid issues with caravans.
+Added pawn-type filtering to all applicable rules..
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.10 - You can now select any icon for a colonist using the custom-option..
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.9 - Added rule-option based on type of pawn.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.8 - Slaves marker set should now not be overridden by colonists
+
+
+1.4.7 - Should no longer trigger gizmo-errors when loading an existing save.
+
+
+1.4.6 - Added automatic rule-support
+MarkerDefs can require other mods to load
+Added Ideology markerDefs, made by Yoann
+Added Weapon-type icons, based on icons by max.icons from www.flaticon.com
+Added XCOM-icons from the pawn badge-pack by Botaxalim
+Added job-icons from the pawn badge-pach by [✚] Survivalmaster.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.5 - Added a zoom-scale factor option.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.4 - Increased max icon-size to 500%, made the relative size calculations a bit more sensible
+
+
+1.4.3 - Added options to remove the icon gizmo for types of pawns
+Added option (default on) to scale the icons based on zoom-level, larger when zoomed out.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.2 - Added support for [url=https://steamcommunity.com/workshop/filedetails/?id=3014915404]Vehicle Framework[/url]
+Added option for icon-sizes relative to body-size, good for large vehicles
+Added new icon-sets; United States Army, GDI and Nod.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.1 - Added support for marker sets via xml
+Added options to define icon-offsets
+Added options to have different sets based on pawntype
+Added 1.3 support
+Added possibility to change multiple pawns at the same time
+Added two new icon sets, numbers and also skills with textures from the pawnbadge mod
+Added some caching.
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
+1.4.0 - First publish.
+Used DeepL to update translations for ChineseSimplified, French, German
+

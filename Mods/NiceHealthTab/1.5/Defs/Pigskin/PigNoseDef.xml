@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<NiceHealthTab.DollGenePart>
+		<defName>PigNose</defName>
+		<imagePath>HediffTab/Pigskin/PigNose</imagePath>
+		<geneDefName>Nose_Pig</geneDefName>
+		<replace>true</replace>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<bodyPartId>20</bodyPartId>
+		<layer>0</layer>
+		<visibleByDefault>true</visibleByDefault>
+	</NiceHealthTab.DollGenePart>
+</Defs>
+

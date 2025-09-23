@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Quick Stockpile Creation</name>
+	<author>slofa</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+		<![CDATA[Quality of Life mod that allows you to quickly create a stockpile, shelf, or bookcase directly from an item, for just that item type, with a few other features.
+
+This works fine with modded items and item categories, and is safe to add to - and be removed from - existing games.
+
+<color=orange><size=16><b>Features</b></size></color>
+
+ • Selecting any haulable item gives a new command to create a new stockpile or shelves just for that item type
+ • Right-clicking on that command lets you create stockpiles or shelves for any of the item's categories
+ • Select multiple items at once and create a stockpile or shelves for all those items
+ • Stockpiles created with this mod use intelligent names
+ 
+ • Selecting an item already in a stockpile gives a command to let you disallow it in that stockpile
+ • Right-click on that command to disallow the item's categories instead
+ • You can undo any disallows in case you make a mistake
+ 
+<color=orange><size=16><b>Credits</b></size></color>
+
+ • Russian translation by Reiquard (https://steamcommunity.com/profiles/76561198012474522)
+ • Simplified Chinese translation by HawnHan (https://steamcommunity.com/id/HawnHan)
+ • Spanish translation by Crusader (https://steamcommunity.com/profiles/76561197986639775)
+]]>
+	</description>
+	<packageId>longwater.smartstockpilecreation</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>

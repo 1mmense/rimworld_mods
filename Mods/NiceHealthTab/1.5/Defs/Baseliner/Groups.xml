@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NiceHealthTab.WholeBodyGroup>
+		<defName>GroupMalnutrition</defName>
+		<hediffs>
+			<li>Malnutrition</li>
+		</hediffs>
+		<imagePath>HediffTab/Common/Food</imagePath>
+		<priority>10</priority>
+		<color>(236, 197, 63)</color>
+	</NiceHealthTab.WholeBodyGroup>
+	
+	<NiceHealthTab.WholeBodyGroup>
+		<defName>GroupPregnant</defName>
+		<hediffs>
+			<li>Pregnant</li>
+		</hediffs>
+		<imagePath>HediffTab/Common/Baby</imagePath>
+		<priority>9</priority>
+		<color>(182, 255, 23)</color>
+	</NiceHealthTab.WholeBodyGroup>
+	
+	<NiceHealthTab.WholeBodyGroup>
+		<defName>GroupToxin</defName>
+		<hediffs>
+			<li>ToxicBuildup</li>
+			<li>SmokeInhalation</li>
+			<li>VenomBuildup</li>
+		</hediffs>
+		<imagePath>HediffTab/Common/Toxin</imagePath>
+		<priority>11</priority>
+		<color>(0, 225, 0)</color>
+	</NiceHealthTab.WholeBodyGroup>
+	
+	<NiceHealthTab.WholeBodyGroup>
+		<defName>GroupDiseases</defName>
+		<hediffs>
+			<li>SensoryMechanites</li>
+			<li>MuscleParasites</li>
+			<li>FibrousMechanites</li>
+			<li>GutWorms</li>
+		</hediffs>
+		<shortLabel>true</shortLabel>
+		<imagePath>HediffTab/Common/Disease</imagePath>
+		<priority>100</priority>
+		<color>(182, 255, 23)</color>
+	</NiceHealthTab.WholeBodyGroup>
+</Defs>

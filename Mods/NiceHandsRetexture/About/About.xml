@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Nice Hands Retexture</name>
+	<author>Andromeda</author>
+	<description>A little bit nicer humanlike hands</description>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>Andromeda.NiceHands</packageId>
+	<modDependencies>
+		<li>
+			<packageId>mlie.showmeyourhands</packageId>
+			<displayName>Show Me Your Hands</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2475965842</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>mlie.showmeyourhands</li>
+		<li>co.uk.epicguru.meleeanimation</li>
+		<li>NotA.BigFanOf.Lassos</li>
+    </loadAfter>
+</ModMetaData>

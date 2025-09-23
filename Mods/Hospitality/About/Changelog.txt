@@ -1,0 +1,13 @@
+1.0.0 - 5/25/2025 - updated to 1.6 from 1.5
+
+1.0.1 - 6/30/2025 - added explicit loadAfter for VEF
+
+1.0.2 - 7/11/2025 - added 1.5 build
+
+1.0.3 - 7/14/2025 - initial Odyssey compatibility
+
+1.0.4 - 8/5/2025 - added some null checking, bed interval price now 5 (was 10), removed some unneeded logging
+
+1.0.5 - 8/20/2025 - performance fix to a patch, thanks Zera!
+
+1.0.6 - 8/21/2025 - added AllWork tag to Entertain worktype, thanks CalamaBanana!

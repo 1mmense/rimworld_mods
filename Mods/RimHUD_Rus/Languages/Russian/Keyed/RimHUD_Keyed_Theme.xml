@@ -1,0 +1,140 @@
+<LanguageData>
+	<!-- Refresh rate -->
+	<RimHUD.Theme.RefreshRate>Частота обновления</RimHUD.Theme.RefreshRate>
+	<!-- How often the HUD will refresh. Set this higher if experiencing any frame rate drop. -->
+	<RimHUD.Theme.RefreshRateDesc>Как часто будет обновляться HUD. Увеличьте это значение, если частота кадров падает.</RimHUD.Theme.RefreshRateDesc>
+	<!-- ms -->
+	<RimHUD.Theme.RefreshRateUnits>мс</RimHUD.Theme.RefreshRateUnits>
+
+	<!-- Inspect Pane -->
+	<RimHUD.Theme.InspectPane>Панель инспектора</RimHUD.Theme.InspectPane>
+	<!-- Docked Mode -->
+	<RimHUD.Theme.InspectPaneDocked>Закрепить HUD в панели инспектора</RimHUD.Theme.InspectPaneDocked>
+	<!-- Docks the HUD to the Inspect Pane. -->
+	<RimHUD.Theme.InspectPaneDockedDesc>Закрепить в панели инспектора.</RimHUD.Theme.InspectPaneDockedDesc>
+	<!-- Modify -->
+	<RimHUD.Theme.InspectPaneModify>Изменить</RimHUD.Theme.InspectPaneModify>
+	<!-- This is required for docked mode. -->
+	<RimHUD.Theme.InspectPaneModifyDesc>Это требует Закрепленный HUD.</RimHUD.Theme.InspectPaneModifyDesc>
+	<!-- Show character log -->
+	<RimHUD.Theme.InspectPaneAddLog>Показать журнал</RimHUD.Theme.InspectPaneAddLog>
+	<!-- Fills the inspect pane with the log for the selected character. Not available for docked mode. -->
+	<RimHUD.Theme.InspectPaneAddLogDesc>Заполняет панель инспектора журналом для выбранного персонажа. Доступно только в плавающем режиме.</RimHUD.Theme.InspectPaneAddLogDesc>
+	<!-- Pane Height -->
+	<RimHUD.Theme.InspectPaneHeight>Высота панели</RimHUD.Theme.InspectPaneHeight>
+	<!-- Minimum Tabs -->
+	<RimHUD.Theme.InspectPaneMinTabs>Минимум вкладок</RimHUD.Theme.InspectPaneMinTabs>
+	<!-- Tab Width -->
+	<RimHUD.Theme.InspectPaneTabWidth>Ширина вкладки</RimHUD.Theme.InspectPaneTabWidth>
+
+	<!-- Floating Mode -->
+	<RimHUD.Theme.Floating>Плавающий режим</RimHUD.Theme.Floating>
+	<!-- Anchor -->
+	<RimHUD.Theme.FloatingAnchor>Примязка</RimHUD.Theme.FloatingAnchor>
+	<!-- Top Left|Top Center|Top Right|Center Left|Center|Center Right|Bottom Left|Bottom Center|Bottom Right -->
+	<RimHUD.Theme.FloatingAnchors>Вверху слева|Вверху в центре|Вверху справа|В центре слева|В центре|В центре справа|Внизу слева|Внизу в центре|Внизу справа</RimHUD.Theme.FloatingAnchors>
+	<!-- X -->
+	<RimHUD.Theme.FloatingOffsetX>X</RimHUD.Theme.FloatingOffsetX>
+	<!-- Y -->
+	<RimHUD.Theme.FloatingOffsetY>Y</RimHUD.Theme.FloatingOffsetY>
+	<!-- Width -->
+	<RimHUD.Theme.FloatingWidth>Ширина</RimHUD.Theme.FloatingWidth>
+	<!-- Height -->
+	<RimHUD.Theme.FloatingHeight>Высота</RimHUD.Theme.FloatingHeight>
+
+	<!-- Size -->
+	<RimHUD.Theme.TextStyle.Size>Размер</RimHUD.Theme.TextStyle.Size>
+	<!-- Line Height -->
+	<RimHUD.Theme.TextStyle.Height>Высота линии</RimHUD.Theme.TextStyle.Height>
+
+	<!-- Regular Text -->
+	<RimHUD.Theme.TextStyleRegular>Обычный текст</RimHUD.Theme.TextStyleRegular>
+	<!-- Header Text -->
+	<RimHUD.Theme.TextStyleLarge>Текст заголовка</RimHUD.Theme.TextStyleLarge>
+	<!-- Description Text -->
+	<RimHUD.Theme.TextStyleSmall>Текст описания</RimHUD.Theme.TextStyleSmall>
+
+	<!-- Label Width -->
+	<RimHUD.Theme.LabelWidth>Ширина метки</RimHUD.Theme.LabelWidth>
+	<!-- Value Width -->
+	<RimHUD.Theme.ValueWidth>Ширина значения</RimHUD.Theme.ValueWidth>
+
+	<!-- Miscellaneous -->
+	<RimHUD.Theme.Miscellaneous>Останое</RimHUD.Theme.Miscellaneous>
+
+	<!-- Show Faction Icon -->
+	<RimHUD.Theme.ShowFactionIcon>Показать Иконку Фракции</RimHUD.Theme.ShowFactionIcon>
+	<!-- Show Ideoligion Icon -->
+	<RimHUD.Theme.ShowIdeoligionIcon>Показать Иконку Идеологии</RimHUD.Theme.ShowIdeoligionIcon>
+	<!-- Show Decimals -->
+	<RimHUD.Theme.ShowDecimals>Показывать десятичные дроби</RimHUD.Theme.ShowDecimals>
+
+	<!-- Letter Padding -->
+	<RimHUD.Theme.LetterPadding>Заполнение букв</RimHUD.Theme.LetterPadding>
+	<!-- Changes the distance between the letter notifications that appear on the right side of the screen. Vanilla: 12 -->
+	<RimHUD.Theme.LetterPaddingDesc>Изменяет расстояние между уведомлениями о письмах, которые появляются в правой части экрана. По умолчанию: 12</RimHUD.Theme.LetterPaddingDesc>
+	<!-- Compress Notifications -->
+	<RimHUD.Theme.LetterCompress>Сжать уведомления</RimHUD.Theme.LetterCompress>
+	<!-- Will compress any letters and alerts on the right side of the screen if they overlap with the HUD. -->
+	<RimHUD.Theme.LetterCompressDesc>Будет сжимать любые буквы и предупреждения в правой части экрана, если они перекрываются с HUD.</RimHUD.Theme.LetterCompressDesc>
+
+	<!-- HUD Colors -->
+	<RimHUD.Theme.HudColors>Цвета HUD</RimHUD.Theme.HudColors>
+
+	<!-- Main text -->
+	<RimHUD.Theme.MainTextColor>Основной текст</RimHUD.Theme.MainTextColor>
+	<!-- Disabled text -->
+	<RimHUD.Theme.DisabledColor>Отключенный текст</RimHUD.Theme.DisabledColor>
+	<!-- Critical text -->
+	<RimHUD.Theme.CriticalColor>Критический текст</RimHUD.Theme.CriticalColor>
+	<!-- Warning text -->
+	<RimHUD.Theme.WarningColor>Текст предупреждения</RimHUD.Theme.WarningColor>
+	<!-- Info text -->
+	<RimHUD.Theme.InfoColor>Информационный текст</RimHUD.Theme.InfoColor>
+	<!-- Good text -->
+	<RimHUD.Theme.GoodColor>Хороший текст</RimHUD.Theme.GoodColor>
+	<!-- Excellent text -->
+	<RimHUD.Theme.ExcellentColor>Отличный текст</RimHUD.Theme.ExcellentColor>
+	<!-- Bar background -->
+	<RimHUD.Theme.BarBackgroundColor>Фон панели</RimHUD.Theme.BarBackgroundColor>
+	<!-- Bar main -->
+	<RimHUD.Theme.BarMainColor>Основная панель</RimHUD.Theme.BarMainColor>
+	<!-- Bar low -->
+	<RimHUD.Theme.BarLowColor>Низкая полоса</RimHUD.Theme.BarLowColor>
+	<!-- Bar threshold -->
+	<RimHUD.Theme.BarThresholdColor>Порог полосы</RimHUD.Theme.BarThresholdColor>
+	<!-- Selector Background -->
+	<RimHUD.Theme.SelectorBackgroundColor>Фон селектора</RimHUD.Theme.SelectorBackgroundColor>
+	<!-- Selector Text -->
+	<RimHUD.Theme.SelectorTextColor>Текст селектора</RimHUD.Theme.SelectorTextColor>
+	<!-- Line -->
+	<RimHUD.Theme.LineColor>Линия</RimHUD.Theme.LineColor>
+
+	<!-- Faction Colors -->
+	<RimHUD.Theme.FactionColors>Цвета фракций</RimHUD.Theme.FactionColors>
+	<!-- Own -->
+	<RimHUD.Theme.FactionOwnColor>Собственный</RimHUD.Theme.FactionOwnColor>
+	<!-- Allied -->
+	<RimHUD.Theme.FactionAlliedColor>Союзники</RimHUD.Theme.FactionAlliedColor>
+	<!-- Independent -->
+	<RimHUD.Theme.FactionIndependentColor>Независимый</RimHUD.Theme.FactionIndependentColor>
+	<!-- Hostile -->
+	<RimHUD.Theme.FactionHostileColor>Враждебный</RimHUD.Theme.FactionHostileColor>
+	<!-- Wild -->
+	<RimHUD.Theme.FactionWildColor>Дикий</RimHUD.Theme.FactionWildColor>
+	<!-- Prisoner -->
+	<RimHUD.Theme.FactionPrisonerColor>Заключенный</RimHUD.Theme.FactionPrisonerColor>
+	<!-- Slave -->
+	<RimHUD.Theme.FactionSlaveColor>Раб</RimHUD.Theme.FactionSlaveColor>
+
+	<!-- Skill Colors -->
+	<RimHUD.Theme.SkillColors>Цвета навыков</RimHUD.Theme.SkillColors>
+	<!-- Minor passion -->
+	<RimHUD.Theme.SkillMinorPassionColor>Средний интерес</RimHUD.Theme.SkillMinorPassionColor>
+	<!-- Major passion -->
+	<RimHUD.Theme.SkillMajorPassionColor>Горячий интерес</RimHUD.Theme.SkillMajorPassionColor>
+	<!-- Learning saturated -->
+	<RimHUD.Theme.SkillSaturatedColor>Предел обучения</RimHUD.Theme.SkillSaturatedColor>
+	<!-- Currently active -->
+	<RimHUD.Theme.SkillActiveColor>В настоящее время активен</RimHUD.Theme.SkillActiveColor>
+</LanguageData>

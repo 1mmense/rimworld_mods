@@ -1,0 +1,9 @@
+<LanguageData>
+		<!-- Uncomment and modify the line below if you would like your name to be credited in the config window -->
+	<RimHUD.Language.TranslatedBy>Переведено Kamikadza13</RimHUD.Language.TranslatedBy>
+	<!-- {0} {1} -->
+	<RimHUD.Language.AdjectiveNounOrder>{0} {1}</RimHUD.Language.AdjectiveNounOrder>
+
+	<!-- Show HUD -->
+	<RimHUD.ToggleHud>Показать HUD</RimHUD.ToggleHud>
+</LanguageData>

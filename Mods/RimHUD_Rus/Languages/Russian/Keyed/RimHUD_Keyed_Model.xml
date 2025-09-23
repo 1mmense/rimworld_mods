@@ -1,0 +1,166 @@
+<LanguageData>
+	<!-- Title: {0} -->
+	<RimHUD.Model.Bio.Title>{0}</RimHUD.Model.Bio.Title>
+	<!-- Faction: {0} -->
+	<RimHUD.Model.Bio.Faction>Фракция: {0}</RimHUD.Model.Bio.Faction>
+	<!-- Ideoligion: {0} -->
+	<RimHUD.Model.Bio.Ideoligion>Идеология: {0}</RimHUD.Model.Bio.Ideoligion>
+	<!-- Lifestage: {0} -->
+	<RimHUD.Model.Bio.Lifestage>Стадия: {0}</RimHUD.Model.Bio.Lifestage>
+	<!-- Master: {0} -->
+	<RimHUD.Model.Bio.Master>Хозяин: {0}</RimHUD.Model.Bio.Master>
+	<!-- Diet: {0} -->
+	<RimHUD.Model.Bio.Diet>Диета: {0}</RimHUD.Model.Bio.Diet>
+	<!-- Trainability: {0} -->
+	<RimHUD.Model.Bio.Trainability>Способность к обучению: {0}</RimHUD.Model.Bio.Trainability>
+	<!-- Wildness: {0} -->
+	<RimHUD.Model.Bio.Wildness>Диксть: {0}</RimHUD.Model.Bio.Wildness>
+	<!-- Petness: {0} -->
+	<RimHUD.Model.Bio.Petness>Привязанность: {0}</RimHUD.Model.Bio.Petness>
+
+	<!-- {0} {1} -->
+	<RimHUD.Model.RelationKindAndFaction>{0} {1}</RimHUD.Model.RelationKindAndFaction>
+	<!-- of {0} -->
+	<RimHUD.Model.OfFaction>из {0}</RimHUD.Model.OfFaction>
+	<!-- former {0} -->
+	<RimHUD.Model.Former>former {0}</RimHUD.Model.Former>
+
+	<!-- wild -->
+	<RimHUD.Model.Faction.Wild>дикий</RimHUD.Model.Faction.Wild>
+	<!-- allied -->
+	<RimHUD.Model.Faction.Allied>союзник</RimHUD.Model.Faction.Allied>
+	<!-- enemy -->
+	<RimHUD.Model.Faction.Enemy>враг</RimHUD.Model.Faction.Enemy>
+	<!-- hostile -->
+	<RimHUD.Model.Faction.Hostile>враждебный</RimHUD.Model.Faction.Hostile>
+	<!-- independent -->
+	<RimHUD.Model.Faction.Independent>независимый</RimHUD.Model.Faction.Independent>
+	<!-- captured -->
+	<RimHUD.Model.Faction.Prisoner>captured</RimHUD.Model.Faction.Prisoner>
+	<!-- enslaved -->
+	<RimHUD.Model.Faction.Slave>enslaved</RimHUD.Model.Faction.Slave>
+
+	<!-- creature -->
+	<RimHUD.Model.Creature.Wild>существо</RimHUD.Model.Creature.Wild>
+	<!-- animal -->
+	<RimHUD.Model.Creature.Tame>животное</RimHUD.Model.Creature.Tame>
+	<!-- stray -->
+	<RimHUD.Model.Creature.Stray>бродяга</RimHUD.Model.Creature.Stray>
+	<!-- pet -->
+	<RimHUD.Model.Creature.Pet>питомец</RimHUD.Model.Creature.Pet>
+	<!-- exotic pet -->
+	<RimHUD.Model.Creature.ExoticPet>экзотический питомец</RimHUD.Model.Creature.ExoticPet>
+	<!-- predator -->
+	<RimHUD.Model.Creature.Predator>хищник</RimHUD.Model.Creature.Predator>
+	<!-- hunting animal -->
+	<RimHUD.Model.Creature.Hunt>охотничье животное</RimHUD.Model.Creature.Hunt>
+	<!-- pack animal -->
+	<RimHUD.Model.Creature.Pack>вьючное животное</RimHUD.Model.Creature.Pack>
+	<!-- farm animal -->
+	<RimHUD.Model.Creature.Farm>фермерское животное</RimHUD.Model.Creature.Farm>
+	<!-- herd animal -->
+	<RimHUD.Model.Creature.Herd>стадное животное</RimHUD.Model.Creature.Herd>
+	<!-- insect -->
+	<RimHUD.Model.Creature.Insect>насекомое</RimHUD.Model.Creature.Insect>
+	<!-- mechanoid -->
+	<RimHUD.Model.Creature.Mechanoid>механоид</RimHUD.Model.Creature.Mechanoid>
+	<!-- unit -->
+	<RimHUD.Model.Creature.Unit>юнит</RimHUD.Model.Creature.Unit>
+	<!-- entity -->
+	<RimHUD.Model.Creature.Entity>существо</RimHUD.Model.Creature.Entity>
+
+	<!-- {0}, aged {1} -->
+	<RimHUD.Model.GenderRaceAndAge>{0} лет: {1}</RimHUD.Model.GenderRaceAndAge>
+	<!-- (Birthday today) -->
+	<RimHUD.Model.Age.Birthday>(День рождения сегодня)</RimHUD.Model.Age.Birthday>
+	<!-- and one day -->
+	<RimHUD.Model.Age.Day>и один день</RimHUD.Model.Age.Day>
+	<!-- and {0} days -->
+	<RimHUD.Model.Age.Days>| {0} дней</RimHUD.Model.Age.Days>
+
+	<!-- Dead -->
+	<RimHUD.Model.Health.Dead>Мертв</RimHUD.Model.Health.Dead>
+	<!-- Incapacitated -->
+	<RimHUD.Model.Health.Incapacitated>Недееспособен</RimHUD.Model.Health.Incapacitated>
+	<!-- Bleeding out in {0} -->
+	<RimHUD.Model.Health.Bleed>Умрет:{0}</RimHUD.Model.Health.Bleed>
+	<!-- {0} needs tending -->
+	<RimHUD.Model.Health.Tend>Требует ухода:{0}</RimHUD.Model.Health.Tend>
+	<!-- {0} conditions need tending -->
+	<RimHUD.Model.Health.TendPlural>Требуют ухода:{0}</RimHUD.Model.Health.TendPlural>
+	<!-- Has life-threatening {0} -->
+	<RimHUD.Model.Health.Threat>Опасно:{0}</RimHUD.Model.Health.Threat>
+	<!-- Has {0} life-threatening conditions -->
+	<RimHUD.Model.Health.ThreatPlural>Опасно:{0}</RimHUD.Model.Health.ThreatPlural>
+	<!-- Affected by {0} -->
+	<RimHUD.Model.Health.Affected>{0}</RimHUD.Model.Health.Affected>
+	<!-- Affected by {0} and 1 other condition -->
+	<RimHUD.Model.Health.AffectedTwo>{0} и 1 другое состояния</RimHUD.Model.Health.AffectedTwo>
+	<!-- Affected by {0} and {1} other conditions -->
+	<RimHUD.Model.Health.AffectedPlural>{0} и {1} остальных</RimHUD.Model.Health.AffectedPlural>
+
+	<!-- In good condition -->
+	<RimHUD.Model.Health.Good>Хорошее</RimHUD.Model.Health.Good>
+	<!-- In stable condition -->
+	<RimHUD.Model.Health.Stable>Стабильное</RimHUD.Model.Health.Stable>
+	<!-- In poor condition -->
+	<RimHUD.Model.Health.Poor>Плохое</RimHUD.Model.Health.Poor>
+	<!-- In critical condition -->
+	<RimHUD.Model.Health.Critical>Критическое</RimHUD.Model.Health.Critical>
+
+	<!-- Change the level of medical care given to this {0}.\n\nCurrent level: {1} -->
+	<RimHUD.Model.Health.MedicalCare>Изменить уровень медицинского обслуживания на {0}\n\Текущий уровень: {1}</RimHUD.Model.Health.MedicalCare>
+
+	<!-- Feeling depressed -->
+	<RimHUD.Model.Mood.ExtremeBreakImminent>Депрессия</RimHUD.Model.Mood.ExtremeBreakImminent>
+	<!-- Feeling stressed -->
+	<RimHUD.Model.Mood.MajorBreakImminent>Стресс</RimHUD.Model.Mood.MajorBreakImminent>
+	<!-- Feeling anxious -->
+	<RimHUD.Model.Mood.MinorBreakImminent>Беспокойство</RimHUD.Model.Mood.MinorBreakImminent>
+	<!-- Feeling confident -->
+	<RimHUD.Model.Mood.Excellent>Уверенность</RimHUD.Model.Mood.Excellent>
+	<!-- Feeling composed -->
+	<RimHUD.Model.Mood.Good>Норма</RimHUD.Model.Mood.Good>
+	<!-- Feeling steady -->
+	<RimHUD.Model.Mood.Neutral>Спокойствие</RimHUD.Model.Mood.Neutral>
+
+	<!-- {0} for {1} -->
+	<RimHUD.Model.Mood.Inspired>{0} на {1}</RimHUD.Model.Mood.Inspired>
+	<!-- Stunned for {0} -->
+	<RimHUD.Model.Mood.Stunned>Стан {0}</RimHUD.Model.Mood.Stunned>
+	<!-- Staggered for {0} -->
+	<RimHUD.Model.Mood.Staggered>Ошеломление {0}</RimHUD.Model.Mood.Staggered>
+
+	<!-- Activity: {0} -->
+	<RimHUD.Model.Info.Activity>{0}</RimHUD.Model.Info.Activity>
+	<!-- {0}\n\n{1}\n\n{2} -->
+	<RimHUD.Model.Info.Activity.Tooltip>{0}\n\n{1}\n\n{2}</RimHUD.Model.Info.Activity.Tooltip>
+	<!-- Work type: {0} -->
+	<RimHUD.Model.Info.Activity.WorkType>Работа: {0}</RimHUD.Model.Info.Activity.WorkType>
+	<!-- Relevant skills: {0} -->
+	<RimHUD.Model.Info.Activity.RelevantSkills>Навык: {0}</RimHUD.Model.Info.Activity.RelevantSkills>
+	<!-- Attacking {0} -->
+	<RimHUD.Model.Info.Attacking>Атакует {0}</RimHUD.Model.Info.Attacking>
+	<!-- Queued: {0} -->
+	<RimHUD.Model.Info.Queued>В очереди: {0}</RimHUD.Model.Info.Queued>
+	<!-- Equipped: {0} -->
+	<RimHUD.Model.Info.Equipped>Экипировн: {0}</RimHUD.Model.Info.Equipped>
+	<!-- Carrying: {0} -->
+	<RimHUD.Model.Info.Carrying>Переносит: {0}</RimHUD.Model.Info.Carrying>
+
+	<!-- Outfit: {0} -->
+	<RimHUD.Model.Selector.OutfitFormat>Одежда: {0}</RimHUD.Model.Selector.OutfitFormat>
+	<!-- Food: {0} -->
+	<RimHUD.Model.Selector.FoodFormat>Диета: {0}</RimHUD.Model.Selector.FoodFormat>
+	<!-- Schedule: {0} -->
+	<RimHUD.Model.Selector.TimetableFormat>Расписание: {0}</RimHUD.Model.Selector.TimetableFormat>
+	<!-- Set hour {0} to {1} -->
+	<RimHUD.Model.Selector.SetTimeAssignment>Назначить {0} час(ов) для {1}</RimHUD.Model.Selector.SetTimeAssignment>
+	<!-- Area: {0} -->
+	<RimHUD.Model.Selector.AreaFormat>Зона: {0}</RimHUD.Model.Selector.AreaFormat>
+	<!-- Manage... -->
+	<RimHUD.Model.Selector.Manage>.</RimHUD.Model.Selector.Manage>
+
+	<!-- ★ -->
+	<RimHUD.Model.Skill.PassionIndicator>★</RimHUD.Model.Skill.PassionIndicator>
+</LanguageData>

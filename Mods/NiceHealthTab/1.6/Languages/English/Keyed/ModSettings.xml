@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NiceHealthTabSettingsCategory>Nice Health Tab</NiceHealthTabSettingsCategory>
+  
+  <ExtraOverlayEnabled>Enable additional layers (bones may visually overlap organs)</ExtraOverlayEnabled>
+  <AlwaysVanillaEyes>Eyes from the vanilla game</AlwaysVanillaEyes>
+  <AllowKidDollVariant>Allow child doll variant</AllowKidDollVariant>
+  <UsingVanillaListRowColors>Using vanilla body part colors in list</UsingVanillaListRowColors>
+  
+  <NHTCommonTab>Common</NHTCommonTab>
+  <NHTBodyPartsTab>Body parts</NHTBodyPartsTab>
+  
+  <AssignDefaultBodyParts>Assign parts appropriate to another body type</AssignDefaultBodyParts>
+  <DefaultBodyParts>Default body parts:</DefaultBodyParts>
+  <BodyPartsSuff>body parts:</BodyPartsSuff>
+  
+  <ResetAll>Reset all</ResetAll>
+  <Reset>Reset</Reset>
+  <AutoAssign>Auto assign</AutoAssign>
+
+  <ProstheticNoMissingBodyPartsFill>Complete a body part with prosthesis</ProstheticNoMissingBodyPartsFill>
+  <ShowImplantedOrgans>Show implanted organs</ShowImplantedOrgans>
+  <KidAgeRange>Child age range ({0} - {1})</KidAgeRange>
+  <ShowAllMissingParts>Always show all missing body parts</ShowAllMissingParts>
+</LanguageData>

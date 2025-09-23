@@ -1,0 +1,26 @@
+<ModMetaData>
+  <name>Map Wide Orbital Trade Beacon</name>
+  <packageId>Supes.MapWideOrbitalTradeBeacon</packageId>
+  <author>Supes</author>
+  <url>https://steamcommunity.com/sharedfiles/filedetails/?id=1839069104</url>  
+  <supportedVersions>
+    <li>1.0</li>    
+	<li>1.1</li>   
+	<li>1.2</li>
+	<li>1.3</li>
+	<li>1.4</li>
+	<li>1.5</li>
+	<li>1.6</li>
+  </supportedVersions>  
+  <description>This mod that lets you trade without the need to have trade beacons covering your entire base, you only need one beacon outside for your pod deliveries and bobs your uncle, trading with ships is just like trading with visiting caravans.</description> 
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>  
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!--Controller-->
+	<Quick_Stockpile_Creation>Quick Stockpile Creation</Quick_Stockpile_Creation>
+	<Create_new_stockpiles_at_this_priority>Crear nuevas reservas con esta prioridad</Create_new_stockpiles_at_this_priority>
+	<Where_items_are_already_in_stockpiles_create_a_stockpile_at_a_higher_priority_overriding_the_value_above>Cuando los artículos ya están en reservas, crear una reserva con una prioridad más alta, anulando el valor anterior</Where_items_are_already_in_stockpiles_create_a_stockpile_at_a_higher_priority_overriding_the_value_above>
+	<!--ThingExtensions-->
+	<Unable_to_use_a_higher_priority_for_new_stockpile_item_was_already_in_a_maximumPriority_priority_stockpile>No se puede utilizar una prioridad más alta para la nueva reserva, el artículo ya estaba en un {maximumPriority} existencias prioritarias</Unable_to_use_a_higher_priority_for_new_stockpile_item_was_already_in_a_maximumPriority_priority_stockpile>
+	<!--ReallowInStockpileGizmo-->
+	<Reallow_in_stockpile>Permitir en reserva</Reallow_in_stockpile>
+	<Reallow_this_item_in_its_stockpile>Permitir este artículo en su reserva</Reallow_this_item_in_its_stockpile>
+	<Stockpile_will_again_allow_thing_in_it>{zoneStockpileLabel} permitirá {thingLabel} en su reserva</Stockpile_will_again_allow_thing_in_it>
+	<!--RemoveFromStockpileGizmo-->
+	<Disallow_in_stockpile>No permitir en reserva</Disallow_in_stockpile>
+	<Disallow_this_item_in_its_current_stockpile>No permitir este artículo en reserva actual</Disallow_this_item_in_its_current_stockpile>
+	<Disallow_label_in_its_current_stockpile>Prohibir {label} en su reserva actual</Disallow_label_in_its_current_stockpile>
+	<Stockpile_will_no_longer_allow_label_in_it>{stockpile} ya no permitirá {label} en su reserva</Stockpile_will_no_longer_allow_label_in_it>
+	<!--SmartStockpileFloatMenuOption-->
+	<Create_thing_stockpile>Crear {thing} reserva</Create_thing_stockpile>
+	<!--SmartStockpileGizmo-->
+	<Create_stockpile>Crear reserva</Create_stockpile>
+	<Create_a_stockpile_specifically_for_this_item_type>Cree una reserva específicamente para este tipo de artículo.</Create_a_stockpile_specifically_for_this_item_type>
+	<There_are_no_shared_categories_for_the_items_selected>No hay categorías compartidas para los elementos seleccionados.</There_are_no_shared_categories_for_the_items_selected>
+	<Multiple_item>Varios elementos</Multiple_item>
+	<!--SmartStockpileDesignator-->
+	<Stockpile_name_template>{nonGenericRoomType} {stockpileContents} zona reservada</Stockpile_name_template>
+
+	<Select_container_material>Cambiar material de construcción</Select_container_material>
+	<BookcasePlural>Librerías</BookcasePlural>
+
+</LanguageData>

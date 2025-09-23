@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Numbers_Trait_AddOn>Numbers特质拓展</Numbers_Trait_AddOn>
+	<TraitAddOnSetting_TraitColumnWidth>特质列的宽度（当显示不全的时候调整，默认值是350）</TraitAddOnSetting_TraitColumnWidth>
+	<TraitAddOnSetting_UseCustomizedColorInNumbersTab>在数值面板中使用自定义颜色显示特质</TraitAddOnSetting_UseCustomizedColorInNumbersTab>
+	<TraitAddOnSetting_UseCustomizedColorInCharacterCard>在人物面板中使用自定义颜色显示特质</TraitAddOnSetting_UseCustomizedColorInCharacterCard>
+	<TraitAddOnSetting_RemakeButton>重建字典（当你新加入了mod特质或更换游戏语言，点击一次，否则识别不了）</TraitAddOnSetting_RemakeButton>
+	<TraitAddOnSetting_ResetAll>重置所有设置</TraitAddOnSetting_ResetAll>
+	<TraitAddOnSetting_CustomizedColorTable>自定义颜色表</TraitAddOnSetting_CustomizedColorTable>
+</LanguageData>

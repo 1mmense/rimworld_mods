@@ -1,0 +1,28 @@
+<ModMetaData>
+	<name>Русский язык для [LTO] Colony Groups</name>
+	<author>L.Z|W.S</author>
+	<packageId>LZWS.DerekBickley.LTOColonyGroupsFinal</packageId>
+	<supportedVersions>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>DerekBickley.LTOColonyGroupsFinal</packageId>
+			<displayName>[LTO] Colony Groups</displayName>
+			<steamWorkshopUrl>https:/steamcommunity.com/sharedfiles/filedetails/?id=2345493945</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>DerekBickley.LTOColonyGroupsFinal</li>
+	</loadAfter>
+	<description>Russian translation of [LTO] Colony Groups
+
+Colony Groups позволяет вам создавать и настраивать группы для ваших колонистов.  А также предоставляет вам собственную группу колонии, которую вы можете использовать для управления всей вашей колонией (или несколькими) колониями одновременно. Этот мод также включает в себя функции отображения портретов пешек, которые можно включать и выключать. Наслаждайтесь.
+https:/steamcommunity.com/sharedfiles/filedetails/?id=2345493945
+
+Если вы заметили что-то не переведенное, то напишите об этом в комментариях под переводом</description>
+</ModMetaData>

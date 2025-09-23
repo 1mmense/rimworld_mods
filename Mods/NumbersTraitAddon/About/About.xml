@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Numbers Trait AddOn</name>
+	<author>telardo</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modVersion>1.6.0.0</modVersion>
+	<description> A simple addon for showing pawn's traits in Numbers panel,
+	you can also configure display color in mod settings to make it more visible.
+	
+Original Numbers by koisama. Updated and expanded by Mehni. 
+Trait_AddOn by telardo.</description>
+  <packageId>telardo.NumbersTraitAddOn</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MTP.CurrentModVersion>当前Mod版本: {0}</MTP.CurrentModVersion>
+  <MTP.DefaultMarkerSet>默认图标库: {0}</MTP.DefaultMarkerSet>
+  <MTP.ColonistMarkerSet>殖民者图标库: {0}</MTP.ColonistMarkerSet>
+  <MTP.ColonistDiffer>殖民者特殊图标库</MTP.ColonistDiffer>
+  <MTP.ShowForColonist>允许手动标记殖民者</MTP.ShowForColonist>
+  <MTP.PrisonerMarkerSet>囚犯图标库: {0}</MTP.PrisonerMarkerSet>
+  <MTP.PrisonerDiffer>囚犯特殊图标库</MTP.PrisonerDiffer>
+  <MTP.ShowForPrisoner>允许手动标记囚犯</MTP.ShowForPrisoner>
+  <MTP.SlaveMarkerSet>奴隶图标库: {0}</MTP.SlaveMarkerSet>
+  <MTP.SlaveDiffer>奴隶特殊图标库</MTP.SlaveDiffer>
+  <MTP.ShowForSlave>允许手动标记奴隶</MTP.ShowForSlave>
+  <MTP.EnemyMarkerSet>敌方图标库: {0}</MTP.EnemyMarkerSet>
+  <MTP.EnemyDiffer>敌方特殊图标库</MTP.EnemyDiffer>
+  <MTP.ShowForEnemy>允许手动标记奴隶</MTP.ShowForEnemy>
+  <MTP.NeutralMarkerSet>中立单位图标库: {0}</MTP.NeutralMarkerSet>
+  <MTP.NeutralDiffer>中立单位特殊图标库</MTP.NeutralDiffer>
+  <MTP.ShowForNeutral>允许手动标记中立单位</MTP.ShowForNeutral>
+  <MTP.VehiclesMarkerSet>载具图标库: {0}</MTP.VehiclesMarkerSet>
+  <MTP.VehiclesDiffer>载具特殊图标库</MTP.VehiclesDiffer>
+  <MTP.ShowForVehicles>允许手动标记载具</MTP.ShowForVehicles>
+  <MTP.SelectMarker>标记该单位</MTP.SelectMarker>
+  <MTP.SelectMarkerTT>点击选择图标</MTP.SelectMarkerTT>
+  <MTP.RelativeToZoom>缩小地图时增大图标</MTP.RelativeToZoom>
+  <MTP.RelativeToZoomTT>当缩小地图时增大图标，使其更显眼。</MTP.RelativeToZoomTT>
+  <MTP.RelativeIconSize>图标关联体型大小</MTP.RelativeIconSize>
+  <MTP.RelativeIconSizeTT>图标尺寸基于生物体型变化</MTP.RelativeIconSizeTT>
+  <MTP.UnsavedRule>规则尚未保存，是否在关闭前保存？</MTP.UnsavedRule>
+  <MTP.ResetAll>重置规则</MTP.ResetAll>
+  <MTP.ResetAllConfirm>确定删除所有已设定的规则吗？</MTP.ResetAllConfirm>
+  <MTP.NoneSelected>未选择</MTP.NoneSelected>
+  <MTP.SomeSelected>{0}项已选定</MTP.SomeSelected>
+  <MTP.ChangeTraits>特性变动</MTP.ChangeTraits>
+  <MTP.ChangeSkills>技能变动</MTP.ChangeSkills>
+  <MTP.CustomIcon>自定义图标</MTP.CustomIcon>
+  <MTP.Enabled>已启动</MTP.Enabled>
+  <MTP.EnabledChange>已启用规则，单击禁用。</MTP.EnabledChange>
+  <MTP.Disabled>已禁用</MTP.Disabled>
+  <MTP.CannotEnable>因设置不完善而无法启用规则</MTP.CannotEnable>
+  <MTP.DisabledChange>规则已禁用，单击启用</MTP.DisabledChange>
+  <MTP.IncreasePrio>提升优先级</MTP.IncreasePrio>
+  <MTP.DecreasePrio>降低优先级</MTP.DecreasePrio>
+  <MTP.SaveAutomaticType>保存</MTP.SaveAutomaticType>
+  <MTP.CancelAutomaticType>取消</MTP.CancelAutomaticType>
+  <MTP.EditAutomaticType>编辑</MTP.EditAutomaticType>
+  <MTP.DeleteAutomaticType>删除</MTP.DeleteAutomaticType>
+  <MTP.DeleteAutomaticTypeConfirm>确定删除该规则吗？</MTP.DeleteAutomaticTypeConfirm>
+  <MTP.AutomaticRulesTitle>自动标记规则</MTP.AutomaticRulesTitle>
+  <MTP.NewRuleButton>新建规则</MTP.NewRuleButton>
+  <MTP.RulesButtonInfo>自动标记规则({0}项已激活)</MTP.RulesButtonInfo>
+  <MTP.RulesButtonText>编辑规则</MTP.RulesButtonText>
+  <MTP.UseAutoIcon>标记-符合规则</MTP.UseAutoIcon>
+  <MTP.ResetAutoIcon>重置自动标记</MTP.ResetAutoIcon>
+  <MTP.None>不标记</MTP.None>
+  <MTP.DuplicateRule>规则重复</MTP.DuplicateRule>
+  <MTP.Reset>重置设定</MTP.Reset>
+  <MTP.Male>雄性</MTP.Male>
+  <MTP.Female>雌性</MTP.Female>
+  <MTP.Animal>动物</MTP.Animal>
+  <MTP.OnlyWhenDrafted>仅征召时</MTP.OnlyWhenDrafted>
+  <MTP.OnlyAnimal>仅动物</MTP.OnlyAnimal>
+  <MTP.NotAnimal>非动物</MTP.NotAnimal>
+  <MTP.LowAgeLimit>最小年龄: {0}</MTP.LowAgeLimit>
+  <MTP.HighAgeLimit>最大年龄: {0}</MTP.HighAgeLimit>
+  <MTP.Unlimited>最大年龄：不设限</MTP.Unlimited>
+  <MTP.ZOffset>垂直方向偏移: {0}</MTP.ZOffset>
+  <MTP.XOffset>水平方向偏移: {0}</MTP.XOffset>
+  <MTP.SeparateTemporary>允许复数标记</MTP.SeparateTemporary>
+  <MTP.SeparateTemporaryTT>符合多个规则的生物图标会同时显示，而非高优先级的规则取代低优先级</MTP.SeparateTemporaryTT>
+  <MTP.SeparateShowAll>- 显示满足规则的所有临时图标</MTP.SeparateShowAll>
+  <MTP.SeparateShowAllTT>显示多个临时图标，而非仅显示最高优先级的规则图标</MTP.SeparateShowAllTT>
+  <MTP.NormalShowAll>- 显示满足规则的所有图标</MTP.NormalShowAll>
+  <MTP.NormalShowAllTT>显示所有满足规则的图标，而非仅显示最高优先级的规则图标</MTP.NormalShowAllTT>
+  <MTP.IconSpacingFactor>- 复数图标间距: {0}</MTP.IconSpacingFactor>
+  <MTP.InvertOrder>- 反转顺序</MTP.InvertOrder>
+  <MTP.InvertOrderTT>图标基于规则优先级由右向左排列</MTP.InvertOrderTT>
+  <MTP.ShowWhenSelected>- 选中生物时展开图标</MTP.ShowWhenSelected>
+  <MTP.ShowWhenHover>- 鼠标悬于图标上时展开</MTP.ShowWhenHover>
+  <MTP.ShowWhenHoverTT>鼠标悬于图标上时，图标按默认间距排列</MTP.ShowWhenHoverTT>
+  <MTP.RotateIcons>- 轮转显示图标</MTP.RotateIcons>
+  <MTP.RotateIconsTT>轮转显示满足规则的图标，而非并排显示</MTP.RotateIconsTT>
+  <MTP.MarkerNumber>标记{0}</MTP.MarkerNumber>
+  <MTP.IconSize>图标尺寸: {0}</MTP.IconSize>
+  <MTP.IconScalingFactor>缩放比例: {0}</MTP.IconScalingFactor>
+  <MTP.PulsatingIcons>闪烁图标</MTP.PulsatingIcons>
+  <MTP.PulsatingIconsTT>图标像交易商的问号标志一样闪烁显示</MTP.PulsatingIconsTT>
+  <MTP.RefreshRules>定时刷新生物图标</MTP.RefreshRules>
+  <MTP.RefreshRulesTT>定时检测规则来刷新图标</MTP.RefreshRulesTT>
+  <MTP.EquippedWeaponType.Melee>近战武器</MTP.EquippedWeaponType.Melee>
+  <MTP.EquippedWeaponType.Ranged>远程射击武器</MTP.EquippedWeaponType.Ranged>
+  <MTP.EquippedWeaponType.RangedExplosive>远程爆破武器</MTP.EquippedWeaponType.RangedExplosive>
+  <MTP.EquippedWeaponType.Thrown>投掷类</MTP.EquippedWeaponType.Thrown>
+  <MTP.EquippedApparelType.Royal>贵族衣物</MTP.EquippedApparelType.Royal>
+  <MTP.EquippedApparelType.Psycast>灵能衣物</MTP.EquippedApparelType.Psycast>
+  <MTP.EquippedApparelType.Mechanator>机械师衣物</MTP.EquippedApparelType.Mechanator>
+  <MTP.EquippedApparelType.Armored>装甲类</MTP.EquippedApparelType.Armored>
+  <MTP.EquippedApparelType.EnviromentalProtection>毒抗衣物</MTP.EquippedApparelType.EnviromentalProtection>
+  <MTP.EquippedApparelType.Basic>基础衣物</MTP.EquippedApparelType.Basic>
+  <MTP.PawnType.Colonist>殖民者</MTP.PawnType.Colonist>
+  <MTP.PawnType.Slave>奴隶</MTP.PawnType.Slave>
+  <MTP.PawnType.Prisoner>囚犯</MTP.PawnType.Prisoner>
+  <MTP.PawnType.Vehicle>载具</MTP.PawnType.Vehicle>
+  <MTP.PawnType.Enemy>敌方</MTP.PawnType.Enemy>
+  <MTP.PawnType.Neutral>中立单位</MTP.PawnType.Neutral>
+  <MTP.PawnType.Default>任意</MTP.PawnType.Default>
+  <MTP.AutomaticType.Weapon>装备武器</MTP.AutomaticType.Weapon>
+  <MTP.AutomaticType.Apparel>佩戴衣物</MTP.AutomaticType.Apparel>
+  <MTP.AutomaticType.WeaponType>装备武器类型</MTP.AutomaticType.WeaponType>
+  <MTP.AutomaticType.ApparelType>佩戴衣物类型</MTP.AutomaticType.ApparelType>
+  <MTP.AutomaticType.Trait>具有特性</MTP.AutomaticType.Trait>
+  <MTP.AutomaticType.Skill>技能水平</MTP.AutomaticType.Skill>
+  <MTP.AutomaticType.Relative>与殖民者存在关联</MTP.AutomaticType.Relative>
+  <MTP.AutomaticType.PawnType>生物类型</MTP.AutomaticType.PawnType>
+  <MTP.AutomaticType.Drafted>^ 处于征召状态</MTP.AutomaticType.Drafted>
+  <MTP.AutomaticType.MentalState>^ 处于失控状态</MTP.AutomaticType.MentalState>
+  <MTP.AutomaticType.HediffDynamic>^ 处于临时状态(Buff)</MTP.AutomaticType.HediffDynamic>
+  <MTP.AutomaticType.HediffStatic>拥有永久状态(Buff)</MTP.AutomaticType.HediffStatic>
+  <MTP.AutomaticType.AnyHediffStatic>拥有永久不良状态(Buff)</MTP.AutomaticType.AnyHediffStatic>
+  <MTP.AutomaticType.Animal>特定动物</MTP.AutomaticType.Animal>
+  <MTP.AutomaticType.Gender>特定性别</MTP.AutomaticType.Gender>
+  <MTP.AutomaticType.Age>特定年龄</MTP.AutomaticType.Age>
+  <MTP.AutomaticType.Xenotype>特定种族</MTP.AutomaticType.Xenotype>
+  <MTP.AutomaticType.Gene>特定基因</MTP.AutomaticType.Gene>
+  <MTP.AutomaticType.GeneUndefinedCategory>未定义</MTP.AutomaticType.GeneUndefinedCategory>
+  <MTP.AutomaticType.HediffStage>阶段{0}</MTP.AutomaticType.HediffStage>
+  <MTP.PawnLimitation>仅启用于: {0}</MTP.PawnLimitation>
+  <MTP.MentalState.Any>任意失控状态</MTP.MentalState.Any>
+  <MTP.MentalState.Passive>消极状态</MTP.MentalState.Passive>
+  <MTP.MentalState.Aggressive>积极状态</MTP.MentalState.Aggressive>
+  <MTP.OverrideRule>临时规则。仅在满足条件时显示。</MTP.OverrideRule>
+  <MTP.ShowWhenSelectedTT>选中生物时，图标按默认间距排列</MTP.ShowWhenSelectedTT>
+  <MTP.ShowOnShift>- 按下Shift键展开</MTP.ShowOnShift>
+  <MTP.ShowOnShiftTT>按下Shift键时，图标按默认间距排列</MTP.ShowOnShiftTT>
+  <MTP.ShowOnPaused>- 游戏暂停时展开</MTP.ShowOnPaused>
+  <MTP.ShowOnPausedTT>暂停游戏时，图标按默认间距排列</MTP.ShowOnPausedTT>
+  <MTP.HideIcons>除以下条件外隐藏图标</MTP.HideIcons>
+  <MTP.GameIsPaused>- 游戏暂停</MTP.GameIsPaused>
+  <MTP.ShiftIsPressed>- 按下Shift键</MTP.ShiftIsPressed>
+  <MTP.PawnIsSelected>- 选中生物</MTP.PawnIsSelected>
+  <MTP.AutomaticType.FactionIcon>显示生物所属派系图标</MTP.AutomaticType.FactionIcon>
+  <MTP.AutomaticType.IdeologyIcon>显示生物所属文化形态图标</MTP.AutomaticType.IdeologyIcon>
+  <!--The following translations were generated by https://www.deepl.com/-->
+  <MTP.OnlyWhenDraftedTT>仅在生物被征召时标记</MTP.OnlyWhenDraftedTT>
+  <MTP.OrLogic>任意已选</MTP.OrLogic>
+  <MTP.OrLogicTT>满足已选定的任一规则时生效，而非满足所有规则才标记。</MTP.OrLogicTT>
+  <MTP.AutomaticType.TDFindLib>高级规则（TD 查找库）</MTP.AutomaticType.TDFindLib>
+  <MTP.TDFindLibRuleLabel>标记典当规则</MTP.TDFindLibRuleLabel>
+  <MTP.RequiresAnActiveGame>需要活跃的游戏</MTP.RequiresAnActiveGame>
+  <MTP.EditTdRule>编辑</MTP.EditTdRule>
+  <MTP.AutomaticType.Mechanoid>特定机械装置</MTP.AutomaticType.Mechanoid>
+  <MTP.AutomaticType.FactionLeader>显示派别领袖</MTP.AutomaticType.FactionLeader>
+  <MTP.RequiresASpecificGame>需要活跃的游戏</MTP.RequiresASpecificGame>
+  <MTP.IsInWrongGame>在另一次保存中创建</MTP.IsInWrongGame>
+  <MTP.PawnType.ColonistAnimal>群居动物</MTP.PawnType.ColonistAnimal>
+  <MTP.PawnType.EnemyAnimal>敌方动物</MTP.PawnType.EnemyAnimal>
+  <MTP.PawnType.NeutralAnimal>中性动物</MTP.PawnType.NeutralAnimal>
+  <MTP.AutomaticType.Downed>^ Downed</MTP.AutomaticType.Downed>
+  <MTP.MalformedRule>无法解析规则数据</MTP.MalformedRule>
+  <MTP.AutomaticType.Guest>表演嘉宾</MTP.AutomaticType.Guest>
+  <MTP.ShowOnCorpses>在尸体上显示图标</MTP.ShowOnCorpses>
+  <MTP.ShowOnCorpsesTT>如果可能，图标将显示在尸体上方</MTP.ShowOnCorpsesTT>
+  <MTP.PawnType.EnemyLoyal>敌人（忠诚）</MTP.PawnType.EnemyLoyal>
+  <MTP.PawnType.Trader>中立交易者</MTP.PawnType.Trader>
+  <MTP.AutomaticType.IdeologyRole>具体的意识形态作用</MTP.AutomaticType.IdeologyRole>
+  <MTP.AutomaticType.Title>具体的皇家头衔</MTP.AutomaticType.Title>
+</LanguageData>

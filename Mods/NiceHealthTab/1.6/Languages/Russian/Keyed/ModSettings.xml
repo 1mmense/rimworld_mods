@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NiceHealthTabSettingsCategory>Nice Health Tab</NiceHealthTabSettingsCategory>
+  
+  <ExtraOverlayEnabled>Разрешить дополнительные слои (кости визуально могут перекрывать органы)</ExtraOverlayEnabled>
+  <AlwaysVanillaEyes>Глаза из ванильной игры</AlwaysVanillaEyes>
+  <AllowKidDollVariant>Разрешить детский вариант куклы</AllowKidDollVariant>
+  <UsingVanillaListRowColors>Использовать ванильные цвета частей тела в списке травм</UsingVanillaListRowColors>
+  
+  <NHTCommonTab>Общее</NHTCommonTab>
+  <NHTBodyPartsTab>Части тел</NHTBodyPartsTab>
+  
+  <AssignDefaultBodyParts>Назначьте части соответствующим в другом типе тела</AssignDefaultBodyParts>
+  <DefaultBodyParts>Общие части:</DefaultBodyParts>
+  <BodyPartsSuff>части:</BodyPartsSuff>
+  
+  <ResetAll>Сбросить все</ResetAll>
+  <Reset>Сбросить</Reset>
+  <AutoAssign>Автоназначение</AutoAssign>
+
+  <ProstheticNoMissingBodyPartsFill>Дополнить часть тела с протезом</ProstheticNoMissingBodyPartsFill>
+  <ShowImplantedOrgans>Показать органы с имплантами</ShowImplantedOrgans>
+  <KidAgeRange>Возраст детей ({0} - {1})</KidAgeRange>
+  <ShowAllMissingParts>Всегда показывать все отсутствующие части</ShowAllMissingParts>
+</LanguageData>

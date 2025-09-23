@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Durable Clothes (Continued)</name>
+  <packageId>Mlie.DurableClothes</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/DurableClothes</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of mpwoz mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1483544020
+
+- Affects all items of type Apparel
+- Added setting for taking damage based on percent of the original
+- Removed HugsLib dependency
+- Added setting to exclude apparel categories
+- Added setting to exclude apparel based on quality
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/DurableClothes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+
+Requires HugsLib https://steamcommunity.com/sharedfiles/filedetails/?id=818773962 for patching c# methods.
+        
+This mod will prevent any worn clothes from deteriorating on your pawns. It does this by hooking into the deterioration function and setting the item's HP to max whenever it runs.
+        
+There is a setting to disable autorepair, which will only stop degradation.
+
+NOTE: bullets hitting clothing will still cause it to take damage! It'll be repaired on the next "degradation tick" which randomly occurs about once per day.
+
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2015395963][img]https://img.shields.io/github/v/release/emipa606/DurableClothes?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  wear and tear</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+</ModMetaData>

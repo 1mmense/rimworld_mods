@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Numbers_Trait_AddOn>Numbers Trait AddOn</Numbers_Trait_AddOn>
+	<TraitAddOnSetting_TraitColumnWidth>Trait column width (Adjust it if no enough space, default 350)</TraitAddOnSetting_TraitColumnWidth>
+	<TraitAddOnSetting_UseCustomizedColorInNumbersTab>Use customized colorful trait in Numbers panel</TraitAddOnSetting_UseCustomizedColorInNumbersTab>
+	<TraitAddOnSetting_UseCustomizedColorInCharacterCard>Use customized colorful trait in Character card</TraitAddOnSetting_UseCustomizedColorInCharacterCard>
+	<TraitAddOnSetting_RemakeButton>Remake the dict (click this once after you add modded traits or change your game's language, otherwise they can't be detected)</TraitAddOnSetting_RemakeButton>
+	<TraitAddOnSetting_ResetAll>Reset all settings</TraitAddOnSetting_ResetAll>
+	<TraitAddOnSetting_CustomizedColorTable>Customized color table</TraitAddOnSetting_CustomizedColorTable>
+</LanguageData>
