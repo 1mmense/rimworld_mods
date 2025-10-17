@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>microus.creepjoinersromance</packageId>
+  <name>Creep Joiners Romance Patch</name>
+  <author>microus</author>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.anomaly</packageId>
+      <displayName>Anomaly</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>ludeon.rimworld.anomaly</li>
+  </loadAfter>
+  <description>一个允许异象DLC的特殊外来者招募后正常谈恋爱，滚床单的简单补丁，测试中没发现副作用，第一次做mod，如有bug和意见欢迎留言。\n\nA simple patch that allows the creep joiners from the "Anomaly" DLC to engage in romance and have intimate moments after recruitment. No side effects were found during testing. This is my first time creating a mod, so if there are any bugs or suggestions, please feel free to leave a comment.</description>
+</ModMetaData>
