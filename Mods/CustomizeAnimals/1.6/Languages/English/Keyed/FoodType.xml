@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<SY_CA.FoodType>Food type</SY_CA.FoodType>
+	<SY_CA.TooltipFoodTypeAdd>Allow a food type for this animal</SY_CA.TooltipFoodTypeAdd>
+	<SY_CA.TooltipFoodTypeRemove>Disallow a food type for this animal</SY_CA.TooltipFoodTypeRemove>
+</LanguageData>
