@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Astropede.xml -->
+	<!-- EN: Heavily armored mechanoids adapted for zero-G warfare. Astropedes drift silently through space using gravitic stabilizers, unleashing explosive kinetic barrages from their minified mass lances. Their hovering profile makes them ideal for shipboard assaults and station breaches, though their slow movement speed leaves them vulnerable to concentrated fire. -->
+	<VGE_Astropede.description>Тяжело бронированные механоиды, приспособленные к бою в невесомости. Косможуки бесшумно дрейфуют в космосе, используя гравитационные стабилизаторы, и обрушивают взрывоопасные кинетические залпы из своих уменьшенных масс-копий. Левитирующий профиль делает их идеальными для штурма кораблей и прорыва станций, но низкая скорость оставляет их уязвимыми перед сосредоточенным огнём.</VGE_Astropede.description>
+	<!-- EN: голова -->
+	<VGE_Astropede.tools.0.label>голова</VGE_Astropede.tools.0.label>
+	<!-- EN: astropede -->
+	<VGE_Astropede.label>косможук</VGE_Astropede.label>
+</LanguageData>

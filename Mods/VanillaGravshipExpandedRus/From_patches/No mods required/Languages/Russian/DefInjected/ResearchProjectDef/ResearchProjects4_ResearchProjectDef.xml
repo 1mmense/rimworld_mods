@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\ResearchProjects4.xml -->
+	<!-- EN: Refine chemfuel into astrofuel and store it in pressurized tanks. Unlocks the construction of the gravjumper engine, allowing the first steps into gravship travel. -->
+	<BasicGravtech.description>Перерабатывайте химтопливо в космотопливо и храните его в герметичных баках. Открывает строительство двигателя гравджампера, позволяя сделать первые шаги в путешествиях на гравишипе.</BasicGravtech.description>
+	<!-- EN: Build vac barriers to protect against depressurization, and orbital scanners to detect locations in space. -->
+	<OrbitalTech.description>Стройте вак-барьеры для защиты от разгерметизации и орбитальные сканеры для обнаружения локаций в космосе.</OrbitalTech.description>
+	<!-- EN: Unlock gravship engines capable of lifting a colony into orbit. Allows construction of control terminals for new gravship systems such as gravtech research and maintenance. -->
+	<StandardGravtech.description>Открывает грав-двигатели гравишипа, способные поднять колонию на орбиту. Также позволяет строить управляющие терминалы для новых систем гравишипа — гравтех-исследований и обслуживания.</StandardGravtech.description>
+	<!-- EN: Unlock gravhulks, massive gravships capable of supporting entire colonies. Also allows crafting of gravlite panels, essential ultratech material for advanced gravship construction. -->
+	<AdvancedGravtech.description>Открывает гравхалки — огромные гравишипы, способные поддерживать целые колонии. Также позволяет изготавливать гравилитовые панели — важный ультратех-материал для продвинутого строительства гравишипов.</AdvancedGravtech.description>
+</LanguageData>

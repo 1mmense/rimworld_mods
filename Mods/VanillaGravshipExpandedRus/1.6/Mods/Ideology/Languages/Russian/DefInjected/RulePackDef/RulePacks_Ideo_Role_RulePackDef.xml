@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Ideology\Defs\RulePackDefs\RulePacks_Ideo_Role.xml -->
+
+	<VGE_NamerRoleEngineering.rulePack.rulesStrings>
+		<li>r_roleName(p=4)->[firstPart][secondPart]</li>
+		<li>r_roleName(p=1)->главный инженер</li>
+		<li>r_roleName(p=1)->системный механик</li>
+		<li>r_roleName(p=1)->техник гравишипа</li>
+		<li>firstPart->техно</li>
+		<li>firstPart->шестер</li>
+		<li>firstPart->грави</li>
+		<li>firstPart->структо</li>
+		<li>firstPart->механо</li>
+		<li>firstPart->серво</li>
+		<li>firstPart->искро</li>
+		<li>firstPart->схемо</li>
+		<li>firstPart->кузне</li>
+		<li>firstPart->двиго</li>
+		<li>secondPart(p=4)->мастер</li>
+		<li>secondPart(p=3)->кузнец</li>
+		<li>secondPart(p=3)->умелец</li>
+		<li>secondPart(p=2)->чинитель</li>
+		<li>secondPart(p=2)->технарь</li>
+		<li>secondPart(p=2)->каменщик</li>
+		<li>secondPart(p=1)->строитель</li>
+		<li>secondPart(p=1)->хранитель</li>
+	</VGE_NamerRoleEngineering.rulePack.rulesStrings>
+
+	<VGE_NamerRoleNavigator.rulePack.rulesStrings>
+		<li>r_roleName(p=4)->[firstPart][secondPart]</li>
+		<li>r_roleName(p=1)->навигатор</li>
+		<li>r_roleName(p=1)->звёздный проводник</li>
+		<li>r_roleName(p=1)->звездочёт</li>
+		<li>firstPart->астро</li>
+		<li>firstPart->звездо</li>
+		<li>firstPart->бездно</li>
+		<li>firstPart->грави</li>
+		<li>firstPart->космо</li>
+		<li>firstPart->небесно</li>
+		<li>firstPart->орбито</li>
+		<li>firstPart->небо</li>
+		<li>firstPart->штурмано</li>
+		<li>secondPart(p=3)->читатель</li>
+		<li>secondPart(p=3)->провидец</li>
+		<li>secondPart(p=3)->искатель</li>
+		<li>secondPart(p=2)->странник</li>
+		<li>secondPart(p=2)->пилот</li>
+		<li>secondPart(p=2)->картограф</li>
+		<li>secondPart(p=1)->плаватель</li>
+		<li>secondPart(p=1)->наблюдатель</li>
+	</VGE_NamerRoleNavigator.rulePack.rulesStrings>
+
+	<VGE_NamerRolePiloting.rulePack.rulesStrings>
+		<li>r_roleName(p=4)->[firstPart][secondPart]</li>
+		<li>r_roleName(p=1)->пилот</li>
+		<li>r_roleName(p=1)->офицер полёта</li>
+		<li>r_roleName(p=1)->штурвальный</li>
+		<li>firstPart->полёто</li>
+		<li>firstPart->небо</li>
+		<li>firstPart->грави</li>
+		<li>firstPart->орби</li>
+		<li>firstPart->астро</li>
+		<li>firstPart->нави</li>
+		<li>firstPart->тяго</li>
+		<li>firstPart->курсо</li>
+		<li>firstPart->штурв</li>
+		<li>firstPart->крыло</li>
+		<li>secondPart(p=4)->мастер</li>
+		<li>secondPart(p=3)->ездок</li>
+		<li>secondPart(p=3)->пилот</li>
+		<li>secondPart(p=2)->водитель</li>
+		<li>secondPart(p=2)->бегун</li>
+		<li>secondPart(p=2)->капитан</li>
+		<li>secondPart(p=1)->хранитель</li>
+	</VGE_NamerRolePiloting.rulePack.rulesStrings>
+</LanguageData>

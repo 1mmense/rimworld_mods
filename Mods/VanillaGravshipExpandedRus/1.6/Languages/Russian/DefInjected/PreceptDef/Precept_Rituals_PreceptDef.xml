@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precept_Rituals.xml -->
+	<!-- EN: gravjumper launch -->
+	<VGE_GravjumperLaunch.label>запуск гравджампера</VGE_GravjumperLaunch.label>
+	<!-- EN: Travel to a remote destination using your gravjumper... -->
+	<VGE_GravjumperLaunch.description>Путешествие к удалённой точке на гравджампере. Навык пилота — главный фактор успешного запуска, а копилот даёт сильный бонус. Дополнительные члены экипажа тоже помогают, но заметно меньше, чем при запуске обычного гравишипа. В конце вы сможете оставить старую карту открытой или покинуть её.</VGE_GravjumperLaunch.description>
+	
+	<!-- EN: gravhulk launch -->
+	<VGE_GravhulkLaunch.label>запуск гравхалка</VGE_GravhulkLaunch.label>
+	<!-- EN: Travel to a remote destination using your gravship... -->
+	<VGE_GravhulkLaunch.description>Путешествие к удалённой точке на гравишипе. Каждый член экипажа на борту сильно повышает шанс успешного запуска, поэтому полный экипаж особенно ценен. Однако малые двигатели не дают бонуса к запуску. Во время полёта вы также соберёте гравданные для продвижения исследований. В конце вы сможете оставить старую карту открытой или покинуть её.</VGE_GravhulkLaunch.description>
+</LanguageData>

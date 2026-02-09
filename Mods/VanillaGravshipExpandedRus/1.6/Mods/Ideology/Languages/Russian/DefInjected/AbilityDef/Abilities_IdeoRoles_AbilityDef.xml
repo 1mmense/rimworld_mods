@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Ideology\Defs\AbilityDefs\Abilities_IdeoRoles.xml -->
+	<!-- EN: emergency launch -->
+	<VGE_EmergencyLaunch.label>аварийный запуск</VGE_EmergencyLaunch.label>
+	<!-- EN: Use the piloting console to trigger an immediate emergency launch, landing in a random nearby location with a guaranteed mishap happening. Anyone outside of the gravship will be left behind. -->
+	<VGE_EmergencyLaunch.description>Используйте консоль пилота, чтобы немедленно выполнить аварийный запуск и приземлиться в случайной близлежащей локации с гарантированным происшествием. Все, кто находится вне гравишипа, не переместятся.</VGE_EmergencyLaunch.description>
+	
+	<!-- EN: analyze the stars -->
+	<VGE_AnalyzeTheStars.label>анализ звёзд</VGE_AnalyzeTheStars.label>
+	<!-- EN: Use a telescope to analyze the stars to detect a new orbital location nearby. -->
+	<VGE_AnalyzeTheStars.description>Используйте телескоп, чтобы проанализировать звёзды и обнаружить новую орбитальную локацию поблизости.</VGE_AnalyzeTheStars.description>
+	
+	<!-- EN: engineering command -->
+	<VGE_EngineeringCommand.label>инженерный приказ</VGE_EngineeringCommand.label>
+	<!-- EN: Offer guidance on maintenance and gravship construction efforts, boosting construction and maintenance abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+	<VGE_EngineeringCommand.description>Дайте указания по обслуживанию и строительству гравишипа, повышая способности к строительству и обслуживанию у всех поблизости. Эффект работает в течение 24 часов.</VGE_EngineeringCommand.description>
+</LanguageData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Ritual_Outcomes.xml -->
+	<!-- EN: Quality factors determine the engine's cooldown duration and the chance for a mishap when landing. -->
+	<VGE_GravjumperLaunch.description>Факторы качества определяют время перезарядки двигателя и шанс инцидента при посадке.</VGE_GravjumperLaunch.description>
+	<!-- EN: At the current quality, the gravjumper won't be able to launch again for {0_time} after landing. -->
+	<VGE_GravjumperLaunch.extraOutcomeDescriptions.0.description>При текущем качестве гравджампер не сможет снова запуститься в течение {0_time} после посадки.</VGE_GravjumperLaunch.extraOutcomeDescriptions.0.description>
+	<!-- EN: Additionally, there's a {0_percentage} chance of having a minor incident when landing the gravjumper. -->
+	<VGE_GravjumperLaunch.extraOutcomeDescriptions.1.description>Кроме того, при посадке гравджампера есть {0_percentage} шанс незначительного инцидента.</VGE_GravjumperLaunch.extraOutcomeDescriptions.1.description>
+	<!-- EN: {PAWN_labelShort}'s piloting ability -->
+	<VGE_GravjumperLaunch.comps.0.label>навык пилотирования {PAWN_labelShort}</VGE_GravjumperLaunch.comps.0.label>
+	<!-- EN: pilot's piloting ability -->
+	<VGE_GravjumperLaunch.comps.0.labelAbstract>навык пилотирования пилота</VGE_GravjumperLaunch.comps.0.labelAbstract>
+	<!-- EN: {PAWN_labelShort}'s piloting ability -->
+	<VGE_GravjumperLaunch.comps.1.label>навык пилотирования {PAWN_labelShort}</VGE_GravjumperLaunch.comps.1.label>
+	<!-- EN: copilot's piloting ability -->
+	<VGE_GravjumperLaunch.comps.1.labelAbstract>навык пилотирования копилота</VGE_GravjumperLaunch.comps.1.labelAbstract>
+	<!-- EN: Average maintenance of the gravship -->
+	<VGE_GravjumperLaunch.comps.2.label>средний уровень обслуживания гравишипа</VGE_GravjumperLaunch.comps.2.label>
+	<!-- EN: crew count -->
+	<VGE_GravjumperLaunch.comps.3.label>численность экипажа</VGE_GravjumperLaunch.comps.3.label>
+	<!-- EN: small thrusters -->
+	<VGE_GravjumperLaunch.comps.4.label>малые двигатели</VGE_GravjumperLaunch.comps.4.label>
+	<!-- EN: large thrusters -->
+	<VGE_GravjumperLaunch.comps.5.label>большие двигатели</VGE_GravjumperLaunch.comps.5.label>
+	<!-- EN: giant thrusters -->
+	<VGE_GravjumperLaunch.comps.6.label>гигантские двигатели</VGE_GravjumperLaunch.comps.6.label>
+	<!-- EN: pilot subpersona core -->
+	<VGE_GravjumperLaunch.comps.7.label>субперсональное ядро пилота</VGE_GravjumperLaunch.comps.7.label>
+	<!-- EN: landing near grav anchor -->
+	<VGE_GravjumperLaunch.comps.8.label>посадка рядом с грав-якорем</VGE_GravjumperLaunch.comps.8.label>
+	
+	<!-- EN: Quality factors determine the engine's cooldown duration and the chance for a mishap when landing. -->
+	<VGE_GravhulkLaunch.description>Факторы качества определяют время перезарядки двигателя и шанс инцидента при посадке.</VGE_GravhulkLaunch.description>
+	<!-- EN: At the current quality, the gravhulk won't be able to launch again for {0_time} after landing. -->
+	<VGE_GravhulkLaunch.extraOutcomeDescriptions.0.description>При текущем качестве гравхалк не сможет снова запуститься в течение {0_time} после посадки.</VGE_GravhulkLaunch.extraOutcomeDescriptions.0.description>
+	<!-- EN: Additionally, there's a {0_percentage} chance of having a minor incident when landing the gravhulk. -->
+	<VGE_GravhulkLaunch.extraOutcomeDescriptions.1.description>Кроме того, при посадке гравхалка есть {0_percentage} шанс незначительного инцидента.</VGE_GravhulkLaunch.extraOutcomeDescriptions.1.description>
+	<!-- EN: {PAWN_labelShort}'s piloting ability -->
+	<VGE_GravhulkLaunch.comps.0.label>навык пилотирования {PAWN_labelShort}</VGE_GravhulkLaunch.comps.0.label>
+	<!-- EN: pilot's piloting ability -->
+	<VGE_GravhulkLaunch.comps.0.labelAbstract>навык пилотирования пилота</VGE_GravhulkLaunch.comps.0.labelAbstract>
+	<!-- EN: {PAWN_labelShort}'s piloting ability -->
+	<VGE_GravhulkLaunch.comps.1.label>навык пилотирования {PAWN_labelShort}</VGE_GravhulkLaunch.comps.1.label>
+	<!-- EN: copilot's piloting ability -->
+	<VGE_GravhulkLaunch.comps.1.labelAbstract>навык пилотирования копилота</VGE_GravhulkLaunch.comps.1.labelAbstract>
+	<!-- EN: {PAWN_labelShort}'s research ability -->
+	<VGE_GravhulkLaunch.comps.2.label>навык исследования {PAWN_labelShort}</VGE_GravhulkLaunch.comps.2.label>
+	<!-- EN: gravtech researcher's research ability -->
+	<VGE_GravhulkLaunch.comps.2.labelAbstract>навык исследования исследователя гравтеха</VGE_GravhulkLaunch.comps.2.labelAbstract>
+	<!-- EN: {PAWN_labelShort}'s maintenance ability -->
+	<VGE_GravhulkLaunch.comps.3.label>навык обслуживания {PAWN_labelShort}</VGE_GravhulkLaunch.comps.3.label>
+	<!-- EN: gravtech engineer's maintenance ability -->
+	<VGE_GravhulkLaunch.comps.3.labelAbstract>навык обслуживания инженера гравтеха</VGE_GravhulkLaunch.comps.3.labelAbstract>
+	<!-- EN: Average maintenance of the gravship -->
+	<VGE_GravhulkLaunch.comps.4.label>средний уровень обслуживания гравишипа</VGE_GravhulkLaunch.comps.4.label>
+	<!-- EN: crew count -->
+	<VGE_GravhulkLaunch.comps.5.label>численность экипажа</VGE_GravhulkLaunch.comps.5.label>
+	<!-- EN: small thrusters -->
+	<VGE_GravhulkLaunch.comps.6.label>малые двигатели</VGE_GravhulkLaunch.comps.6.label>
+	<!-- EN: large thrusters -->
+	<VGE_GravhulkLaunch.comps.7.label>большие двигатели</VGE_GravhulkLaunch.comps.7.label>
+	<!-- EN: giant thrusters -->
+	<VGE_GravhulkLaunch.comps.8.label>гигантские двигатели</VGE_GravhulkLaunch.comps.8.label>
+	<!-- EN: manned copilot console -->
+	<VGE_GravhulkLaunch.comps.9.label>доп. консоль с оператором</VGE_GravhulkLaunch.comps.9.label>
+	<!-- EN: pilot subpersona core -->
+	<VGE_GravhulkLaunch.comps.10.label>субперсональное ядро пилота</VGE_GravhulkLaunch.comps.10.label>
+	<!-- EN: landing near grav anchor -->
+	<VGE_GravhulkLaunch.comps.11.label>посадка рядом с грав-якорем</VGE_GravhulkLaunch.comps.11.label>
+</LanguageData>

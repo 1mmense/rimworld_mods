@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\GameConditionDefs\GameConditions_Misc.xml -->
+	<!-- EN: solar flare -->
+	<VGE_SpaceSolarFlare.label>солнечная вспышка</VGE_SpaceSolarFlare.label>
+	<VGE_SpaceSolarFlare.description>Началась солнечная вспышка.\n\nОна не отключит электронику, но быстро нагреет все открытые поверхности. Возможны тепловые удары и пожары.\n\nСпустя день должна утихнуть.</VGE_SpaceSolarFlare.description>
+	<!-- EN: The solar flare is ending. -->
+	<VGE_SpaceSolarFlare.endMessage>Солнечная вспышка заканчивается.</VGE_SpaceSolarFlare.endMessage>
+	<VGE_SpaceSolarFlare.letterText>Началась солнечная вспышка.\n\nОна не отключит электронику, но быстро нагреет все открытые поверхности. Возможны тепловые удары и пожары.\n\nСпустя день должна утихнуть.</VGE_SpaceSolarFlare.letterText>
+	
+	<!-- EN: gravitational anomaly -->
+	<VGE_GravitationalAnomaly.label>гравитационная аномалия</VGE_GravitationalAnomaly.label>
+	<VGE_GravitationalAnomaly.description>Мощное гравитационное искажение окутало ваш гравишип и блокирует любой запуск, пока она не спадёт. Аномалия продержится ещё несколько дней и затем рассеется сама. До тех пор все способы запуска гравишипа недоступны, и корабль не сможет покинуть это место.\n\nПока аномалия активна, системы пассивно собирают гравданные, но только если выбрано активное исследование гравишипа.</VGE_GravitationalAnomaly.description>
+	<!-- EN: The gravitational anomaly is dissipating. -->
+	<VGE_GravitationalAnomaly.endMessage>Гравитационная аномалия рассеивается.</VGE_GravitationalAnomaly.endMessage>
+	<VGE_GravitationalAnomaly.letterText>Мощное гравитационное искажение окутало ваш гравишип и блокирует любой запуск, пока не спадёт. Аномалия продержится ещё несколько дней и затем рассеется сама. До тех пор все способы запуска гравишипа недоступны, и корабль не сможет покинуть это место.\n\nПока аномалия активна, системы пассивно собирают гравданные, но только если выбрано активное исследование гравишипа.</VGE_GravitationalAnomaly.letterText>
+	
+	<!-- EN: comet -->
+	<VGE_Comet.label>комета</VGE_Comet.label>
+	<VGE_Comet.description>Рядом проходит огромная комета. Её яркий хвост освещает пустоту вокруг гравишипа. Зрелище впечатляет экипаж и поднимает настроение, пока комета не скроется из виду.</VGE_Comet.description>
+	<VGE_Comet.endMessage>Комета прошла.</VGE_Comet.endMessage>
+	<VGE_Comet.letterText>Рядом проходит огромная комета. Её яркий хвост освещает пустоту вокруг гравишипа. Зрелище впечатляет экипаж и поднимает настроение, пока комета не скроется из виду.</VGE_Comet.letterText>
+	
+	<!-- EN: micrometeor storm -->
+	<VGE_MicrometeorStorm.label>микрометеоритный шторм</VGE_MicrometeorStorm.label>
+	<VGE_MicrometeorStorm.description>Микрометеоритный шторм обстреливает область крошечными, сверхскоростными обломками. Открытые постройки и люди медленно получают урон от постоянной бомбардировки.\n\nШторм продлится около дня.</VGE_MicrometeorStorm.description>
+	<VGE_MicrometeorStorm.endMessage>Микрометеоритный шторм закончился.</VGE_MicrometeorStorm.endMessage>
+	<VGE_MicrometeorStorm.letterText>Микрометеоритный шторм обстреливает область крошечными, сверхскоростными обломками. Открытые постройки и люди медленно получают урон от постоянной бомбардировки.\n\nШторм продлится около дня.</VGE_MicrometeorStorm.letterText>
+	
+	<!-- EN: space debris -->
+	<VGE_SpaceDebris.label>космические обломки</VGE_SpaceDebris.label>
+	<VGE_SpaceDebris.description>Дрейфующее облако древних обломков пересекло наш маршрут. Куски металла и хлама проносятся мимо корабля — многие пролетят мимо, но не все.\n\nОбломки улетят через ~12 часов.</VGE_SpaceDebris.description>
+	<VGE_SpaceDebris.endMessage>Космические обломки прошли.</VGE_SpaceDebris.endMessage>
+	<VGE_SpaceDebris.letterText>Дрейфующее облако древних обломков пересекло наш маршрут. Куски металла и хлама проносятся мимо корабля — многие пролетят мимо, но не все.\n\nОбломки улетят через ~12 часов.</VGE_SpaceDebris.letterText>
+	
+	<!-- EN: asteroid shower -->
+	<VGE_AsteroidShower.label>астероидный дождь</VGE_AsteroidShower.label>
+	<VGE_AsteroidShower.description>В сектор вашего гравишипа вошёл астероидный дождь. Бесчисленные осколки вак-камня прочерчивают пустоту, некоторые с взрывной силой врезаются в корпус. Большинство сгорит по пути или пролетит мимо, но не все.</VGE_AsteroidShower.description>
+	<VGE_AsteroidShower.endMessage>Астероидный дождь прошёл.</VGE_AsteroidShower.endMessage>
+	<VGE_AsteroidShower.letterText>В сектор вашего гравишипа вошёл астероидный дождь. Бесчисленные осколки вак-камня прочерчивают пустоту, некоторые с взрывной силой врезаются в корпус. Большинство сгорит по пути или пролетит мимо, но не все.</VGE_AsteroidShower.letterText>
+	
+	<!-- EN: dust cloud -->
+	<VGE_DustCloud.label>пылевое облако</VGE_DustCloud.label>
+	<VGE_DustCloud.description>Плотное облако космической пыли дрейфует через ваш сектор и окутывает гравишип взвесью частиц. Видимость почти нулевая, системы наведения с трудом захватывают цели. Со временем облако уйдёт, и пыль рассеется.</VGE_DustCloud.description>
+	<VGE_DustCloud.endMessage>Пылевое облако начинает рассеиваться.</VGE_DustCloud.endMessage>
+	<VGE_DustCloud.letterText>Плотное облако космической пыли дрейфует через ваш сектор и окутывает гравишип взвесью частиц. Видимость почти нулевая, системы наведения с трудом захватывают цели. Со временем облако уйдёт, и пыль рассеется.</VGE_DustCloud.letterText>
+	
+	<!-- EN: toxic dust cloud -->
+	<VGE_ToxicDustCloud.label>токсичное пылевое облако</VGE_ToxicDustCloud.label>
+	<VGE_ToxicDustCloud.description>Дрейфующее облако крайне токсичной космической пыли накрыло ваш гравишип. Микрочастицы проникают во все открытые пространства, разъедают поверхности и отравляют экипаж. Облако продержится недолго, но эффект мгновенный и опасный.</VGE_ToxicDustCloud.description>
+	<VGE_ToxicDustCloud.endMessage>Токсичное пылевое облако начинает рассеиваться.</VGE_ToxicDustCloud.endMessage>
+	<VGE_ToxicDustCloud.letterText>Дрейфующее облако крайне токсичной космической пыли накрыло ваш гравишип. Микрочастицы проникают во все открытые пространства, разъедают поверхности и отравляют экипаж. Облако продержится недолго, но эффект мгновенный и опасный.</VGE_ToxicDustCloud.letterText>
+</LanguageData>

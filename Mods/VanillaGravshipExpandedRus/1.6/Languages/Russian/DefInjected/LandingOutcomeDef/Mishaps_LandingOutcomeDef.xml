@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\LandingOutcomes\Mishaps.xml -->
+	<!-- EN: oxygen leak -->
+	<VGE_OxygenLeak.letterLabel>утечка кислорода</VGE_OxygenLeak.letterLabel>
+	<!-- EN: While landing {GRAVSHIP}, a small breach opened in one of the oxygen tanks, venting the entirety of the tank's supply. Until the leak is repaired, the oxygen tank will not work. -->
+	<VGE_OxygenLeak.letterText>При посадке {GRAVSHIP} в одном из кислородных баков появилась небольшая пробоина, и весь запас кислорода вышел наружу. Пока утечка не устранена, этот бак работать не будет.</VGE_OxygenLeak.letterText>
+	
+	<!-- EN: vac barrier flicker -->
+	<VGE_VacBarrierFlicker.letterLabel>сбой вакуумного барьера</VGE_VacBarrierFlicker.letterLabel>
+	<!-- EN: While landing {GRAVSHIP}, a power fluctuation caused one of the vac barriers to fail, depressurizing a small section of the ship. It will need to be repaired for it to work again. -->
+	<VGE_VacBarrierFlicker.letterText>При посадке {GRAVSHIP} перепад питания вывел из строя один из вакуумных барьеров, разгерметизировав небольшой участок корабля. Его нужно починить, чтобы он снова работал.</VGE_VacBarrierFlicker.letterText>
+	
+	<!-- EN: gravdata corruption -->
+	<VGE_GravdataCorruption.letterLabel>повреждение гравданных</VGE_GravdataCorruption.letterLabel>
+	<!-- EN: An unexpected electromagnetic spike during landing corrupted all of the gravdata collected on this trip. -->
+	<VGE_GravdataCorruption.letterText>Неожиданный электромагнитный всплеск при посадке повредил все гравданные, собранные в этом перелёте.</VGE_GravdataCorruption.letterText>
+	
+	<!-- EN: astrofuel pipe rupture -->
+	<VGE_AstrofuelPipeRupture.letterLabel>прорыв трубы космотоплива</VGE_AstrofuelPipeRupture.letterLabel>
+	<!-- EN: During {GRAVSHIP}'s landing, a damaged fuel line sprayed astrofuel into the room. A stray spark set it ablaze in a sudden astrofire. -->
+	<VGE_AstrofuelPipeRupture.letterText>Во время посадки {GRAVSHIP} повреждённая топливная магистраль распылила космотоплива в помещении. Случайная искра мгновенно подожгла его, вызвав вспышку астроогня.</VGE_AstrofuelPipeRupture.letterText>
+	
+	<!-- EN: unwanted attention -->
+	<VGE_UnwantedAttention.letterLabel>нежелательное внимание</VGE_UnwantedAttention.letterLabel>
+	<!-- EN: As {GRAVSHIP} descended, its heat signature was spotted by nearby raiders. They've rallied and are moving in to attack before the dust settles. -->
+	<VGE_UnwantedAttention.letterText>Когда {GRAVSHIP} снижался, его тепловой след заметили ближайшие рейдеры. Они собираются и идут в атаку, пока пыль ещё не осела.</VGE_UnwantedAttention.letterText>
+	
+	<!-- EN: vermin infestation -->
+	<VGE_VerminInfestation.letterLabel>нашествие грызунов</VGE_VerminInfestation.letterLabel>
+	<!-- EN: Shortly after {GRAVSHIP} touched down, swarms of manhunting rats poured out of ventilation shafts across the ship. No one knows how they got in. -->
+	<VGE_VerminInfestation.letterText>Сразу после посадки {GRAVSHIP} по всему кораблю из вентиляционных шахт хлынули полчища агрессивных крыс. Никто не знает, как они туда попали.</VGE_VerminInfestation.letterText>
+	
+	<!-- EN: critical heat spike -->
+	<VGE_CriticalHeatSpike.letterLabel>критический перегрев</VGE_CriticalHeatSpike.letterLabel>
+	<!-- EN: While bringing {GRAVSHIP} down, the grav engine's heat control system malfunctioned, causing structural heat to surge far beyond safe limits. -->
+	<VGE_CriticalHeatSpike.letterText>При посадке {GRAVSHIP} произошел сбой системы контроля температуры гравидвигателя, и уровень структурного тепла резко превысил безопасные пределы.</VGE_CriticalHeatSpike.letterText>
+	
+	<!-- EN: grav turbulence -->
+	<VGE_GravTurbulence.letterLabel>гравитационная турбулентность</VGE_GravTurbulence.letterLabel>
+	<!-- EN: An unexpected gravitic vibration during {GRAVSHIP}’s descent shook every component on board, loosening bolts and wearing joints. -->
+	<VGE_GravTurbulence.letterText>Неожиданная гравитическая вибрация при снижении {GRAVSHIP} встряхнула все узлы на борту, ослабив крепления и износив сочленения.</VGE_GravTurbulence.letterText>
+</LanguageData>

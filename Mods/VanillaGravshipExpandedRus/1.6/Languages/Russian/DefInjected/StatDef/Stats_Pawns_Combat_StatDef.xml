@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\Stats\Stats_Pawns_Combat.xml -->
+	<!-- EN: gravship targeting -->
+	<VGE_GravshipTargeting.label>наведение гравишипа</VGE_GravshipTargeting.label>
+	<!-- EN: How well this person operates the targeting terminal and how accurate their shots with gravship weaponry will be. -->
+	<VGE_GravshipTargeting.description>Насколько хорошо этот человек работает за терминалом наведения и насколько точной будет стрельба из оружия гравишипа.</VGE_GravshipTargeting.description>
+</LanguageData>

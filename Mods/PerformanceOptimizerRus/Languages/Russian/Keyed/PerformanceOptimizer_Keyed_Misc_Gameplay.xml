@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<!-- EN: UI settings -->
+	<PO.UISettings>Настройки интерфейса</PO.UISettings>
+	<!-- EN: Hide resource readout -->
+	<PO.HideResourceReadout>Скрывать список ресурсов (слева)</PO.HideResourceReadout>
+	<!-- EN: Hide bottom button bar -->
+	<PO.HideBottomButtonBar>Скрывать главные кнопки меню (внизу)</PO.HideBottomButtonBar>
+	<!-- EN: Hide bottom right overlay buttons -->
+	<PO.HideBottomRightOverlayButtons>Скрывать переключатели оверлеев (справа внизу)</PO.HideBottomRightOverlayButtons>
+	<!-- EN: Minimize alerts readout -->
+	<PO.MinimizeAlertsReadout>Сворачивать уведомления справа</PO.MinimizeAlertsReadout>
+	<!-- EN: Hide speed buttons -->
+	<PO.HideSpeedButtons>Скрывать кнопки скорости времени</PO.HideSpeedButtons>
+	<!-- EN: Disable speed buttons (leave only keybindings) -->
+	<PO.DisableSpeedButtons>Отключить кнопки скорости (оставить только горячие клавиши)</PO.DisableSpeedButtons>
+
+	<!-- EN: Performance & misc. tweaks -->
+	<PO.PerformanceSettings>Производительность и прочие твики</PO.PerformanceSettings>
+	<!-- EN: Faster GetComp methods replacement -->
+	<PO.FasterGetCompReplacement>Ускорение обращения к компонентам (GetComp)</PO.FasterGetCompReplacement>
+	<!-- EN: Cache text size calculations -->
+	<PO.CacheTextSizeCalc>Кешировать вычисления размера текста</PO.CacheTextSizeCalc>
+	<!-- EN: Cache gizmos retrieval from selected objects -->
+	<PO.CacheGizmos>Кешировать получение кнопок действий у выделенных объектов</PO.CacheGizmos>
+	<!-- EN: Disable Steam Manager callbacks checks -->
+	<PO.DisableSteamManagerCallbacksChecks>Отключить лишние проверки Steam Manager</PO.DisableSteamManagerCallbacksChecks>
+	<!-- EN: Disable plant sway calculations if plant sway is disabled -->
+	<PO.DisablePlantSwayShaderUpdateIfSwayDisabled>Откл. покачивания растений (если анимация выкл.)</PO.DisablePlantSwayShaderUpdateIfSwayDisabled>
+	<!-- EN: Disable sounds completely -->
+	<PO.DisableSoundsCompletely>Полностью отключить звуковую систему</PO.DisableSoundsCompletely>
+	<!-- EN: Try to fix duplicate XML nodes errors -->
+	<PO.FixCheckForDuplicateNodes>Исправлять ошибки дубликатов в XML модов</PO.FixCheckForDuplicateNodes>
+	<!-- EN: Cache Faction:OfPlayer -->
+	<PO.CacheFactionOfPlayer>Кешировать данные фракции игрока</PO.CacheFactionOfPlayer>
+	<!-- EN: Cache StatWorker_MarketValue:CalculableRecipe -->
+	<PO.CacheStatWorker_MarketValue>Кешировать расчёт рыночной стоимости предметов</PO.CacheStatWorker_MarketValue>
+
+	<!-- EN: Cache and throttle settings -->
+	<PO.CacheSettings>Настройки кеширования и замедления обновлений</PO.CacheSettings>
+	<!-- EN: QuestUtility:IsQuestLodger -->
+	<PO.QuestLodger>QuestUtility: Проверка временных жильцов (Квесты)</PO.QuestLodger>
+	<!-- EN: PawnUtility:IsTeetotaler -->
+	<PO.IsTeetotaler>PawnUtility: Проверка черты «Трезвенник»</PO.IsTeetotaler>
+	<!-- EN: ExpectationsUtility:CurrentExpectationForPawn -->
+	<PO.CurrentExpectationForPawn>ExpectationsUtility: расчёт ожиданий колониста</PO.CurrentExpectationForPawn>
+	<!-- EN: ExpectationsUtility:CurrentExpectationForMap -->
+	<PO.CurrentExpectationForMap>ExpectationsUtility: расчёт ожиданий от богатства карты</PO.CurrentExpectationForMap>
+	<!-- EN: ThoughtHandler:TotalMoodOffset -->
+	<PO.TotalMoodOffset>ThoughtHandler: расчёт общего настроения</PO.TotalMoodOffset>
+	<!-- EN: MentalBreaker:BreakThresholdMinor -->
+	<PO.BreakThresholdMinor>MentalBreaker: Порог легкого срыва</PO.BreakThresholdMinor>
+	<!-- EN: MentalBreaker:BreakThresholdMajor -->
+	<PO.BreakThresholdMajor>MentalBreaker: Порог сильного срыва</PO.BreakThresholdMajor>
+	<!-- EN: MentalBreaker:BreakThresholdExtreme -->
+	<PO.BreakThresholdExtreme>MentalBreaker: Порог критического срыва</PO.BreakThresholdExtreme>
+	<!-- EN: Thing:AmbientTemperature -->
+	<PO.AmbientTemperature>Thing: Температура окружения предмета</PO.AmbientTemperature>
+	<!-- EN: Need_Beauty:CurrentInstantBeauty -->
+	<PO.CurrentInstantBeauty>Need_Beauty: Текущий уровень красоты вокруг</PO.CurrentInstantBeauty>
+	<!-- EN: IdeoUtility:GetStyleDominance -->
+	<PO.GetStyleDominance>IdeoUtility: Доминирующий стиль идеологии</PO.GetStyleDominance>
+	<!-- EN: JobDriver:CheckCurrentToilEndOrFail -->
+	<PO.CheckCurrentToilEndOrFail>JobDriver: Проверка завершения или сбоя работы</PO.CheckCurrentToilEndOrFail>
+	<!-- EN: InspectGizmoGrid:DrawInspectGizmoGridFor GetGizmos -->
+	<PO.InspectGizmoGrid>InspectGizmoGrid: Отрисовка меню действий объекта</PO.InspectGizmoGrid>
+	<!-- EN: BuildCopyCommandUtility:FindAllowedDesignator -->
+	<PO.FindAllowedDesignator>BuildCopyCommandUtility: Поиск инструмента строительства</PO.FindAllowedDesignator>
+	<!-- EN: GridsUtility:GetRoom -->
+	<PO.GridsUtilityGetRoom>GridsUtility: Определение комнаты по клетке</PO.GridsUtilityGetRoom>
+	<!-- EN: GridsUtility:Fogged -->
+	<PO.GridsUtilityFogged>GridsUtility: Проверка тумана войны (скрытых зон)</PO.GridsUtilityFogged>
+	<!-- EN: PawnCollisionTweenerUtility:PawnCollisionPosOffsetFor -->
+	<PO.PawnCollisionPosOffsetFor>CollisionTweener: Смещение моделек при столкновении</PO.PawnCollisionPosOffsetFor>
+	<!-- EN: refresh rate {0} -->
+	<PO.RefreshRate>ч. обновления {0}</PO.RefreshRate>
+	<!-- EN: throttle rate {0} -->
+	<PO.ThrottleRate>инт. задержки {0}</PO.ThrottleRate>
+
+	<!-- EN: Performance Optimizer mod overview -->
+	<PO.PerformanceOptimizerOverview>Обзор мода Performance Optimizer</PO.PerformanceOptimizerOverview>
+	<!-- EN: Greetings, you have installed Performance Optimizer mod! After that you usually don't need to do anything, but I recommend going into the mod settings, where you can configure everything in the mod. The mod also comes with UI elements hiding (shows on hover), which is disabled by default. If you want some extra FPS/TPS, you can enable them in the mod settings. -->
+	<PO.PerformanceOptimizerOverviewDesc>Привет, вы установили Performance Optimizer! Обычно вам ничего не нужно настраивать, мод работает «из коробки». Однако я рекомендую заглянуть в настройки. Мод умеет скрывать элементы интерфейса (появляются при наведении мыши), что отключено по умолчанию. Включите эту функцию, если хотите получить дополнительный прирост производительности (FPS/TPS).</PO.PerformanceOptimizerOverviewDesc>
+	<!-- EN: UI hiding key toggle -->
+	<PO.UIToggle>Клавиша переключения видимости интерфейса</PO.UIToggle>
+	<!-- EN: One key mode -->
+	<PO.OneKeyMode>1 кл.</PO.OneKeyMode>
+	<!-- EN: Cache Traverse reflections -->
+	<PO.CacheTraverseReflections>Кеширование рефлексии (Traverse)</PO.CacheTraverseReflections>
+	<!-- EN: Pawn_JobTracker:DetermineNextConstantThinkTreeJob -->
+	<PO.DetermineNextConstantThinkTreeJob>JobTracker: Выбор постоянной задачи колониста</PO.DetermineNextConstantThinkTreeJob>
+	<!-- EN: JobGiver_ConfigurableHostilityResponse:TryGiveJob -->
+	<PO.JobGiver_ConfigurableHostilityResponse>JobGiver: Реакция на угрозы (атака/бегство)</PO.JobGiver_ConfigurableHostilityResponse>
+	<!-- EN: Pawn:Label -->
+	<PO.PawnLabel>Pawn: Имя и статус колониста</PO.PawnLabel>
+	<!-- EN: Pawn:DrawPos -->
+	<PO.PawnDrawPos>Pawn: Координаты отрисовки</PO.PawnDrawPos>
+	<!-- EN: Building_Door:DoorRotationAt -->
+	<PO.DoorRotationAt>Building_Door: Вращение текстуры дверей</PO.DoorRotationAt>
+	<!-- EN: Cache HediffDef:PossibleToDevelopImmunityNaturally -->
+	<PO.CacheHediffDef_PossibleToDevelopImmunityNaturally>HediffDef: Естественная выработка иммунитета</PO.CacheHediffDef_PossibleToDevelopImmunityNaturally>
+	<!-- EN: Optimize Thing:Spawned -->
+	<PO.OptimizeThingSpawned>Optimize Thing: Размещение объекта на карте</PO.OptimizeThingSpawned>
+	<!-- EN: Pawn_InteractionsTracker:CurrentSocialMode -->
+	<PO.Pawn_InteractionsTracker_CurrentSocialMode>InteractionsTracker: Текущий соц. режим</PO.Pawn_InteractionsTracker_CurrentSocialMode>
+	<!-- EN: Plant:TickLong -->
+	<PO.Plant_TickLong>Plant: Длительные циклы растений (Рост)</PO.Plant_TickLong>
+	<!-- EN: Building_Door:FreePassage -->
+	<PO.FreePassage>Building_Door: Проверка свободного прохода</PO.FreePassage>
+	<!-- EN: GenCelestial:CurCelestialSunGlow -->
+	<PO.GenCelestial_CurCelestialSunGlow>GenCelestial: Сила солнечного света</PO.GenCelestial_CurCelestialSunGlow>
+	<!-- EN: PlantFallColors:GetFallColorFactor -->
+	<PO.PlantFallColors_GetFallColorFactor>PlantFallColors: расчёт цвета листвы</PO.PlantFallColors_GetFallColorFactor>
+	<!-- EN: GenTemperature:AverageTemperatureAtTileForTwelfth -->
+	<PO.GenTemperature_AverageTemperatureAtTileForTwelfth>GenTemperature: Средняя сезонная температура</PO.GenTemperature_AverageTemperatureAtTileForTwelfth>
+	<!-- EN: Optimize IdeoBuildingPresenceDemand:BuildingPresent -->
+	<PO.IdeoBuildingPresenceDemand_BuildingPresent>Optimize Ideo: Проверка наличия ритуальных зданий</PO.IdeoBuildingPresenceDemand_BuildingPresent>
+	<!-- EN: Cache WorldGrid:LongLatOf -->
+	<PO.WorldGrid_LongLatOf>WorldGrid: Координаты на карте мира (Широта/Долгота)</PO.WorldGrid_LongLatOf>
+	<!-- EN: Precept_RoleMulti:RecacheActivity -->
+	<PO.Precept_RoleMulti_RecacheActivity>Precept_RoleMulti: Активность массовых ролей</PO.Precept_RoleMulti_RecacheActivity>
+	<!-- EN: Precept_RoleSingle:RecacheActivity -->
+	<PO.Precept_RoleSingle_RecacheActivity>Precept_RoleSingle: Активность одиночных ролей</PO.Precept_RoleSingle_RecacheActivity>
+	<!-- EN: SkillRecord:LearnRateFactor -->
+	<PO.SkillRecord_LearnRateFactor>SkillRecord: Фактор скорости обучения навыку</PO.SkillRecord_LearnRateFactor>
+	<!-- EN: Frame:WorkToBuild -->
+	<PO.Frame_WorkToBuild>Frame: Оставшаяся работа (при строительстве)</PO.Frame_WorkToBuild>
+	<!-- EN: Building_Door:TicksToOpenNow -->
+	<PO.TicksToOpenNow>Building_Door: Скорость открытия двери</PO.TicksToOpenNow>
+	<!-- EN: PawnUtility:IsInvisible -->
+	<PO.IsInvisible>PawnUtility: Проверка невидимости</PO.IsInvisible>
+	<!-- EN: ForbidUtility:IsForbidden -->
+	<PO.IsForbidden>ForbidUtility: Проверка запрещенных предметов</PO.IsForbidden>
+	<!-- EN: Designator:CreateReverseDesignationGizmo -->
+	<PO.CreateReverseDesignationGizmo>Designator: Создание кнопок команд (Гизмо)</PO.CreateReverseDesignationGizmo>
+	<!-- EN: FormCaravanComp:AnyActiveThreatNow -->
+	<PO.FormCaravanComp_AnyActiveThreatNow>FormCaravanComp: Проверка активных угроз каравану</PO.FormCaravanComp_AnyActiveThreatNow>
+	<!-- EN: Building_Door:ClearReachabilityCache -->
+	<PO.Building_Door_CheckClearReachabilityCacheBecauseOpenedOrClosed>Building_Door: Обновление путей при работе двери</PO.Building_Door_CheckClearReachabilityCacheBecauseOpenedOrClosed>
+	<!-- EN: CompOverseerSubject:CanGoFeral -->
+	<PO.CanGoFeral>CompOverseerSubject: Шанс одичания (Механоиды)</PO.CanGoFeral>
+</LanguageData>

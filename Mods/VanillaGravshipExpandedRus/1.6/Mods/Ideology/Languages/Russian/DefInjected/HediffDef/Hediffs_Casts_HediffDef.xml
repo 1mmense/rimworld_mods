@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Ideology\Defs\HediffDefs\Hediffs_Casts.xml -->
+	<!-- EN: engineering command -->
+	<VGE_EngineeringCommand.label>инженерный приказ</VGE_EngineeringCommand.label>
+	<!-- EN: Gravship maintenance and construction speeds are boosted thanks to this person using the engineering command ability. -->
+	<VGE_EngineeringCommand.description>Скорость обслуживания и строительства гравишипа повышена благодаря тому, что этот персонаж использует способность «Инженерный приказ».</VGE_EngineeringCommand.description>
+	
+	<!-- EN: engineering command -->
+	<VGE_EngineeringCommandBuff.label>инженерный приказ</VGE_EngineeringCommandBuff.label>
+	<!-- EN: This person's gravship maintenance and construction speeds are boosted thanks to being near someone who is using the engineering command ability. -->
+	<VGE_EngineeringCommandBuff.description>Скорость обслуживания и строительства гравишипа этого персонажа повышена благодаря близости к тому, кто использует способность «Инженерный приказ».</VGE_EngineeringCommandBuff.description>
+	<!-- EN: other -->
+	<VGE_EngineeringCommandBuff.debugLabelExtra>другое</VGE_EngineeringCommandBuff.debugLabelExtra>
+</LanguageData>

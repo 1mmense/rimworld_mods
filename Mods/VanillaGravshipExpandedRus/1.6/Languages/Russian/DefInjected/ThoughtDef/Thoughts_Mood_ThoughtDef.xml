@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Thoughts_Mood.xml -->
+	<!-- EN: crew euphoria -->
+	<VGE_CrewEuphoria.stages.0.label>эйфория экипажа</VGE_CrewEuphoria.stages.0.label>
+	<!-- EN: Our latest gravship launch was just perfect. I will remember it for a long time. -->
+	<VGE_CrewEuphoria.stages.0.description>Наш последний запуск гравишипа прошёл идеально. Я надолго это запомню.</VGE_CrewEuphoria.stages.0.description>
+</LanguageData>

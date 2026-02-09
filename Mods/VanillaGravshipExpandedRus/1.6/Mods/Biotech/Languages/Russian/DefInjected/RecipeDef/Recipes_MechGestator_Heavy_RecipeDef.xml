@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\RecipeDefs\Recipes_MechGestator_Heavy.xml -->
+	<!-- EN: Gestating mech. -->
+	<VGE_AstropedeRecipe.jobString>Выращивает мех.</VGE_AstropedeRecipe.jobString>
+	<!-- EN: gestate astropede -->
+	<VGE_AstropedeRecipe.label>вырастить косможука</VGE_AstropedeRecipe.label>
+	<!-- EN: Gestate an astropede mechanoid. -->
+	<VGE_AstropedeRecipe.description>Вырастить механойдного косможука.</VGE_AstropedeRecipe.description>
+	
+	<!-- EN: Gestating mech. -->
+	<VGE_HunterRecipe.jobString>Выращивает мех.</VGE_HunterRecipe.jobString>
+	<!-- EN: gestate hunter -->
+	<VGE_HunterRecipe.label>вырастить охотника</VGE_HunterRecipe.label>
+	<!-- EN: Gestate a hunter mechanoid. -->
+	<VGE_HunterRecipe.description>Вырастить механойдного охотника.</VGE_HunterRecipe.description>
+</LanguageData>

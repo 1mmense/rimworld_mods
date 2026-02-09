@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\GravshipLaunchRitual2.xml -->
+	<!-- EN: {PAWN_labelShort}'s research ability -->
+	<GravshipLaunch.comps.0.label>Способность {PAWN_labelShort} к исследованиям</GravshipLaunch.comps.0.label>
+	<!-- EN: gravtech researcher's research ability -->
+	<GravshipLaunch.comps.0.labelAbstract>Способность гравтех-исследователя к исследованиям</GravshipLaunch.comps.0.labelAbstract>
+	<!-- EN: {PAWN_labelShort}'s maintenance ability -->
+	<GravshipLaunch.comps.1.label>Способность {PAWN_labelShort} к обслуживанию</GravshipLaunch.comps.1.label>
+	<!-- EN: gravtech engineer's maintenance ability -->
+	<GravshipLaunch.comps.1.labelAbstract>Способность гравтех-инженера к обслуживанию</GravshipLaunch.comps.1.labelAbstract>
+	<!-- EN: giant thrusters -->
+	<GravshipLaunch.comps.2.label>гигантские двигатели тяги</GravshipLaunch.comps.2.label>
+	<!-- EN: Average maintenance of the gravship -->
+	<GravshipLaunch.comps.3.label>Средний уровень обслуживания гравишипа</GravshipLaunch.comps.3.label>
+	<!-- EN: manned copilot console -->
+	<GravshipLaunch.comps.4.label>занятая оператором доп. консоль</GravshipLaunch.comps.4.label>
+	<!-- EN: landing near grav anchor -->
+	<GravshipLaunch.comps.5.label>посадка рядом с гравиякорем</GravshipLaunch.comps.5.label>
+</LanguageData>

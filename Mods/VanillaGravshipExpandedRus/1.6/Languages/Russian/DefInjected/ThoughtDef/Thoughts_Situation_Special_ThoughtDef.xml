@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Thoughts_Situation_Special.xml -->
+	<!-- EN: beautiful comet -->
+	<VGE_Comet_Thought.stages.0.label>прекрасная комета</VGE_Comet_Thought.stages.0.label>
+	<!-- EN: The view is amazing. -->
+	<VGE_Comet_Thought.stages.0.description>Вид потрясающий.</VGE_Comet_Thought.stages.0.description>
+	
+	<!-- EN: toxic haze -->
+	<VGE_ToxicHaze.stages.0.label>токсичная дымка</VGE_ToxicHaze.stages.0.label>
+	<!-- EN: This toxic dust is unnerving and physically irritating. I want to get inside. -->
+	<VGE_ToxicHaze.stages.0.description>Эта токсичная пыль пугает и раздражает кожу. Хочется поскорее зайти внутрь.</VGE_ToxicHaze.stages.0.description>
+</LanguageData>

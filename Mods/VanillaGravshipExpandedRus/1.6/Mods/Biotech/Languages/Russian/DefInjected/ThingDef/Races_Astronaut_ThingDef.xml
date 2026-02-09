@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Astronaut.xml -->
+	<!-- EN: голова -->
+	<VGE_Astronaut.tools.0.label>голова</VGE_Astronaut.tools.0.label>
+	<!-- EN: торс -->
+	<VGE_Astronaut.tools.1.label>торс</VGE_Astronaut.tools.1.label>
+	<!-- EN: astronaut -->
+	<VGE_Astronaut.label>космонавт</VGE_Astronaut.label>
+	<!-- EN: A medium sized mechanoid designed to perform construction and firefighting tasks in orbit. It can perform blunt melee attacks if necessary. It is not affected by the slow space traversing speeds. -->
+	<VGE_Astronaut.description>Механоид среднего размера, предназначенный для строительных и пожарных работ на орбите. При необходимости способен наносить тупые удары в ближнем бою. Его не замедляет медленное передвижение в космосе.</VGE_Astronaut.description>
+</LanguageData>

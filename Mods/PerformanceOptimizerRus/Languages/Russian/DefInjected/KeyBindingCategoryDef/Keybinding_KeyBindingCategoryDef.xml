@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\Keybinding.xml -->
+	                   <!-- EN: Performance Optimizer -->
+	<PerformanceOptimizer.label>Оптимизатор производительности</PerformanceOptimizer.label>
+	                         <!-- EN: Keybinds for Performance Optimizer. -->
+	<PerformanceOptimizer.description>Горячие клавиши для Оптимизатора производительности.</PerformanceOptimizer.description>
+</LanguageData>
