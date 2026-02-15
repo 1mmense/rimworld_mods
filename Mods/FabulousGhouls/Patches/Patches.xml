@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Anomaly</li>
+		</mods>
+		<!--All hairs for Ghouls -->
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/HairDef/styleTags[not(li="Ghoul")]</xpath>
+			<value>
+				<li>Ghoul</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <NHR.RomanceAttempt>求爱行为，A 对 B</NHR.RomanceAttempt>
+    <NHR.R_SameFaction>需在同一派系</NHR.R_SameFaction>
+    <NHR.R_Orientation>需有匹配的性取向</NHR.R_Orientation>
+    <NHR.R_Orientation_Tip>仅支持原版的特性，即同性恋、双性恋与无性恋</NHR.R_Orientation_Tip>
+    <NHR.R_AHasNoSpouse>需要 A 没有配偶</NHR.R_AHasNoSpouse>
+    <NHR.R_BHasNoSpouse>需要 B 没有配偶</NHR.R_BHasNoSpouse>
+    <NHR.R_Compatibility>匹配度阈值：</NHR.R_Compatibility>
+    <NHR.R_Compatibility_Tip>匹配度是一项隐藏属性，决定了殖民者间的社交互动，更低的匹配度意味著更多的轻视与羞辱，更容易动摇印象</NHR.R_Compatibility_Tip>
+    <NHR.R_LoverOpinion>爱人的印象阈值：</NHR.R_LoverOpinion>
+    <NHR.R_LoverOpinion_Tip>若 A/B 已有爱人，其对爱人的印象需低于给定值（设为 101 以禁用此限制，适用于建立多人关系）</NHR.R_LoverOpinion_Tip>
+    <NHR.MarriageProposal>求婚行为，A对B</NHR.MarriageProposal>
+    <NHR.Opinion>双向印象阈值：</NHR.Opinion>
+    <NHR.Opinion_Tip>A 与 B 的双向印象均需高于给定值</NHR.Opinion_Tip>
+    <NHR.Time>时间阈值：</NHR.Time>
+    <NHR.Time_Tip>A 与 B 加入殖民地的累计时间均需高于给定天数</NHR.Time_Tip>
+    <NHR.AlwaysSucceed>浪漫行为必定成功</NHR.AlwaysSucceed>
+    <NHR.NeverHappen>浪漫行为永不发生</NHR.NeverHappen>
+    <NHR.NoBloodTies>禁止血亲间浪漫关系</NHR.NoBloodTies>
+    <NHR.NoBloodTies_Tip>在极罕见情况下，殖民者可以与血亲建立浪漫关系，此选项阻止了这种情况</NHR.NoBloodTies_Tip>
+    <NHR.Consensus>合意的浪漫行为必定成功</NHR.Consensus>
+    <NHR.Consensus_Tip>禁止令人血压升高的互相拒绝。</NHR.Consensus_Tip>
+</LanguageData>
