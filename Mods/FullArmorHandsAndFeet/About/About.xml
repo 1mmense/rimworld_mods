@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Full Armor - Hands and Feet [1.6]</name>
+    <author>Mylapqn</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>stevezero.FullArmorHandsFeet</packageId>
+    <description>
+Tired of your pawns in full marine armor losing fingers constantly? This is the solution!
+
+Full Armor - Hands and Feet is and advanced auto-patcher that extends armor coverage to the hands and feet.
+
+Allows detailed control over which apparel the patch extends to.
+
+Supports 1.6 and Odyssey as well as modded armor. Compatibility fix with gloves/shoes mods included.
+    </description>
+</ModMetaData>
