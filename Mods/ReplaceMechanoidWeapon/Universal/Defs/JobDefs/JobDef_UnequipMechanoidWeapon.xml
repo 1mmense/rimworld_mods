@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<JobDef>
+		<defName>UnequipMechanoidWeapon</defName>
+		<driverClass>ReplaceMechWeapon.JobDriver_UnequipMechanoidWeapon</driverClass>
+		<reportString>unequipping weapon from mechanoid.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>

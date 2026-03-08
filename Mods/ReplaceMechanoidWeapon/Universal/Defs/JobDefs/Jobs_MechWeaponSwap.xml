@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<JobDef>
+		<defName>ReplaceMechanoidWeapon</defName>
+		<driverClass>ReplaceMechWeapon.JobDriver_ReplaceMechanoidWeapon</driverClass>
+		<reportString>replacing weapon for TargetB.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+</Defs>

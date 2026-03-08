@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ReplaceMechanoidWeapon.reportString>replacing weapon for TargetB.</ReplaceMechanoidWeapon.reportString>
+	<UnequipMechanoidWeapon.reportString>unequipping weapon from TargetA.</UnequipMechanoidWeapon.reportString>
+</LanguageData>

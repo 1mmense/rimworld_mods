@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ReplaceMechanoidWeapon.reportString>TargetB 무기 교체 중.</ReplaceMechanoidWeapon.reportString>
+	<UnequipMechanoidWeapon.reportString>TargetA 무기 해제 중.</UnequipMechanoidWeapon.reportString>
+</LanguageData>

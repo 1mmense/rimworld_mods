@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ReplaceWeapon>Replace weapon for {0}</ReplaceWeapon>
+	<UnequipWeapon>Unequip weapon from {0}</UnequipWeapon>
+	<EquipWeapon>Equip weapon to {0}</EquipWeapon>
+</LanguageData>

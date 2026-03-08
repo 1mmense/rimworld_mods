@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ReplaceWeapon>무기 교체하기 {0}</ReplaceWeapon>
+	<UnequipWeapon>{0}의 무기 해제</UnequipWeapon>
+	<EquipWeapon>{0}에게 무기 장착</EquipWeapon>
+</LanguageData>
