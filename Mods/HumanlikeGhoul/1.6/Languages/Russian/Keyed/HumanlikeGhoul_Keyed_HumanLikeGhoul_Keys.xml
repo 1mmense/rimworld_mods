@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+		<!--Settings-->
+	<!-- EN: Humanlike Ghoul Setting -->
+	<HumanlikeGhoul_Setting>Настройки Humanlike Ghoul</HumanlikeGhoul_Setting>
+	<!-- EN: Note: this will change WorkPage content also! Most config need reload save to get work -->
+	<HumanlikeGhoul_ResetWarring>Внимание: это также изменит содержимое вкладки работы! Для применения большинства настроек требуется перезагрузка сохранения</HumanlikeGhoul_ResetWarring>
+	<!-- EN: Reset to Rimwordl Origin Style -->
+	<HumanlikeGhoul_ResetNone>Сбросить к оригинальному стилю RimWorld</HumanlikeGhoul_ResetNone>
+	<!-- EN: Recommend to see what origin ghoul setting,most of mod feature will fail when this work -->
+	<HumanlikeGhoul_ResetNoneTooltip>Рекомендуется для проверки оригинальных настроек гуля; большинство функций мода при этом не работает</HumanlikeGhoul_ResetNoneTooltip>
+	<!-- EN: Reset to Mod default style -->
+	<HumanlikeGhoul_ResetDumbLabor>Сбросить к стилю мода по умолчанию</HumanlikeGhoul_ResetDumbLabor>
+	<!-- EN: Reset to Author used style -->
+	<HumanlikeGhoul_ResetDefault>Сбросить к стилю автора</HumanlikeGhoul_ResetDefault>
+	<!-- EN: Author using setting,ghoul can do easy work and use melee armor -->
+	<HumanlikeGhoul_ResetDefaultTooltip>Настройки автора: гуль может выполнять простую работу и использовать броню ближнего боя</HumanlikeGhoul_ResetDefaultTooltip>
+	<!-- EN: Reset to Unlimited Style -->
+	<HumanlikeGhoul_ResetAdvance>Сбросить к неограниченному стилю</HumanlikeGhoul_ResetAdvance>
+	<!-- EN: Ghoul can do most things,use for build a colony of ghoul only -->
+	<HumanlikeGhoul_ResetAdvanceTooltip>Гуль может делать почти всё; подходит для колонии, состоящей только из гулей</HumanlikeGhoul_ResetAdvanceTooltip>
+	<!-- EN: Main -->
+	<HumanlikeGhoul_Setting_MainPage>Основное</HumanlikeGhoul_Setting_MainPage>
+	<!-- EN: Work -->
+	<HumanlikeGhoul_Setting_WorkPage>Работа</HumanlikeGhoul_Setting_WorkPage>
+	<!-- EN: Stats -->
+	<HumanlikeGhoul_Setting_StatsPage>Характеристики</HumanlikeGhoul_Setting_StatsPage>
+	<!-- EN: Note:All change this page should click button to affect game! -->
+	<HumanlikeGhoul_StatsPageInfo>Внимание: чтобы изменения на этой странице вступили в силу, нажмите кнопку применения!</HumanlikeGhoul_StatsPageInfo>
+	<!-- EN: Allow work tags -->
+	<HumanlikeGhoul_AllowWorkType>Разрешить теги работ</HumanlikeGhoul_AllowWorkType>
+	<!-- EN: Disable work tags -->
+	<HumanlikeGhoul_DisAllowWorkType>Запретить теги работ</HumanlikeGhoul_DisAllowWorkType>
+	<!-- EN: Compatibility -->
+	<HumanlikeGhoul_Setting_OtherModPage>Совместимость</HumanlikeGhoul_Setting_OtherModPage>
+	<!-- EN: This page show fix patch to mod may cause feature lost,if you use mod in list but don't found the fixing on,contract mod Team -->
+	<HumanlikeGhoul_OtherModsPageInfo>На этой странице показаны патчи совместимости для модов, из-за которых могут пропадать функции. Если вы используете мод из списка, но не нашли для него исправление, свяжитесь с командой мода</HumanlikeGhoul_OtherModsPageInfo>
+	<!-- EN: Fixing RPG Style Inventory -->
+	<HumanlikeGhoul_RPGTabEnable>Исправление для RPG Style Inventory</HumanlikeGhoul_RPGTabEnable>
+	<!-- EN: Allow to unequip gear when using RPG Style Inventory -->
+	<HumanlikeGhoul_RPGTabEnableToolTip>Разрешает снимать экипировку при использовании RPG Style Inventory</HumanlikeGhoul_RPGTabEnableToolTip>
+	<!-- EN: Fixing Fluffy’s Work Tab -->
+	<HumanlikeGhoul_WorkTabEnable>Исправление для Fluffy's Work Tab</HumanlikeGhoul_WorkTabEnable>
+	<!-- EN: Add ghouls to Work Tab -->
+	<HumanlikeGhoul_WorkTabEnableToolTip>Добавляет гулей во вкладку работы</HumanlikeGhoul_WorkTabEnableToolTip>
+	<!-- EN: Disable  -->
+	<HumanlikeGhoul_AddDisableWorkTab>Запретить </HumanlikeGhoul_AddDisableWorkTab>
+	<!-- EN: Alow  -->
+	<HumanlikeGhoul_RemoveDisableWorkTab>Разрешить </HumanlikeGhoul_RemoveDisableWorkTab>
+	<!-- EN: Ideo Limit -->
+	<HuamnlikeGhoul_IdeoLimit>Ограничение идеологии</HuamnlikeGhoul_IdeoLimit>
+	<!-- EN: Set whether ghoul can have ideo -->
+	<HuamnlikeGhoul_IdeoLimitToolTip>Определяет, может ли гуль иметь идеологию</HuamnlikeGhoul_IdeoLimitToolTip>
+	<!-- EN: Equipment Limit -->
+	<HuamnlikeGhoul_EquipmentLimit>Ограничение экипировки</HuamnlikeGhoul_EquipmentLimit>
+	<!-- EN: Ghoul can't wear gear -->
+	<HumanLikeGhoul_CantWearCause>Гуль не может носить экипировку</HumanLikeGhoul_CantWearCause>
+	<!-- EN: If set true,ghoul can use Equipment -->
+	<HuamnlikeGhoul_EquipmentLimitToolTip>Если включено, гуль может использовать экипировку</HuamnlikeGhoul_EquipmentLimitToolTip>
+	<!-- EN: Gene Limit -->
+	<HuamnlikeGhoul_GeneLimit>Ограничение генов</HuamnlikeGhoul_GeneLimit>
+	<!-- EN: If set not ,ghoul can use some banned Gene etc blood gene(the gene ablity should goto ablity limit set) -->
+	<HuamnlikeGhoul_GeneLimitToolTip>Если отключено, гуль может использовать некоторые запрещённые гены, например кровяные (способности генов настраиваются в ограничении способностей)</HuamnlikeGhoul_GeneLimitToolTip>
+	<!-- EN: Ablity Limit -->
+	<HuamnlikeGhoul_AblityLimit>Ограничение способностей</HuamnlikeGhoul_AblityLimit>
+	<!-- EN: If set not ,ghoul can use other ablity rather only ghoul prosthetics ablities(need restart the game) -->
+	<HuamnlikeGhoul_AblityLimitToolTip>Если отключено, гуль может использовать и другие способности, а не только способности протезов гуля (требуется перезапуск игры)</HuamnlikeGhoul_AblityLimitToolTip>
+	<!-- EN: Food Limit -->
+	<HuamnlikeGhoul_FoodLimit>Ограничение питания</HuamnlikeGhoul_FoodLimit>
+	<!-- EN: If set not ,ghoul can eat other food types rather only meat(need restart the game) -->
+	<HuamnlikeGhoul_FoodLimitToolTip>Если отключено, гуль может есть и другие типы пищи, а не только мясо (требуется перезапуск игры)</HuamnlikeGhoul_FoodLimitToolTip>
+	<!-- EN: renew Ghoul hediff -->
+	<HumanlikeGhoul_RenewDefButton>Обновить состояния гуля</HumanlikeGhoul_RenewDefButton>
+	<!-- EN: Max nurtion -->
+	<HumanlikeGhoul_HungryRateLable>Макс. сытость</HumanlikeGhoul_HungryRateLable>
+	<!-- EN: Psychic sensitivity -->
+	<HumanlikeGhoul_PsyRateLable>Психическая чувствительность</HumanlikeGhoul_PsyRateLable>
+</LanguageData>

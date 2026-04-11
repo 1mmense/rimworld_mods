@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<NEP_CG_ModName>Caravan Ghouls</NEP_CG_ModName>
+	<NEP_CG_Settings_overrideGhoulCarryWeight>Modify ghoul carry capacity</NEP_CG_Settings_overrideGhoulCarryWeight>
+	<NEP_CG_Settings_overrideGhoulCarryWeightDesc>If this option is enabled ghouls will have their carry capacity multiplied by the value below. By default pawns with bodysize 1.0 can carry 35kg.</NEP_CG_Settings_overrideGhoulCarryWeightDesc>
+	<NEP_CG_Settings_ghoulCarryMulitiplierSlider>Ghoul carry multiplier</NEP_CG_Settings_ghoulCarryMulitiplierSlider>
+	<NEP_CG_Explain>Ghouls will have their carry capacity multiplied by the value below. 
+By default pawns with bodysize 1.0 can carry 35kg.</NEP_CG_Explain>
+	<NEP_CG_Reset>Reset</NEP_CG_Reset>
+	<NEP_CG_Settings_ApplyVFEFix>Enable this option if you have Vanilla Framework Expanded installed to stop the weight increase being applied twice:</NEP_CG_Settings_ApplyVFEFix>
+	
+</LanguageData>
