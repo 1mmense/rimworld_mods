@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Billiards Table Prefab
+    High-quality marble billiards table for the Commander's Quarters lounge.
+
+    Features:
+    - 2x3 billiards table footprint
+    - 1-tile clearance on all sides for pawn interaction
+    - Total prefab size: 4x5 (accommodates table + clearance)
+    - Centered placement within allocated area
+
+    Design (top view, North is up):
+        x: 0 1 2 3
+    z=4:   . . . .
+    z=3:   . T T .
+    z=2:   . T T .
+    z=1:   . T T .
+    z=0:   . . . .
+
+    Legend:
+    T = BilliardsTable (2x3, marble, excellent quality)
+    . = empty space (clearance for pawn interaction)
+
+    Note: The table is positioned at (1,0,1) to center it within the 4x5 footprint.
+  -->
+
+  <PrefabDef>
+    <defName>BTG_BilliardsTable</defName>
+    <size>(4,5)</size>
+    <things>
+      <BilliardsTable>
+        <position>(1,0,2)</position>
+        <stuff>BlocksMarble</stuff>
+        <quality>Excellent</quality>
+      </BilliardsTable>
+    </things>
+  </PrefabDef>
+</Defs>

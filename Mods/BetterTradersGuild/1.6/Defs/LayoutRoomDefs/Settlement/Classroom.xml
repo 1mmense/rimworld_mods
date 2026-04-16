@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Classroom (Biotech DLC)
+    Education facility for station crew children.
+  -->
+
+  <LayoutRoomDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>BTG_Classroom</defName>
+    <minSingleRectWidth>8</minSingleRectWidth>
+    <minSingleRectHeight>8</minSingleRectHeight>
+    <roomContentsWorkerType>BetterTradersGuild.RoomContents.Classroom.RoomContents_Classroom</roomContentsWorkerType>
+
+    <edgeTerrain>MetalTile</edgeTerrain>
+
+    <scatter>
+      <!-- Children's floor drawings (lighter than nursery) -->
+      <Filth_Floordrawing>
+        <groupsPerHundredCells>1</groupsPerHundredCells>
+        <itemsPerGroup>1~1</itemsPerGroup>
+        <minGroups>0</minGroups>
+      </Filth_Floordrawing>
+
+      <!-- Light dirt from foot traffic -->
+      <Filth_Dirt>
+        <groupsPerHundredCells>2</groupsPerHundredCells>
+        <itemsPerGroup>2~4</itemsPerGroup>
+        <minGroups>1</minGroups>
+        <groupDistRange>1~2</groupDistRange>
+      </Filth_Dirt>
+    </scatter>
+
+    <floorTypes>
+      <li>CarpetGreenFaded</li>
+      <li>CarpetDusk</li>
+      <li>WoodPlankFloor</li>
+      <li>CarpetRedSubtle</li>
+    </floorTypes>
+
+    <prefabs>
+      <!-- School desks and blackboards -->
+      <SchoolDesksAndBlackboards>
+        <countPerHundredCells>3</countPerHundredCells>
+        <minMaxRange>2~3</minMaxRange>
+      </SchoolDesksAndBlackboards>
+
+      <!-- Teaching aids -->
+      <FlatscreenTelevision>
+        <countPerTenEdgeCells>1</countPerTenEdgeCells>
+        <minMaxRange>1~1</minMaxRange>
+      </FlatscreenTelevision>
+
+      <!-- Book storage (using bookcases with textbooks) -->
+      <BTG_ClassroomBookshelf_Edge>
+        <countPerTenEdgeCells>3</countPerTenEdgeCells>
+        <minMaxRange>2~3</minMaxRange>
+      </BTG_ClassroomBookshelf_Edge>
+
+      <!-- Storage lockers -->
+      <AncientLockerBank_Row>
+        <countPerTenEdgeCells>2</countPerTenEdgeCells>
+        <minMaxRange>2~8</minMaxRange>
+      </AncientLockerBank_Row>
+    </prefabs>
+
+    <!-- Decorative corner plant pots -->
+    <parts>
+      <BTG_PlantPot_Corner>
+        <countRange>3~4</countRange>
+      </BTG_PlantPot_Corner>
+    </parts>
+
+  </LayoutRoomDef>
+</Defs>

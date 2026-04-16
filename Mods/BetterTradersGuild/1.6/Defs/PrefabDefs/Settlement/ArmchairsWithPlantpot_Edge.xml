@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Armchairs with Center Potplant
+    Luxury seating arrangement for the Commander's Quarters lounge.
+
+    Features:
+    - 3x1 prefab size
+    - Edge placement (against walls)
+
+    Design (top view, North is up, wall at z=1):
+        x: 0 1 2
+    z=0:   A P A
+
+    Legend:
+    A = Armchair (rhinoceros leather, good quality, facing into room)
+    P = PlantPot (marble, good quality)
+  -->
+
+  <PrefabDef>
+    <defName>BTG_ArmchairsWithPlantpot_Edge</defName>
+    <edgeOnly>true</edgeOnly>
+    <size>(3,1)</size>
+    <things>
+      <Armchair>
+        <positions>
+          <li>(0, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+        </positions>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>Leather_Rhinoceros</stuff>
+        <quality>Good</quality>
+      </Armchair>
+      <PlantPot>
+        <position>(1, 0, 0)</position>
+        <stuff>BlocksMarble</stuff>
+        <quality>Good</quality>
+      </PlantPot>
+      <WallLamp>
+        <position>(1, 0, 0)</position>
+      </WallLamp>
+    </things>
+  </PrefabDef>
+</Defs>

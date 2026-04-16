@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BTG_OrbitalSteel -->
+  <BTG_OrbitalSteel.label>орбитальная сталь</BTG_OrbitalSteel.label>
+
+  <!-- BTG_UniqueWeapon_Silver -->
+  <BTG_UniqueWeapon_Silver.label>серебро</BTG_UniqueWeapon_Silver.label>
+
+  <!-- BTG_Rust -->
+  <BTG_Rust.label>ржавчина</BTG_Rust.label>
+
+</LanguageData>

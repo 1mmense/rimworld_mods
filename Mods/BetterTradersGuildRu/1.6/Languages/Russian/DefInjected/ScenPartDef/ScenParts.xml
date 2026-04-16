@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BTG_ConfigureStartingPawnsXenotypes -->
+  <!-- <BTG_ConfigureStartingPawnsXenotypes.label MayRequire="Ludeon.RimWorld.Biotech">starting people</BTG_ConfigureStartingPawnsXenotypes.label> -->
+
+  <!-- BTG_FactionGoodwill -->
+  <BTG_FactionGoodwill.label>отношения с фракцией</BTG_FactionGoodwill.label>
+
+  <!-- BTG_PlayerPawnsArriveShuttle -->
+  <BTG_PlayerPawnsArriveShuttle.label>прибыть на шаттле</BTG_PlayerPawnsArriveShuttle.label>
+
+  <!-- BTG_StartingApparelColor -->
+  <BTG_StartingApparelColor.label>цвет начальной одежды</BTG_StartingApparelColor.label>
+
+  <!-- BTG_StartingUniqueWeapon -->
+  <BTG_StartingUniqueWeapon.label>начальное уникальное оружие</BTG_StartingUniqueWeapon.label>
+
+</LanguageData>

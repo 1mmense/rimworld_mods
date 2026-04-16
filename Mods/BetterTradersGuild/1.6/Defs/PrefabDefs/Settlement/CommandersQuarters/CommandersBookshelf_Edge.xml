@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Commander's Bookshelf Prefab
+    Personal library for the station leader.
+
+    Features:
+    - 1x1 prefab size
+    - Edge placement (against walls)
+
+    Design (top view, North is up, wall at z=0):
+        x: 0
+    z=0:   B
+
+    Legend:
+    B = BookcaseSmall (marble, excellent quality, facing into room)
+        + 1-4 Novels (excellent/masterwork/legendary quality)
+        Books automatically inserted via RoomContents_CommandersQuarters
+  -->
+
+  <PrefabDef>
+    <defName>BTG_CommandersBookshelf_Edge</defName>
+    <edgeOnly>true</edgeOnly>
+    <size>(1,1)</size>
+    <things>
+      <!-- Small bookcase for commander's personal library (against wall) -->
+      <BookcaseSmall>
+        <quality>Excellent</quality>
+        <position>(0, 0, 0)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>BlocksMarble</stuff>
+      </BookcaseSmall>
+
+      <!-- Recreation books -->
+      <!-- Spawned at bookcase position, automatically inserted via FixBookcaseContents() -->
+      <Novel>
+        <chance>1</chance>
+        <quality>Excellent</quality>
+        <position>(0, 0, 0)</position>
+      </Novel>
+      <Novel>
+        <chance>0.6</chance>
+        <quality>Excellent</quality>
+        <position>(0, 0, 0)</position>
+      </Novel>
+      <Novel>
+        <chance>0.25</chance>
+        <quality>Masterwork</quality>
+        <position>(0, 0, 0)</position>
+      </Novel>
+      <Novel>
+        <chance>0.15</chance>
+        <quality>Legendary</quality>
+        <position>(0, 0, 0)</position>
+      </Novel>
+    </things>
+  </PrefabDef>
+</Defs>

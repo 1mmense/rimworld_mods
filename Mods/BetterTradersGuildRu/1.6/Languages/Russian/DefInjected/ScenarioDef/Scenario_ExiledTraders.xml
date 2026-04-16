@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/ScenarioDefs/Scenario_ExiledTraders.xml -->
+  <!-- EN: Exiled Traders -->
+  <BTG_ExiledTraders.label>Изгнанные торговцы</BTG_ExiledTraders.label>
+  <!-- EN: A routine salvage job at an orbital relay gone wrong. A hidden mechanoid beacon, and your crew woke the mechhive. The Traders Guild wasted no time distancing themselves from the fallout, revoking your membership before the signal even finished broadcasting. With no allies, low supplies and the swarm closing in, you have nowhere left to go but down.\n\nNote: This is a difficult scenario and is not recommended for new players. -->
+  <BTG_ExiledTraders.description>Обычная работа по сбору лома на орбитальном ретрансляторе пошла не по плану. Скрытый маяк механоидов — и ваша команда пробудила улей механоидов. Гильдия торговцев не стала медлить и дистанцировалась от последствий, аннулировав ваше членство ещё до того, как завершилась трансляция сигнала. Без союзников, со скудными запасами и надвигающимся роем у вас не осталось иного пути, кроме как бежать вниз.\n\nПримечание: это сложный сценарий, он не рекомендуется для новых игроков.</BTG_ExiledTraders.description>
+</LanguageData>

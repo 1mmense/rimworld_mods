@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Nursery (Biotech DLC)
+
+    Childcare facility for station crew families.
+  -->
+
+  <LayoutRoomDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>BTG_Nursery</defName>
+    <roomContentsWorkerType>BetterTradersGuild.RoomContents.Nursery.RoomContents_Nursery</roomContentsWorkerType>
+    <minSingleRectWidth>12</minSingleRectWidth>
+    <minSingleRectHeight>11</minSingleRectHeight>
+
+    <edgeTerrain>MetalTile</edgeTerrain>
+    <floorTypes>
+      <li>CarpetPink</li>
+      <li>CarpetBluePastel</li>
+      <li>CarpetGreenPastel</li>
+    </floorTypes>
+
+    <scatter>
+      <ToyBox>
+        <groupsPerHundredCells>1</groupsPerHundredCells>
+        <itemsPerGroup>1~1</itemsPerGroup>
+        <minGroups>1</minGroups>
+        <stuff>WoodLog</stuff>
+      </ToyBox>
+
+      <BabyDecoration>
+        <groupsPerHundredCells>1~3</groupsPerHundredCells>
+        <itemsPerGroup>1~1</itemsPerGroup>
+        <minGroups>1</minGroups>
+        <stuff>WoodLog</stuff>
+      </BabyDecoration>
+
+      <!-- Children's floor drawings for inhabited feel -->
+      <Filth_Floordrawing>
+        <groupsPerHundredCells>3</groupsPerHundredCells>
+        <itemsPerGroup>1~2</itemsPerGroup>
+        <minGroups>2</minGroups>
+      </Filth_Floordrawing>
+    </scatter>
+
+    <prefabs>
+      <!-- Crib subroom spawned programmatically by RoomContents_Nursery -->
+
+      <!-- Beds for children -->
+      <BTG_KidBeds_Edge>
+        <countPerTenEdgeCells>1</countPerTenEdgeCells>
+        <minMaxRange>1~2</minMaxRange>
+      </BTG_KidBeds_Edge>
+
+      <!-- Seating for caregivers -->
+      <Couch_Edge>
+        <countPerTenEdgeCells>2</countPerTenEdgeCells>
+        <minMaxRange>1~1</minMaxRange>
+      </Couch_Edge>
+
+      <BTG_ArmchairsWithPlantpot_Edge>
+        <countPerTenEdgeCells>2</countPerTenEdgeCells>
+        <minMaxRange>1~3</minMaxRange>
+      </BTG_ArmchairsWithPlantpot_Edge>
+
+      <BTG_GrandSculpture>
+        <countPerHundredCells>1</countPerHundredCells>
+        <minMaxRange>1~2</minMaxRange>
+      </BTG_GrandSculpture>
+
+      <!-- Storage -->
+      <AncientLockerBank_Row>
+        <countPerTenEdgeCells>2</countPerTenEdgeCells>
+        <minMaxRange>2~8</minMaxRange>
+      </AncientLockerBank_Row>
+    </prefabs>
+
+    <parts>
+      <BTG_PlantPot_Corner>1.0</BTG_PlantPot_Corner>
+    </parts>
+  </LayoutRoomDef>
+</Defs>

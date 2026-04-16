@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/ThingDefs/CargoVaultHatch.xml -->
+  <!-- EN: secure cargo vault hatch -->
+  <BTG_CargoVaultHatch.label>люк защищенного грузового хранилища</BTG_CargoVaultHatch.label>
+  <!-- EN: A reinforced hatch leading to the station's secure cargo vault. The vault below contains high-value trade goods under automated security. Hack the access panel to override the lock. -->
+  <BTG_CargoVaultHatch.description>Укрепленный люк, ведущий в защищенное грузовое хранилище станции. В хранилище внизу находятся дорогостоящие торговые товары под охраной автоматической системы безопасности. Взломайте панель доступа, чтобы обойти блокировку.</BTG_CargoVaultHatch.description>
+</LanguageData>

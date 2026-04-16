@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Crew Quarters Comm Supplies Prefab
+    Communications console with emergency supply pallet for crew quarters.
+
+    Features:
+    - 2x5 prefab size
+    - Comms console for communications
+    - Survival meal pallet for emergency supplies
+
+    Design (top view, North is up):
+        x: 0 1
+    z=4:   C C   (CommsConsole top row)
+    z=3:   C C
+    z=2:   C C
+    z=1:   P P   (Pallet_SurvivalMeals)
+    z=0:   P P
+
+    Legend:
+    C = CommsConsole (3x2 defaultPlacingRot=South, rotated Clockwise = 2x3)
+        Interaction cell rotates to East (outside prefab, needs adjacent walkable area)
+    P = Pallet_SurvivalMeals (2x2)
+  -->
+
+  <PrefabDef>
+    <defName>BTG_CrewQuartersCommSupplies2x5</defName>
+    <size>(2,5)</size>
+
+    <things>
+      <CommsConsole>
+        <position>(0, 0, 3)</position>
+        <relativeRotation>Clockwise</relativeRotation>
+      </CommsConsole>
+      <Pallet_SurvivalMeals>
+        <position>(0, 0, 0)</position>
+      </Pallet_SurvivalMeals>
+      <WallLamp>
+        <position>(0, 0, 2)</position>
+        <relativeRotation>Counterclockwise</relativeRotation>
+      </WallLamp>
+    </things>
+
+  </PrefabDef>
+</Defs>

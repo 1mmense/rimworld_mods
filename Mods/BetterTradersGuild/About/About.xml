@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Better Traders Guild</name>
+  <author>Sam Hunt</author>
+  <packageId>shunter.bettertradersguild</packageId>
+  <modVersion>1.0.7</modVersion>
+  <description>Overhaul for the Odyssey DLC Traders Guild faction:
+
+    - Shuttle caravan trading at orbital faction bases
+    - Rotating orbital traders simulate active trade operations
+    - New map generator with inhabited, maintained settlements
+    - Integrated cargo system linking trade stock to spawned items
+    - New scenarios: Independent Traders and Exiled Traders
+    - Trade request quests from orbital stations
+
+
+    See Steam Workshop page for full details.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.odyssey</packageId>
+      <displayName>RimWorld - Odyssey</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>ludeon.rimworld</li>
+    <li>ludeon.rimworld.royalty</li>
+    <li>ludeon.rimworld.ideology</li>
+    <li>ludeon.rimworld.biotech</li>
+    <li>ludeon.rimworld.anomaly</li>
+    <li>ludeon.rimworld.odyssey</li>
+    <!-- Third-party mods we conditionally patch via xml -->
+    <!-- Even if that's just confirming defs exist before upgrading
+         content in our own prefabs with mod content -->
+    <li>VanillaExpanded.VChemfuelE</li>
+    <li>VanillaExpanded.VNutrientE</li>
+    <li>VanillaExpanded.VFEMedical</li>
+    <li>VanillaExpanded.VFEProduction</li>
+    <li>VanillaExpanded.VFESpacer</li>
+    <li>vanillaexpanded.gravship</li>
+    <li>smallmine.HeavyShuttle</li>
+  </loadAfter>
+</ModMetaData>

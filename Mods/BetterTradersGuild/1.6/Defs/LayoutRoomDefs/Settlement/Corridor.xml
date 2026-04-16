@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Custom Corridor Definitions
+
+    Modern corridors with MetalTile flooring (not AncientTile).
+    Provides clean, maintained aesthetic consistent with prosperous merchant settlement.
+  -->
+
+  <!-- Base corridor definition -->
+  <LayoutRoomDef Name="BTG_Corridor">
+    <defName>BTG_Corridor</defName>
+
+    <!-- Custom worker with pre/post-fill hooks for blast door logging and airlock placement -->
+    <roomContentsWorkerType>BetterTradersGuild.RoomContents.Corridor.RoomContents_Corridor</roomContentsWorkerType>
+
+  </LayoutRoomDef>
+
+  <!-- Defensive corridor variant with barricades -->
+  <LayoutRoomDef ParentName="BTG_Corridor">
+    <defName>BTG_CorridorDefense</defName>
+    <prefabs>
+      <!-- Defensive barricades along corridor -->
+      <CorridorBarricade>
+        <countPerHundredCells>1</countPerHundredCells>
+        <ensureNoBlocks>false</ensureNoBlocks>
+        <minMaxRange>1~2</minMaxRange>
+      </CorridorBarricade>
+
+      <!-- Barricades at corridor intersections -->
+      <CorridorBarricadeIntersection>
+        <countRange>0~1</countRange>
+      </CorridorBarricadeIntersection>
+    </prefabs>
+  </LayoutRoomDef>
+</Defs>

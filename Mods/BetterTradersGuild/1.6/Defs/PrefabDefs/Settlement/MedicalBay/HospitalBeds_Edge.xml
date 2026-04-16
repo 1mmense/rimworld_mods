@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Hospital Bed Prefab
+    Modern, clean hospital beds for TradersGuild medical facilities.
+
+    Features:
+    - 5x2 prefab size
+    - Edge placement (against walls)
+
+    Design (top view, North is up, wall at z=1):
+        x: 0 1 2 3 4
+    z=1:   H T H V H
+    z=0:   H . H . H
+
+    Legend:
+    H = HospitalBed (steel, facing into room)
+    V = VitalsMonitor (patient monitoring)
+    T = EndTable (steel, patient convenience)
+    . = empty space (bed extends here)
+  -->
+
+  <PrefabDef>
+    <defName>BTG_HospitalBeds_Edge</defName>
+    <edgeOnly>true</edgeOnly>
+    <size>(5,2)</size>
+    <things>
+      <!-- Modern hospital beds (non-rusted) in a row -->
+      <HospitalBed>
+        <positions>
+          <li>(0, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(4, 0, 1)</li>
+        </positions>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>Steel</stuff>
+      </HospitalBed>
+
+      <!-- Vitals monitor for patient monitoring -->
+      <VitalsMonitor>
+        <position>(3, 0, 1)</position>
+        <relativeRotation>Opposite</relativeRotation>
+      </VitalsMonitor>
+
+      <!-- End table for patient convenience -->
+      <EndTable>
+        <position>(1, 0, 1)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>Steel</stuff>
+      </EndTable>
+
+      <!-- Guarantee well lit -->
+      <AncientEmergencyLight_Blue>
+        <position>(2, 0, 1)</position>
+      </AncientEmergencyLight_Blue>
+    </things>
+  </PrefabDef>
+</Defs>

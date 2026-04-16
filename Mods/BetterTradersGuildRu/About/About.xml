@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Better Traders Guild [RU]</name>
+    <author>RimTranslateBot</author>
+    <packageId>rimtranslate.shunter.bettertradersguild</packageId>
+    
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    
+    <modDependencies>
+        <li>
+            <packageId>shunter.bettertradersguild</packageId>
+            <displayName>Better Traders Guild</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3684587591</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    
+    <loadAfter>
+        <li>shunter.bettertradersguild</li>
+    </loadAfter>
+    
+    <description>
+Перевод мода Better Traders Guild на русский язык.
+
+Переведено с помощью бота RimTranslate (t.me/rimtranslate_bot)
+    </description>
+</ModMetaData>

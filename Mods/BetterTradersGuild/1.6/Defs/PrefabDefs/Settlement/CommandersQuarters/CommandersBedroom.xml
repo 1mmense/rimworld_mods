@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Commander's Bedroom (L-Shaped Prefab)
+    A self-contained bedroom structure designed for flexible corner/edge placement.
+
+    Features:
+    - 6x6 prefab size
+    - L-shaped wall configuration (front + right side included)
+    - Interior contains luxury furniture on deep purple carpet
+
+    Design (top view, North is up):
+        x: 0 1 2 3 4 5
+    z=5:   S N R R G W
+    z=4:   D . R R . W
+    z=3:   D . . . . W
+    z=2:   P . . . K W
+    z=1:   V . T T A W
+    z=0:   W d W W W W
+
+    Legend:
+    W = OrbitalAncientFortifiedWall (L-shaped frame)
+    d = AncientBlastDoor (entrance)
+    P = PlantPot (marble, excellent)
+    A = AnimalBed (rhinoceros leather, excellent)
+    T = FlatscreenTelevision
+    R = RoyalBed (marble, excellent, 2x2, facing south)
+    D = Dresser (marble, excellent)
+    L = AncientEmergencyLight_Blue
+    S = AncientSafe
+    V = VFES_AirPurifier (optional, VFE Spacer)
+    G = SmallShelf (marble) for unique weapon
+    N = EndTable (marble)
+    K = Kibble (75 stack)
+    . = CarpetPurpleDeep floor
+
+    Placement Strategy:
+    - Corner placement (preferred): Missing back/left walls align with room walls
+    - Edge placement (fallback): Missing back aligns with room wall, left wall spawned post-placement
+    - Center placement (fallback): Back/left walls spawned post-placement
+  -->
+  <PrefabDef>
+    <defName>BTG_CommandersBedroom</defName>
+    <size>(6,6)</size>
+
+    <things>
+      <PlantPot>
+        <position>(0, 0, 2)</position>
+        <stuff>BlocksMarble</stuff>
+        <quality>Excellent</quality>
+      </PlantPot>
+
+      <AnimalBed>
+        <position>(4, 0, 1)</position>
+        <stuff>Leather_Rhinoceros</stuff>
+        <quality>Excellent</quality>
+      </AnimalBed>
+
+      <Kibble>
+        <position>(4, 0, 2)</position>
+        <stackCountRange>75~75</stackCountRange>
+      </Kibble>
+
+      <RoyalBed>
+        <position>(3, 0, 5)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>BlocksMarble</stuff>
+        <quality>Excellent</quality>
+      </RoyalBed>
+
+      <Dresser>
+        <position>(0, 0, 4)</position>
+        <relativeRotation>Clockwise</relativeRotation>
+        <stuff>BlocksMarble</stuff>
+        <quality>Excellent</quality>
+      </Dresser>
+
+      <AncientSafe>
+        <position>(0, 0, 5)</position>
+      </AncientSafe>
+
+      <ShelfSmall>
+        <position>(4, 0, 5)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>BlocksMarble</stuff>
+      </ShelfSmall>
+
+      <EndTable>
+        <position>(1, 0, 5)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>BlocksMarble</stuff>
+        <quality>Normal</quality>
+      </EndTable>
+
+      <FlatscreenTelevision>
+        <position>(2, 0, 1)</position>
+      </FlatscreenTelevision>
+
+      <VFES_AirPurifier MayRequire="VanillaExpanded.VFESpacer">
+        <position>(0, 0, 1)</position>
+      </VFES_AirPurifier>
+
+      <AncientEmergencyLight_Blue>
+        <position>(4, 0, 3)</position>
+        <relativeRotation>Clockwise</relativeRotation>
+      </AncientEmergencyLight_Blue>
+
+      <AncientBlastDoor>
+        <position>(1, 0, 0)</position>
+      </AncientBlastDoor>
+
+      <OrbitalAncientFortifiedWall>
+        <rects>
+          <li>(0,0,0,0)</li>
+          <li>(2,0,5,0)</li>
+          <li>(5,1,5,5)</li>
+        </rects>
+      </OrbitalAncientFortifiedWall>
+
+      <HiddenConduit>
+        <rects>
+          <li>(0,0,2,0)</li>
+        </rects>
+      </HiddenConduit>
+
+    </things>
+
+    <terrain>
+      <CarpetPurpleDeep>
+        <rects>
+          <li>(0,0,5,5)</li>
+        </rects>
+      </CarpetPurpleDeep>
+      <MetalTile>
+        <rects>
+          <li>(4,2,4,2)</li>
+        </rects>
+      </MetalTile>
+    </terrain>
+
+  </PrefabDef>
+</Defs>

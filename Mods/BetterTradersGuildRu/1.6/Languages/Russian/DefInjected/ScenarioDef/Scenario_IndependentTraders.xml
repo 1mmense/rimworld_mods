@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/ScenarioDefs/Scenario_IndependentTraders.xml -->
+  <!-- EN: Independent Traders -->
+  <BTG_IndependentTraders.label>Независимые торговцы</BTG_IndependentTraders.label>
+  <!-- EN: After years running cargo for the Traders Guild, you've had enough of splitting profits and fighting over docking bays. As your shuttle clears the orbital ring, the trade frequency chirps its indifferent farewell while the sky opens up ahead. With a hold full of silver and ambition, the rest you'll have to earn. -->
+  <BTG_IndependentTraders.description>После долгих лет перевозки грузов для Торговой гильдии вам порядком надоело делить прибыль и драться за стыковочные отсеки. Пока ваш шаттл покидает орбитальное кольцо, на торговой частоте раздаётся безразличное прощание, а впереди открывается бескрайнее небо. У вас есть трюм, полный серебра, и огромные амбиции, а всё остальное вам придётся заработать самим.</BTG_IndependentTraders.description>
+</LanguageData>

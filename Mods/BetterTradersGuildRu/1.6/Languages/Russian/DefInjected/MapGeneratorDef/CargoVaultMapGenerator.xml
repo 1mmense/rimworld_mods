@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/MapGeneratorDefs/CargoVaultMapGenerator.xml -->
+  <!-- EN: cargo vault -->
+  <BTG_CargoVaultMapGenerator.label>грузовое хранилище</BTG_CargoVaultMapGenerator.label>
+</LanguageData>

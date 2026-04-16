@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/FactionDefs/Factions_IndependentTraders.xml -->
+  <!-- EN: independent traders -->
+  <BTG_IndependentTraders.label>независимые торговцы</BTG_IndependentTraders.label>
+  <!-- EN: A small crew of former Traders Guild members, now operating independently. -->
+  <BTG_IndependentTraders.description>Небольшая команда бывших членов Торговой гильдии, которая теперь действует независимо.</BTG_IndependentTraders.description>
+  <!-- EN: trader -->
+  <BTG_IndependentTraders.pawnSingular>торговец</BTG_IndependentTraders.pawnSingular>
+</LanguageData>

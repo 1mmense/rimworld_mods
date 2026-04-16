@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BTG_CargoVaultHatch -->
+  <BTG_CargoVaultHatch.label>люк защищенного грузового хранилища</BTG_CargoVaultHatch.label>
+  <BTG_CargoVaultHatch.description>Усиленный люк, ведущий в защищенное грузовое хранилище станции. В хранилище внизу находятся дорогостоящие торговые товары под защитой автоматизированных систем безопасности. Взломайте панель доступа, чтобы обойти блокировку.</BTG_CargoVaultHatch.description>
+
+  <!-- BTG_CargoVaultHatch_Sealed -->
+  <BTG_CargoVaultHatch_Sealed.label>запечатанный люк грузового хранилища</BTG_CargoVaultHatch_Sealed.label>
+  <BTG_CargoVaultHatch_Sealed.description>Усиленный люк, ведущий в защищенное грузовое хранилище станции. Он был наглухо запечатан, чтобы перекрыть доступ рейдерам.</BTG_CargoVaultHatch_Sealed.description>
+
+  <!-- BTG_CargoVaultExit -->
+  <BTG_CargoVaultExit.label>выход из грузового хранилища</BTG_CargoVaultExit.label>
+  <BTG_CargoVaultExit.description>Защищенная лестница и люк, позволяющие подняться обратно в расположенный сверху ангар для шаттлов станции.</BTG_CargoVaultExit.description>
+
+</LanguageData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Flatscreen TV with Rhinoceros Leather Couch
+    Luxury entertainment setup for the Commander's Quarters lounge.
+
+    Features:
+    - 2x3 prefab size
+    - Edge placement (against walls)
+
+    Design (top view, North is up, wall at z=0):
+        x: 0 1
+    z=0:   T T
+    z=1:   . .
+    z=2:   C C
+
+    Legend:
+    T = FlatscreenTelevision (2x1)
+    C = Couch (rhinoceros leather, 2x1, facing TV)
+    . = empty space (viewing area)
+  -->
+
+  <PrefabDef>
+    <defName>BTG_FlatscreenTVRhinoLeather_Edge</defName>
+    <edgeOnly>true</edgeOnly>
+    <size>(2,3)</size>
+    <things>
+      <FlatscreenTelevision>
+      </FlatscreenTelevision>
+      <Couch>
+        <position>(1,0,2)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>Leather_Rhinoceros</stuff>
+      </Couch>
+    </things>
+  </PrefabDef>
+</Defs>

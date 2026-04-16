@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Small Sculpture Prefab (Edge-Only)
+    High-quality marble small sculpture for luxury areas.
+
+    Features:
+    - 1x1 prefab size
+    - Edge placement (against walls)
+
+    Design (top view, North is up, wall at z=0):
+        x: 0
+    z=0:   S
+
+    Legend:
+    S = SculptureSmall (marble, good quality)
+  -->
+
+  <PrefabDef>
+    <defName>BTG_SmallSculpture_Edge</defName>
+    <edgeOnly>true</edgeOnly>
+    <size>(1,1)</size>
+    <things>
+      <SculptureSmall>
+        <position>(0,0,0)</position>
+        <stuff>BlocksMarble</stuff>
+        <quality>Good</quality>
+      </SculptureSmall>
+    </things>
+  </PrefabDef>
+</Defs>

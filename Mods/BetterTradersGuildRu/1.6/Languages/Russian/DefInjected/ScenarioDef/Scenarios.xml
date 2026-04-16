@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BTG_ExiledTraders -->
+  <BTG_ExiledTraders.label>Изгнанные торговцы</BTG_ExiledTraders.label>
+  <BTG_ExiledTraders.description>Рутинная операция по сбору лома на орбитальном ретрансляторе обернулась катастрофой. Ваша команда наткнулась на скрытый маяк и пробудила улей механоидов. Торговая гильдия поспешила откреститься от последствий и аннулировала ваше членство ещё до того, как передача сигнала бедствия завершилась. Без союзников, с крохами припасов и настигающим роем механоидов, у вас остался лишь один путь — вниз.\n\nПримечание: это сложный сценарий, который не рекомендуется для новичков.</BTG_ExiledTraders.description>
+  <BTG_ExiledTraders.scenario.summary>Трое изгнанных торговцев, преследуемых механоидами.</BTG_ExiledTraders.scenario.summary>
+
+  <!-- BTG_IndependentTraders -->
+  <BTG_IndependentTraders.label>Независимые торговцы</BTG_IndependentTraders.label>
+  <BTG_IndependentTraders.description>После долгих лет перевозки грузов для Торговой гильдии с вас хватит — вы устали делиться прибылью и грызться за стыковочные доки. Пока ваш шаттл миновал орбитальное кольцо, торговая радиочастота равнодушно прощебетала прощание, а впереди распахнулось бескрайнее небо. У вас есть полный трюм серебра и большие амбиции, но всё остальное придётся заработать самим.</BTG_IndependentTraders.description>
+  <BTG_IndependentTraders.scenario.summary>Трое бывших торговцев гильдии и шаттл.</BTG_IndependentTraders.scenario.summary>
+
+</LanguageData>

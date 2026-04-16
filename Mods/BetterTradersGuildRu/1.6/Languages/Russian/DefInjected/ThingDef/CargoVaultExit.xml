@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/ThingDefs/CargoVaultExit.xml -->
+  <!-- EN: cargo vault exit -->
+  <BTG_CargoVaultExit.label>выход из грузового хранилища</BTG_CargoVaultExit.label>
+  <!-- EN: A secure ladder and hatch providing access back to the station's shuttle bay above. -->
+  <BTG_CargoVaultExit.description>Защищенные лестница и люк, обеспечивающие доступ наверх, обратно в челночный отсек станции.</BTG_CargoVaultExit.description>
+</LanguageData>

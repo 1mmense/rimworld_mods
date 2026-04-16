@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.6/Defs/WeaponTraitDefs/SilverInlay.xml -->
+  <!-- EN: silver inlay -->
+  <SilverInlay.label>серебряная инкрустация</SilverInlay.label>
+  <!-- EN: This weapon is inlaid with silver. Traders will pay more for it. -->
+  <SilverInlay.description>Это оружие инкрустировано серебром. Торговцы заплатят за него больше.</SilverInlay.description>
+</LanguageData>

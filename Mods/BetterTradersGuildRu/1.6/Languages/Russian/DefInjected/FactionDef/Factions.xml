@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BTG_IndependentTraders -->
+  <BTG_IndependentTraders.label>независимые торговцы</BTG_IndependentTraders.label>
+  <BTG_IndependentTraders.description>Небольшая команда бывших членов Гильдии Торговцев, теперь действующих самостоятельно.</BTG_IndependentTraders.description>
+  <BTG_IndependentTraders.pawnSingular>торговец</BTG_IndependentTraders.pawnSingular>
+  <BTG_IndependentTraders.pawnsPlural>торговцы</BTG_IndependentTraders.pawnsPlural>
+
+</LanguageData>

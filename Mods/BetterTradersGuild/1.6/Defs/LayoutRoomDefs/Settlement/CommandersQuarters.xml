@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Commander's Quarters
+
+    Luxury living quarters for the station leader.
+
+    Features:
+    - Fine carpet flooring for luxury aesthetic
+    - Medium floor area to accommodate inner secure bedroom prefab and outer lounge area
+    - Excellent quality furniture throughout (rhinoceros leather upholstery, marble accents)
+    - Personal library with bookshelves
+    - Entertainment (flatscreen TV with rhinoceros leather couch, good-quality marble pool table)
+    - Good-quality marble sculptures (small and grand) and potted plants
+    - Minimal threat level (VIP quarters)
+  -->
+
+  <LayoutRoomDef>
+    <defName>BTG_CommandersQuarters</defName>
+    <roomContentsWorkerType>BetterTradersGuild.RoomContents.CommandersQuarters.RoomContents_CommandersQuarters</roomContentsWorkerType>
+    <minSingleRectWidth>11</minSingleRectWidth>
+    <minSingleRectHeight>11</minSingleRectHeight>
+    <requiresSingleRectRoom>true</requiresSingleRectRoom>
+    <canMergeWithAdjacentRoom>false</canMergeWithAdjacentRoom>
+    <minAdjRooms>0</minAdjRooms>
+
+    <floorTypes>
+      <!-- Patched to Fine variant when Royalty is enabled -->
+      <li>CarpetPurpleDeep</li>
+    </floorTypes>
+    <edgeTerrain>SilverTile</edgeTerrain>
+
+    <prefabs>
+      <!--
+        BEDROOM: Spawned programmatically by RoomContents_CommandersQuarters worker
+        The worker places the bedroom in a corner (preferred) or along an edge (fallback),
+        ensuring no conflicts with doors and proper wall alignment.
+
+        LOUNGE FURNITURE: Placed in outer area around the bedroom
+        These spawn in the remaining space (controlled via IsValidCellBase), creating a living/lounge area.
+      -->
+
+      <!-- High-quality marble billiards table (with clearance for interaction) -->
+      <BTG_BilliardsTable>
+        <countPerHundredCells>1</countPerHundredCells>
+        <minMaxRange>1~1</minMaxRange>
+      </BTG_BilliardsTable>
+
+      <!-- Entertainment: TV with rhinoceros leather couch -->
+      <BTG_FlatscreenTVRhinoLeather_Edge>
+        <countPerTenEdgeCells>3</countPerTenEdgeCells>
+        <minMaxRange>1~2</minMaxRange>
+      </BTG_FlatscreenTVRhinoLeather_Edge>
+
+      <!-- Comfortable seating with decorative potplants -->
+      <BTG_ArmchairsWithPlantpot_Edge>
+        <countPerTenEdgeCells>5</countPerTenEdgeCells>
+        <minMaxRange>3~5</minMaxRange>
+      </BTG_ArmchairsWithPlantpot_Edge>
+
+      <!-- Personal library with books (high priority - player reward) -->
+      <BTG_CommandersBookshelf_Edge>
+        <countPerTenEdgeCells>6</countPerTenEdgeCells>
+        <minMaxRange>3~6</minMaxRange>
+      </BTG_CommandersBookshelf_Edge>
+
+      <!-- High-quality marble grand sculpture (4x4 footprint with clearance, center placement) -->
+      <BTG_GrandSculpture>
+        <countPerHundredCells>1</countPerHundredCells>
+        <minMaxRange>1~2</minMaxRange>
+      </BTG_GrandSculpture>
+
+      <!-- High-quality marble small sculptures (edge placement) -->
+      <BTG_SmallSculpture_Edge>
+        <countPerTenEdgeCells>5</countPerTenEdgeCells>
+        <minMaxRange>3~6</minMaxRange>
+      </BTG_SmallSculpture_Edge>
+    </prefabs>
+
+    <parts>
+      <!-- Minimal threat (VIP living quarters) -->
+      <WaspDrone>0.2</WaspDrone>
+      <!-- Decoration -->
+      <BTG_PlantPot_Corner>
+        <countRange>1~3</countRange>
+      </BTG_PlantPot_Corner>
+      <!-- Cleaning mech - keeps commander's quarters pristine -->
+      <BTG_Mech_Cleansweeper MayRequire="Ludeon.RimWorld.Biotech">0.5</BTG_Mech_Cleansweeper>
+    </parts>
+
+  </LayoutRoomDef>
+</Defs>

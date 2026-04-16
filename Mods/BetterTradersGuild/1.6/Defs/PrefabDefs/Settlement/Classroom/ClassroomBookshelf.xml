@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Better Traders Guild - Classroom Bookshelf Prefab
+    Edge-aligned bookcase for classroom rooms with textbooks pre-stocked.
+
+    Features:
+    - 2x1 prefab size
+    - Edge placement (against walls)
+
+    Design (top view, North is up, wall at z=0):
+        x: 0 1
+    z=0:   B B
+
+    Legend:
+    B = Bookcase (wood, facing into room)
+        + 2 TextBooks (spawned at same position, auto-inserted into storage)
+  -->
+
+  <PrefabDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>BTG_ClassroomBookshelf_Edge</defName>
+    <edgeOnly>true</edgeOnly>
+    <size>(2,1)</size>
+    <things>
+      <!-- Bookcase (wooden, faces into room) -->
+      <Bookcase>
+        <position>(0,0,0)</position>
+        <relativeRotation>Opposite</relativeRotation>
+        <stuff>WoodLog</stuff>
+      </Bookcase>
+
+      <!-- Textbooks (spawned at same position = placed inside bookcase) -->
+      <TextBook>
+        <quality>Good</quality>
+        <positions>
+          <li>(0,0,0)</li>
+          <li>(0,0,0)</li>
+        </positions>
+      </TextBook>
+    </things>
+  </PrefabDef>
+</Defs>

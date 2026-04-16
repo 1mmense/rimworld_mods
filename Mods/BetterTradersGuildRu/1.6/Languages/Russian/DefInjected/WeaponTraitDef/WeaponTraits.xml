@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SilverInlay -->
+  <SilverInlay.label>серебряная инкрустация</SilverInlay.label>
+  <SilverInlay.description>Это оружие инкрустировано серебром. Торговцы заплатят за него больше.</SilverInlay.description>
+  <SilverInlay.traitAdjectives.0>серебряный</SilverInlay.traitAdjectives.0>
+  <SilverInlay.traitAdjectives.1>посеребрённый</SilverInlay.traitAdjectives.1>
+  <SilverInlay.traitAdjectives.2>блестящий</SilverInlay.traitAdjectives.2>
+  <SilverInlay.traitAdjectives.3>серебристый</SilverInlay.traitAdjectives.3>
+  <SilverInlay.traitAdjectives.4>изящный</SilverInlay.traitAdjectives.4>
+
+</LanguageData>

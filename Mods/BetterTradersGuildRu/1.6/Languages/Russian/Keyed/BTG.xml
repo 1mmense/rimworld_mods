@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ========== FLOAT MENU OPTIONS ========== -->
+  <BTG_RequiresSignalJammer>(требуется подавитель сигналов)</BTG_RequiresSignalJammer>
+  <BTG_NoNegotiator>Нет способного переговорщика</BTG_NoNegotiator>
+
+  <!-- ========== INSPECT STRINGS ========== -->
+  <BTG_DockedVessel>Пристыкованное судно</BTG_DockedVessel>
+  <!-- {0} = trader label, {1} = days remaining (e.g., "3.2") -->
+  <BTG_DockedVesselDeparts>{0}: {1} (отбывает через {2} дн.)</BTG_DockedVesselDeparts>
+
+  <!-- ========== MOD SETTINGS: SECTION HEADERS ========== -->
+  <BTG_Settings_Trading>Торговля</BTG_Settings_Trading>
+  <BTG_Settings_MapGeneration>Генерация карты</BTG_Settings_MapGeneration>
+
+  <!-- ========== MOD SETTINGS: TRADER ROTATION ========== -->
+  <!-- {0} = days -->
+  <BTG_Settings_TraderRotationInterval>Интервал ротации торговцев: {0} дн.</BTG_Settings_TraderRotationInterval>
+  <BTG_Settings_Vanilla>(Ваниль)</BTG_Settings_Vanilla>
+  <BTG_Settings_BTGRecommended>(Рекомендовано BTG)</BTG_Settings_BTGRecommended>
+  <BTG_Settings_TraderRotationDesc1>Как часто меняются орбитальные торговцы в поселениях Торговой гильдии.</BTG_Settings_TraderRotationDesc1>
+  <BTG_Settings_TraderRotationDesc2>Меньшие значения = больше разнообразия, но меньше времени, чтобы добраться до дальних поселений.</BTG_Settings_TraderRotationDesc2>
+
+  <!-- ========== MOD SETTINGS: CUSTOM LAYOUTS ========== -->
+  <BTG_Settings_UseCustomLayouts>Использовать кастомный генератор карт поселений</BTG_Settings_UseCustomLayouts>
+  <BTG_Settings_UseCustomLayoutsDesc>Генерировать поселения Торговой гильдии с менее заброшенным видом.\nОтключите, если используете другие моды на генерацию карт или предпочитаете ванильные планировки.</BTG_Settings_UseCustomLayoutsDesc>
+
+  <!-- ========== MOD SETTINGS: CARGO VAULT ========== -->
+  <BTG_Settings_EnableCargoVault>Включить доступ к грузовому хранилищу</BTG_Settings_EnableCargoVault>
+  <BTG_Settings_EnableCargoVaultDesc>Если включено, люки грузовых хранилищ в ангарах шаттлов можно взломать для доступа к торговым запасам.\nЕсли отключено, грузовые хранилища появляются запечатанными и недоступными.\nВлияет только на вновь сгенерированные поселения.</BTG_Settings_EnableCargoVaultDesc>
+
+  <!-- ========== MOD SETTINGS: SENTRY DRONES ========== -->
+  <!-- {0} = percentage -->
+  <BTG_Settings_SentryDronePresence>Присутствие дополнительных сторожевых дронов: {0}%</BTG_Settings_SentryDronePresence>
+  <BTG_Settings_SentryDroneDesc>Множитель очков угрозы, используемый для дополнительных патрульных сторожевых дронов.</BTG_Settings_SentryDroneDesc>
+
+  <!-- ========== MOD SETTINGS: DEFENDER THREAT POINTS ========== -->
+  <!-- {0} = multiplier (e.g., "1.5") -->
+  <BTG_Settings_ThreatMultiplier>Множитель очков угрозы защитников: {0}x</BTG_Settings_ThreatMultiplier>
+  <BTG_Settings_ThreatMultiplierDesc>Более высокие значения = больше/сильнее изначальные защитники при входе в поселение.</BTG_Settings_ThreatMultiplierDesc>
+  <!-- {0} = points -->
+  <BTG_Settings_MinThreatPoints>Минимальные очки угрозы защитников: {0}</BTG_Settings_MinThreatPoints>
+  <BTG_Settings_MinThreatPointsDesc>Предотвращает падение силы изначальных защитников ниже этого значения при низком богатстве.</BTG_Settings_MinThreatPointsDesc>
+
+  <!-- ========== MOD SETTINGS: LIFE SUPPORT ========== -->
+  <!-- {0} = watts -->
+  <BTG_Settings_LifeSupportPower>Выработка энергии системой жизнеобеспечения: {0} Вт</BTG_Settings_LifeSupportPower>
+  <BTG_Settings_LifeSupportDesc>Выработка энергии орбитальными системами жизнеобеспечения. Требует перезапуска игры.</BTG_Settings_LifeSupportDesc>
+
+  <!-- ========== MOD SETTINGS: SALVAGERS RAIDS ========== -->
+  <!-- {0} = multiplier (e.g., "3.0") -->
+  <BTG_Settings_SalvagersRaidWeight>Вероятность рейдов Мусорщиков на картах ТГ: {0}x</BTG_Settings_SalvagersRaidWeight>
+  <BTG_Settings_SalvagersRaidWeightDesc>При нападении на поселения Торговой гильдии рейды Мусорщиков становятся более вероятными.</BTG_Settings_SalvagersRaidWeightDesc>
+
+  <!-- ========== MOD SETTINGS: MOD NAME ========== -->
+  <BTG_Settings_ModName>Better Traders Guild</BTG_Settings_ModName>
+
+  <!-- ========== CARGO VAULT HATCH ========== -->
+  <BTG_CargoVaultHatch_RelockLabel>Запереть грузовое хранилище</BTG_CargoVaultHatch_RelockLabel>
+  <BTG_CargoVaultHatch_RelockDesc>Запереть грузовое хранилище. Содержимое вернется в инвентарь станции.</BTG_CargoVaultHatch_RelockDesc>
+
+  <!-- ========== ONE-TIME FIX NOTIFICATIONS ========== -->
+  <!-- {0} = mod name (colorized) -->
+  <BTG_EmpireRelationFix_DialogTitle>{0}: Обновление</BTG_EmpireRelationFix_DialogTitle>
+  <!-- {0} = Empire faction name, {1} = player faction name, {2} = mod name (all colorized) -->
+  <BTG_EmpireRelationFix_DialogBody>Ошибка в предыдущей версии {2} приводила к тому, что фракция {0} всегда оставалась враждебной при игре за {1}.\n\nЭто было исправлено.\n\nХотите сбросить отношения с {0} на нейтральные или пока оставить их враждебными?</BTG_EmpireRelationFix_DialogBody>
+  <BTG_EmpireRelationFix_Neutral>Сбросить на нейтральные</BTG_EmpireRelationFix_Neutral>
+  <BTG_EmpireRelationFix_LeaveHostile>Оставить враждебными</BTG_EmpireRelationFix_LeaveHostile>
+
+  <!-- ========== SCENARIO: GAME START DIALOGS ========== -->
+  <BTG_GameStartDialog_ExiledTraders>Транспондер вашей гильдии мёртв, и улей механоидов отслеживает ваш сигнал. Их ужасающие машины-убийцы скоро прибудут. Соберите ценные гравилайтовые панели, а затем используйте свой гравикорабль, чтобы сбежать в безопасное место на планете внизу.\n\nЧтобы запустить гравикорабль, выберите консоль пилота, а затем команду запуска.\n\nНа карте мира нажмите «обзор планеты», чтобы выбрать место для посадки.\n\nГильдия не поможет вам, и куда бы вы ни пошли, механоиды в конце концов найдут вас. Чтобы остановить их, вы должны найти и уничтожить сам улей механоидов.</BTG_GameStartDialog_ExiledTraders>
+  <BTG_GameStartDialog_IndependentTraders>Торговая частота щебечет слова прощания, когда ваш шаттл покидает орбитальное кольцо. Годы рейсов на гильдию, разделяющаяся прибыль и переполненные стыковочные ангары — всё это позади. Никаких обид. Просто более серьёзные планы.\n\nВаш шаттл мчится к ничейным пустошам, однако одного лишь серебра здесь для выживания не хватит. Гильдия всё ещё готова вести дела со старыми друзьями, но для начала — вам нужно найти новый дом.</BTG_GameStartDialog_IndependentTraders>
+
+</LanguageData>
