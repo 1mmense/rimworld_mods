@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <ShowHair.ShowHair>Show Hair</ShowHair.ShowHair>
+    <ShowHair.OnlyApplyToColonists>Only Apply to Colonists</ShowHair.OnlyApplyToColonists>
+    <ShowHair.HideHat>Hide Hat</ShowHair.HideHat>
+    <ShowHair.ShowsHair>Show Hair</ShowHair.ShowsHair>
+    <ShowHair.HidesAllHair>Hide All Hair</ShowHair.HidesAllHair>
+    <ShowHair.HidesHairShowsBeard>Hide Hair, Show Beard</ShowHair.HidesHairShowsBeard>
+    <ShowHair.ShowsHairHidesBeard>Show Hair, Hide Beard</ShowHair.ShowsHairHidesBeard>
+    <ShowHair.HairThatWillHideHats>Hair That All Hats Will Hide</ShowHair.HairThatWillHideHats>
+    <ShowHair.UseDontShaveHead>Use "Don't Shave Your Hair" hairs</ShowHair.UseDontShaveHead>
+    <ShowHair.all>All</ShowHair.all>
+    <ShowHair.any>Any</ShowHair.any>
+    <ShowHair.Always>Always</ShowHair.Always>
+    <ShowHair.AddSettingEntry>Add Setting Entry</ShowHair.AddSettingEntry>
+    <!--Tooltips-->
+    <ShowHair.AnyAllTooltip>
+        This toggles whether one of the checked/unchecked conditions
+        must match/not match, or if all of them must match/not match
+    </ShowHair.AnyAllTooltip>
+    <ShowHair.DropdownTooltip>Determines whether hat, hairs and beards are hidden when conditions match.</ShowHair.DropdownTooltip>
+    <ShowHair.AddSettingEntryTooltip>
+        Setting entries are evaluated from top to bottom,
+        using the display options from the first matching entry.
+    </ShowHair.AddSettingEntryTooltip>
+    <ShowHair.ConditionsTooltip>
+        If the checkbox is checked, then the condition must be true (e.g. pawn is drafted if drafted is checked) for this entry to apply.
+        If the checkbox is unchecked, then the condition must be false (e.g. pawn is undrafted if drafted is unchecked) for this entry to apply.
+        If the checkbox is yellow, then the condition is not checked for this entry. (e.g. for drafted it will apply whether or not the pawn is drafted.)
+        LEAVE ALL OF THEM YELLOW IF YOU WANT THIS ENTRY TO ALWAYS APPLY.
+    </ShowHair.ConditionsTooltip>
+    <ShowHair.PartialDescription>Either</ShowHair.PartialDescription>
+</LanguageData>
