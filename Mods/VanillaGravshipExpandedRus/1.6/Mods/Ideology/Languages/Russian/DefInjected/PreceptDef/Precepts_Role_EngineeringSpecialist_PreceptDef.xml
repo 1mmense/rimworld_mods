@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Mods\Ideology\Defs\PreceptDefs\Precepts_Role_EngineeringSpecialist.xml -->
-	<!-- EN: engineering specialist -->
-	<VGE_IdeoRole_EngineeringSpecialist.label>инженер-специалист</VGE_IdeoRole_EngineeringSpecialist.label>
-	<!-- EN: A special ideoligious status focused on maintaining and improving gravship systems to the exclusion of all else. This specialized role grants increased construction and repair efficiency, and the ability to coordinate nearby crew to improve maintenance operations across the ship. Holders of this role dedicate themselves entirely to the ship’s well-being. -->
-	<VGE_IdeoRole_EngineeringSpecialist.description>Особый идеолигиозный статус, полностью сосредоточенный на обслуживании и улучшении систем гравишипа в ущерб всему остальному. Эта специализированная роль повышает эффективность строительства и ремонта, а также даёт возможность координировать ближайший экипаж для улучшения работ по обслуживанию по всему кораблю. Носители этой роли целиком посвящают себя благополучию судна.</VGE_IdeoRole_EngineeringSpecialist.description>
-</LanguageData>

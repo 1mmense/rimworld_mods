@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Astropede.xml -->
-	<!-- EN: astropede -->
-	<VGE_Astropede.label>косможук</VGE_Astropede.label>
-	<!-- EN: Plural astropede -->
-	<VGE_Astropede.lifeStages.1.labelPlural>косможук</VGE_Astropede.lifeStages.1.labelPlural>
-</LanguageData>

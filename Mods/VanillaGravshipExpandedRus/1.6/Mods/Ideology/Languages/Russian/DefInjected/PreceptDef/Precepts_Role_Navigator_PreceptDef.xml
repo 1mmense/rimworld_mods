@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Mods\Ideology\Defs\PreceptDefs\Precepts_Role_Navigator.xml -->
-	<!-- EN: navigator -->
-	<VGE_IdeoRole_Navigator.label>навигатор</VGE_IdeoRole_Navigator.label>
-	<!-- EN: A special ideoligious status focused on the study of stellar phenomena and long-range navigation. Navigators guide the gravship through orbit and deep space, interpreting gravitational currents and charting safe passage between worlds. Their understanding of the cosmos greatly improves the ship’s research efficiency and travel safety. -->
-	<VGE_IdeoRole_Navigator.description>Особый идеолигиозный статус, посвящённый изучению звёздных явлений и дальнему навигационному делу. Навигаторы ведут гравишип по орбите и в глубинах космоса, интерпретируя гравитационные потоки и прокладывая безопасные маршруты между мирами. Их понимание космоса значительно повышает эффективность исследований и безопасность путешествий корабля.</VGE_IdeoRole_Navigator.description>
-</LanguageData>

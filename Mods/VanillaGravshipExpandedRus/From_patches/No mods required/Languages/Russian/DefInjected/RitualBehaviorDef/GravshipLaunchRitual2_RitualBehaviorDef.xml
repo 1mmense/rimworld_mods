@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- _Translation\Grabbed_Defs_from_patches\GravshipLaunchRitual2.xml -->
-	<!-- EN: gravtech researcher -->
-	<GravshipLaunch.roles.0.label>гравтех-исследователь</GravshipLaunch.roles.0.label>
-	<!-- EN: gravtech engineer -->
-	<GravshipLaunch.roles.1.label>гравтех-инженер</GravshipLaunch.roles.1.label>
-</LanguageData>

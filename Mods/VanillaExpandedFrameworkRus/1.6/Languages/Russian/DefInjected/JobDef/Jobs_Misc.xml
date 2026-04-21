@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: equipping TargetA. -->
+  <VFEC_EquipShield.reportString>берёт TargetA</VFEC_EquipShield.reportString>
+  <!-- EN: leaving. -->
+  <VFEC_LeaveMap.reportString>уходит</VFEC_LeaveMap.reportString>
+  <!-- EN: customizing TargetA. -->
+  <VEF_CustomizeItem.reportString>настраивает TargetA</VEF_CustomizeItem.reportString>
+  <!-- EN: entering TargetA. -->
+  <KCSG_GoToPassage.reportString>входит в TargetA</KCSG_GoToPassage.reportString>
+  <!-- EN: using TargetA to teleport to TargetB -->
+  <VEF_UseDoorTeleporter.reportString>использует TargetA для телепортации к TargetB</VEF_UseDoorTeleporter.reportString>
+  <!-- EN: looting TargetA. -->
+  <VFE_Loot.reportString>грабит TargetA</VFE_Loot.reportString>
+  <!-- EN: studying TargetA. -->
+  <VFE_StudyBuilding.reportString>изучает TargetA</VFE_StudyBuilding.reportString>
+  <!-- EN: refueling TargetA with ammunition. -->
+  <VEF_RefuelSecondary.reportString>заряжает TargetA боеприпасами</VEF_RefuelSecondary.reportString>
+</LanguageData>

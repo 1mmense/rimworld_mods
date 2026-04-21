@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Agriculture.xml -->
-	<!-- EN: agrocell -->
-	<VGE_Agrocell.label>агроячейка</VGE_Agrocell.label>
-	<!-- EN: An enclosed, space-efficient growing unit designed for use on gravships... -->
-	<VGE_Agrocell.description>Закрытая компактная ячейка для выращивания растений, предназначенная для гравишипов. Встроена в пол, чтобы не мешать передвижению, и оснащена встроенными солнцелампами и питательной системой. Всё это должно быть под напряжением — если питание отключить, растения погибнут.</VGE_Agrocell.description>
-</LanguageData>

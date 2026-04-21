@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- Defs\KeyBindingDefs\KeyBindings.xml -->
+	<!--           EN: Publish log file (hold Ctrl) -->
+	<PublishLogs.label>Опубликовать log-файлы (удерживайте Ctrl)</PublishLogs.label>
+	<!--           EN: Open log file -->
+	<OpenLogFile.label>Открыть log-файл</OpenLogFile.label>
+	<!--               EN: Restart Rimworld -->
+	<RestartRimworld.label>Перезапустить Rimworld</RestartRimworld.label>
+	<!--                 EN: Open Mod Setting window -->
+	<HLOpenModSettings.label>Открыть окно настройки мода</HLOpenModSettings.label>
+	<!--                EN: Open Mod Update News window -->
+	<HLOpenUpdateNews.label>Открыть новости обновления мода</HLOpenUpdateNews.label>
+</LanguageData>

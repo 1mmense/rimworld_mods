@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- _Translation\Grabbed_Defs_from_patches\GravFieldExtender1.xml -->
-	<!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine. A gravship can support up to ten grav field extenders. -->
-	<GravFieldExtender.description>Ультратех-устройство для увеличения размеров гравишипа. Оно расширяет зону, в которой можно строить субструктуру, и увеличивает её допустимое количество для гравишипа. Должно быть построено рядом с грав-двигателем. Гравишип может поддерживать до десяти расширителей гравполя.</GravFieldExtender.description>
-</LanguageData>

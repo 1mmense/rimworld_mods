@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_GravExtenders.xml -->
-	<!-- EN: grav field amplifier -->
-	<VGE_GravFieldAmplifier.label>усилитель гравиполя</VGE_GravFieldAmplifier.label>
-	<!-- EN: An advanced ultratech device that dramatically increases the size of a gravship... -->
-	<VGE_GravFieldAmplifier.description>Продвинутое ультратехнологичное устройство, которое значительно увеличивает размер гравишипа. Расширяет область, где можно строить субструктуру, и повышает её максимальное количество, которое может поддерживать гравишип. Должно быть построено рядом с грав-двигателем. Гравишип может поддерживать до четырёх усилителей гравиполя.</VGE_GravFieldAmplifier.description>
-</LanguageData>

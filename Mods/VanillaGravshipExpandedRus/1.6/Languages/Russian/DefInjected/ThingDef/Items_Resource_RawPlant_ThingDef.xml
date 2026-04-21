@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Defs\ThingDefs_Item\Items_Resource_RawPlant.xml -->
-	<!-- EN: oxyalgae -->
-	<VGE_Oxyalgae.label>оксиводоросли</VGE_Oxyalgae.label>
-	<!-- EN: A dense mat of harvested aquatic algae, cultivated for use in life support systems. Oxyalgae provides steady oxygen generation but spoils quickly if not processed. -->
-	<VGE_Oxyalgae.description>Плотная масса собранных водных водорослей, выращенных для систем жизнеобеспечения. Оксиводоросли стабильно выделяют кислород, но быстро портятся без переработки.</VGE_Oxyalgae.description>
-</LanguageData>

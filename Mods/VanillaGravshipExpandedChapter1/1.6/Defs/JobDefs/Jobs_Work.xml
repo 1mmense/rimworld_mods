@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>VGE_BeatAstrofire</defName>
+		<driverClass>VanillaGravshipExpanded.JobDriver_BeatAstrofire</driverClass>
+		<reportString>beating astrofire out.</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	<JobDef>
+		<defName>VGE_ExtinguishAstrofiresNearby</defName>
+		<driverClass>VanillaGravshipExpanded.JobDriver_ExtinguishAstrofiresNearby</driverClass>
+		<reportString>extinguishing astrofires nearby.</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	<JobDef>
+		<defName>VGE_ExtinguishSelfAstrofire</defName>
+		<driverClass>VanillaGravshipExpanded.JobDriver_ExtinguishSelfAstrofire</driverClass>
+		<reportString>extinguishing self.</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	<JobDef>
+		<defName>VGE_MaintainGrav</defName>
+		<driverClass>VanillaGravshipExpanded.JobDriver_MaintainGrav</driverClass>
+		<reportString>maintaining TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>VGE_CollectGravdata</defName>
+		<driverClass>VanillaGravshipExpanded.JobDriver_CollectGravdata</driverClass>
+		<reportString>collecting gravdata.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>VGE_ReplenishOxygenPack</defName>
+		<driverClass>VanillaGravshipExpanded.JobDriver_RefillOxygenPack</driverClass>
+		<reportString>refilling TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+  <JobDef>
+    <defName>VGE_BuildVacBarrierRoofs</defName>
+    <driverClass>VanillaGravshipExpanded.JobDriver_BuildVacBarrierRoof</driverClass>
+    <reportString>building vac barrier roof.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

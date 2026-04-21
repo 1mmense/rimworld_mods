@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Astronaut.xml -->
-	<!-- EN: astronaut -->
-	<VGE_Astronaut.label>космонавт</VGE_Astronaut.label>
-	<!-- EN: Plural astronaut -->
-	<VGE_Astronaut.lifeStages.1.labelPlural>космонавт</VGE_Astronaut.lifeStages.1.labelPlural>
-</LanguageData>

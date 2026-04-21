@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: ranged cooldown factor -->
+  <VEF_RangedCooldownFactor.label>время между выстрелами</VEF_RangedCooldownFactor.label>
+  <!-- EN: The cooldown on ranged weapons of the wearer is multiplied by this value. -->
+  <VEF_RangedCooldownFactor.description>Время, необходимое для перезарядки оружия умножается на это значение.</VEF_RangedCooldownFactor.description>
+
+  <!-- EN: verb range factor -->
+  <VEF_VerbRangeFactor.label>дальность стрельбы</VEF_VerbRangeFactor.label>
+  <!-- EN: verb range factor (people) -->
+  <VEF_VerbRangeFactor.labelForFullStatList>дальность стрельбы (люди)</VEF_VerbRangeFactor.labelForFullStatList>
+  <!-- EN: The range on weapons is multiplied by this value. -->
+  <VEF_VerbRangeFactor.description>Дальнобойность оружия владельца умножается на это значение.</VEF_VerbRangeFactor.description>
+
+  <!-- EN: Shield max energy offset -->
+  <VEF_EnergyShieldEnergyMaxOffset.label>сдвиг макс. заряда щита</VEF_EnergyShieldEnergyMaxOffset.label>
+  <!-- EN: Offset of the maximum shield energy that the user can boost through various means. -->
+  <VEF_EnergyShieldEnergyMaxOffset.description>Сдвиг максимума энергии щита, который можно увеличить различными путями.</VEF_EnergyShieldEnergyMaxOffset.description>
+
+  <!-- EN: Shield max energy factor -->
+  <VEF_EnergyShieldEnergyMaxFactor.label>множ. макс. заряда щита</VEF_EnergyShieldEnergyMaxFactor.label>
+  <!-- EN: Factor of the maximum shield energy that the user can boost through various means. -->
+  <VEF_EnergyShieldEnergyMaxFactor.description>Множитель максимума энергии щита, который можно увеличить различными путями.</VEF_EnergyShieldEnergyMaxFactor.description>
+  
+  <!-- EN: shield radius -->
+  <VEF_EnergyShieldRadiusApparel.label>радиус действия щита</VEF_EnergyShieldRadiusApparel.label>
+  <!-- EN: The area covered when the energy shield is active. -->
+  <VEF_EnergyShieldRadiusApparel.description>Область, которую закрывает щит во время своей работы.</VEF_EnergyShieldRadiusApparel.description>
+  <!-- EN: {0} c -->
+  <VEF_EnergyShieldRadiusApparel.formatString>{0} с</VEF_EnergyShieldRadiusApparel.formatString>
+
+  <!-- EN: melee attack damage factor -->
+  <VEF_MeleeAttackDamageFactor.label>множ. урона в ближнем</VEF_MeleeAttackDamageFactor.label>
+  <!-- EN: A multiplier on melee attack damage. -->
+  <VEF_MeleeAttackDamageFactor.description>Множитель урона в ближнем бою.</VEF_MeleeAttackDamageFactor.description>
+
+  <!-- EN: range attack damage factor -->
+  <VEF_RangeAttackDamageFactor.label>множ. урона в дальнем</VEF_RangeAttackDamageFactor.label>
+  <!-- EN: A multiplier on range attack damage. -->
+  <VEF_RangeAttackDamageFactor.description>Множитель урона в дальнем бою.</VEF_RangeAttackDamageFactor.description>
+
+  <!-- EN: body food capacity multiplier -->
+  <VEF_FoodCapacityMultiplier.label>множ. вместимости желудка тела</VEF_FoodCapacityMultiplier.label>
+  <!-- EN: Increases the size of the pawn's hunger bar. This does not affect hunger. -->
+  <VEF_FoodCapacityMultiplier.description>Увеличивает размер желудка персонажа в зависимости от данного тела. Не влияет на голод.</VEF_FoodCapacityMultiplier.description>
+
+  <!-- EN: growth point multiplier -->
+  <VEF_GrowthPointMultiplier.label>множ. уровня развития</VEF_GrowthPointMultiplier.label>
+  <!-- EN: Increases the amount of growth points accumulated by children when learning -->
+  <VEF_GrowthPointMultiplier.description>Ускоряет заполнение текущего уровня развития ребёнка в процессе обучения.</VEF_GrowthPointMultiplier.description>
+
+  <!-- EN: body size offset -->
+  <VEF_BodySize_Offset.label>сдвиг размера тела</VEF_BodySize_Offset.label>
+  <!-- EN: Increases the size of the pawn relative to their current size. -->
+  <VEF_BodySize_Offset.description>Увеличивает размер тела персонажа относительно данного значения.</VEF_BodySize_Offset.description>
+
+  <!-- EN: body size multiplier -->
+  <VEF_BodySize_Multiplier.label>множ. размера тела</VEF_BodySize_Multiplier.label>
+  <!-- EN: Increases the size of the pawn by a multiple of their current size. -->
+  <VEF_BodySize_Multiplier.description>Увеличивает размер тела персонажа на данное значение.</VEF_BodySize_Multiplier.description>
+
+  <!-- EN: cosmetic body size offset -->
+  <VEF_CosmeticBodySize_Offset.label>сдвиг размера тела (косм.)</VEF_CosmeticBodySize_Offset.label>
+  <!-- EN: Increases the size of the pawn relative to their current size. -->
+  <VEF_CosmeticBodySize_Offset.description>Увеличивает размер тела персонажа относительно данного значения.</VEF_CosmeticBodySize_Offset.description>
+
+  <!-- EN: cosmetic body size multiplier -->
+  <VEF_CosmeticBodySize_Multiplier.label>множ. размера тела (косм.)</VEF_CosmeticBodySize_Multiplier.label>
+  <!-- EN: Increases the size of the pawn by a multiple of their current size. -->
+  <VEF_CosmeticBodySize_Multiplier.description>Увеличивает размер тела персонажа на данное значение.</VEF_CosmeticBodySize_Multiplier.description>
+
+  <!-- EN: head size multiplier -->
+  <VEF_HeadSize_Cosmetic.label>множ. размера головы</VEF_HeadSize_Cosmetic.label>
+
+  <!-- EN: pawn render offset -->
+  <VEF_PawnRenderPosOffset.label>сдвиг отображения персонажей</VEF_PawnRenderPosOffset.label>
+  <!-- EN: Modifies the pawn's rendered position in y-axis. -->
+  <VEF_PawnRenderPosOffset.description>Изменяет позицию персонажа по оси y.</VEF_PawnRenderPosOffset.description>
+
+  <!-- EN: MTB Lovin Factor -->
+  <VEF_MTBLovinFactor.label>частота поиска близости</VEF_MTBLovinFactor.label>
+  <!-- EN: A factor of the mean time between (MTB) this person looking for some lovin'. -->
+  <VEF_MTBLovinFactor.description>Фактор, определяющий среднее время до того, как скоро этот персонаж начнёт искать близость.</VEF_MTBLovinFactor.description>
+
+  <!-- EN: melee weapon range -->
+  <VEF_MeleeWeaponRange.label>радиус оружия ближнего боя</VEF_MeleeWeaponRange.label>
+  <!-- EN: The range of this melee weapon. -->
+  <VEF_MeleeWeaponRange.description>Радиус действия этого оружия ближнего боя.</VEF_MeleeWeaponRange.description>
+
+  <!-- EN: thought duration factor - positive -->
+  <VEF_PositiveThoughtDurationFactor.label>длительность позитивных мыслей</VEF_PositiveThoughtDurationFactor.label>
+  <!-- EN: The duration of positive thoughts is multiplied by this value. -->
+  <VEF_PositiveThoughtDurationFactor.description>Длительность позитивных мыслей умножается на это значение.</VEF_PositiveThoughtDurationFactor.description>
+
+  <!-- EN: thought duration factor - neutral -->
+  <VEF_NeutralThoughtDurationFactor.label>длительность нейтральных мыслей</VEF_NeutralThoughtDurationFactor.label>
+  <!-- EN: The duration of neutral thoughts is multiplied by this value. -->
+  <VEF_NeutralThoughtDurationFactor.description>Длительность нейтральных мыслей умножается на это значение.</VEF_NeutralThoughtDurationFactor.description>
+
+  <!-- EN: thought duration factor - negative -->
+  <VEF_NegativeThoughtDurationFactor.label>длительность негативных мыслей</VEF_NegativeThoughtDurationFactor.label>
+  <!-- EN: The duration of negative thoughts is multiplied by this value. -->
+  <VEF_NegativeThoughtDurationFactor.description>Длительность негативных мыслей умножается на это значение.</VEF_NegativeThoughtDurationFactor.description>
+
+  <!-- EN: learning rate -->
+  <VEF_BuildingLearningRateOffset.label>скорость обучения</VEF_BuildingLearningRateOffset.label>
+  <!-- EN: A multiplier on how quickly children learn during lessons which are assisted by this. -->
+  <VEF_BuildingLearningRateOffset.description>Множитель скорости обучения детей во время уроков с использованием этого.</VEF_BuildingLearningRateOffset.description>
+
+  <!-- EN: ranged dodge chance -->
+  <VEF_RangedDodgeChance.label>шанс уклонения от выстрела</VEF_RangedDodgeChance.label>
+  <!-- EN: Chance to dodge a ranged attack that would've otherwise hit. -->
+  <VEF_RangedDodgeChance.description>Шанс уклониться от дальней атаки, которая иначе попала бы в цель.</VEF_RangedDodgeChance.description>
+
+  <!-- EN: Mass carry capacity-->
+  <VEF_MassCarryCapacity.label>Вес переносимого груза</VEF_MassCarryCapacity.label>
+  <!-- EN: Total mass carrying capacity of the pawn in caravans. -->
+  <VEF_MassCarryCapacity.description>Общий вес переносимого в караване груза персонажем.</VEF_MassCarryCapacity.description>
+  <!-- EN: {0} kg -->
+  <VEF_MassCarryCapacity.formatString>{0} кг</VEF_MassCarryCapacity.formatString>
+  <!-- EN: {0} kg -->
+  <VEF_MassCarryCapacity.formatStringUnfinalized>{0} кг</VEF_MassCarryCapacity.formatStringUnfinalized>
+</LanguageData>

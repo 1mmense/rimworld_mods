@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: Sometimes Raids Go Wrong -->
+  <SRGW_ModName>Sometimes Raids Go Wrong</SRGW_ModName>
+  <!-- EN: Minimum number on dice -->
+  <SRGW_Low>Минимальное значение</SRGW_Low>
+  <!-- EN: Maximum number on dice -->
+  <SRGW_High>Максимальное значение</SRGW_High>
+  <!-- EN: Toggle debug mode -->
+  <SRGW_Debug>Включить режим отладки</SRGW_Debug>
+  <!-- EN: Unused toggle -->
+  <SRGW_Time>Не используется</SRGW_Time>
+  <!-- EN: To stay up to date with the latest version of this mod, visit Ryder's Mods or add it on Steam Workshop. -->
+  <SRGW_OfficialSites>Чтобы быть в курсе обновлений, посетите сайт «Ryder's Mods» или подпишитесь на мод в мастерской.</SRGW_OfficialSites>
+  <!-- EN: Overall weight -->
+	<SRGW_OverallWeightLabel>Общий вес</SRGW_OverallWeightLabel>
+  <!-- EN: Enabled Events -->
+  <SRGW_EventListingTitle>Включённые события</SRGW_EventListingTitle>
+  <!-- EN: 1: Raiders are afflicted by mechanites. May appear to age rapidly. -->
+  <SRGW_Event_1>1: Налётчики заражены механитами. Могут начать быстрее стареть.</SRGW_Event_1>
+  <!-- EN: 2: Raiders are attacked by manhunters -->
+  <SRGW_Event_2>2: Налётчики атакованы агрессивными животными</SRGW_Event_2>
+  <!-- EN: or raider drop pods malfunction and crash instead of landing. -->
+  <SRGW_Event_2_Alt>или капсулы налётчиков потеряли управление и разбились вместо приземления.</SRGW_Event_2_Alt>
+  <!-- EN: 3: Meteorites fall from the sky near the raiders -->
+  <SRGW_Event_3>3: Метеориты падают с неба на налётчиков</SRGW_Event_3>
+  <!-- EN: or raiders are intoxicated to varying degrees when they drop. -->
+  <SRGW_Event_3_Alt>или высадившиеся налётчики оказываются под интоксикацией в разных степенях.</SRGW_Event_3_Alt>
+  <!-- EN: 4: Raiders are pursued by mechanoids, some of them on fire -->
+  <SRGW_Event_4>4: Налётчиков преследуют механоиды, некоторые из них в огне</SRGW_Event_4>
+  <!-- EN: or some of the raiders decide to run wild. -->
+  <SRGW_Event_4_Alt>или кто-то из налётчиков решит одичать.</SRGW_Event_4_Alt>
+  <!-- EN: Raiders are afflicted by mechanites. May appear to age rapidly. -->
+  <SRGW_Event_RapidAgeing>Налётчики заражены механитами. Могут начать быстрее стареть.</SRGW_Event_RapidAgeing>
+  <!-- EN: Raiders are attacked by manhunters -->
+  <SRGW_Event_Manhunters>Налётчики атакованы агрессивными животными</SRGW_Event_Manhunters>
+  <!-- EN: Raider drop pods malfunction and crash instead of landing. -->
+  <SRGW_Event_PodMalfunction>Капсулы налётчиков потеряли управление и разбились вместо приземления.</SRGW_Event_PodMalfunction>
+  <!-- EN: Meteorites fall from the sky near the raiders -->
+  <SRGW_Event_Meteorites>Метеориты падают с неба на налётчиков</SRGW_Event_Meteorites>
+  <!-- EN: Raiders are intoxicated to varying degrees when they drop. -->
+  <SRGW_Event_DrunkDrop>Налётчики оказываются под интоксикацией в разных степенях.</SRGW_Event_DrunkDrop>
+  <!-- EN: Raiders are pursued by mechanoids, some of them on fire -->
+  <SRGW_Event_BurningMen>Налётчиков преследуют механоиды, некоторые из них в огне</SRGW_Event_BurningMen>
+  <!-- EN: Some of the raiders decide to run wild. -->
+  <SRGW_Event_RunWild>Некоторые налётчики решили одичать.</SRGW_Event_RunWild>
+  <!-- EN: Choose things to go wrong -->
+  <SRGW_Debug_Can_Choose>Выберите, что может пойти не так</SRGW_Debug_Can_Choose>
+  <!-- EN: Chosen event -->
+  <SRGW_Debug_Choice>Выбранное событие</SRGW_Debug_Choice>
+  <!-- EN: Change weights of events -->
+	<SRGW_Show_Weights>Изменить веса для событий</SRGW_Show_Weights>
+  <!-- EN: Weight for -->
+	<SRGW_Weight_This>Вес для </SRGW_Weight_This>
+  <!-- EN: Test Weights -->
+	<SRGW_Weight_Test>Тест весов</SRGW_Weight_Test>
+  <!-- EN: Overall weight for raids going wrong -->
+	<SRGW_WeightGoWrong>Общий вес для налётов, которые пошли не по плану</SRGW_WeightGoWrong>
+  <!-- EN: Toggle -->
+	<SRGW_Toggle>Переключить</SRGW_Toggle>
+  <!-- EN: Rapid Ageing -->
+	<SRGW_ShortName_RapidAgeing>Быстрое старение</SRGW_ShortName_RapidAgeing>
+  <!-- EN: Manhunters -->
+	<SRGW_ShortName_Manhunters>Агрессивные животные</SRGW_ShortName_Manhunters>
+  <!-- EN: Pod Malfunction -->
+	<SRGW_ShortName_PodMalfunction>Неисправность капсулы</SRGW_ShortName_PodMalfunction>
+  <!-- EN: Meteorites -->
+	<SRGW_ShortName_Meteorites>Метеориты</SRGW_ShortName_Meteorites>
+  <!-- EN: Drunk Drop -->
+	<SRGW_ShortName_DrunkDrop>Пьяная высадка</SRGW_ShortName_DrunkDrop>
+  <!-- EN: Burning Men -->
+	<SRGW_ShortName_BurningMen>Горящий человек</SRGW_ShortName_BurningMen>
+  <!-- EN: Run Wild -->
+	<SRGW_ShortName_RunWild>Одичание</SRGW_ShortName_RunWild>
+  <!-- EN: Vanilla Events Expanded is active, built in weight slider is disabled. Please adjust in VEE Settings. -->
+	<SRGW_VEEIsActive>Активен мод «Vanilla Events Expanded», поэтому встроенные редактор весов недоступен. Воспользуйтесь настройками в VEE.</SRGW_VEEIsActive>
+  <!-- EN: Reset Settings -->
+	<SRGW_Reset>Сбросить настройки</SRGW_Reset>
+
+</LanguageData>

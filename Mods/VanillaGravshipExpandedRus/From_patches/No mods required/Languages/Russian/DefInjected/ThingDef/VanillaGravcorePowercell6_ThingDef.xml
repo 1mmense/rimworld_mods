@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<!-- _Translation\Grabbed_Defs_from_patches\VanillaGravcorePowercell6.xml -->
-	<!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. Adjacent gravcore power cells will multiply their power output by 15% for each gravcore power cell. -->
-	<GravcorePowerCell.description>Генератор энергии, который пассивно извлекает небольшое количество силы из гравитационных волн, проходящих через гравишип. Соседние энергоячейки гравкора увеличивают выработку на 15% за каждую такую ячейку рядом.</GravcorePowerCell.description>
-</LanguageData>
