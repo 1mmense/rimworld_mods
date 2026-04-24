@@ -5,10 +5,10 @@
   <VWE_Longbow.description>Создавайте длинные луки - лучшее оружие до времен пороха.</VWE_Longbow.description>
 
   <VWE_Crossbow.label>арбалеты</VWE_Crossbow.label>
-  <VWE_Crossbow.description>Позволяет создавать арбалеты, средневековое оружие пригодное против бронированных врагов.</VWE_Crossbow.description>
+  <VWE_Crossbow.description>Позволяет создавать арбалеты - средневековое оружие, пригодное против бронированных врагов.</VWE_Crossbow.description>
 
   <VWE_CompoundBow.label>блочный лук</VWE_CompoundBow.label>
-  <VWE_CompoundBow.description>Позволяет создавать блочные луки, использующие достижения индустриальной эры для высокоточной бесшумной и очень эффективной стрельбы.</VWE_CompoundBow.description>
+  <VWE_CompoundBow.description>Позволяет создавать блочные луки, использующие достижения индустриальной эры для высокоточной, бесшумной и очень эффективной стрельбы.</VWE_CompoundBow.description>
 
   <VWE_Tools.label>инструменты</VWE_Tools.label>
   <VWE_Tools.description>Ковка инструментов для более удобной и эффективной работы.</VWE_Tools.description>
@@ -20,7 +20,7 @@
   <VWE_TrenchWarfare.description>Разработайте доктрину траншейной войны с использованием оружия ближнего боя для драк в окопах.</VWE_TrenchWarfare.description>
 
   <VWE_HeavyWeapons.label>тяжелое оружие</VWE_HeavyWeapons.label>
-  <VWE_HeavyWeapons.description>Создать тяжелое оружие, которое предлагает превосходную огневую мощь, за счет высоких физических требований к владельцу.</VWE_HeavyWeapons.description>
+  <VWE_HeavyWeapons.description>Создать тяжелое оружие, которое предлагает превосходную огневую мощь за счет высоких физических требований к владельцу.</VWE_HeavyWeapons.description>
 
   <VWE_Flamethrower.label>огнемет</VWE_Flamethrower.label>
   <VWE_Flamethrower.description>Создайте огнеметы - оружие, которое создает длинный контролируемый поток огня. Их летальность привела к запретам во многих цивилизованных мирах.</VWE_Flamethrower.description>

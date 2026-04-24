@@ -4,7 +4,7 @@
   <!-- SMOKE GRENADE -->
 
   <VWE_SmokeGrenade.label>дымовая граната</VWE_SmokeGrenade.label>
-  <VWE_SmokeGrenade.description>Простая граната создающая дымовую завесу в зоне падения.</VWE_SmokeGrenade.description>
+  <VWE_SmokeGrenade.description>Простая граната, создающая дымовую завесу в зоне падения.</VWE_SmokeGrenade.description>
   <VWE_SmokeGrenade.verbs.0.label>бросить дымовую гранату</VWE_SmokeGrenade.verbs.0.label>
 
   <VWE_Projectile_SmokeGrenade.label>дымовая граната</VWE_Projectile_SmokeGrenade.label>
@@ -21,11 +21,11 @@
 
   <!-- Flash grenade -->
 
-  <VWE_FlashGrenade.label>свето-шумовая граната</VWE_FlashGrenade.label>
-  <VWE_FlashGrenade.description>Свето-шумовая граната. Временно оглушает органических врагов, полезно для осуществления любых тактических операций.</VWE_FlashGrenade.description>
-  <VWE_FlashGrenade.verbs.0.label>бросить свето-шумовую гранату</VWE_FlashGrenade.verbs.0.label>
+  <VWE_FlashGrenade.label>светошумовая граната</VWE_FlashGrenade.label>
+  <VWE_FlashGrenade.description>Светошумовая граната. Временно оглушает органических врагов, полезно для осуществления любых тактических операций.</VWE_FlashGrenade.description>
+  <VWE_FlashGrenade.verbs.0.label>бросить светошумовую гранату</VWE_FlashGrenade.verbs.0.label>
 
-  <VWE_Projectile_FlashGrenade.label>свето-шумовая граната</VWE_Projectile_FlashGrenade.label>
+  <VWE_Projectile_FlashGrenade.label>светошумовая граната</VWE_Projectile_FlashGrenade.label>
 
 
 </LanguageData>

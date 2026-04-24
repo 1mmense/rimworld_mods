@@ -18,9 +18,9 @@
   <Make_VWE_ToxicGrenade.description>Сделать токсичную гранату.</Make_VWE_ToxicGrenade.description>
   <Make_VWE_ToxicGrenade.jobString>Делает токсичную гранату.</Make_VWE_ToxicGrenade.jobString>
 
-  <Make_VWE_FlashGrenade.label>сделать свето-шумовую гранату</Make_VWE_FlashGrenade.label>
-  <Make_VWE_FlashGrenade.description>Сделать свето-шумовую гранату.</Make_VWE_FlashGrenade.description>
-  <Make_VWE_FlashGrenade.jobString>Делает свето-шумовую гранату.</Make_VWE_FlashGrenade.jobString>
+  <Make_VWE_FlashGrenade.label>сделать светошумовую гранату</Make_VWE_FlashGrenade.label>
+  <Make_VWE_FlashGrenade.description>Сделать светошумовую гранату.</Make_VWE_FlashGrenade.description>
+  <Make_VWE_FlashGrenade.jobString>Делает светошумовую гранату.</Make_VWE_FlashGrenade.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, FueledSmithy, ElectricSmithy -->
