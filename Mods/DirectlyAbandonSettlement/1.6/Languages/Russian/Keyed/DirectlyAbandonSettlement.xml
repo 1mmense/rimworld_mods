@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DAS_AutoRemoveLabel>Автоматически удалять брошенные поселения</DAS_AutoRemoveLabel>
+  <DAS_AutoRemoveTooltip>При включении брошенные поселения будут автоматически удалены без необходимости ручного удаления.</DAS_AutoRemoveTooltip>
+  <DAS_AutoRemoveRespectCooldownLabel>    Учитывать период восстановления</DAS_AutoRemoveRespectCooldownLabel>
+  <DAS_AutoRemoveRespectCooldownTooltip>Если включено, автоматическое удаление будет ждать окончания периода восстановления перед удалением поселения. Если отключено, поселения удаляются немедленно.</DAS_AutoRemoveRespectCooldownTooltip>
+  
+  <DAS_EnableCooldownLabel>Включить задержку удаления покинутых тайлов</DAS_EnableCooldownLabel>
+  <DAS_EnableCooldownTooltip>Если включено, покинутые тайлы будут оставаться заблокированными в течение указанного количества дней, прежде чем их можно будет повторно использовать.</DAS_EnableCooldownTooltip>
+
+  <DAS_CooldownSliderLabel>Удаление тайла через: {0} дней</DAS_CooldownSliderLabel>
+  <DAS_CooldownSliderTooltip>Устанавливает количество внутриигровых дней до автоматического удаления покинутого тайла.</DAS_CooldownSliderTooltip>
+
+  <DAS_CooldownInfo>Тайлы будут автоматически удалены после истечения заданного количества дней.</DAS_CooldownInfo>
+  <DAS_CooldownDisabledLabel>Задержка отключена — тайлы удаляются немедленно.</DAS_CooldownDisabledLabel>
+
+  <DAS_RemoveAbandonedTileLabel>Удалить покинутый тайл</DAS_RemoveAbandonedTileLabel>
+  <DAS_RemoveAbandonedTileDesc>Навсегда удалить этот покинутый тайл с карты мира.</DAS_RemoveAbandonedTileDesc>
+  <DAS_RemoveAbandonedTileConfirm>Вы уверены, что хотите удалить этот покинутый тайл? Это действие необратимо.</DAS_RemoveAbandonedTileConfirm>
+  <DAS_CooldownRemainingLabel>Осталось дней до очистки: {0}</DAS_CooldownRemainingLabel>
+  <DAS_CooldownActive>Перезарядка активна — осталось {0} дн.</DAS_CooldownActive>
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DAS_AutoRemoveLabel>Supprimer automatiquement les tuiles abandonnées</DAS_AutoRemoveLabel>
+  <DAS_AutoRemoveTooltip>Lorsque activé, les tuiles de colonies abandonnées seront automatiquement supprimées sans nécessiter de suppression manuelle.</DAS_AutoRemoveTooltip>
+  <DAS_AutoRemoveRespectCooldownLabel>    Respecter la période de recharge</DAS_AutoRemoveRespectCooldownLabel>
+  <DAS_AutoRemoveRespectCooldownTooltip>Si activé, la suppression automatique attendra l'expiration de la période de recharge avant de supprimer la tuile. Si désactivé, les tuiles sont supprimées immédiatement.</DAS_AutoRemoveRespectCooldownTooltip>
+  
+  <DAS_EnableCooldownLabel>Activer le délai de suppression des colonies abandonnées</DAS_EnableCooldownLabel>
+  <DAS_EnableCooldownTooltip>Si activé, les colonies abandonnées resteront bloquées pendant un certain nombre de jours avant de pouvoir être réutilisées.</DAS_EnableCooldownTooltip>
+
+  <DAS_CooldownSliderLabel>Délai avant suppression des colonies : {0} jours</DAS_CooldownSliderLabel>
+  <DAS_CooldownSliderTooltip>Définit le nombre de jours dans le jeu avant qu'une colonie abandonnée ne soit supprimée automatiquement.</DAS_CooldownSliderTooltip>
+
+  <DAS_CooldownInfo>Les colonies seront supprimées automatiquement après ce délai.</DAS_CooldownInfo>
+  <DAS_CooldownDisabledLabel>Délai désactivé — suppression immédiate.</DAS_CooldownDisabledLabel>
+
+  <DAS_RemoveAbandonedTileLabel>Supprimer la colonie abandonnée</DAS_RemoveAbandonedTileLabel>
+  <DAS_RemoveAbandonedTileDesc>Supprime définitivement cette colonie abandonnée de la carte du monde.</DAS_RemoveAbandonedTileDesc>
+  <DAS_RemoveAbandonedTileConfirm>Voulez-vous vraiment supprimer cette colonie abandonnée ? Cette action est irréversible.</DAS_RemoveAbandonedTileConfirm>
+  <DAS_CooldownRemainingLabel>Temps restant avant suppression : {0} jours</DAS_CooldownRemainingLabel>
+  <DAS_CooldownActive>Temps de recharge actif — {0} jour(s) restant(s).</DAS_CooldownActive>
+</LanguageData>
