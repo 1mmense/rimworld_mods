@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\305_FSFMerge_Worktype30.xml -->
+<!-- EN: Merge -->
+<FSFMerge.labelShort>объединение</FSFMerge.labelShort>
+<!-- EN: Hauler -->
+<FSFMerge.pawnLabel>Кладовщик</FSFMerge.pawnLabel>
+<!-- EN: merging -->
+<FSFMerge.gerundLabel>Объединять</FSFMerge.gerundLabel>
+<!-- EN: Merge stacks of resources together to prevent clutter. -->
+<FSFMerge.description>Объединяют ресурсы, чтобы везде был порядок.</FSFMerge.description>
+<!-- EN: Merging -->
+<FSFMerge.verb>объединить</FSFMerge.verb>
+</LanguageData>

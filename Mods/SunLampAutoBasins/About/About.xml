@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Sun Lamp Auto-Basins</name>
+	<author>1trickPwnyta</author>
+	<packageId>sunlamphonesty.1trickPwnyta</packageId>
+	<modVersion>2.0.1</modVersion>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+This mod adds a button to auto-place hydroponic blueprints around a sun lamp that maximizes the benefit of the lit area.
+
+=== Formerly known as Sun Lamp Honesty ===
+Before the sun lamp light radius bug was fixed, sun lamps as of the release of 1.5 produced more brightly lit (100%) area than intended. This mod increased the drawn light radius to match.
+
+=== Updates ===
+06/14/2025: Update to 1.6
+05/24/2024: Change the name of the mod, remove functionality related to sun lamp light radius bug that has now been fixed.
+
+=== Credits ===
+Mod icon: twitter.com/mouse_draws
+	</description>
+	<url>https://github.com/1trickPwnyta/SunLampHonesty</url>
+</ModMetaData>

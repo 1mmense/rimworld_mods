@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ARY_AutomaticStumpChopping_Title>Automatic Stump Chopping</ARY_AutomaticStumpChopping_Title>
+
+	<ARYASC_enable_cut_stump_Label>Automatically Designate The Stump For Chopping ?</ARYASC_enable_cut_stump_Label>
+	<ARYASC_Stump_NoRestart>Default:  ✔
+Tall trees will have their stump chopped right after being chopped.
+Changing this will NOT require a restart!</ARYASC_Stump_NoRestart>
+
+	<ARYASC_enable_cut_blight_Label>Automatically Designate Blighted Plants For Cutting ?</ARYASC_enable_cut_blight_Label>
+	<ARYASC_Blight_NoRestart>Default:  ✔
+Any future blight on plants will be immediately designated for cutting.
+Changing this will NOT require a restart!</ARYASC_Blight_NoRestart>
+
+	<ARYASC_enable_visual_Label>Chopped Tall Trees Have Falling Visual Effect ?</ARYASC_enable_visual_Label>
+	<ARYASC_Visual_NoRestart>Default:  ✔
+Most tall trees will have a falling visual effect after being chopped.
+Changing this will NOT require a restart!</ARYASC_Visual_NoRestart>
+
+
+
+	<ARYASC_enable_AllStumpsChop_Label>Enable the "Chop stumps" order button ?</ARYASC_enable_AllStumpsChop_Label>
+	<ARYASC_AllStumpsChop_Restart>Default:  ✔
+Show or hide the button
+"Chop stumps".
+Changing this will require a restart!</ARYASC_AllStumpsChop_Restart>
+
+	<ARYASC_enable_FullyGrownTreesChop_Label>Enable the "Chop fully grown trees" order button ?</ARYASC_enable_FullyGrownTreesChop_Label>
+	<ARYASC_FullyGrownTreesChop_Restart>Default:  ✔
+Show or hide the button
+"Chop fully grown trees".
+Changing this will require a restart!</ARYASC_FullyGrownTreesChop_Restart>
+
+	<ARYASC_enable_FullyGrownCropsChop_Label>Enable the "Harvest fully grown crops" order button ?</ARYASC_enable_FullyGrownCropsChop_Label>
+	<ARYASC_FullyGrownCropsChop_Restart>Default:  ✔
+Show or hide the button
+"Harvest fully grown crops".
+Changing this will require a restart!</ARYASC_FullyGrownCropsChop_Restart>
+
+
+
+	<ARYASC_enable_messages_Label>Enable this mod's debug log messages ?</ARYASC_enable_messages_Label>
+	<ARYASC_Messages_NoRestart>Default:  ✘
+You may need to enable the development mode.
+Changing this will NOT require a restart!</ARYASC_Messages_NoRestart>
+
+
+
+	<ARYASC_Reset_Settings>Click here to reset this mod to its default settings</ARYASC_Reset_Settings>
+
+	<Designator_AllStumpsChop_Label>Chop stumps</Designator_AllStumpsChop_Label>
+	<Designator_AllStumpsChop_Descr>Marks stumps to be chopped down for wood.</Designator_AllStumpsChop_Descr>
+
+	<Designator_FullyGrownTreesChop_Label>Chop fully grown trees</Designator_FullyGrownTreesChop_Label>
+	<Designator_FullyGrownTreesChop_Descr>Marks fully grown trees to be chopped down for wood. Most special trees, such as the anima tree, are not affected by this tool.</Designator_FullyGrownTreesChop_Descr>
+
+	<Designator_FullyGrownCropsChop_Label>Harvest fully grown crops</Designator_FullyGrownCropsChop_Label>
+	<Designator_FullyGrownCropsChop_Descr>Marks fully grown plants to be harvested for their food or other products.</Designator_FullyGrownCropsChop_Descr>
+
+</LanguageData>

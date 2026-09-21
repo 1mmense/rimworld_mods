@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <QuickArea>Quick Area</QuickArea>
+    <QA_FenceFirstDesc>Count fences as walls when it's enclosed</QA_FenceFirstDesc>
+    <QA_KeyBindingQAModifierDesc>Quick action key modifier</QA_KeyBindingQAModifierDesc>
+    <QA_KeyBindingRAModifierDesc>Reverse action key modifier</QA_KeyBindingRAModifierDesc>
+    <QA_FillMapDesc>enable function when room is able to reach edge of map</QA_FillMapDesc>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VPlantsEMore\415_FSFProduction_FSF19.xml -->
+<!-- EN: extract vegetable milks -->
+<FSFVCE_DoBillsVegMilkExtractor.label>получать растительное молоко</FSFVCE_DoBillsVegMilkExtractor.label>
+<!-- EN: extract vegetable milk -->
+<FSFVCE_DoBillsVegMilkExtractor.verb>получать растительное молоко</FSFVCE_DoBillsVegMilkExtractor.verb>
+<!-- EN: extracting vegetable milk at -->
+<FSFVCE_DoBillsVegMilkExtractor.gerund>получать растительное молоко на</FSFVCE_DoBillsVegMilkExtractor.gerund>
+</LanguageData>

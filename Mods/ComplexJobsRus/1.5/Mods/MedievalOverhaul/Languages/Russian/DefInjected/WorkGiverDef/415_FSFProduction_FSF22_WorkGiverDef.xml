@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\DankPyon_Medieval_Overhaul\415_FSFProduction_FSF22.xml -->
+<!-- EN: grind bulk grains -->
+<FSFDankPyon_DoBillsMillstone.label>делать муку из зерновых</FSFDankPyon_DoBillsMillstone.label>
+<!-- EN: mill -->
+<FSFDankPyon_DoBillsMillstone.verb>измельчать</FSFDankPyon_DoBillsMillstone.verb>
+<!-- EN: milling at -->
+<FSFDankPyon_DoBillsMillstone.gerund>измельчать на</FSFDankPyon_DoBillsMillstone.gerund>
+<!-- EN: make timber -->
+<FSFDankPyon_DoBillsMakeTimber.label>обрабатывать древесину</FSFDankPyon_DoBillsMakeTimber.label>
+<!-- EN: craft -->
+<FSFDankPyon_DoBillsMakeTimber.verb>работать</FSFDankPyon_DoBillsMakeTimber.verb>
+<!-- EN: crafting at -->
+<FSFDankPyon_DoBillsMakeTimber.gerund>работать на</FSFDankPyon_DoBillsMakeTimber.gerund>
+<!-- EN: spin cotton -->
+<FSFDankPyon_DoBillsSpinningWheel.label>перерабатывать хлопок</FSFDankPyon_DoBillsSpinningWheel.label>
+<!-- EN: spin -->
+<FSFDankPyon_DoBillsSpinningWheel.verb>прясть</FSFDankPyon_DoBillsSpinningWheel.verb>
+<!-- EN: spinning at -->
+<FSFDankPyon_DoBillsSpinningWheel.gerund>прясть на</FSFDankPyon_DoBillsSpinningWheel.gerund>
+</LanguageData>

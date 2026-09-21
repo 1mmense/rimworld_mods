@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreePolux ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreePolux_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreePolux_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreePolux_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreePolux/PoluxTreeA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeGrayPine ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeGrayPine_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeGrayPine_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeGrayPine_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeGrayPine/TreeGrayPineA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_Witchwood ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_Witchwood_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_Witchwood_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_Witchwood_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/Witchwood/WitchwoodA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_RatPalm ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_RatPalm_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_RatPalm_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_RatPalm_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/RatPalm/RatPalmB</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+</Defs>

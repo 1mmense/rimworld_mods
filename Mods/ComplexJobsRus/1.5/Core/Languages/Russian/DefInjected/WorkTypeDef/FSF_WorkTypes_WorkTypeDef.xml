@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- 1.5\Ludeon\Core\Defs\WorkTypeDefs\FSF_WorkTypes.xml -->
+<!-- EN: Nurse -->
+<FSFNurse.labelShort>медработник</FSFNurse.labelShort>
+<!-- EN: Nurse -->
+<FSFNurse.pawnLabel>Медработник</FSFNurse.pawnLabel>
+<!-- EN: Nursing -->
+<FSFNurse.gerundLabel>Заботиться</FSFNurse.gerundLabel>
+<!-- EN: Care for the sick, bring them food, cheer them up, and perform assigned duties. Nurses will care for colonists, prisoners and animals. -->
+<FSFNurse.description>Ухаживают за больными, кормят их, подбадривают, и выполняют поставленные задачи. Медработники ухаживают за поселенцами, пленниками и животными.</FSFNurse.description>
+<!-- EN: Care for -->
+<FSFNurse.verb>Позаботиться о</FSFNurse.verb>
+<!-- EN: Surgeon -->
+<FSFSurgeon.labelShort>хирург</FSFSurgeon.labelShort>
+<!-- EN: Surgeon -->
+<FSFSurgeon.pawnLabel>Хирург</FSFSurgeon.pawnLabel>
+<!-- EN: Operating -->
+<FSFSurgeon.gerundLabel>Оперировать</FSFSurgeon.gerundLabel>
+<!-- EN: Perform surgeries on colonists, prisoners and animals. -->
+<FSFSurgeon.description>Проводят операции на колонистах, пленниках и животных.</FSFSurgeon.description>
+<!-- EN: Operate on -->
+<FSFSurgeon.verb>провести медпроцедуру</FSFSurgeon.verb>
+<!-- EN: Rearm -->
+<FSFRearming.labelShort>перезарядка</FSFRearming.labelShort>
+<!-- EN: Rearmer -->
+<FSFRearming.pawnLabel>Перезаряжатель</FSFRearming.pawnLabel>
+<!-- EN: Rearming -->
+<FSFRearming.gerundLabel>Перезаряжать</FSFRearming.gerundLabel>
+<!-- EN: Rearm defenses such as turrets and traps. -->
+<FSFRearming.description>Перезаряжают оборонительные сооружения, таких как турели и ловушки.</FSFRearming.description>
+<!-- EN: Rearm -->
+<FSFRearming.verb>Перезарядить</FSFRearming.verb>
+<!-- EN: Train -->
+<FSFTraining.labelShort>дрессировка</FSFTraining.labelShort>
+<!-- EN: Trainer -->
+<FSFTraining.pawnLabel>Дрессировщик</FSFTraining.pawnLabel>
+<!-- EN: Training -->
+<FSFTraining.gerundLabel>Дрессировать</FSFTraining.gerundLabel>
+<!-- EN: Tame wild animals and train domesticated animals. -->
+<FSFTraining.description>Приручают диких и дрессируют домашних животных.\nИ только дрессируют домашних животных, если добавлена отдельная работа «Приручение».</FSFTraining.description>
+<!-- EN: Train -->
+<FSFTraining.verb>Дрессировать</FSFTraining.verb>
+<!-- EN: Butcher -->
+<FSFButcher.labelShort>разделка</FSFButcher.labelShort>
+<!-- EN: Butcherer -->
+<FSFButcher.pawnLabel>Мясник</FSFButcher.pawnLabel>
+<!-- EN: Butchering -->
+<FSFButcher.gerundLabel>Разделывать</FSFButcher.gerundLabel>
+<!-- EN: Create kibble and butcher meat. -->
+<FSFButcher.description>Разделывают туши и готовят комбикорм.</FSFButcher.description>
+<!-- EN: Butcher -->
+<FSFButcher.verb>Разделать</FSFButcher.verb>
+<!-- EN: Repair -->
+<FSFRepair.labelShort>ремонт</FSFRepair.labelShort>
+<!-- EN: Repairer -->
+<FSFRepair.pawnLabel>Ремонтник</FSFRepair.pawnLabel>
+<!-- EN: Repairing -->
+<FSFRepair.gerundLabel>Чинить</FSFRepair.gerundLabel>
+<!-- EN: Repair damaged or broken-down buildings and objects. -->
+<FSFRepair.description>Ремонтируют повреждённые или разрушенные постройки и объекты.</FSFRepair.description>
+<!-- EN: Repair -->
+<FSFRepair.verb>Починить</FSFRepair.verb>
+<!-- EN: Deconstruct -->
+<FSFDeconstruct.labelShort>демонтаж</FSFDeconstruct.labelShort>
+<!-- EN: Deconstructor -->
+<FSFDeconstruct.pawnLabel>Демонтажник</FSFDeconstruct.pawnLabel>
+<!-- EN: Deconstructing -->
+<FSFDeconstruct.gerundLabel>Разбирать</FSFDeconstruct.gerundLabel>
+<!-- EN: Uninstall or deconstruct buildings, objects, floors and roofs. -->
+<FSFDeconstruct.description>Демонтируют или разбирают постройки, объекты, напольные покрытия и крыши.</FSFDeconstruct.description>
+<!-- EN: Deconstruct -->
+<FSFDeconstruct.verb>Разобрать</FSFDeconstruct.verb>
+<!-- EN: Harvest -->
+<FSFHarvesting.labelShort>сбор урожая</FSFHarvesting.labelShort>
+<!-- EN: Harvester -->
+<FSFHarvesting.pawnLabel>Собиратель</FSFHarvesting.pawnLabel>
+<!-- EN: harvesting -->
+<FSFHarvesting.gerundLabel>Собирать урожай</FSFHarvesting.gerundLabel>
+<!-- EN: Harvest grown crops. -->
+<FSFHarvesting.description>Сбирают выращенный урожай.</FSFHarvesting.description>
+<!-- EN: Harvest -->
+<FSFHarvesting.verb>Собрать</FSFHarvesting.verb>
+<!-- EN: Drill -->
+<FSFDrilling.labelShort>бурильщик</FSFDrilling.labelShort>
+<!-- EN: Driller -->
+<FSFDrilling.pawnLabel>Бурильщик</FSFDrilling.pawnLabel>
+<!-- EN: Drilling -->
+<FSFDrilling.gerundLabel>Бурить</FSFDrilling.gerundLabel>
+<!-- EN: Use deep drills to drill for resources. -->
+<FSFDrilling.description>Используют буровые установки для добычи ресурсов.</FSFDrilling.description>
+<!-- EN: Drill -->
+<FSFDrilling.verb>Бурить</FSFDrilling.verb>
+<!-- EN: Drugs -->
+<FSFDrugs.labelShort>фармацевт</FSFDrugs.labelShort>
+<!-- EN: Chemist -->
+<FSFDrugs.pawnLabel>Химик</FSFDrugs.pawnLabel>
+<!-- EN: Drugs -->
+<FSFDrugs.gerundLabel>Изготавливать препараты</FSFDrugs.gerundLabel>
+<!-- EN: Craft drugs at work stations. -->
+<FSFDrugs.description>Изготавливают препараты на рабочих станциях.</FSFDrugs.description>
+<!-- EN: Craft at -->
+<FSFDrugs.verb>Заняться созданием</FSFDrugs.verb>
+<!-- EN: Machining -->
+<FSFMachining.labelShort>механик</FSFMachining.labelShort>
+<!-- EN: Machinist -->
+<FSFMachining.pawnLabel>Слесарь</FSFMachining.pawnLabel>
+<!-- EN: Machining -->
+<FSFMachining.gerundLabel>Обрабатывать</FSFMachining.gerundLabel>
+<!-- EN: Create weapons and tools from raw materials at a machining table. -->
+<FSFMachining.description>Создают оружие и инструменты на верстаке.</FSFMachining.description>
+<!-- EN: Machine at -->
+<FSFMachining.verb>Обработать</FSFMachining.verb>
+<!-- EN: Fabrication -->
+<FSFFabrication.labelShort>токарь</FSFFabrication.labelShort>
+<!-- EN: Fabricator -->
+<FSFFabrication.pawnLabel>Машинист</FSFFabrication.pawnLabel>
+<!-- EN: Fabricating -->
+<FSFFabrication.gerundLabel>Изготавливать</FSFFabrication.gerundLabel>
+<!-- EN: Create weapons, armour, bionics and components from raw materials at a fabrication bench. -->
+<FSFFabrication.description>Создают оружие, броню, бионику, компоненты и т. д. на высокоточном станке.</FSFFabrication.description>
+<!-- EN: Fabricate at -->
+<FSFFabrication.verb>Производить</FSFFabrication.verb>
+<!-- EN: Refine -->
+<FSFRefining.labelShort>переработка</FSFRefining.labelShort>
+<!-- EN: Refiner -->
+<FSFRefining.pawnLabel>Перегонщик</FSFRefining.pawnLabel>
+<!-- EN: Refining -->
+<FSFRefining.gerundLabel>Перерабатывать</FSFRefining.gerundLabel>
+<!-- EN: Refine materials at a refinery. -->
+<FSFRefining.description>Перерабатывают материалы на перегонном аппарате.</FSFRefining.description>
+<!-- EN: Refine -->
+<FSFRefining.verb>Переработать</FSFRefining.verb>
+<!-- EN: Production -->
+<FSFProduction.labelShort>производство</FSFProduction.labelShort>
+<!-- EN: Producer -->
+<FSFProduction.pawnLabel>Работник</FSFProduction.pawnLabel>
+<!-- EN: Producing -->
+<FSFProduction.gerundLabel>Производить</FSFProduction.gerundLabel>
+<!-- EN: Perform general production work producing various goods.  This typically involves filling and emptying production objects or performing simple tasks. -->
+<FSFProduction.description>Выполняют общие производственные работы по изготовлению различных предметов. Как правило, это заполняют  и опустошённые промышленные объекты или выполняют другие простые задачи.</FSFProduction.description>
+<!-- EN: Produce -->
+<FSFProduction.verb>Производить</FSFProduction.verb>
+<!-- EN: Smelt -->
+<FSFSmelt.labelShort>переплавка</FSFSmelt.labelShort>
+<!-- EN: Smelter -->
+<FSFSmelt.pawnLabel>Плавильщик</FSFSmelt.pawnLabel>
+<!-- EN: Smelting -->
+<FSFSmelt.gerundLabel>Переплавлять</FSFSmelt.gerundLabel>
+<!-- EN: Operate smelters to perform tasks such as melting down slag or weapons. -->
+<FSFSmelt.description>Переплавляют в плавильнях оружие, броню, металлолом.</FSFSmelt.description>
+<!-- EN: Smelt -->
+<FSFSmelt.verb>Плавить</FSFSmelt.verb>
+<!-- EN: Stone Cut -->
+<FSFStoneCut.labelShort>каменотёс</FSFStoneCut.labelShort>
+<!-- EN: Stonecutter -->
+<FSFStoneCut.pawnLabel>Каменотёс</FSFStoneCut.pawnLabel>
+<!-- EN: Stonecutting -->
+<FSFStoneCut.gerundLabel>Обрабатывать камень</FSFStoneCut.gerundLabel>
+<!-- EN: Create blocks of stone from rock chunks. -->
+<FSFStoneCut.description>Изготавливают каменные блоки из каменных обломков.</FSFStoneCut.description>
+<!-- EN: Stone Cut -->
+<FSFStoneCut.verb>Обработать камень</FSFStoneCut.verb>
+<!-- EN: Transport -->
+<FSFTransport.labelShort>грузчик</FSFTransport.labelShort>
+<!-- EN: Transport Handler -->
+<FSFTransport.pawnLabel>Грузчик</FSFTransport.pawnLabel>
+<!-- EN: Transporting -->
+<FSFTransport.gerundLabel>Загружать и разгружать</FSFTransport.gerundLabel>
+<!-- EN: Prepare and unload transport pods, caravans and vehicles. -->
+<FSFTransport.description>Загружают и разгружают транспортные капсулы, караваны и другие транспортные средства.</FSFTransport.description>
+<!-- EN: Transport -->
+<FSFTransport.verb>Погрузить/Разгрузить</FSFTransport.verb>
+<!-- EN: Mortuary -->
+<FSFCremating.labelShort>сжигание</FSFCremating.labelShort>
+<!-- EN: Mortuary Worker -->
+<FSFCremating.pawnLabel>Сжигатель</FSFCremating.pawnLabel>
+<!-- EN: Working -->
+<FSFCremating.gerundLabel>Сжигать</FSFCremating.gerundLabel>
+<!-- EN: Perform various tasks relating to dead bodies. Such as operating the crematorium or campfire to burn apparel, drugs and bodies. -->
+<FSFCremating.description>Выполняют разнообразные работы, связанные с трупами. Например, используют крематории или костры для сжигания одежды, препаратов или трупов.</FSFCremating.description>
+<!-- EN: Work -->
+<FSFCremating.verb>Сжечь</FSFCremating.verb>
+<!-- EN: Deliver -->
+<FSFDeliver.labelShort>доставка</FSFDeliver.labelShort>
+<!-- EN: Hauler -->
+<FSFDeliver.pawnLabel>Доставщик</FSFDeliver.pawnLabel>
+<!-- EN: delivering -->
+<FSFDeliver.gerundLabel>Доставлять</FSFDeliver.gerundLabel>
+<!-- EN: Deliver resources to construction projects. -->
+<FSFDeliver.description>Доставляют ресурсы к строящимися объектам.</FSFDeliver.description>
+<!-- EN: Delivering -->
+<FSFDeliver.verb>Доставить</FSFDeliver.verb>
+<!-- EN: haul -->
+<FSFHauling.labelShort>переноска</FSFHauling.labelShort>
+<!-- EN: Hauler -->
+<FSFHauling.pawnLabel>Носильщик</FSFHauling.pawnLabel>
+<!-- EN: hauling -->
+<FSFHauling.gerundLabel>Переносить</FSFHauling.gerundLabel>
+<!-- EN: Carry things to where they need to be. -->
+<FSFHauling.description>Переносят вещи туда, где они должны быть.</FSFHauling.description>
+<!-- EN: Haul -->
+<FSFHauling.verb>Перенести</FSFHauling.verb>
+<!-- EN: Scan -->
+<FSFScan.labelShort>сканирование</FSFScan.labelShort>
+<!-- EN: Scanner -->
+<FSFScan.pawnLabel>Геолог</FSFScan.pawnLabel>
+<!-- EN: scanning -->
+<FSFScan.gerundLabel>Сканировать</FSFScan.gerundLabel>
+<!-- EN: Perform complex work to achieve goals such as finding resources below the ground or in the world. -->
+<FSFScan.description>Выполняют сложные работ с целью найти полезные ресурсы, под землёй или в мире.</FSFScan.description>
+<!-- EN: Scan at -->
+<FSFScan.verb>Сканировать</FSFScan.verb>
+</LanguageData>

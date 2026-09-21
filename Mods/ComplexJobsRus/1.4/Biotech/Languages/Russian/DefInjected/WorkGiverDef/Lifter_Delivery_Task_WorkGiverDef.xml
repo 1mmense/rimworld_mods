@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- 1.4\Biotech\Defs\WorkGiverDefs\Lifter_Delivery_Task.xml -->
+<!-- EN: deliver resources to frames -->
+<FSFLifterDeliverResourcesToFrames.label>переносить материалы к строящимся объектам</FSFLifterDeliverResourcesToFrames.label>
+<!-- EN: deliver to -->
+<FSFLifterDeliverResourcesToFrames.verb>нести материалы к</FSFLifterDeliverResourcesToFrames.verb>
+<!-- EN: delivering to -->
+<FSFLifterDeliverResourcesToFrames.gerund>нести материалы к</FSFLifterDeliverResourcesToFrames.gerund>
+<!-- EN: deliver resources to blueprints -->
+<FSFLifterDeliverResourcesToBlueprints.label>переносить материалы к проектам</FSFLifterDeliverResourcesToBlueprints.label>
+<!-- EN: deliver to -->
+<FSFLifterDeliverResourcesToBlueprints.verb>нести материалы к</FSFLifterDeliverResourcesToBlueprints.verb>
+<!-- EN: delivering to -->
+<FSFLifterDeliverResourcesToBlueprints.gerund>нести материалы к</FSFLifterDeliverResourcesToBlueprints.gerund>
+</LanguageData>

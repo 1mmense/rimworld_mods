@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ARY_AutomaticStumpChopping_Title>Abattage automatique des souches</ARY_AutomaticStumpChopping_Title>
+
+	<ARYASC_enable_cut_stump_Label>Désigner automatiquement la souche pour l'abattage ?</ARYASC_enable_cut_stump_Label>
+	<ARYASC_Stump_NoRestart>Par défaut :  ✔
+Les grands arbres laisseront leur souche être coupée juste après l'abattage.
+Changer ceci ne nécessite PAS de redémarrage!</ARYASC_Stump_NoRestart>
+
+	<ARYASC_enable_cut_blight_Label>Désigner automatiquement les plantes infectées pour la coupe ?</ARYASC_enable_cut_blight_Label>
+	<ARYASC_Blight_NoRestart>Par défaut :  ✔
+Toute plante infectée par le mildiou sera immédiatement désignée pour la coupe.
+Changer ceci ne nécessite PAS de redémarrage!</ARYASC_Blight_NoRestart>
+
+	<ARYASC_enable_visual_Label>Effet visuel de chute pour les grands arbres abattus ?</ARYASC_enable_visual_Label>
+	<ARYASC_Visual_NoRestart>Par défaut :  ✔
+La plupart des grands arbres afficheront un effet visuel de chute après avoir été abattus.
+Changer ceci ne nécessite PAS de redémarrage!</ARYASC_Visual_NoRestart>
+
+
+
+	<ARYASC_enable_AllStumpsChop_Label>Montrer le button "Couper les souches" ?</ARYASC_enable_AllStumpsChop_Label>
+	<ARYASC_AllStumpsChop_Restart>Par défaut:  ✔
+Fait apparaître ou disparaître le boutton
+"Couper les souches".
+Changer ceci nécessite un redémarrage!</ARYASC_AllStumpsChop_Restart>
+
+	<ARYASC_enable_FullyGrownTreesChop_Label>Montrer le button "Couper les arbres matures" ?</ARYASC_enable_FullyGrownTreesChop_Label>
+	<ARYASC_FullyGrownTreesChop_Restart>Par défaut:  ✔
+Fait apparaître ou disparaître le boutton
+"Couper les arbres matures".
+Changer ceci nécessite un redémarrage!</ARYASC_FullyGrownTreesChop_Restart>
+
+	<ARYASC_enable_FullyGrownCropsChop_Label>Montrer le button "Récolter les cultures mûres" ?</ARYASC_enable_FullyGrownCropsChop_Label>
+	<ARYASC_FullyGrownCropsChop_Restart>Par défaut:  ✔
+Fait apparaître ou disparaître le boutton
+"Récolter les cultures mûres".
+Changer ceci nécessite un redémarrage!</ARYASC_FullyGrownCropsChop_Restart>
+
+
+
+	<ARYASC_enable_messages_Label>Activer les messages de débogage de ce mod ?</ARYASC_enable_messages_Label>
+	<ARYASC_Messages_NoRestart>Par défaut :  ✘
+Vous devrez peut-être activer le mode développement.
+Changer ceci ne nécessite PAS de redémarrage!</ARYASC_Messages_NoRestart>
+
+
+
+	<ARYASC_Reset_Settings>Cliquez ici pour réinitialiser les paramètres par défaut de ce mod</ARYASC_Reset_Settings>
+
+	<Designator_AllStumpsChop_Label>Couper les souches</Designator_AllStumpsChop_Label>
+	<Designator_AllStumpsChop_Descr>Désigne les souches pour être coupées et récupérer du bois.</Designator_AllStumpsChop_Descr>
+
+	<Designator_FullyGrownTreesChop_Label>Couper les arbres matures</Designator_FullyGrownTreesChop_Label>
+	<Designator_FullyGrownTreesChop_Descr>Désigne les arbres matures pour être coupés et récupérer du bois. La plupart des arbres spéciaux, comme l’arbre anima, ne sont pas affectés par cet outil.</Designator_FullyGrownTreesChop_Descr>
+
+	<Designator_FullyGrownCropsChop_Label>Récolter les cultures mûres</Designator_FullyGrownCropsChop_Label>
+	<Designator_FullyGrownCropsChop_Descr>Désigne les plantes mûres pour être récoltées afin de récupérer leur nourriture ou autres ressources.</Designator_FullyGrownCropsChop_Descr>
+
+</LanguageData>

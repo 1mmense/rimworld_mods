@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[ARY] Automatic Stump Chopping [1.5 - 1.6]</name>
+	<author>Arylice</author>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Designators/Cut_AllStumps</modIconPath>
+	<modVersion IgnoreIfNoMatchingField="True">1.0</modVersion>   
+	<modDependencies>                                                                               
+		<li>                                                                                        
+			<packageId>brrainz.harmony</packageId>                                                  
+			<displayName>Harmony</displayName>                                                      
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>           
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>  
+		</li>                                                                                       
+	</modDependencies> 	
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>                              <!--       -->
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+	</loadAfter>
+	<url>http://rimworldgame.com</url>
+	<packageId>Arylice.Rimworld.AutomaticStumpChopping</packageId>
+	<description>Arylice's Automatic Stump Chopping
+#arylice #aryasc
+
+Have you ever watched your lumberjacks chop down trees, 
+only for them to leave those annoying stumps behind, 
+and felt that urge to have everything perfectly tidy? 
+You wish they’d just finish the job completely?
+This mod will solve this issue in an automatic way!
+
+Safe to add, remove and change its custom settings mid-save!
+You get the following options that you can enable or disable
+anytime in-game:
+
+* Automatically Designate The Stump For Chopping
+After cutting down an almost fully grown tall tree,
+your worker will instantly designate the spawned stump
+for chopping, which usually makes them chop down the stump
+right away as it would be the closest next job to do!
+
+* Automatically Designate Blighted Plants For Cutting
+Whenever your crops become blighted in the future,
+the blighted plants will instantly designate themselves
+to be cut down. This means even if the blight spreads
+to other plants nearby, it will spawn with a cutting job
+on itself automatically!
+
+* Chopped Tall Trees Have Falling Visual Effect
+For most tall trees almost fully grown, when they are chopped,
+there will be a little visual effect of a falling tree 
+(almost like in Stardew Valley, but not really)!
+This feature is not perfect, but it can be nice to look at!
+Young and small trees will not have that small visual effect.
+
+You also get Order buttons to chop and harvest more precisely:
+* Chop only stumps
+(Stumps of special DLC trees included).
+* Chop only fully grown trees with a 100% growth
+(Special DLC trees will not be marked).
+* Harvest only fully grown crops with a 100% growth.
+
+This mod requires Harmony!
+DLC are not required, but works well with them nonetheless!</description>
+</ModMetaData>

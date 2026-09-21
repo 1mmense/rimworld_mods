@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Quick Area</name>
+	<author>HellRevenger</author>
+    <supportedVersions>
+        <li>1.4</li>
+        <li>1.5</li>
+        <li>1.6</li>
+    </supportedVersions>
+	<modVersion>1.0.0.5</modVersion>
+    <packageId>HellRevenger.QuickArea</packageId>
+	<description>Double click to fill room, triple click to fill room includes walls and door.
+    Works for area and zone.
+    
+    Warning: filling area outside will try to fill the map.</description>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+    
+</ModMetaData>

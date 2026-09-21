@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<SunLampHonesty_CommandBuildBasins>Build hydroponics basins</SunLampHonesty_CommandBuildBasins>
+	<SunLampHonesty_CommandBuildBasinsDesc>Places blueprints for hydroponics basins around the sun lamp to maximize growing in lit area.</SunLampHonesty_CommandBuildBasinsDesc>
+	<SunLampHonesty_NowhereToPlaceBlueprints>Nowhere to place blueprints.</SunLampHonesty_NowhereToPlaceBlueprints>
+	<SunLampHonesty_ClassicHydroponicsMode>Classic hydroponics mode</SunLampHonesty_ClassicHydroponicsMode>
+</LanguageData>

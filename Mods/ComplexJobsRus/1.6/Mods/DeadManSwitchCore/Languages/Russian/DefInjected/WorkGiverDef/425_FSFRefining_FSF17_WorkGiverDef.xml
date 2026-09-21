@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\Aoba_DeadManSwitch_Core\425_FSFRefining_FSF17.xml -->
+<!-- EN: Operate pressure chamber -->
+<FSFDMS_ReactionChamber.label>работать с камерой под давлением</FSFDMS_ReactionChamber.label>
+<!-- EN: Operate -->
+<FSFDMS_ReactionChamber.verb>работать</FSFDMS_ReactionChamber.verb>
+<!-- EN: Operating at -->
+<FSFDMS_ReactionChamber.gerund>работать</FSFDMS_ReactionChamber.gerund>
+</LanguageData>

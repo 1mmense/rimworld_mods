@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- 1.4\Core\Defs\WorkTypeDefs\zOverwrite_Taming.xml -->
+<!-- EN: tame animals -->
+<Tame.label>приручать животных</Tame.label>
+<!-- EN: tame -->
+<Tame.verb>приручить</Tame.verb>
+<!-- EN: taming -->
+<Tame.gerund>приручить</Tame.gerund>
+</LanguageData>

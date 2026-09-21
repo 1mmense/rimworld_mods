@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VanillaFactionsExpanded_Core\Optional_Worktypes1.xml -->
+<!-- EN: Prison Care -->
+<FSFPrisonCare.labelShort>уход за плен.</FSFPrisonCare.labelShort>
+<!-- EN: Warden -->
+<FSFPrisonCare.pawnLabel>Надзиратель</FSFPrisonCare.pawnLabel>
+<!-- EN: wardening -->
+<FSFPrisonCare.gerundLabel>Ухаживают за пленниками</FSFPrisonCare.gerundLabel>
+<!-- EN: Feed prisoners. -->
+<FSFPrisonCare.description>Кормят пленников.</FSFPrisonCare.description>
+<!-- EN: Handle -->
+<FSFPrisonCare.verb>Надзирать</FSFPrisonCare.verb>
+<!-- EN: Manage, chat with, and recruit prisoners. -->
+<Warden.description>Надзиратели присматривают за пленниками, беседуют и вербуют.</Warden.description>
+<!-- EN: Convert -->
+<FSFConvert.labelShort>обращение</FSFConvert.labelShort>
+<!-- EN: Warden -->
+<FSFConvert.pawnLabel>Надзиратель</FSFConvert.pawnLabel>
+<!-- EN: converting -->
+<FSFConvert.gerundLabel>Обращать</FSFConvert.gerundLabel>
+<!-- EN: Convert prisoners to your Ideologion. -->
+<FSFConvert.description>Обращают пленников в свою идеологию.</FSFConvert.description>
+<!-- EN: Handle -->
+<FSFConvert.verb>Надзирать</FSFConvert.verb>
+<!-- EN: Merge -->
+<FSFMerge.labelShort>объединение</FSFMerge.labelShort>
+<!-- EN: Hauler -->
+<FSFMerge.pawnLabel>Кладовщик</FSFMerge.pawnLabel>
+<!-- EN: merging -->
+<FSFMerge.gerundLabel>Объединять</FSFMerge.gerundLabel>
+<!-- EN: Merge stacks of resources together to prevent clutter. -->
+<FSFMerge.description>Объединяют ресурсы, чтобы везде был порядок.</FSFMerge.description>
+<!-- EN: Merging -->
+<FSFMerge.verb>объединить</FSFMerge.verb>
+<!-- EN: Paint -->
+<FSFPaint.labelShort>моляр</FSFPaint.labelShort>
+<!-- EN: Painter -->
+<FSFPaint.pawnLabel>Маляр</FSFPaint.pawnLabel>
+<!-- EN: painting -->
+<FSFPaint.gerundLabel>Красить</FSFPaint.gerundLabel>
+<!-- EN: Paint floors, walls and items. -->
+<FSFPaint.description>Красят полы, стены и другие предметы.</FSFPaint.description>
+<!-- EN: Paint -->
+<FSFPaint.verb>Покрасить</FSFPaint.verb>
+<!-- EN: Clear Snow -->
+<FSFSnow.labelShort>уборка снега</FSFSnow.labelShort>
+<!-- EN: Shoveller -->
+<FSFSnow.pawnLabel>Уборщик</FSFSnow.pawnLabel>
+<!-- EN: clearing -->
+<FSFSnow.gerundLabel>Убирать</FSFSnow.gerundLabel>
+<!-- EN: Clear snow in the home area. -->
+<FSFSnow.description>Чистят домашнюю территорию от снега.</FSFSnow.description>
+<!-- EN: Clear -->
+<FSFSnow.verb>Убрать</FSFSnow.verb>
+<!-- EN: Clean the floor in the home area. -->
+<Cleaning.description>Наводят порядок в домашней области.</Cleaning.description>
+<!-- EN: Clear Pollution -->
+<FSFPollution.labelShort>очистка</FSFPollution.labelShort>
+<!-- EN: Cleaner -->
+<FSFPollution.pawnLabel>Уборщик</FSFPollution.pawnLabel>
+<!-- EN: clearing -->
+<FSFPollution.gerundLabel>Очищать загрязнения</FSFPollution.gerundLabel>
+<!-- EN: Clear pollution in the clear pollution area. -->
+<FSFPollution.description>Очищают от загрязнений в зоне очистки от загрязнений.</FSFPollution.description>
+<!-- EN: Clear -->
+<FSFPollution.verb>Очистить</FSFPollution.verb>
+<!-- EN: Smooth -->
+<FSFSmoothing.labelShort>выравнивание</FSFSmoothing.labelShort>
+<!-- EN: Smoother -->
+<FSFSmoothing.pawnLabel>Выравниватель</FSFSmoothing.pawnLabel>
+<!-- EN: smoothing -->
+<FSFSmoothing.gerundLabel>Выравнивать</FSFSmoothing.gerundLabel>
+<!-- EN: Smooth stone floors and walls. -->
+<FSFSmoothing.description>Выравнивают стены и полы.</FSFSmoothing.description>
+<!-- EN: Smooth -->
+<FSFSmoothing.verb>Выронить</FSFSmoothing.verb>
+<!-- EN: Tame -->
+<FSFTaming.labelShort>приручение</FSFTaming.labelShort>
+<!-- EN: Tamer -->
+<FSFTaming.pawnLabel>Укротитель</FSFTaming.pawnLabel>
+<!-- EN: Taming -->
+<FSFTaming.gerundLabel>Приручать</FSFTaming.gerundLabel>
+<!-- EN: Tame wild animals. -->
+<FSFTaming.description>Приручают диких животных.</FSFTaming.description>
+<!-- EN: Tame -->
+<FSFTaming.verb>Приручить</FSFTaming.verb>
+<!-- EN: Train domesticated animals. -->
+<FSFTraining.description>Дрессируют домашних животных.</FSFTraining.description>
+<!-- EN: Prune -->
+<FSFPruning.labelShort>остригание</FSFPruning.labelShort>
+<!-- EN: Pruner -->
+<FSFPruning.pawnLabel>Садовник</FSFPruning.pawnLabel>
+<!-- EN: pruning -->
+<FSFPruning.gerundLabel>Остригать</FSFPruning.gerundLabel>
+<!-- EN: Prune trees. -->
+<FSFPruning.description>Подрезают и остригают деревья.</FSFPruning.description>
+<!-- EN: Prune -->
+<FSFPruning.verb>Остричь</FSFPruning.verb>
+<!-- EN: mechanoids -->
+<FSFMechanoids.labelShort>механитор</FSFMechanoids.labelShort>
+<!-- EN: Mechanitor -->
+<FSFMechanoids.pawnLabel>Механитор</FSFMechanoids.pawnLabel>
+<!-- EN: smithing -->
+<FSFMechanoids.gerundLabel>Заниматься механоидами</FSFMechanoids.gerundLabel>
+<!-- EN: Perform tasks relating to mechanoids such as gestating new ones, repairing existing ones and creating subcores. -->
+<FSFMechanoids.description>Выполняют задачи, связанные с механоидами, такие как создание новых, ремонт существующих и создание субъядер.</FSFMechanoids.description>
+<!-- EN: Smith at -->
+<FSFMechanoids.verb>Ковать</FSFMechanoids.verb>
+</LanguageData>

@@ -1,0 +1,8 @@
+.rider/
+.idea/
+.vs/
+.vscode/
+Source/NoRandomApparelOnIdeoEdit/.idea
+Source/NoRandomApparelOnIdeoEdit/bin/*
+Source/NoRandomApparelOnIdeoEdit/obj/*
+Source/NoRandomApparelOnIdeoEdit/NoRandomApparelOnIdeoEdit.sln.DotSettings.user

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cut plants before building (Continued)</name>
+  <packageId>Mlie.CutPlantsBeforeBuilding</packageId>
+  <author>民火</author>
+  <url>https://github.com/emipa606/CutPlantsBeforeBuilding</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
+Update of 民火s mod https://steamcommunity.com/sharedfiles/filedetails/?id=1539025677
+
+[b]Special trees should no longer be marked for cutting[/b]
+[list]
+[*] Anima tree
+[*] Gauranlen tree
+[*] Harbringer tree
+[/list]
+
+Added mod-settings
+[list]
+[*]The default on-state
+[*]Dig up if possible
+[*]Only allow cutting by pawns with plant cutting enabled
+[/list]
+
+[img]https://img.litet.net/logos/Notice.png[/img]
+
+[table]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/CutPlantsBeforeBuilding][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
+If there is the plant that need to be cut on planned construction site or planned installation site or roof area,
+The MOD will designate to cut the plant.
+You can toggle auto felling designation mode by new play settings icon button or shortcut key(Default:Backslash).
+This MOD is powered by Harmony Patch Library.
+
+建築、再設置予定、屋根エリアの場所に刈り取る必要がある植物がある場合、刈り取りの指示を自動的に送るようにします。
+右下の伐採アイコンかショートカットキー(デフォルト:Backslash)で切り替えることができます。
+このMODはHarmony Patch Libraryを使用しています。
+
+B19 version : https://steamcommunity.com/sharedfiles/filedetails/?id=1232208162
+
+[h1]Language[/h1]
+- English
+- Japanese
+- Polish (by 乞食Strzigůń)
+- Korean (by Orange Mushroom)
+- ChineseSimplified (by Juijote)
+If you show me the link of translation file, I will add language file to mod.
+
+[h1]License[/h1]
+- CC BY-NC-SA
+- MIT License
+Copyright 2017 TammyBee
+
+[h1]Other Versions[/h1]
+Old versions of the mod can be found on Dropbox.
+他のバージョンは以下のURLにあります。
+[url=https://www.dropbox.com/sh/z3czwl5d7l0cqcd/AADpUgIRopahoG8WgCOY_Pb2a]Dropbox[/url]
+
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3286376165][img]https://img.shields.io/github/v/release/emipa606/CutPlantsBeforeBuilding?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: plant cutting</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.3</modVersion>
+</ModMetaData>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <Leoltron.ExplicitTimings.WillEndIn>{0} до окончания.</Leoltron.ExplicitTimings.WillEndIn>
+    <Leoltron.ExplicitTimings.EndTimeRange>Время окончания в диапазоне {0} — {1}.</Leoltron.ExplicitTimings.EndTimeRange>
+    <Leoltron.ExplicitTimings.EndMaxTime>Закончится не позднее, чем через {0}.</Leoltron.ExplicitTimings.EndMaxTime>
+    <Leoltron.ExplicitTimings.XHappensInY>{0} через {1}</Leoltron.ExplicitTimings.XHappensInY>
+    <Leoltron.ExplicitTimings.ProgressesToXInY>Переходит в {0} через {1}.</Leoltron.ExplicitTimings.ProgressesToXInY>
+
+    <Leoltron.ExplicitTimings.RaidExpected>Налет через {0}</Leoltron.ExplicitTimings.RaidExpected>
+    <Leoltron.ExplicitTimings.SafeFor>{0} без серьезных угроз</Leoltron.ExplicitTimings.SafeFor>
+    <Leoltron.ExplicitTimings.BigThreatsExpectedSingleNumber>{1} серьезная угроза(ы) ожидается в течение {0}</Leoltron.ExplicitTimings.BigThreatsExpectedSingleNumber>
+    <Leoltron.ExplicitTimings.BigThreatsExpectedRange>{1}~{2} серьезная угроза(ы) ожидается в течение {0}</Leoltron.ExplicitTimings.BigThreatsExpectedRange>
+    
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ClassicIntro>У этого рассказчика есть классический старт, что означает, что первый налёт будет ровно через &lt;color=#87F6F6FF&gt;5,4 дня&lt;/color&gt; с вашего прибытия, т.е., через {0}</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ClassicIntro>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.NotStarted>Цикл еще не начался.\nПервый цикл начнется через {0}</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.NotStarted>
+    
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On>Вы сейчас в активной фазе цикла.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On.ThreatsRange>Ожидайте от {0} до {1} серьезных угроз в течение {2}.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On.ThreatsRange>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On.ThreatsMaxOnly>Ожидайте до {0} серьезных угроз в течение {1}.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On.ThreatsMaxOnly>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On.ThreatsCount>Ожидайте {0} серьезных угроз в течение {1}.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.On.ThreatsCount>
+    
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.Off>Вы сейчас в неактивной фазе цикла.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.Off>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.Off.NoThreats>Серьезных угроз не будет в течение {0}.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.InCycle.Off.NoThreats>
+    
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ThreatSpacing>Вы недавно пережили серьезную угрозу, сгенерированную циклом. Рассказчик делает между ними перерывы.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ThreatSpacing>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ThreatSpacing.NoThreatsForPeriod>Никаких новых серьезных угроз не будет сгенерировано в течение следующих {0}.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ThreatSpacing.NoThreatsForPeriod>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ThreatSpacing.CoversOnCycle>В это время включена продолжительность неактивного цикла, который начнется до окончания перерыва.</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.ThreatSpacing.CoversOnCycle>
+    
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.NextOffCycle>Следующая неактивная фаза начнется через {0}</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.NextOffCycle>
+    <Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.NextOnCycle>Следующая активная фаза начнется через {0}</Leoltron.ExplicitTimings.OnOffCycleInfo.Tooltip.NextOnCycle>
+    
+    <Leoltron.ExplicitTimings.Hediffs.DisappearsIn>Пропадет через {0}</Leoltron.ExplicitTimings.Hediffs.DisappearsIn>
+    <Leoltron.ExplicitTimings.Hediffs.ImmuneIn>Выработает иммунитет через {0}</Leoltron.ExplicitTimings.Hediffs.ImmuneIn>
+    <Leoltron.ExplicitTimings.Hediffs.DeadIn>Смерть через {0}</Leoltron.ExplicitTimings.Hediffs.DeadIn>
+    
+    <Leoltron.ExplicitTimings.Malnutrition.DeadIn>Умрет с голоду через {0}</Leoltron.ExplicitTimings.Malnutrition.DeadIn>
+    <Leoltron.ExplicitTimings.Malnutrition.HealIn>Восстановится через {0}</Leoltron.ExplicitTimings.Malnutrition.HealIn>
+    
+    <Leoltron.ExplicitTimings.BloodLoss.HealIn>Восстановится через {0}</Leoltron.ExplicitTimings.BloodLoss.HealIn>
+
+    <Leoltron.ExplicitTimings.Injury.StarvationBlocksHealing>Лечение приостановлено в результате голодания.</Leoltron.ExplicitTimings.Injury.StarvationBlocksHealing>
+    <Leoltron.ExplicitTimings.Injury.ApproximatelyHealIn>Вылечится примерно через {0}</Leoltron.ExplicitTimings.Injury.ApproximatelyHealIn>
+    
+    <Leoltron.ExplicitTimings.StarvationHalted>Приостановлено в результате голодания.</Leoltron.ExplicitTimings.StarvationHalted>
+    <Leoltron.ExplicitTimings.StarvationSlowed>Прогресс x{0} в результате голодания.</Leoltron.ExplicitTimings.StarvationSlowed>
+
+    <Leoltron.ExplicitTimings.Settings.ShowExactEndTime.Label>(Читерски) Показать точное время окончания</Leoltron.ExplicitTimings.Settings.ShowExactEndTime.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowExactEndTime.Tooltip>Мод предназначался для отображения примерного времени окончания состояния или изменения здоровья на основе публично доступных данных. Если эта функция включена, мод постарается дать точное время, если игра его содержит.</Leoltron.ExplicitTimings.Settings.ShowExactEndTime.Tooltip>
+
+    <Leoltron.ExplicitTimings.Settings.MentalBreaksView.Label>Вид нервных срывов</Leoltron.ExplicitTimings.Settings.MentalBreaksView.Label>
+    
+    <Leoltron.ExplicitTimings.Settings.MentalBreakSortingReversed.Label>Обратный порядок сортировки</Leoltron.ExplicitTimings.Settings.MentalBreakSortingReversed.Label>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakSorting.Label>Сортировать поселенцев по:</Leoltron.ExplicitTimings.Settings.MentalBreakSorting.Label>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakSorting.PawnOrder>Порядок в панели поселенцев</Leoltron.ExplicitTimings.Settings.MentalBreakSorting.PawnOrder>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakSorting.PawnNames>Имени</Leoltron.ExplicitTimings.Settings.MentalBreakSorting.PawnNames>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakSorting.MentalBreakLabel>Названию нервного срыва</Leoltron.ExplicitTimings.Settings.MentalBreakSorting.MentalBreakLabel>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakSorting.Intensity>Тяжести нервного срыва</Leoltron.ExplicitTimings.Settings.MentalBreakSorting.Intensity>
+    
+    <Leoltron.ExplicitTimings.Settings.MentalBreakColoring.Label>Подсветка нервного срыва:</Leoltron.ExplicitTimings.Settings.MentalBreakColoring.Label>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakColoring.Off>Отключено</Leoltron.ExplicitTimings.Settings.MentalBreakColoring.Off>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakColoring.Intensity>Степень тяжести</Leoltron.ExplicitTimings.Settings.MentalBreakColoring.Intensity>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakColoring.MentalStateLetterColor>Цвет письма</Leoltron.ExplicitTimings.Settings.MentalBreakColoring.MentalStateLetterColor>
+    <Leoltron.ExplicitTimings.Settings.MentalBreakColoring.MentalStateNameColor>Цвет имени</Leoltron.ExplicitTimings.Settings.MentalBreakColoring.MentalStateNameColor>
+    
+    <Leoltron.ExplicitTimings.Settings.ShowExtremeMentalBreaks.Label>Показывать экстремальный нервные срывы</Leoltron.ExplicitTimings.Settings.ShowExtremeMentalBreaks.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowMajorMentalBreaks.Label>Показывать сильные нервные срывы</Leoltron.ExplicitTimings.Settings.ShowMajorMentalBreaks.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowMinorMentalBreaks.Label>Показывать лёгкие нервные срывы</Leoltron.ExplicitTimings.Settings.ShowMinorMentalBreaks.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowOtherMentalBreaks.Label>Показывать прочие ментальные состояния</Leoltron.ExplicitTimings.Settings.ShowOtherMentalBreaks.Label>
+
+    <Leoltron.ExplicitTimings.Settings.OnOffCycleView.Label>Вид цикла серьезных угроз</Leoltron.ExplicitTimings.Settings.OnOffCycleView.Label>
+    <Leoltron.ExplicitTimings.Settings.WarnAboutTheFirstRaid.Label>Предупреждать о первом налёте</Leoltron.ExplicitTimings.Settings.WarnAboutTheFirstRaid.Label>
+    <Leoltron.ExplicitTimings.Settings.WarnAboutTheFirstRaid.Tooltip>И Кассандра, и Фиби запускают первый налёт ровно через 5,4 дней после вашего прибытия. Это происходит до начала их цикла угроз. Если эта настройка включена, таймер покажет, когда произойдет этот первый налёт.</Leoltron.ExplicitTimings.Settings.WarnAboutTheFirstRaid.Tooltip>
+    <Leoltron.ExplicitTimings.Settings.ColorOnOffCycleInfo.Label>Включить подсветку</Leoltron.ExplicitTimings.Settings.ColorOnOffCycleInfo.Label>
+    <Leoltron.ExplicitTimings.Settings.MoveOnOffCycleToHistoryTab.Label>Перенести отображение во вкладку «История»</Leoltron.ExplicitTimings.Settings.MoveOnOffCycleToHistoryTab.Label>
+
+    <Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.Label>Режим отображения:</Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.Label>
+    <Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.Tooltip>Этот вид предусматривается дл использования с Кассанрой, Фиби или другими рассказчиками, испоьзующими цикл серьезных угроз. Он не работает для рассказчиков, использующих другую логику для генерации срьехных угроз, например, Ренди.</Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.Tooltip>
+    <Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.Off>Выключено</Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.Off>
+    <Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.CassandraAndPhoebeOnly>Только для Кассандры Классической и Фиби Тихони</Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.CassandraAndPhoebeOnly>
+    <Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.All>Включено для любого подходящего расссказчика</Leoltron.ExplicitTimings.Settings.OnOffCycleViewMode.All>
+    
+    <Leoltron.ExplicitTimings.Settings.HoursBeforeOnCycleStartWarning.Label>Предупреждение перед началом активный фазы (ч)</Leoltron.ExplicitTimings.Settings.HoursBeforeOnCycleStartWarning.Label>
+    <Leoltron.ExplicitTimings.Settings.HoursBeforeOnCycleStartWarning.SubLabel>Таймер будет мигать желтым. Не работает, если подсветка выключена.</Leoltron.ExplicitTimings.Settings.HoursBeforeOnCycleStartWarning.SubLabel>
+    
+    <Leoltron.ExplicitTimings.Settings.Hediffs.Label>Состояния здоровья</Leoltron.ExplicitTimings.Settings.Hediffs.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowHediffsTimers.Label>Показывать таймера</Leoltron.ExplicitTimings.Settings.ShowHediffsTimers.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowImmunityProgress.Label>Показывать таймера иммунитета</Leoltron.ExplicitTimings.Settings.ShowImmunityProgress.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowLethalDiseaseSeverityProgress.Label>Показывать время до смерти от болезни</Leoltron.ExplicitTimings.Settings.ShowLethalDiseaseSeverityProgress.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowInjuryEstimations.Label>Показывать примерное время лечение ранения</Leoltron.ExplicitTimings.Settings.ShowInjuryEstimations.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowInjuryEstimations.SubLabel>Время высчитывается из предположения, что все ранения лечатся одинаково; чем меньше ранений, чем точнее результат.</Leoltron.ExplicitTimings.Settings.ShowInjuryEstimations.SubLabel>
+    <Leoltron.ExplicitTimings.Settings.ShowBloodLossRecoveryTimer.Label>Показывать время восстановления от кровопотери</Leoltron.ExplicitTimings.Settings.ShowBloodLossRecoveryTimer.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowTemperatureHediffsTimer.Label>Таймеры теплового удара/гипотермии</Leoltron.ExplicitTimings.Settings.ShowTemperatureHediffsTimer.Label>
+    <Leoltron.ExplicitTimings.Settings.ShowPregnancyTimer.Label>Показывать таймеры беременности</Leoltron.ExplicitTimings.Settings.ShowPregnancyTimer.Label>
+</LanguageData>

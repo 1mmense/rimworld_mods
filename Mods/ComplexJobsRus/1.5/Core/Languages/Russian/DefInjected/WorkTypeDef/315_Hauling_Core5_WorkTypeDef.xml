@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\315_Hauling_Core5.xml -->
+<!-- EN: Maintenance -->
+<Hauling.labelShort>обслуживание</Hauling.labelShort>
+<!-- EN: Maintaining -->
+<Hauling.gerundLabel>Обслуживать</Hauling.gerundLabel>
+<!-- EN: Perform various tasks to ensure upkeep and maintenance of systems, such as refueling, delivering and overall system care. -->
+<Hauling.description>Выполняют различные задачи по содержанию и обслуживанию систем, например обеспечивают ресурсами, заправляют и т. д.</Hauling.description>
+<!-- EN: Maintain -->
+<Hauling.verb>Обслуживать</Hauling.verb>
+</LanguageData>
