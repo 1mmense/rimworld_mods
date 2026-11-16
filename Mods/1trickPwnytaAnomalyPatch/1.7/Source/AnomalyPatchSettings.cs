@@ -32,7 +32,6 @@ namespace AnomalyPatch
         public static bool InhumanPregnancyAttitude = true;
         public static bool RitualTargetsDontNeedRescue = true;
         public static bool AvoidDreadLeather = true;
-        public static bool CreepjoinerBodyTypeFix = true;
         public static bool SightstealerArrivalMapFix = true;
         public static bool DontBlockPrisonDoors = true;
         public static bool ExtractBioferriteByDefault = true;
@@ -85,7 +84,6 @@ namespace AnomalyPatch
             DoSetting(listing, "AnomalyPatch_FoodPriority", ref FoodPriority);
             DoSetting(listing, "AnomalyPatch_DeadGhoulsInColonistBar", ref DeadGhoulsInColonistBar);
             DoSetting(listing, "AnomalyPatch_CreepJoinerLove", ref CreepJoinerLove, restartRequired: true, dependsOn: !AnomalyPatchMod.BigAndSmall);
-            DoSetting(listing, "AnomalyPatch_CreepjoinerBodyTypeFix", ref CreepjoinerBodyTypeFix, restartRequired: true, bugFix: true);
 
             listing.Gap();
 
@@ -104,7 +102,7 @@ namespace AnomalyPatch
             using (new TextBlock(GameFont.Medium))
             {
                 listing.Label(key.Translate());
-            }   
+            }
             listing.GapLine();
         }
 
@@ -145,7 +143,6 @@ namespace AnomalyPatch
             Scribe_Values.Look(ref InhumanPregnancyAttitude, "InhumanPregnancyAttitude", true);
             Scribe_Values.Look(ref RitualTargetsDontNeedRescue, "RitualTargetsDontNeedRescue", true);
             Scribe_Values.Look(ref AvoidDreadLeather, "AvoidDreadLeather", true);
-            Scribe_Values.Look(ref CreepjoinerBodyTypeFix, "CreepjoinerBodyTypeFix", true);
             Scribe_Values.Look(ref DontBlockPrisonDoors, "DontBlockPrisonDoors", true);
             Scribe_Values.Look(ref ExtractBioferriteByDefault, "ExtractBioferriteByDefault", true);
         }
