@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>VWE_HuntingStealth</defName>
+		<label>hunting stealth</label>
+		<description>The weapon held by this person provides increased hunting stealth.</description>
+		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<duplicationAllowed>false</duplicationAllowed>
+		<stages>
+			<li>
+				<statOffsets>
+					<HuntingStealth>0.3</HuntingStealth>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VWE_ExtraPain</defName>
+		<description>This creature has increased pain sensitivity due to being struck by a barbed arrow.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>increased pain sensitivity</label>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<painFactor>1.5</painFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VWE_ReducedMoveSpeed</defName>
+		<label>encumbered</label>
+		<description>The weapon held by this person is very heavy, reducing move speed.</description>
+		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<duplicationAllowed>false</duplicationAllowed>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>-0.2</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VWE_SkeletonizedFrame</defName>
+		<label>skeletonized frame</label>
+		<description>The weapon held by this person is very light, increasing move speed.</description>
+		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<duplicationAllowed>false</duplicationAllowed>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>0.1</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VWE_IlluminatedSights</defName>
+		<label>illuminated sights</label>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<description>The weapon held by this person is fitted with self-illuminating sights.</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<duplicationAllowed>false</duplicationAllowed>
+		<stages>
+			<li>
+				<statOffsets>
+					<ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</ShootingAccuracyOutdoorsDarkOffset>
+					<ShootingAccuracyIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</ShootingAccuracyIndoorsDarkOffset>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VWE_ComfortGrip</defName>
+		<label>comfort grip</label>
+		<description>The weapon held by this person is fitted with a custom-molded, ergonomic handle wrapped in high-quality leather.</description>
+		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<duplicationAllowed>false</duplicationAllowed>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VWE_GrimNotches</defName>
+		<label>grim notches</label>
+		<description>The weapon held by this person is covered in crude, carved notches, each tallying a life taken by a previous owner.</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<duplicationAllowed>false</duplicationAllowed>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef MayRequire="VanillaExpanded.VAnomalyEInsanity">
+		<defName>VWE_VoidInscriptions</defName>
+		<label>void inscriptions</label>
+		<description>The weapon held by this person is etched with shifting, non-euclidean glyphs that whisper to the wielder, continually draining their mental stability while equipped.</description>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>False</isBad>
+		<comps>
+			<li>
+				<compClass>VAEInsanity.HediffComp_ReduceSanity</compClass>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

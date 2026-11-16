@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_HeadSlot</defName>
+	<x>2</x>
+	<y>0</y>
+	<whiteList>
+		<li>FullHead</li>
+		<li>UpperHead</li>
+	</whiteList>
+	<apparelLayers>
+		<li>Overhead</li>
+	</apparelLayers>
+	<priority>2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_EarsSlot</defName>
+	<x>0</x>
+	<y>0</y>
+	<whiteList>
+		<li>Ears</li>
+	</whiteList>
+	<apparelLayers>
+		<li>Overhead</li>
+		<li>EyeCover</li>
+	</apparelLayers>
+	<priority>-2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_TopHeadSlot</defName>
+	<x>3</x>
+	<y>0</y>
+	<whiteList>
+		<li>FullHead</li>
+		<li>UpperHead</li>
+		<li>Teeth</li>
+		<li>Mouth</li>
+		<li>Neck</li>
+	</whiteList>
+	<apparelLayers>
+		<li>Overhead</li>
+	</apparelLayers>
+	<priority>1</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_ShellHeadSlot</defName>
+	<x>1</x>
+	<y>0</y>
+	<whiteList>
+		<li>FullHead</li>
+		<li>UpperHead</li>
+		<li>Teeth</li>
+		<li>Mouth</li>
+		<li>Neck</li>
+		<li>Eyes</li>
+		<li>Ears</li>
+		<li>FaceCover</li>
+	</whiteList>
+	<apparelLayers>
+		<li>EyeCover</li>
+		<li>Overhead</li>
+		<li>FaceCover</li>
+		<li>StrappedHead</li>
+	</apparelLayers>
+	<priority>0</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_TorsoSlot</defName>
+	<x>2</x>
+	<y>1</y>
+	<whiteList><li>Torso</li></whiteList>
+	<apparelLayers><li>OnSkin</li></apparelLayers>
+	<priority>2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_TorsoSlotSkin</defName>
+	<x>1</x>
+	<y>1</y>
+	<whiteList><li>Torso</li></whiteList>
+	<apparelLayers>
+		<li>OnSkin</li>
+		<li>Shell</li>
+	</apparelLayers>
+	<priority>1</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_TorsoSlotMiddle</defName>
+	<x>3</x>
+	<y>1</y>
+	<whiteList><li>Torso</li></whiteList>
+	<apparelLayers><li>Middle</li></apparelLayers>
+	<priority>2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_BottomSlot</defName>
+	<x>2</x>
+	<y>2</y>
+	<whiteList><li>Legs</li></whiteList>
+	<apparelLayers><li>OnSkin</li></apparelLayers>
+	<priority>2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_FeetSlot</defName>
+	<x>2</x>
+	<y>3</y>
+	<whiteList><li>Feet</li></whiteList>
+	<apparelLayers>
+		<li>OnSkin</li>
+		<li>Middle</li>
+	</apparelLayers>
+	<priority>2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_SlaveCSlot</defName>
+	<x>1</x>
+	<y>2</y>
+	<whiteList>
+		<li>Neck</li>
+		<li>Torso</li>
+		<li>Shoulders</li>
+	</whiteList>
+	<blackList>
+		<li>FullHead</li>
+		<li>UpperHead</li>
+	</blackList>
+	<apparelLayers>
+		<li>Overhead</li>
+		<li>Backpack</li>
+	</apparelLayers>
+	<priority>-3</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_WaistSlot</defName>
+	<x>3</x>
+	<y>2</y>
+	<whiteList>
+		<li>Waist</li>
+		<li>Arms</li>
+		<li>Torso</li>
+	</whiteList>
+	<apparelLayers>
+		<li>OnSkin</li>
+		<li>Middle</li>
+		<li>Shell</li>
+		<li>VFEC_OuterShell</li>
+		<li>Webbing</li>
+	</apparelLayers>
+	<priority>-4</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_HandsSlot</defName>
+	<x>1</x>
+	<y>3</y>
+	<whiteList><li>Hands</li></whiteList>
+	<apparelLayers>
+		<li>OnSkin</li>
+		<li>Middle</li>
+	</apparelLayers>
+	<priority>2</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+<NiceInventoryTab.ApparelSlotFilter>
+	<defName>NIT_Grid_BeltSlot</defName>
+	<x>3</x>
+	<y>3</y>
+	<whiteList><li>Torso</li></whiteList>
+	<apparelLayers><li>Belt</li></apparelLayers>
+	<priority>1</priority>
+</NiceInventoryTab.ApparelSlotFilter>
+
+</Defs>

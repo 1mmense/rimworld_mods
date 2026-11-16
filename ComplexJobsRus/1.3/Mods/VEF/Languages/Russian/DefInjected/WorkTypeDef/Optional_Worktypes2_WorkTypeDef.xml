@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VanillaFactionsExpanded_Core\Optional_Worktypes2.xml -->
+<!-- EN: Convert -->
+<FSFConvert.labelShort>обращение</FSFConvert.labelShort>
+<!-- EN: Warden -->
+<FSFConvert.pawnLabel>Надзиратель</FSFConvert.pawnLabel>
+<!-- EN: converting -->
+<FSFConvert.gerundLabel>Обращать</FSFConvert.gerundLabel>
+<!-- EN: Convert prisoners to your Ideologion. -->
+<FSFConvert.description>Обращают пленников в свою идеологию.</FSFConvert.description>
+<!-- EN: Handle -->
+<FSFConvert.verb>Надзирать</FSFConvert.verb>
+<!-- EN: Merge -->
+<FSFMerge.labelShort>объединение</FSFMerge.labelShort>
+<!-- EN: Hauler -->
+<FSFMerge.pawnLabel>Кладовщик</FSFMerge.pawnLabel>
+<!-- EN: merging -->
+<FSFMerge.gerundLabel>Объединять</FSFMerge.gerundLabel>
+<!-- EN: Merge stacks of resources together to prevent clutter. -->
+<FSFMerge.description>Объединяют ресурсы, чтобы везде был порядок.</FSFMerge.description>
+<!-- EN: Merging -->
+<FSFMerge.verb>объединить</FSFMerge.verb>
+<!-- EN: Prune -->
+<FSFPruning.labelShort>остригание</FSFPruning.labelShort>
+<!-- EN: Pruner -->
+<FSFPruning.pawnLabel>Садовник</FSFPruning.pawnLabel>
+<!-- EN: pruning -->
+<FSFPruning.gerundLabel>Остригать</FSFPruning.gerundLabel>
+<!-- EN: Prune trees. -->
+<FSFPruning.description>Подрезают и остригают деревья.</FSFPruning.description>
+<!-- EN: Prune -->
+<FSFPruning.verb>Остричь</FSFPruning.verb>
+<!-- EN: Smooth -->
+<FSFSmoothing.labelShort>выравнивание</FSFSmoothing.labelShort>
+<!-- EN: Smoother -->
+<FSFSmoothing.pawnLabel>Выравниватель</FSFSmoothing.pawnLabel>
+<!-- EN: smoothing -->
+<FSFSmoothing.gerundLabel>Выравнивать</FSFSmoothing.gerundLabel>
+<!-- EN: Smooth stone floors and walls. -->
+<FSFSmoothing.description>Выравнивают стены и полы.</FSFSmoothing.description>
+<!-- EN: Smooth -->
+<FSFSmoothing.verb>Выронить</FSFSmoothing.verb>
+<!-- EN: Tame -->
+<FSFTaming.labelShort>приручение</FSFTaming.labelShort>
+<!-- EN: Tamer -->
+<FSFTaming.pawnLabel>Укротитель</FSFTaming.pawnLabel>
+<!-- EN: Taming -->
+<FSFTaming.gerundLabel>Приручать</FSFTaming.gerundLabel>
+<!-- EN: Tame wild animals. -->
+<FSFTaming.description>Приручают диких животных.</FSFTaming.description>
+<!-- EN: Tame -->
+<FSFTaming.verb>Приручить</FSFTaming.verb>
+<!-- EN: Train domesticated animals. -->
+<FSFTraining.description>Дрессируют домашних животных.</FSFTraining.description>
+</LanguageData>

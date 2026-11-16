@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VCookE\415_FSFProduction_FSF20.xml -->
+<!-- EN: work at canning machine -->
+<FSFVCE_DoBillsCanning.label>работать на консервной машине</FSFVCE_DoBillsCanning.label>
+<!-- EN: can food -->
+<FSFVCE_DoBillsCanning.verb>консервировать</FSFVCE_DoBillsCanning.verb>
+<!-- EN: canning food at -->
+<FSFVCE_DoBillsCanning.gerund>консервировать на</FSFVCE_DoBillsCanning.gerund>
+<!-- EN: work on condiments at prep table -->
+<FSFVCE_DoBillsPrep.label>готовить за столом для приправ</FSFVCE_DoBillsPrep.label>
+<!-- EN: prep condiments -->
+<FSFVCE_DoBillsPrep.verb>готовить</FSFVCE_DoBillsPrep.verb>
+<!-- EN: working on condiments at -->
+<FSFVCE_DoBillsPrep.gerund>готовить на</FSFVCE_DoBillsPrep.gerund>
+</LanguageData>

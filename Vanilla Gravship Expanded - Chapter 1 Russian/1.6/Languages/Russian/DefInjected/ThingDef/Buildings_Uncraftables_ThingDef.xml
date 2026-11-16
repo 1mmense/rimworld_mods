@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Uncraftables.xml -->
+	<!-- EN: gunner subpersona core -->
+	<VGE_GunnerSubpersonaCore.label>ядро субперсоны-наводчика</VGE_GunnerSubpersonaCore.label>
+	<VGE_GunnerSubpersonaCore.description>Низкоуровневая субперсона, специализирующаяся на бою гравишипов. Она может связаться с одним орудием гравишипной артиллерии и управлять им так же, как член экипажа за терминалом наведения. Её боевые возможности превосходят даже лучших человеческих наводчиков. Гравишип может поддерживать до двух ядер субперсоны-наводчика.</VGE_GunnerSubpersonaCore.description>
+	
+	<!-- EN: maintenance hub -->
+	<VGE_MaintenanceHub.label>узел техобслуживания</VGE_MaintenanceHub.label>
+	<VGE_MaintenanceHub.description>Централизованная система, которая оптимизирует и автоматизирует рутинное обслуживание по всему гравишипу. Пассивно снижает скорость износа обслуживания всех подключённых машин. Для работы требуется питание.</VGE_MaintenanceHub.description>
+	
+	<!-- EN: capacitor harmonizer -->
+	<VGE_CapacitorHarmonizer.label>гармонизатор конденсаторов</VGE_CapacitorHarmonizer.label>
+	<VGE_CapacitorHarmonizer.description>Специализированное устройство, которое балансирует и синхронизирует поток энергии между соседними конденсаторами. Пассивно повышает эффективность их зарядки и разрядки до максимума. Для работы требуется питание.</VGE_CapacitorHarmonizer.description>
+	
+	<!-- EN: gravlift -->
+	<VGE_Gravlift.label>гравилифт</VGE_Gravlift.label>
+	<VGE_Gravlift.description>Сложная платформа вертикального запуска и стабилизации, встроенная в центральную конструкцию гравишипа. Гравилифт обеспечивает огромную тягу, необходимую для вертикального взлёта с поверхности планеты, и стабилизирует выход на орбиту, позволяя гравишипу удерживаться в космосе. Также он значительно смягчает аварийную посадку, уменьшая получаемый урон и не давая подструктуре получить критические повреждения.</VGE_Gravlift.description>
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1410_FSFRescue_Worktype28.xml -->
+<!-- EN: Rescue -->
+<FSFRescue.labelShort>спасение</FSFRescue.labelShort>
+<!-- EN: Rescuer -->
+<FSFRescue.pawnLabel>Спасатель</FSFRescue.pawnLabel>
+<!-- EN: Rescuing -->
+<FSFRescue.gerundLabel>Спасать</FSFRescue.gerundLabel>
+<!-- EN: Bring downed allies to beds so they can be treated. -->
+<FSFRescue.description>Переноска раненых союзников в кровати, где их можно вылечить.</FSFRescue.description>
+<!-- EN: Rescue -->
+<FSFRescue.verb>Спасти</FSFRescue.verb>
+</LanguageData>

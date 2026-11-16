@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Plants\Plants_Cultivated_Farm.xml -->
+	<!-- EN: oxyalgae plant -->
+	<VGE_OxyalgaePlant.label>оксиводоросли</VGE_OxyalgaePlant.label>
+	<!-- EN: A fast-growing aquatic plant cultivated in hydroponics and used to generate oxygen when converted in algae oxygenator. Rots quickly when harvested, making immediate processing essential. -->
+	<VGE_OxyalgaePlant.description>Быстрорастущее водное растение, выращиваемое в гидропонике. Используется для получения кислорода после переработки в водорослевом кислородаторе. После сбора быстро гниёт, поэтому важна немедленная переработка.</VGE_OxyalgaePlant.description>
+</LanguageData>

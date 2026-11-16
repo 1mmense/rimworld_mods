@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\895_FSFSmoothing_Worktype32.xml -->
+<!-- EN: Smooth -->
+<FSFSmoothing.labelShort>выравнивание</FSFSmoothing.labelShort>
+<!-- EN: Smoother -->
+<FSFSmoothing.pawnLabel>Выравниватель</FSFSmoothing.pawnLabel>
+<!-- EN: smoothing -->
+<FSFSmoothing.gerundLabel>Выравнивать</FSFSmoothing.gerundLabel>
+<!-- EN: Smooth stone floors and walls. -->
+<FSFSmoothing.description>Выравнивают стены и полы.</FSFSmoothing.description>
+<!-- EN: Smooth -->
+<FSFSmoothing.verb>Выронить</FSFSmoothing.verb>
+</LanguageData>

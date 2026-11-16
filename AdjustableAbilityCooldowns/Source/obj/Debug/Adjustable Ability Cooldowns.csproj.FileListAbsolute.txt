@@ -1,0 +1,32 @@
+C:\Users\rotsm\source\repos\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.csproj.AssemblyReference.cache
+C:\Users\rotsm\source\repos\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.csproj.CoreCompileInputs.cache
+C:\Users\rotsm\source\repos\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.csproj.CopyComplete
+C:\Users\rotsm\source\repos\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.dll
+C:\Users\rotsm\source\repos\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.pdb
+C:\Program Files (x86)\Steam\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Rituals Times\Assemblies\Adjusteble Rituals Times.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Rituals Times.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Rituals Times\Assemblies\Adjusteble Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Rituals Times\Adjusteble Rituals Times\obj\Debug\Adjusteble Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Ability Cooldowns\Adjusteble Ability Cooldowns\obj\Debug\Adjusteble Ability Cooldowns.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Ability Cooldowns\Adjusteble Ability Cooldowns\obj\Debug\Adjusteble Ability Cooldowns.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Ability Cooldowns\Adjusteble Ability Cooldowns\obj\Debug\Adjusteble Ability Cooldowns.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Ability Cooldowns\Assemblies\Adjustable Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjusteble Ability Cooldowns\Adjusteble Ability Cooldowns\obj\Debug\Adjustable Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Assemblies\Adjustable Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Adjustable Ability Cooldowns\obj\Debug\Adjustable Ability Cooldowns.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Adjustable Ability Cooldowns\obj\Debug\Adjustable Ability Cooldowns.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Adjustable Ability Cooldowns\obj\Debug\Adjustable Ability Cooldowns.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Adjustable Ability Cooldowns\obj\Debug\Adjustable Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Assemblies\Adjustable Ability Cooldowns.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.dll
+G:\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Assemblies\Adjustable Ability Cooldowns.dll
+G:\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\1.5\Assemblies\Adjustable Ability Cooldowns.dll
+G:\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\1.6\Assemblies\Adjustable Ability Cooldowns.dll
+G:\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.csproj.CoreCompileInputs.cache
+G:\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.csproj.CopyComplete
+G:\Steam\steamapps\common\RimWorld\Mods\Adjustable Ability Cooldowns\Source\obj\Debug\Adjustable Ability Cooldowns.dll

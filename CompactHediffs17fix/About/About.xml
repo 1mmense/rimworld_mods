@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Compact Hediffs 1.7 fix</name>
+    <author>RobTheRobotGuard</author>
+    <packageId>RobTRG.CompactHediffFix</packageId>
+    <supportedVersions>
+        <li>1.7</li>
+    </supportedVersions>
+    <description>Fixes the textured severity/immunity bars of Compact Hediffs under the Waylith renderer, which clamps texture coordinates instead of repeating them.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>PeteTimesSix.CompactHediffs</packageId>
+            <displayName>Compact Hediffs</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2031734067</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>brrainz.harmony</li>
+        <li>PeteTimesSix.CompactHediffs</li>
+    </loadAfter>
+</ModMetaData>

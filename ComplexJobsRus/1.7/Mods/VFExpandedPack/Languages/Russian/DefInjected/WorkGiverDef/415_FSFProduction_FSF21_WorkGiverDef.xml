@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\Farxmai2_VanillaFurnitureExpandedPack\415_FSFProduction_FSF21.xml -->
+<!-- EN: cook on meat mincer -->
+<FSFFFE_DoBillsMeatMincer.label>работать за мясорубкой</FSFFFE_DoBillsMeatMincer.label>
+<!-- EN: cook -->
+<FSFFFE_DoBillsMeatMincer.verb>готовить</FSFFFE_DoBillsMeatMincer.verb>
+<!-- EN: cooking at -->
+<FSFFFE_DoBillsMeatMincer.gerund>готовить на</FSFFFE_DoBillsMeatMincer.gerund>
+</LanguageData>

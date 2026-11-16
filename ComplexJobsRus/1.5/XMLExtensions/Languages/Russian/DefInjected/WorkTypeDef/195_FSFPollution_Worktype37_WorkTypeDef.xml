@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\195_FSFPollution_Worktype37.xml -->
+<!-- EN: Clear Pollution -->
+<FSFPollution.labelShort>очистка</FSFPollution.labelShort>
+<!-- EN: Cleaner -->
+<FSFPollution.pawnLabel>Уборщик</FSFPollution.pawnLabel>
+<!-- EN: clearing -->
+<FSFPollution.gerundLabel>Очищать загрязнения</FSFPollution.gerundLabel>
+<!-- EN: Clear pollution in the clear pollution area. -->
+<FSFPollution.description>Очищают от загрязнений в зоне очистки от загрязнений.</FSFPollution.description>
+<!-- EN: Clear -->
+<FSFPollution.verb>Очистить</FSFPollution.verb>
+</LanguageData>

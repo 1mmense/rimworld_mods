@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\305_FSFMerge_Worktype29.xml -->
+<!-- EN: merge things -->
+<FSFHaulMerge.label>объединять предметы</FSFHaulMerge.label>
+<!-- EN: merge -->
+<FSFHaulMerge.verb>объединить</FSFHaulMerge.verb>
+<!-- EN: merging -->
+<FSFHaulMerge.gerund>объединить</FSFHaulMerge.gerund>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\415_FSFProduction_FSF6.xml -->
+<!-- EN: process seeds -->
+<FSFProcessSeeds.label>получать семена</FSFProcessSeeds.label>
+<!-- EN: process -->
+<FSFProcessSeeds.verb>работать</FSFProcessSeeds.verb>
+<!-- EN: processing at -->
+<FSFProcessSeeds.gerund>работать на</FSFProcessSeeds.gerund>
+</LanguageData>

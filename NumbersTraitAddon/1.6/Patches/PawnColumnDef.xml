@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers[1.5Temp]</li>
+		</mods>
+		<match Class="PatchOperationInsert">
+			<xpath>/Defs/PawnColumnDef[defName = "Numbers_Faction"]</xpath>
+			<value>
+				<PawnColumnDef>
+					<defName>Numbers_TraitsColored</defName>
+					<workerClass>Numbers.PawnColumnWorker_TraitsColored</workerClass>
+					<sortable>true</sortable>
+					<label>TraitsColored</label>
+				</PawnColumnDef>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers</li>
+		</mods>
+		<match Class="PatchOperationInsert">
+			<xpath>/Defs/PawnColumnDef[defName = "Numbers_Faction"]</xpath>
+			<value>
+				<PawnColumnDef>
+					<defName>Numbers_TraitsColored</defName>
+					<workerClass>Numbers.PawnColumnWorker_TraitsColored</workerClass>
+					<sortable>true</sortable>
+					<label>TraitsColored</label>
+				</PawnColumnDef>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers (1.6 Temp)</li>
+		</mods>
+		<match Class="PatchOperationInsert">
+			<xpath>/Defs/PawnColumnDef[defName = "Numbers_Faction"]</xpath>
+			<value>
+				<PawnColumnDef>
+					<defName>Numbers_TraitsColored</defName>
+					<workerClass>Numbers.PawnColumnWorker_TraitsColored</workerClass>
+					<sortable>true</sortable>
+					<label>TraitsColored</label>
+				</PawnColumnDef>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

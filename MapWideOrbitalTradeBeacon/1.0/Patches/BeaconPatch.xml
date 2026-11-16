@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+			<operations>				
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>	  
+					<value>		
+						<li Class="MapWideTradeBeacon.MapBeaconProp"/>						
+					</value>					
+				</li>
+			</operations>
+	</Operation>
+</Patch>

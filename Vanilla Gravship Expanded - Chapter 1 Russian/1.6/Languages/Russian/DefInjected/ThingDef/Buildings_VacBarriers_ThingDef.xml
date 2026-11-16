@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_VacBarriers.xml -->
+	<VGE_VacBarrierDouble.description>Ультразвуковой барьер, предотвращающий разгерметизацию в космосе. Поле сжимает молекулы воздуха у границы, не давая газам выходить наружу, при этом оставляя возможность свободно проходить через него людям. Вак-барьер не мешает проникновению врагов.\n\nЧтобы предотвращать разгерметизацию, требуется питание.</VGE_VacBarrierDouble.description>
+	<!-- EN: vac barrier (2x1) -->
+	<VGE_VacBarrierDouble.label>вак-барьер (2x1)</VGE_VacBarrierDouble.label>
+	
+	<VGE_VacBarrierTriple.description>Ультразвуковой барьер, предотвращающий разгерметизацию в космосе. Поле сжимает молекулы воздуха у границы, не давая газам выходить наружу, при этом оставляя возможность свободно проходить через него людям. Вак-барьер не мешает проникновению врагов.\n\nЧтобы предотвращать разгерметизацию, требуется питание.</VGE_VacBarrierTriple.description>
+	<!-- EN: vac barrier (3x1) -->
+	<VGE_VacBarrierTriple.label>вак-барьер (3x1)</VGE_VacBarrierTriple.label>
+	
+	<VGE_VacBarrierQuintuple.description>Ультразвуковой барьер, предотвращающий разгерметизацию в космосе. Поле сжимает молекулы воздуха у границы, не давая газам выходить наружу, при этом оставляя возможность свободно проходить через него людям. Вак-барьер не мешает проникновению врагов.\n\nЧтобы предотвращать разгерметизацию, требуется питание.</VGE_VacBarrierQuintuple.description>
+	<!-- EN: vac barrier (5x1) -->
+	<VGE_VacBarrierQuintuple.label>вак-барьер (5x1)</VGE_VacBarrierQuintuple.label>
+</LanguageData>

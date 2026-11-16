@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Namers_OrbitalLocations.xml -->
+	<VGE_NamerWorldObject_IceAsteroid.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->ледяной астероид</li>
+		<li>terrain_word->ледяная глыба</li>
+		<li>terrain_word->замёрзший спутник</li>
+		<li>terrain_word->холодный планетоид</li>
+		<li>terrain_word->ледяная луна</li>
+	</VGE_NamerWorldObject_IceAsteroid.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_AsteroidCluster.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->скопление астероидов</li>
+		<li>terrain_word->скопление камней</li>
+		<li>terrain_word->разбросанные спутники</li>
+		<li>terrain_word->рассеянные планетоиды</li>
+		<li>terrain_word->малые луны</li>
+	</VGE_NamerWorldObject_AsteroidCluster.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_AsteroidField.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->астероидное поле</li>
+	</VGE_NamerWorldObject_AsteroidField.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_PorousAsteroid.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->пористый астероид</li>
+		<li>terrain_word->сотовая порода</li>
+		<li>terrain_word->пробитый спутник</li>
+	</VGE_NamerWorldObject_PorousAsteroid.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_GiantAsteroid.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->гигантский астероид</li>
+		<li>terrain_word->гигантская глыба</li>
+		<li>terrain_word->гигантский спутник</li>
+		<li>terrain_word->гигантский планетоид</li>
+		<li>terrain_word->гигантская луна</li>
+	</VGE_NamerWorldObject_GiantAsteroid.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_ShatteredAsteroid.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->расколотый астероид</li>
+		<li>terrain_word->расколотая глыба</li>
+		<li>terrain_word->растрескавшийся спутник</li>
+		<li>terrain_word->разорванный планетоид</li>
+		<li>terrain_word->разорванная луна</li>
+	</VGE_NamerWorldObject_ShatteredAsteroid.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_DenseAsteroid.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->плотный астероид</li>
+		<li>terrain_word->плотная глыба</li>
+		<li>terrain_word->плотный спутник</li>
+		<li>terrain_word->плотный планетоид</li>
+		<li>terrain_word->плотная луна</li>
+	</VGE_NamerWorldObject_DenseAsteroid.rulePack.rulesStrings>
+
+	<VGE_NamerWorldObject_SmallAsteroid.rulePack.rulesStrings>
+		<li>terrain_word(p=4)->малый астероид</li>
+		<li>terrain_word->малая глыба</li>
+		<li>terrain_word->малый спутник</li>
+		<li>terrain_word->малый планетоид</li>
+		<li>terrain_word->малая луна</li>
+	</VGE_NamerWorldObject_SmallAsteroid.rulePack.rulesStrings>
+</LanguageData>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <!-- Legacy XML Patch -->
+
+    <!-- <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[
+            contains(@Name,"Armor")
+            or contains(@ParentName,"Armor")
+            or contains(defName,"Armor")
+            or contains(defName,"Vacsuit")
+            or contains(translate(label,'a','A'),'Armor')
+            or contains(translate(description,'a','A'),'Armor')
+            ]/apparel/bodyPartGroups/li[.="Arms"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[
+                contains(@Name,"Armor")
+                or contains(@ParentName,"Armor")
+                or contains(defName,"Armor")
+                or contains(defName,"Vacsuit")
+                or contains(translate(label,'a','A'),'Armor')
+                or contains(translate(description,'a','A'),'Armor')
+                ]/apparel/bodyPartGroups/li[.="Arms"]</xpath>
+            <value>
+                <li>Arms</li>
+                <li>Hands</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[
+            contains(@Name,"Armor")
+            or contains(@ParentName,"Armor")
+            or contains(defName,"Armor")
+            or contains(defName,"Vacsuit")
+            or contains(translate(label,'a','A'),'Armor')
+            or contains(translate(description,'a','A'),'Armor')
+            ]/apparel/bodyPartGroups/li[.="Legs"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[
+                contains(@Name,"Armor")
+                or contains(@ParentName,"Armor")
+                or contains(defName,"Armor")
+                or contains(defName,"Vacsuit")
+                or contains(translate(label,'a','A'),'Armor')
+                or contains(translate(description,'a','A'),'Armor')
+                ]/apparel/bodyPartGroups/li[.="Legs"]</xpath>
+            <value>
+                <li>Legs</li>
+                <li>Feet</li>
+            </value>
+        </match>
+    </Operation> -->
+
+    
+
+    <!-- Remove gloves/shoes from NPC loadouts -->
+
+    <Operation Class="FullArmor.PatchOperationSetting">
+        <setting>disableSpawningGloves</setting>
+        <match Class="PatchOperationConditional">
+            <xpath>/Defs/PawnKindDef/apparelRequired/li[
+                contains(translate(.,'a','A'),"Boots")
+                or contains(translate(.,'a','A'),"Shoes")
+                or contains(translate(.,'a','A'),"Gloves")]</xpath>
+            <match Class="PatchOperationRemove">
+                <xpath>/Defs/PawnKindDef/apparelRequired/li[
+                    contains(translate(.,'a','A'),"Boots")
+                    or contains(translate(.,'a','A'),"Shoes")
+                    or contains(translate(.,'a','A'),"Gloves")]</xpath>
+            </match>
+        </match>
+    </Operation>
+
+
+
+    <!-- Disable gloves/shoes items -->
+
+    <Operation Class="FullArmor.PatchOperationSetting">
+        <setting>disableGloves</setting>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/ThingDef[./apparel[not(wornGraphicPath)]/bodyPartGroups[./li[contains(.,'Hands') or contains(.,'LeftHand') or contains(.,'RightHand') or contains(.,'MiddleFingers') or contains(.,'Feet')] and not(./li[ contains(.,'Arms') or contains(.,'Shoulders') or contains(.,'Torso') or contains(.,'Legs')])]]</xpath>
+            <match Class="PatchOperationAttributeAdd">
+                <xpath>Defs/ThingDef[./apparel[not(wornGraphicPath)]/bodyPartGroups[./li[contains(.,'Hands') or contains(.,'LeftHand') or contains(.,'RightHand') or contains(.,'MiddleFingers') or contains(.,'Feet')] and not(./li[ contains(.,'Arms') or contains(.,'Shoulders') or contains(.,'Torso') or contains(.,'Legs')])]]</xpath>
+                <attribute>Abstract</attribute>
+                <value>True</value>
+            </match>
+        </match>
+    </Operation>
+¨
+
+    <!-- Move gloves/shoes items to headgear layer -->
+
+    <Operation Class="FullArmor.PatchOperationSetting">
+        <setting>moveGlovesHeadgearLayer</setting>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/ThingDef/apparel[not(wornGraphicPath) and ./bodyPartGroups[./li[contains(.,'Hands') or contains(.,'LeftHand') or contains(.,'RightHand') or contains(.,'MiddleFingers') or contains(.,'Feet')] and not(./li[ contains(.,'Arms') or contains(.,'Shoulders') or contains(.,'Torso') or contains(.,'Legs')])]]</xpath>
+            <match Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef/apparel[not(wornGraphicPath) and ./bodyPartGroups[./li[contains(.,'Hands') or contains(.,'LeftHand') or contains(.,'RightHand') or contains(.,'MiddleFingers') or contains(.,'Feet')] and not(./li[ contains(.,'Arms') or contains(.,'Shoulders') or contains(.,'Torso') or contains(.,'Legs')])]]/layers</xpath>
+                <value>
+                    <layers>
+                        <li>Overhead</li>
+                    </layers>
+                </value>
+            </match>
+        </match>
+    </Operation>
+
+
+</Patch>

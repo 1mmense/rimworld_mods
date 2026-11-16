@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <VEF.DefMigrationDef>
+    <defName>VWE_MigrateMovedOrRemovedWeapons</defName>
+
+    <migratedDefs>
+      <ThingDef>
+       
+        <!-- Migrated to Medieval 2 -->
+        <VWE_Gun_Musket>
+          <replacement>VFEM2_Gun_Musket</replacement>
+          <!-- When migrating (replacement is specified), the original is not marked as removed. -->
+          <!-- Since this is a situation where a replacement may not be present (Medieval 2 not installed), -->
+          <!-- we mark this as to be removed if replacement def is not present (normally this would do nothing). -->
+          <removeIfMissingReplacement>true</removeIfMissingReplacement>
+        </VWE_Gun_Musket>
+        <VWE_Gun_Flintlock>
+          <replacement>VFEM2_Gun_Flintlock</replacement>
+          <!-- When migrating (replacement is specified), the original is not marked as removed. -->
+          <!-- Since this is a situation where a replacement may not be present (Medieval 2 not installed), -->
+          <!-- we mark this as to be removed if replacement def is not present (normally this would do nothing). -->
+          <removeIfMissingReplacement>true</removeIfMissingReplacement>
+        </VWE_Gun_Flintlock>
+        <!-- Removed always -->
+        <VWE_Tool_Whip />
+        <VWE_WhipSlash />
+        <VWE_Gun_FireExtinguisher />
+        <VWE_Bullet_FireExtinguisher />
+       
+        <Bullet_Leadball /> <!-- Flintlock/musket projectile -->
+      </ThingDef>
+      <!-- Research projects still error out due to how they're loaded (dictionary without working lists). -->
+    </migratedDefs>
+  </VEF.DefMigrationDef>
+
+</Defs>

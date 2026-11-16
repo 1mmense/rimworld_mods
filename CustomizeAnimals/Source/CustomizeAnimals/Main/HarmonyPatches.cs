@@ -1,0 +1,238 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Verse;
+using HarmonyLib;
+using RimWorld;
+using UnityEngine;
+using Mono.Cecil.Cil;
+using System.Reflection.Emit;
+using System.Reflection;
+using CustomizeAnimals.Settings;
+using Verse.AI;
+
+namespace CustomizeAnimals
+{
+	[StaticConstructorOnStartup]
+	public static class HarmonyPatches
+	{
+		internal const string PackDummyTexture_Default = "CA_pack_dummy";
+		internal const string PackDummyTexture_West = "CA_pack_dummy_west";
+
+		static HarmonyPatches()
+		{
+			var harmony = new Harmony("syrus.customize_animals");
+
+			harmony.Patch(
+				AccessTools.Method(typeof(Game), nameof(Game.FinalizeInit)),
+				postfix: new HarmonyMethod(typeof(HarmonyPatches), nameof(Game_FinalizeInit_Postfix)));
+			harmony.Patch(
+				AccessTools.Method(typeof(TrainableUtility), nameof(TrainableUtility.DegradationPeriodTicks), new[] { typeof(ThingDef) }),
+				postfix: new HarmonyMethod(typeof(HarmonyPatches), nameof(TrainableUtility_DegradationPeriodTicks_PostFix)));
+			harmony.Patch(
+				AccessTools.Method(typeof(TrainableUtility), nameof(TrainableUtility.DegradationPeriodTicks), new[] { typeof(Pawn) }),
+				postfix: new HarmonyMethod(typeof(HarmonyPatches), nameof(TrainableUtility_DegradationPeriodTicks_PostFix)));
+			harmony.Patch(
+				AccessTools.Method(typeof(MassUtility), nameof(MassUtility.Capacity)),
+				postfix: new HarmonyMethod(typeof(HarmonyPatches), nameof(MassUtility_Capacity_PostFix)));
+			harmony.Patch(
+				AccessTools.PropertyGetter(typeof(Pawn), nameof(Pawn.FenceBlocked)),
+				prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(Pawn_FenceBlocked_PreFix)));
+			harmony.Patch(
+				AccessTools.Method(typeof(Pawn_AgeTracker), nameof(Pawn_AgeTracker.BirthdayBiological)),
+				transpiler: new HarmonyMethod(typeof(HarmonyPatches), nameof(Pawn_AgeTracker_BirthdayBiological_Transpiler)));
+			harmony.Patch(
+				AccessTools.Method(typeof(Graphic_Multi), nameof(Graphic_Multi.Init)),
+				transpiler: new HarmonyMethod(typeof(HarmonyPatches), nameof(Graphic_Multi_Init_Transpiler)));
+		}
+
+		public static void Game_FinalizeInit_Postfix()
+		{
+			// update ability def dictionary
+			var abilityDefDict = SettingSpecialTrainables.AbilityDefDict;
+			abilityDefDict.Clear();
+			// get abilities which require trainable defs
+			foreach (var abilityDef in DefDatabase<AbilityDef>.AllDefs)
+			{
+				if (abilityDef.comps?.FirstOrDefault(acp => acp is CompProperties_AbilityRequiresTrainable) is CompProperties_AbilityRequiresTrainable cp 
+					&& cp.trainableDef is TrainableDef trainableDef)
+				{
+					if (!abilityDefDict.TryGetValue(trainableDef, out var conflict))
+						abilityDefDict.Add(trainableDef, abilityDef);
+					else
+						Log.Warning($"{nameof(CustomizeAnimals)}: '{abilityDef.defName}' requires '{trainableDef.defName}', which is already used for '{conflict.defName}'. " +
+							$"Adding '{trainableDef.defName}' to any animal will only allow them to use '{conflict.defName}'!");
+				}
+			}
+#pragma warning disable CS0612 // Type or member is obsolete
+			// check for trainable defs used for ability defs without the ability defs requiring training (using obsolete "enablesAbility")
+			foreach (var trainableDef in DefDatabase<TrainableDef>.AllDefs)
+			{
+				if (trainableDef.enablesAbility is AbilityDef abilityDef && !abilityDefDict.ContainsKey(trainableDef))
+				{
+					Log.Warning($"{nameof(CustomizeAnimals)}: '{trainableDef.defName}' uses '{abilityDef.defName}' but ability does not require training to be usable");
+					abilityDefDict.Add(trainableDef, abilityDef);
+				}
+			}
+#pragma warning restore CS0612 // Type or member is obsolete
+
+			// for all loaded animals...
+			var allAnimals = PawnsFinder.All_AliveOrDead?.Where(p => p?.IsAnimal == true)?.ToList();
+			if (allAnimals?.Count > 0)
+			{ 
+				// ...update abilities according to trainable defs
+				var trainableDefsWithAbility = SettingSpecialTrainables.AbilityDefDict.Keys.ToList();
+				if (trainableDefsWithAbility?.Count > 0)
+				{
+					foreach (var animalSettings in CustomizeAnimals.Animals)
+					{
+						if (animalSettings.GeneralSettings.TryGetValue("SpecialTrainables") is SettingSpecialTrainables specialTrainablesSetting)
+							specialTrainablesSetting.UpdateAbilitiesAfterInit(allAnimals, trainableDefsWithAbility);
+					}
+				}
+			}
+		}
+
+		public static void TrainableUtility_DegradationPeriodTicks_PostFix(ref int __result)
+		{
+			if (GlobalSettings.GlobalGeneralSettings.TrainingDecayFactor != 1f)
+				__result = Mathf.RoundToInt(Mathf.Clamp(__result / GlobalSettings.GlobalGeneralSettings.TrainingDecayFactor, 1f, 1e9f));
+		}
+
+		public static void MassUtility_Capacity_PostFix(Pawn p, ref float __result)
+		{
+			if (GlobalSettings.GlobalGeneralSettings.CarryingCapacityAffectsMassCapacity && (p.def.IsAnimal() || p.def.IsHumanLike()))
+				__result *= p.def.statBases.GetStatValueFromList(StatDefOf.CarryingCapacity, StatDefOf.CarryingCapacity.defaultBaseValue) / StatDefOf.CarryingCapacity.defaultBaseValue;
+		}
+
+		public static bool Pawn_FenceBlocked_PreFix(Pawn __instance, ref bool __result)
+		{
+			// ignore non-animals
+			if (__instance?.IsAnimal != true)
+				return true;
+
+			// animals are not blocked by fences when following their master (s. ThinkNode_ConditionalShouldFollowMaster.ShouldFollowMaster)
+			if (SettingFenceBlocked.NotWhenFollowing
+				&& __instance.playerSettings?.RespectedMaster is Pawn master
+				&& (master.Spawned && (__instance.playerSettings.followDrafted && master.Drafted 
+						|| __instance.playerSettings.followFieldwork && master.mindState?.lastJobTag == JobTag.Fieldwork)
+					|| master.CarriedBy is Pawn carriedBy && carriedBy.HostileTo(master)))
+			{
+				__result = false;
+				return false;
+			}
+
+			// all animals are blocked by fences, except when drafted is set to not blocked, see above
+			if (SettingFenceBlocked.Always)
+			{
+				__result = true;
+				return false;
+			}
+
+			// otherwise animals are blocked by fences depending on their individual Customize Animals setting
+			var thingDef = __instance.def;
+			//  try get value from cache
+			if (!SettingFenceBlocked.Cache.TryGetValue(thingDef, out var rawValue))
+			{
+				// otherwise add value to cache, cache will be cleared when settings change
+				if (CustomizeAnimals.AnimalsDict.TryGetValue(thingDef, out var animalSettings))
+					rawValue = ((SettingFenceBlocked)animalSettings.GeneralSettings["FenceBlocked"]).Value;
+				// adds null-value if animal is not found
+				SettingFenceBlocked.Cache.Add(thingDef, rawValue);
+			}
+			//  apply setting unless null (-> use default)
+			if (rawValue is bool fenceBlocked)
+			{
+				__result = fenceBlocked;
+				return false;
+			}
+
+			// use default
+			return true;
+		}
+
+		public static IEnumerable<CodeInstruction> Pawn_AgeTracker_BirthdayBiological_Transpiler(IEnumerable<CodeInstruction> instructions)
+		{
+			var patched = false;
+			var list = instructions.ToList();
+			for (int i = 0; i < list.Count - 5; i++)
+			{
+				//  0 -- ldc.i4.1 NULL
+				//    ++ call static System.Int32[] CustomizeAnimals.Settings.SpecialSettingGrowthTier::get_TraitGainsPerTier()
+				//    ++ ldarg.0 NULL
+				//    ++ call System.Int32 Verse.Pawn_AgeTracker::get_GrowthTier()
+				//    ++ ldelem.i4 NULL
+				//  1    ldloca.s 15 (System.Nullable`1[Verse.PawnGenerationRequest])
+				//  2    initobj System.Nullable`1[Verse.PawnGenerationRequest]
+				//  3    ldloc.s 15 (System.Nullable`1[Verse.PawnGenerationRequest])
+				//  4    ldc.i4.1 NULL
+				//  5    call static System.Collections.Generic.List`1<RimWorld.Trait> Verse.PawnGenerator::GenerateTraitsFor(...)
+				if (   list[i + 0].opcode == OpCodes.Ldc_I4_1
+					&& list[i + 1].opcode == OpCodes.Ldloca_S 
+					&& list[i + 2].opcode == OpCodes.Initobj 
+					&& list[i + 3].opcode == OpCodes.Ldloc_S 
+					&& list[i + 4].opcode == OpCodes.Ldc_I4_1
+					&& list[i + 5].opcode == OpCodes.Call
+					&& list[i + 5].operand is MethodInfo methodInfo
+					&& methodInfo == AccessTools.Method(typeof(PawnGenerator), nameof(PawnGenerator.GenerateTraitsFor)))
+				{
+					list.Insert(i++, new CodeInstruction(OpCodes.Call, AccessTools.PropertyGetter(typeof(SpecialSettingGrowthTier), nameof(SpecialSettingGrowthTier.TraitGainsPerTier))));
+					list.Insert(i++, new CodeInstruction(OpCodes.Ldarg_0));
+					list.Insert(i++, new CodeInstruction(OpCodes.Call, AccessTools.PropertyGetter(typeof(Pawn_AgeTracker), nameof(Pawn_AgeTracker.GrowthTier))));
+					list[i].opcode = OpCodes.Ldelem_I4;
+					patched = true;
+					break;
+				}
+			}
+
+			if (!patched)
+				Log.Error($"{nameof(CustomizeAnimals)}: failed to apply '{nameof(Pawn_AgeTracker_BirthdayBiological_Transpiler)}'-patch");
+			return list;
+		}
+
+		public static IEnumerable<CodeInstruction> Graphic_Multi_Init_Transpiler(IEnumerable<CodeInstruction> instructions)
+		{
+			var patched = false;
+			var list = instructions.ToList();
+
+			//Log.Message($"mmmmmmmmmm BEFORE\n{string.Join("\n", list)}");
+			for (int i = 2; i < list.Count; i++)
+			{
+				// -2    call static UnityEngine.Texture2D Verse.ContentFinder`1<UnityEngine.Texture2D>::Get(System.String itemPath, System.Boolean reportFailure)
+				// -1    stelem.ref NULL
+				//    ++ ldloc.0 NULL
+				//    ++ ldarg.1 NULL
+				//    ++ ldfld System.String Verse.GraphicRequest::path
+				//    ++ call static System.Void CustomizeAnimals.HarmonyPatches::Graphic_Multi_Init_PackTexture_Patch(UnityEngine.Texture2D[] array, System.String path)
+				//  0    ldloc.0 NULL [Label0, Label2, Label4, Label6]
+				if (   list[i - 2].opcode == OpCodes.Call && list[i - 2].operand is MethodInfo mi && mi.DeclaringType == typeof(ContentFinder<Texture2D>) && mi.Name == "Get"
+					&& list[i - 1].opcode == OpCodes.Stelem_Ref
+					&& list[i - 0].opcode == OpCodes.Ldloc_0 && list[i].labels.Count == 4)
+				{
+					list.Insert(i++, new CodeInstruction(OpCodes.Ldloc_0));
+					list.Insert(i++, new CodeInstruction(OpCodes.Ldarg_1));
+					list.Insert(i++, new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(GraphicRequest), nameof(GraphicRequest.path))));
+					list.Insert(i++, new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(HarmonyPatches), nameof(Graphic_Multi_Init_PackTexture_Patch))));
+					patched = true;
+					break;
+				}
+			}
+			//Log.Message($"mmmmmmmmmm AFTER\n{string.Join("\n", list)}");
+
+			if (!patched)
+				Log.Error($"{nameof(CustomizeAnimals)}: failed to apply '{nameof(Graphic_Multi_Init_Transpiler)}'-patch");
+			return list;
+		}
+		private static void Graphic_Multi_Init_PackTexture_Patch(Texture2D[] array, string path)
+		{
+			if (array[0] == null && path.EndsWith("Pack"))
+			{
+				array[0] = array[1] = array[2] = CustomizeAnimals.Instance.Content.GetContentHolder<Texture2D>().Get(PackDummyTexture_Default); // don't make static resource, causes infinite loop
+				array[3] = CustomizeAnimals.Instance.Content.GetContentHolder<Texture2D>().Get(PackDummyTexture_West); // don't make static resource, causes infinite loop
+				Log.Message($"{nameof(CustomizeAnimals)}: INFO: pack animal texture not found: {path} - using dummy: {PackDummyTexture_Default} - success: {array[0] != null}");
+			}
+		}
+	}
+}

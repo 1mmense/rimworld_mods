@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VFEA\995_FSFButcher_FSF24.xml -->
+<!-- EN: work at ancient cooking station -->
+<FSFVFEA_DoBillsAncientCookingStation.label>работа на древней кухне</FSFVFEA_DoBillsAncientCookingStation.label>
+<!-- EN: work -->
+<FSFVFEA_DoBillsAncientCookingStation.verb>работать</FSFVFEA_DoBillsAncientCookingStation.verb>
+<!-- EN: working at -->
+<FSFVFEA_DoBillsAncientCookingStation.gerund>работать на</FSFVFEA_DoBillsAncientCookingStation.gerund>
+</LanguageData>

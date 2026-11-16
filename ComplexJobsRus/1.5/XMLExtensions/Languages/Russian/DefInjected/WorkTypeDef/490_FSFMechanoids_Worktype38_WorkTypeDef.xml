@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\490_FSFMechanoids_Worktype38.xml -->
+<!-- EN: mechanoids -->
+<FSFMechanoids.labelShort>механитор</FSFMechanoids.labelShort>
+<!-- EN: Mechanitor -->
+<FSFMechanoids.pawnLabel>Механитор</FSFMechanoids.pawnLabel>
+<!-- EN: smithing -->
+<FSFMechanoids.gerundLabel>Заниматься механоидами</FSFMechanoids.gerundLabel>
+<!-- EN: Perform tasks relating to mechanoids such as gestating new ones, repairing existing ones and creating subcores. -->
+<FSFMechanoids.description>Выполняют задачи, связанные с механоидами, такие как создание новых, ремонт существующих и создание субъядер.</FSFMechanoids.description>
+<!-- EN: Smith at -->
+<FSFMechanoids.verb>Ковать</FSFMechanoids.verb>
+</LanguageData>

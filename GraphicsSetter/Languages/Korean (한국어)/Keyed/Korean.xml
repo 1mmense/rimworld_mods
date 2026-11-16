@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<GS_MenuTitle>그래픽 설정</GS_MenuTitle>
+	<GS_PresetsTitle>설정 프리셋</GS_PresetsTitle>
+	<GS_PresetsHelp>권장 설정은 텍스처를 더 선명하게 하고 비스듬한 표면의 세부 묘사를 개선합니다. 기본값은 게임의 설정으로 되돌립니다.</GS_PresetsHelp>
+	<GS_DefaultPreset>기본값</GS_DefaultPreset>
+	<GS_RecommendedPreset>권장</GS_RecommendedPreset>
+
+	<!--Tabs-->
+	<GS_AdvancedTab>설정</GS_AdvancedTab>
+	<GS_MemoryTab>메모리 분석</GS_MemoryTab>
+
+	<!--Settings-->
+	<GS_GeneralSettings>기능</GS_GeneralSettings>
+	<GS_MipMapping>밉맵 활성화 (추천)</GS_MipMapping>
+	<GS_MipMapBias>밉맵 수준</GS_MipMapBias>
+	<GS_MipMapSharp>선명함</GS_MipMapSharp>
+	<GS_MipMapBlurry>부드러움</GS_MipMapBlurry>
+	<GS_AnisoLevel>이방성 필터 수준</GS_AnisoLevel>
+
+	<GS_TextureFiltering>텍스처 처리</GS_TextureFiltering>
+	<!--<GS_FilterModePoint>Point</GS_FilterModePoint>-->
+	<GS_FilterModeBilinear>이중선형 필터링</GS_FilterModeBilinear>
+	<GS_FilterModeTrilinear>삼중선형 필터링</GS_FilterModeTrilinear>
+
+	<GS_Reset>설정 초기화</GS_Reset>
+	<GS_RestartRequired>변경 사항을 적용하려면 게임을 다시 시작해야 합니다.</GS_RestartRequired>
+	<GS_RestartGameButton>게임 재시작</GS_RestartGameButton>
+
+	<GS_MipMapToolTip>게임 확대/축소시 텍스처의 선명도를 변경합니다. 낮게 설정할수록 이미지가 선명해지지만 하드웨어 성능을 많이 소모합니다</GS_MipMapToolTip>
+	<GS_AnisoLevelToolTip>이방성 필터 수준을 설정합니다. 높게 설정할수록 이미지가 선명해지지만 하드웨어 성능을 많이 소모합니다.</GS_AnisoLevelToolTip>
+
+	<!-- Memory -->
+	<GS_ModsToProcessLabel>{0}개 모드에 텍스처가 불러와져 있습니다. 분석을 실행해 결과를 확인하세요.</GS_ModsToProcessLabel>
+	<GS_NoModsToProcess>불러온 모드 텍스처가 없습니다.</GS_NoModsToProcess>
+
+	<GS_CacheRecalc>텍스처 분석</GS_CacheRecalc>
+	<GS_CacheStop>중단</GS_CacheStop>
+	<GS_CacheContinue>계속</GS_CacheContinue>
+
+	<GS_CacheWarnRAM>VRAM 용량이 충분하지 않습니다.</GS_CacheWarnRAM>
+	<GS_RecalcProcess>계산 중... 잠시만 기다려 주세요.</GS_RecalcProcess>
+	<GS_CacheWarning>경고:\n{0}</GS_CacheWarning>
+	<GS_CacheWarnOverflow>해당 설정은 시스템이 감당하기 어렵습니다.</GS_CacheWarnOverflow>
+	<GS_CacheWarnStruggle>해당 설정은 시스템 성능에 부담을 줄 수 있습니다.</GS_CacheWarnStruggle>
+
+	<!-- Refreshed settings and memory interface -->
+	<GS_OpenSettings>그래픽 설정</GS_OpenSettings>
+	<GS_TextureSampling>텍스처 필터링</GS_TextureSampling>
+	<GS_OverrideFilterMode>텍스처 필터링 변경</GS_OverrideFilterMode>
+	<GS_FilterModeHelp>점 필터링은 픽셀을 선명하게 유지합니다. 이중선형은 가장자리를, 삼중선형은 세부 단계 간 전환을 부드럽게 합니다.</GS_FilterModeHelp>
+	<GS_FilterModePoint>점 필터링</GS_FilterModePoint>
+	<GS_FilterModeValue>필터링: {0}</GS_FilterModeValue>
+	<GS_OverrideAnisotropicLevel>비스듬한 표면의 세부 묘사 개선</GS_OverrideAnisotropicLevel>
+	<GS_AnisotropicLevelHelp>바닥처럼 비스듬한 각도에서 보이는 표면을 더 선명하게 유지합니다. 수준이 높으면 성능에 영향을 줄 수 있습니다.</GS_AnisotropicLevelHelp>
+	<GS_AnisotropicLevelValue>세부 수준: {0}</GS_AnisotropicLevelValue>
+	<GS_GlobalMipmapLimit>전체 텍스처 해상도</GS_GlobalMipmapLimit>
+	<GS_GlobalMipmapLimitDescription>바닐라와 모드 텍스처 모두에 적용됩니다.</GS_GlobalMipmapLimitDescription>
+	<GS_GlobalMipmapLimitHelp>해상도를 낮추면 세부 묘사와 메모리 사용량이 줄 수 있습니다.</GS_GlobalMipmapLimitHelp>
+	<GS_OverrideGlobalMipmapLimit>텍스처 해상도 조정</GS_OverrideGlobalMipmapLimit>
+	<GS_GlobalMipmapLimitValue>해상도: {0}</GS_GlobalMipmapLimitValue>
+	<GS_FullResolution>전체 해상도</GS_FullResolution>
+	<GS_HalfResolution>1/2 해상도</GS_HalfResolution>
+	<GS_QuarterResolution>1/4 해상도</GS_QuarterResolution>
+	<GS_EighthResolution>1/8 해상도</GS_EighthResolution>
+	<GS_InterfaceGroup>인터페이스</GS_InterfaceGroup>
+
+	<GS_EstimatedTextureData>예상 텍스처 데이터: {0}</GS_EstimatedTextureData>
+	<GS_EstimateNotReady>아직 추정값이 없습니다.</GS_EstimateNotReady>
+	<GS_ProfileTextureSummary>분석한 모드 텍스처: {0}개</GS_ProfileTextureSummary>
+	<GS_UnestimatedTextureCount>추정에 포함되지 않은 텍스처: {0}개</GS_UnestimatedTextureCount>
+
+	<GS_MainMenuButton>메인 메뉴에 그래픽 설정 표시</GS_MainMenuButton>
+	<GS_MainMenuButtonHelp>메인 메뉴의 바로가기를 표시하거나 숨깁니다.</GS_MainMenuButtonHelp>
+	<GS_MipMapBiasSection>텍스처 선명도</GS_MipMapBiasSection>
+	<GS_OverrideMipMapBias>텍스처 선명도 조정</GS_OverrideMipMapBias>
+	<GS_MipMapBiasHelp>오른쪽으로 이동하면 텍스처가 더 선명해집니다. 너무 선명하면 세밀한 부분이 깜빡일 수 있습니다.</GS_MipMapBiasHelp>
+	<GS_MipMapBiasDescription>확대 및 축소 시 텍스처의 선명도를 조정합니다.</GS_MipMapBiasDescription>
+	<GS_MipMapBiasValue>선명도: {0}</GS_MipMapBiasValue>
+	<GS_MipMapPerformanceMode>성능</GS_MipMapPerformanceMode>
+	<GS_MipMapBalancedPerformance>성능 균형</GS_MipMapBalancedPerformance>
+	<GS_MipMapBalancedDefault>균형 (기본값)</GS_MipMapBalancedDefault>
+	<GS_MipMapBalancedQuality>품질 균형</GS_MipMapBalancedQuality>
+	<GS_MipMapQualityMode>품질</GS_MipMapQualityMode>
+	<GS_ResetToDefaults>기본값으로 초기화</GS_ResetToDefaults>
+	<GS_ApplySettings>적용</GS_ApplySettings>
+	<GS_Preview>미리 보기</GS_Preview>
+	<GS_PreviewDefault>기본값</GS_PreviewDefault>
+	<GS_PreviewCurrent>현재 설정</GS_PreviewCurrent>
+	<GS_PreviewSplitTestColors>분할 테스트 색상 표시</GS_PreviewSplitTestColors>
+	<GS_PreviewHint>게임 화면이 아닌 예시 이미지입니다. 실제 게임에서는 결과가 다를 수 있습니다.</GS_PreviewHint>
+	<GS_PreviewUnavailable>미리 보기 이미지를 사용할 수 없습니다.</GS_PreviewUnavailable>
+	<GS_ModsShown>{0} / {1}개 모드 분석됨</GS_ModsShown>
+	<GS_SearchMods>모드 검색</GS_SearchMods>
+	<GS_SearchModsTip>모드 이름 또는 패키지 ID로 필터링합니다.</GS_SearchModsTip>
+	<GS_ClearSearch>지우기</GS_ClearSearch>
+	<GS_NoMatchingMods>검색 결과가 없습니다.</GS_NoMatchingMods>
+	<GS_ModSmallTextureCount>작은 텍스처 (가로와 세로 모두 512px 미만): {0}</GS_ModSmallTextureCount>
+	<GS_ModLargeTextureCount>큰 텍스처 (가로나 세로 중 하나가 512px 이상): {0}</GS_ModLargeTextureCount>
+
+	<!-- Texture size overview -->
+	<GS_ModEstimatedPayloadTooltip>예상 텍스처 데이터: {0}. 전체 예상치 중 {1}입니다.</GS_ModEstimatedPayloadTooltip>
+	<GS_ModMemoryRowLabel>{0}: {1}, 텍스처 {3}개 ({2})</GS_ModMemoryRowLabel>
+	<GS_ModMemoryRowNoEstimateLabel>{0}: 예상 크기 없음, 텍스처 {1}개</GS_ModMemoryRowNoEstimateLabel>
+	<GS_ModNoTextureEstimate>예상 크기 없음</GS_ModNoTextureEstimate>
+	<GS_ModNoTextureEstimateTooltip>이 모드의 텍스처 크기를 추정할 수 없습니다.</GS_ModNoTextureEstimateTooltip>
+	<GS_ReadTextureMetadataProgress>텍스처 확인 중: 에셋 {2} / {3}개 ({0} / {1}개 모드)</GS_ReadTextureMetadataProgress>
+	<GS_EstimateProgress>크기 추정 중: {0} / {1}개 모드</GS_EstimateProgress>
+	<GS_AnalysisFailedStatus>분석을 완료하지 못했습니다. 다시 시도해 주세요.</GS_AnalysisFailedStatus>
+	<GS_CachePause>일시 정지</GS_CachePause>
+	<GS_CacheResume>계속</GS_CacheResume>
+	<GS_CacheWorking>분석 중…</GS_CacheWorking>
+	<GS_MemorySummaryTitle>메모리 개요</GS_MemorySummaryTitle>
+	<GS_SummaryEstimateLabel>모드 텍스처 예상치</GS_SummaryEstimateLabel>
+	<GS_SummaryCounts>모드 {0}개, 텍스처 {1}개</GS_SummaryCounts>
+	<GS_SummaryEstimateScenario>불러온 모드의 텍스처 데이터 예상치</GS_SummaryEstimateScenario>
+	<GS_SummaryUnestimatedTextures>추정하지 못한 텍스처 {0}개</GS_SummaryUnestimatedTextures>
+	<GS_SummaryModsTitle>모드별 텍스처 예상치</GS_SummaryModsTitle>
+	<GS_ShowMemoryInfo>측정값 설명 표시</GS_ShowMemoryInfo>
+	<GS_HideMemoryInfo>측정값 설명 숨기기</GS_HideMemoryInfo>
+	<GS_MemoryInfoTitle>측정값 안내</GS_MemoryInfoTitle>
+	<GS_MemoryInfoVramTitle>VRAM</GS_MemoryInfoVramTitle>
+	<GS_MemoryInfoVramText>게임이 보고한 현재 그래픽 메모리 사용량입니다. 드라이버 측정값에는 게임의 그래픽 리소스가 포함될 수 있습니다. 값을 사용할 수 없으면 게임이 추적한 할당량을 표시합니다.</GS_MemoryInfoVramText>
+	<GS_MemoryInfoRangeTitle>최소 및 최대</GS_MemoryInfoRangeTitle>
+	<GS_MemoryInfoRangeText>이 창이 열려 있는 동안 기록된 가장 낮은 값과 가장 높은 값입니다. 2초마다 갱신됩니다.</GS_MemoryInfoRangeText>
+	<GS_MemoryInfoRamTitle>RAM</GS_MemoryInfoRamTitle>
+	<GS_MemoryInfoRamText>그래픽 외 데이터를 포함해 게임 전체에서 사용하는 메모리입니다.</GS_MemoryInfoRamText>
+	<GS_MemoryInfoEstimateTitle>모드 텍스처 예상치</GS_MemoryInfoEstimateTitle>
+	<GS_MemoryInfoEstimateText>로드된 모드의 텍스처 데이터 예상치입니다. 실제 VRAM 측정값은 아닙니다.</GS_MemoryInfoEstimateText>
+	<GS_SummaryWaiting>분석을 실행하면 예상 크기를 확인할 수 있습니다.</GS_SummaryWaiting>
+	<GS_RuntimeRamLabel>RAM</GS_RuntimeRamLabel>
+	<GS_RuntimeRamValue>{0}</GS_RuntimeRamValue>
+	<GS_RuntimeVramLabel>VRAM</GS_RuntimeVramLabel>
+	<GS_VramDriverBudgetValue>드라이버 보고량 {0} / 예산 {1}</GS_VramDriverBudgetValue>
+	<GS_VramDriverTotalValue>드라이버 보고량 {0} / GPU 메모리 {1}</GS_VramDriverTotalValue>
+	<GS_VramDriverOnlyValue>드라이버 보고량 {0}</GS_VramDriverOnlyValue>
+	<GS_VramTrackedTotalValue>게임 추적량 {0} / GPU 메모리 {1}</GS_VramTrackedTotalValue>
+	<GS_VramTrackedOnlyValue>게임 추적 할당량 {0}</GS_VramTrackedOnlyValue>
+	<GS_RuntimeUnavailable>사용할 수 없음</GS_RuntimeUnavailable>
+	<GS_VramObservedRange>최소: {0}, 최고: {1}</GS_VramObservedRange>
+	<GS_VramMinLabel>최소: {0}</GS_VramMinLabel>
+	<GS_VramPeakLabel>최고: {0}</GS_VramPeakLabel>
+	<GS_VramRangeWaiting>측정 중</GS_VramRangeWaiting>
+	<GS_VramRangeUnavailable>측정값 없음</GS_VramRangeUnavailable>
+	<GS_VramCurrentTooltip>현재 측정값: {0}</GS_VramCurrentTooltip>
+	<GS_VramLowTooltip>이 창이 열려 있는 동안 기록된 최소 VRAM 사용량</GS_VramLowTooltip>
+	<GS_VramPeakTooltip>이 창이 열려 있는 동안 기록된 최대 VRAM 사용량</GS_VramPeakTooltip>
+	<GS_VramBudgetTooltip>드라이버가 보고한 그래픽 메모리 예산: {0}</GS_VramBudgetTooltip>
+	<GS_VramDeviceLimitTooltip>막대 비율에 사용하는 GPU 메모리 한도: {0}</GS_VramDeviceLimitTooltip>
+	<GS_VramDriverTooltip>그래픽 드라이버가 보고한 값입니다. 모드 텍스처 외 GPU 리소스도 포함합니다.</GS_VramDriverTooltip>
+	<GS_VramTrackedTooltip>대체 값으로 게임이 추적하는 GPU 할당량을 표시합니다. 게임 외부에서 관리되는 할당은 빠질 수 있습니다.</GS_VramTrackedTooltip>
+</LanguageData>

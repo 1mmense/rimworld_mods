@@ -1,0 +1,165 @@
+<LanguageData>
+	<!-- User -->
+	<RimHUD.Layout.UserPreset>[Пресеты]</RimHUD.Layout.UserPreset>
+	<!-- Integrated -->
+	<RimHUD.Layout.IntegratedPreset>Встроенный</RimHUD.Layout.IntegratedPreset>
+
+	<!-- Root -->
+	<RimHUD.Layout.Root>Корень</RimHUD.Layout.Root>
+	<!-- Vertical stack -->
+	<RimHUD.Layout.VStack>Вертикальный стек</RimHUD.Layout.VStack>
+	<!-- Vertical stack (filled) -->
+	<RimHUD.Layout.VStackFilled>Вертикальный стек (заполненный)</RimHUD.Layout.VStackFilled>
+	<!-- Horizontal stack -->
+	<RimHUD.Layout.HStack>Горизонтальный стек</RimHUD.Layout.HStack>
+	<!-- Horizontal stack (filled) -->
+	<RimHUD.Layout.HStackFilled>Горизонтальный стек (заполненный)</RimHUD.Layout.HStackFilled>
+	<!-- Panel -->
+	<RimHUD.Layout.Panel>Столбец</RimHUD.Layout.Panel>
+	<!-- Panel (filled) -->
+	<RimHUD.Layout.PanelFilled>Столбец (заполненный)</RimHUD.Layout.PanelFilled>
+	<!-- Row -->
+	<RimHUD.Layout.Row>Строка</RimHUD.Layout.Row>
+	<!-- Filled -->
+	<RimHUD.Layout.ContainerFilled>Заполненный</RimHUD.Layout.ContainerFilled>
+
+	<!-- Blank -->
+	<RimHUD.Layout.Blank>Пусто</RimHUD.Layout.Blank>
+	<!-- Line separator -->
+	<RimHUD.Layout.Separator>Разделитель строк</RimHUD.Layout.Separator>
+	<!-- Name as header -->
+	<RimHUD.Layout.NameHeader>Имя существа как заголовок</RimHUD.Layout.NameHeader>
+	<!-- Outfit selector -->
+	<RimHUD.Layout.Outfit>Выбор одежды</RimHUD.Layout.Outfit>
+	<!-- Food selector -->
+	<RimHUD.Layout.Food>Выбор еды</RimHUD.Layout.Food>
+	<!-- Rules selector -->
+	<RimHUD.Layout.Rules>Выбор правил (требуется Pawn Rules)</RimHUD.Layout.Rules>
+	<!-- Timetable selector -->
+	<RimHUD.Layout.Timetable>Выбор расписания</RimHUD.Layout.Timetable>
+	<!-- Area selector -->
+	<RimHUD.Layout.Area>Выбор зон</RimHUD.Layout.Area>
+	<!-- Relation, kind and faction -->
+	<RimHUD.Layout.RelationKindAndFaction>Отношение, вид и фракция</RimHUD.Layout.RelationKindAndFaction>
+	<!-- Gender, race and age -->
+	<RimHUD.Layout.GenderRaceAndAge>Пол, раса и возраст</RimHUD.Layout.GenderRaceAndAge>
+	<!-- Simple gender, race and age -->
+	<RimHUD.Layout.SimpleGenderRaceAndAge>Упрощенный: пол, раса и возраст</RimHUD.Layout.SimpleGenderRaceAndAge>
+	<!-- Health bar -->
+	<RimHUD.Layout.Health>Панель здоровья</RimHUD.Layout.Health>
+	<!-- Health condition -->
+	<RimHUD.Layout.HealthCondition>Состояние здоровья</RimHUD.Layout.HealthCondition>
+	<!-- Mental condition -->
+	<RimHUD.Layout.MentalCondition>Состояние разума</RimHUD.Layout.MentalCondition>
+
+	<!-- {0} bar -->
+	<RimHUD.Layout.Need>{0} панель</RimHUD.Layout.Need>
+	<!-- Mood bar -->
+	<RimHUD.Layout.NeedMood>Панель настроения</RimHUD.Layout.NeedMood>
+	<!-- Food bar -->
+	<RimHUD.Layout.NeedFood>Панель сытости</RimHUD.Layout.NeedFood>
+	<!-- Sleep bar -->
+	<RimHUD.Layout.NeedSleep>Панель сна</RimHUD.Layout.NeedSleep>
+	<!-- Energy bar [Biotech DLC] -->
+	<RimHUD.Layout.NeedEnergy>Панель энергии</RimHUD.Layout.NeedEnergy>
+	<!-- Recreation bar -->
+	<RimHUD.Layout.NeedRecreation>Панель удовлетворенности</RimHUD.Layout.NeedRecreation>
+	<!-- Suppression bar [Ideology DLC] -->
+	<RimHUD.Layout.NeedSuppression>Панель подавления</RimHUD.Layout.NeedSuppression>
+
+	<!-- {0} skill -->
+	<RimHUD.Layout.Skill>{0} навык</RimHUD.Layout.Skill>
+	<!-- Shooting skill -->
+	<RimHUD.Layout.SkillShooting>Дальний бой</RimHUD.Layout.SkillShooting>
+	<!-- Melee skill -->
+	<RimHUD.Layout.SkillMelee	>Ближний бой</RimHUD.Layout.SkillMelee>
+	<!-- Construction skill -->
+	<RimHUD.Layout.SkillConstruction>Строительство</RimHUD.Layout.SkillConstruction>
+	<!-- Mining skill -->
+	<RimHUD.Layout.SkillMining	>Горное дело</RimHUD.Layout.SkillMining>
+	<!-- Cooking skill -->
+	<RimHUD.Layout.SkillCooking	>Кулинария</RimHUD.Layout.SkillCooking>
+	<!-- Plants skill -->
+	<RimHUD.Layout.SkillPlants	>Растеневодство</RimHUD.Layout.SkillPlants>
+	<!-- Animals skill -->
+	<RimHUD.Layout.SkillAnimals	>Животноволдство</RimHUD.Layout.SkillAnimals>
+	<!-- Crafting skill -->
+	<RimHUD.Layout.SkillCrafting>Ремесло</RimHUD.Layout.SkillCrafting>
+	<!-- Artistic skill -->
+	<RimHUD.Layout.SkillArtistic>Искусство</RimHUD.Layout.SkillArtistic>
+	<!-- Medicine skill -->
+	<RimHUD.Layout.SkillMedicine>Медицина</RimHUD.Layout.SkillMedicine>
+	<!-- Social skill -->
+	<RimHUD.Layout.SkillSocial	>Общение</RimHUD.Layout.SkillSocial>
+	<!-- Intellectual skill -->
+	<RimHUD.Layout.SkillIntellectual>Умственный труд</RimHUD.Layout.SkillIntellectual>
+
+	<!-- {0} training -->
+	<RimHUD.Layout.Training>{0} тренировка</RimHUD.Layout.Training>
+	<!-- Tameness training -->
+	<RimHUD.Layout.TrainingTameness>Прирученность</RimHUD.Layout.TrainingTameness>
+	<!-- Obedience training -->
+	<RimHUD.Layout.TrainingObedience>Преданность</RimHUD.Layout.TrainingObedience>
+	<!-- Release training -->
+	<RimHUD.Layout.TrainingRelease>Натравливание</RimHUD.Layout.TrainingRelease>
+	<!-- Rescue training -->
+	<RimHUD.Layout.TrainingRescue>Спасение</RimHUD.Layout.TrainingRescue>
+	<!-- Haul training -->
+	<RimHUD.Layout.TrainingHaul>Переноска</RimHUD.Layout.TrainingHaul>
+	<!-- Attack Target training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingAttackTarget>Тренировка: атака на цель [Odyssey DLC]</RimHUD.Layout.TrainingAttackTarget>
+	<!-- Comfort training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingComfort>Тренировка: ласка [Odyssey DLC]</RimHUD.Layout.TrainingComfort>
+	<!-- Dig training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingDig>Тренировка: копание [Odyssey DLC]</RimHUD.Layout.TrainingDig>
+	<!-- Egg Spew training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingEggSpew>Тренировка: плевок яйцом [Odyssey DLC]</RimHUD.Layout.TrainingEggSpew>
+	<!-- Forage training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingForage>Тренировка: поиск еды [Odyssey DLC]</RimHUD.Layout.TrainingForage>
+	<!-- Sludge Spew training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingSludgeSpew>Тренировка: Выброс ила [Odyssey DLC]</RimHUD.Layout.TrainingSludgeSpew>
+	<!-- Terror Roar training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingTerrorRoar>Тренировка: Рев ужаса [Odyssey DLC]</RimHUD.Layout.TrainingTerrorRoar>
+	<!-- Thrumbo Roar training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingThrumboRoar>Тренировка: Рев Трумбо [Odyssey DLC]</RimHUD.Layout.TrainingThrumboRoar>
+	<!-- War Trumpet training [Odyssey DLC] -->
+	<RimHUD.Layout.TrainingWarTrumpet>Тренировка: Рев Войны [Odyssey DLC]</RimHUD.Layout.TrainingWarTrumpet>
+
+	<!-- {0} stat -->
+	<RimHUD.Layout.Stat>{0}.</RimHUD.Layout.Stat>
+	<!-- {0} record -->
+	<RimHUD.Layout.Record>{0}.</RimHUD.Layout.Record>
+
+	<!-- Master -->
+	<RimHUD.Layout.Master>Основное</RimHUD.Layout.Master>
+	<!-- Activity -->
+	<RimHUD.Layout.Activity>Деятельность</RimHUD.Layout.Activity>
+	<!-- Queued -->
+	<RimHUD.Layout.Queued>В очереди</RimHUD.Layout.Queued>
+	<!-- Equipped -->
+	<RimHUD.Layout.Equipped>Экипировн</RimHUD.Layout.Equipped>
+	<!-- Carrying -->
+	<RimHUD.Layout.Carrying>Переносит</RimHUD.Layout.Carrying>
+	<!-- Component information -->
+	<RimHUD.Layout.CompInfo>Дополнительная информация</RimHUD.Layout.CompInfo>
+	<!-- Prisoner information -->
+	<RimHUD.Layout.PrisonerInfo>Заключенные:</RimHUD.Layout.PrisonerInfo>
+
+	<!-- Player Humanlike -->
+	<RimHUD.Layout.Target.PlayerHumanlike>Пешка под управление игрока</RimHUD.Layout.Target.PlayerHumanlike>
+	<!-- Other Humanlike -->
+	<RimHUD.Layout.Target.OtherHumanlike>Остальные человекоподные</RimHUD.Layout.Target.OtherHumanlike>
+	<!-- Player Creature -->
+	<RimHUD.Layout.Target.PlayerCreature>Существо под управление игрока</RimHUD.Layout.Target.PlayerCreature>
+	<!-- Other Creature -->
+	<RimHUD.Layout.Target.OtherCreature>Остальные существа</RimHUD.Layout.Target.OtherCreature>
+
+	<!-- Low to Main color (Default) -->
+	<RimHUD.Layout.BarColorStyle.LowToMain>От низкого до основного цвета (по умолчанию)</RimHUD.Layout.BarColorStyle.LowToMain>
+	<!-- Low color only -->
+	<RimHUD.Layout.BarColorStyle.LowOnly>Только низкий цвет</RimHUD.Layout.BarColorStyle.LowOnly>
+	<!-- Main to Low color -->
+	<RimHUD.Layout.BarColorStyle.MainToLow>От основного к низкому цвету</RimHUD.Layout.BarColorStyle.MainToLow>
+	<!-- Main color only -->
+	<RimHUD.Layout.BarColorStyle.MainOnly>Только основной цвет</RimHUD.Layout.BarColorStyle.MainOnly>
+</LanguageData>

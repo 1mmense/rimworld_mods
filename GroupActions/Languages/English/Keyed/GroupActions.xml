@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GroupActions.DraftedOnly>Show only when drafted</GroupActions.DraftedOnly>
+  <GroupActions.DraftedOnlyDesc>Only show the group ingest gizmo when all selected pawns are drafted.</GroupActions.DraftedOnlyDesc>
+
+  <GroupActions.CombinedLabel>Take drug ({0} available)</GroupActions.CombinedLabel>
+  <GroupActions.CombinedDesc>Order all selected pawns to take a drug from their inventory.</GroupActions.CombinedDesc>
+  <GroupActions.CombinedLabelFood>Eat food ({0} available)</GroupActions.CombinedLabelFood>
+  <GroupActions.CombinedDescFood>Order all selected pawns to eat food from their inventory.</GroupActions.CombinedDescFood>
+
+  <GroupActions.EnableAll>Enable All</GroupActions.EnableAll>
+  <GroupActions.DisableAll>Disable All</GroupActions.DisableAll>
+  <GroupActions.EnableAllDrugs>Enable All Drugs</GroupActions.EnableAllDrugs>
+  <GroupActions.DisableAllDrugs>Disable All Drugs</GroupActions.DisableAllDrugs>
+  <GroupActions.EnableAllMeals>Enable All Meals</GroupActions.EnableAllMeals>
+  <GroupActions.DisableAllMeals>Disable All Meals</GroupActions.DisableAllMeals>
+  <GroupActions.EnableAllRawFood>Enable All Raw Food</GroupActions.EnableAllRawFood>
+  <GroupActions.DisableAllRawFood>Disable All Raw Food</GroupActions.DisableAllRawFood>
+
+  <GroupActions.SectionDrugs>--- Drugs ---</GroupActions.SectionDrugs>
+  <GroupActions.SectionMeals>--- Meals ---</GroupActions.SectionMeals>
+  <GroupActions.SectionRawFood>--- Raw Food (disabled by default) ---</GroupActions.SectionRawFood>
+
+  <GroupActions.Label>Take {0} ({1})</GroupActions.Label>
+  <GroupActions.DescAll>Make all {0} selected pawns take {1}.</GroupActions.DescAll>
+  <GroupActions.DescPartial>Make {0} out of {1} selected pawns take {2}.</GroupActions.DescPartial>
+
+  <GroupActions.LabelFood>Eat {0} ({1})</GroupActions.LabelFood>
+  <GroupActions.DescAllFood>Make all {0} selected pawns eat {1}.</GroupActions.DescAllFood>
+  <GroupActions.DescPartialFood>Make {0} out of {1} selected pawns eat {2}.</GroupActions.DescPartialFood>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Optional metadata for Fluffy's Mod Manager; RimWorld uses About.xml for native mod metadata. -->
+<Manifest>
+	<identifier>GraphicsSettings</identifier>
+	<version>1.0.0</version>
+	<showCrossPromotions>true</showCrossPromotions>
+	<manifestUri>https://raw.githubusercontent.com/RealTelefonmast/GraphicsSetter/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/RealTelefonmast/GraphicsSetter/archive/refs/heads/master.zip</downloadUri>
+</Manifest>

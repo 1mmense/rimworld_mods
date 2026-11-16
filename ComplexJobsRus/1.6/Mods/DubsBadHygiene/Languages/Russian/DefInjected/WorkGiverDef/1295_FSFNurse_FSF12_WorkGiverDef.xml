@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\Dubwise_DubsBadHygiene\1295_FSFNurse_FSF12.xml -->
+<!-- EN: administer fluids -->
+<FSFDBHAdministerFluidsWarden.label>обеспечивать жидкостью</FSFDBHAdministerFluidsWarden.label>
+<!-- EN: give drink -->
+<FSFDBHAdministerFluidsWarden.verb>дать попить</FSFDBHAdministerFluidsWarden.verb>
+<!-- EN: serving drink -->
+<FSFDBHAdministerFluidsWarden.gerund>дать попить</FSFDBHAdministerFluidsWarden.gerund>
+</LanguageData>

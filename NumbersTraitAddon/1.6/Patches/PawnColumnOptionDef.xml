@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers[1.5Temp]</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/Numbers.PawnColumnOptionDef[defName = "LivingThings"]/options</xpath>
+			<value>
+				<li>Numbers_TraitsColored</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers[1.5Temp]</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/Numbers.PawnColumnOptionDef[defName = "DeadThings"]/options</xpath>
+			<value>
+				<li>Numbers_TraitsColored</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/Numbers.PawnColumnOptionDef[defName = "LivingThings"]/options</xpath>
+			<value>
+				<li>Numbers_TraitsColored</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/Numbers.PawnColumnOptionDef[defName = "DeadThings"]/options</xpath>
+			<value>
+				<li>Numbers_TraitsColored</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers (1.6 Temp)</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/Numbers.PawnColumnOptionDef[defName = "LivingThings"]/options</xpath>
+			<value>
+				<li>Numbers_TraitsColored</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Numbers (1.6 Temp)</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/Numbers.PawnColumnOptionDef[defName = "DeadThings"]/options</xpath>
+			<value>
+				<li>Numbers_TraitsColored</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

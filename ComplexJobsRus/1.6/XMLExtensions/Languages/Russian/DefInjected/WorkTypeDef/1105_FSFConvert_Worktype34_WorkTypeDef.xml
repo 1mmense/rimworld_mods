@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1105_FSFConvert_Worktype34.xml -->
+<!-- EN: Convert -->
+<FSFConvert.labelShort>обращение</FSFConvert.labelShort>
+<!-- EN: Warden -->
+<FSFConvert.pawnLabel>Надзиратель</FSFConvert.pawnLabel>
+<!-- EN: converting -->
+<FSFConvert.gerundLabel>Обращать</FSFConvert.gerundLabel>
+<!-- EN: Convert prisoners to your Ideologion. -->
+<FSFConvert.description>Обращают пленников в свою идеологию.</FSFConvert.description>
+<!-- EN: Handle -->
+<FSFConvert.verb>Надзирать</FSFConvert.verb>
+</LanguageData>

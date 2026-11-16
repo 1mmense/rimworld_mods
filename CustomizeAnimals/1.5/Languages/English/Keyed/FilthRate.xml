@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<SY_CA.FilthRate>Filth rate</SY_CA.FilthRate>
+	<SY_CA.FilthRateDisabled>filth disabled</SY_CA.FilthRateDisabled>
+	<SY_CA.TooltipFilthRate>Amount of filth produced by this animal per 1000 steps
+Set to 0 to disable
+Requires reloading to apply</SY_CA.TooltipFilthRate>
+	
+	<SY_CA.MaximumFilthRate>Maximum filth rate</SY_CA.MaximumFilthRate>
+	<SY_CA.TooltipMaximumFilthRate>Limit the filth rate of all animals to this maximum
+Set to 0 to disable
+Requires reloading to apply</SY_CA.TooltipMaximumFilthRate>
+</LanguageData>

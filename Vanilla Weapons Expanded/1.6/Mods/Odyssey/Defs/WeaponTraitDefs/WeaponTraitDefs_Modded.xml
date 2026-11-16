@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Modded -->
+	<WeaponTraitDef MayRequire="OskarPotocki.VFE.Empire">
+		<defName>VWE_ThumpRetrofit</defName>
+		<label>thump retrofit</label>
+		<description>This weapon incorporates reverse-engineered mechanoid technology to fire heavy, blunt-force energy slugs that devastate structures and armor at the cost of range.</description>
+		<commonality>1</commonality>
+		<weaponCategory>VWE_ThumpRetrofittable</weaponCategory>
+		<statFactors>
+			<RangedWeapon_RangeMultiplier>0.6</RangedWeapon_RangeMultiplier>
+			<RangedWeapon_DamageMultiplier>0.5</RangedWeapon_DamageMultiplier>
+		</statFactors>
+		<exclusionTags>
+			<li>AmmoType</li>
+		</exclusionTags>
+		<additionalStoppingPower>1</additionalStoppingPower>
+		<statOffsets>
+			<MarketValue>180</MarketValue>
+		</statOffsets>
+		<traitAdjectives>
+			<li>thumping</li>
+			<li>siege</li>
+			<li>kinetic</li>
+			<li>heavy</li>
+			<li>crushing</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+				<projectileOverride>VFEE_Bullet_ChargeThumper</projectileOverride>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="OskarPotocki.VFE.Empire">
+		<defName>VWE_AcidInjectorFlechettes</defName>
+		<label>acid-injector flechettes</label>
+		<description>This weapon has been re-barreled to fire fin-stabilized acid-injector flechettes. These rounds cause horrific internal dissolution in organic targets but are useless against mechanoids.</description>
+		<commonality>1</commonality>
+		<weaponCategory>VWE_AcidFlechettes</weaponCategory>
+		<exclusionTags>
+			<li>AmmoType</li>
+		</exclusionTags>
+		<statOffsets>
+			<MarketValue>250</MarketValue>
+		</statOffsets>
+		<traitAdjectives>
+			<li>fletcher</li>
+			<li>acid-needle</li>
+			<li>injecting</li>
+			<li>dissolving</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+				<projectileOverride>VFEE_Bullet_FletcherDart</projectileOverride>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="OskarPotocki.VFE.Deserters">
+		<defName>VWE_DeserterMarkings</defName>
+		<label>deserter markings</label>
+		<description>This weapon bears defaced Imperial crests; equipping it in the presence of Imperial caravans or visitors will be recognized as treason, causing an immediate and severe drop in relations.</description>
+		<canGenerateAlone>false</canGenerateAlone>
+		<commonality>0.5</commonality>
+		<weaponCategory>Gun</weaponCategory>
+		
+		<statFactors>
+			<MarketValue>0.25</MarketValue>
+		</statFactors>
+		<traitAdjectives>
+			<li>traitor</li>
+			<li>deserter</li>
+			<li>stolen</li>
+			<li>defaced</li>
+			<li>illicit</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+        <factionRelationImpacts>
+          <li>
+            <factionDef>Empire</factionDef>
+            <eventDef>VWE_DeserterMarkings</eventDef>
+            <impact>-50</impact>
+          </li>
+        </factionRelationImpacts>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="OskarPotocki.VFE.Medieval2">
+		<defName>VWE_HighAngleDraw</defName>
+		<label>high-angle draw</label>
+		<description>This weapon is strung for extreme parabolic arcing, allowing arrows to be lobbed over walls and obstacles to hit unseen targets, though it is impossible to aim precisely.</description>
+		<commonality>1</commonality>
+		<weaponCategory>Bow</weaponCategory>
+		<statOffsets>
+			<MarketValue>50</MarketValue>
+		</statOffsets>
+		<traitAdjectives>
+			<li>arcing</li>
+			<li>parabolic</li>
+			<li>lobbing</li>
+			<li>indirect</li>
+			<li>siege</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+				<verbsOverride>
+					<li Class="VFEMedieval.VerbProperties_Warbow">
+						<verbClass>Verb_Shoot</verbClass>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Arrow_Short</defaultProjectile>
+						<warmupTime>1.35</warmupTime>
+						<range>22.9</range>
+						<soundCast>Bow_Small</soundCast>
+					</li>
+				</verbsOverride>
+				<verbsOverrides>
+					<li>
+						<key>VWE_Bow_Crossbow_Unique</key>
+						<value>
+							<li Class="VFEMedieval.VerbProperties_Warbow">
+								<verbClass>Verb_Shoot</verbClass>
+								<hasStandardCommand>true</hasStandardCommand>
+								<defaultProjectile>VWE_Arrow_Bolt</defaultProjectile>
+								<warmupTime>1.5</warmupTime>
+								<range>29.9</range>
+								<soundCast>VWE_Shot_Crossbow</soundCast>
+							</li>
+						</value>
+					</li>
+					<li>
+						<key>VWE_Bow_Long_Unique</key>
+						<value>
+							<li Class="VFEMedieval.VerbProperties_Warbow">
+								<verbClass>Verb_Shoot</verbClass>
+								<hasStandardCommand>true</hasStandardCommand>
+								<defaultProjectile>VWE_Arrow_Long</defaultProjectile>
+								<warmupTime>2.5</warmupTime>
+								<range>36.9</range>
+								<soundCast>Bow_Large</soundCast>
+							</li>
+						</value>
+					</li>
+					<li>
+						<key>VWE_Bow_Compound_Unique</key>
+						<value>
+							<li Class="VFEMedieval.VerbProperties_Warbow">
+								<verbClass>Verb_Shoot</verbClass>
+								<hasStandardCommand>true</hasStandardCommand>
+								<defaultProjectile>VWE_Arrow_Compound</defaultProjectile>
+								<warmupTime>1.5</warmupTime>
+								<range>29.9</range>
+								<soundCast>VWE_Bow_Compound</soundCast>
+							</li>
+						</value>
+					</li>
+				</verbsOverrides>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="VanillaExpanded.VWEFT">
+		<defName>VWE_LuckyShots</defName>
+		<label>lucky shots</label>
+		<description>This weapon's action is tuned for occasional moments of perfect alignment, granting a chance for shots to bypass defenses and inflict significant bonus damage.</description>
+		<canGenerateAlone>false</canGenerateAlone>
+		<commonality>0.5</commonality>
+		<weaponCategory>BulletFiring</weaponCategory>
+		<extraDamages>
+			<li>
+				<def>Bullet</def>
+				<amount>10</amount>
+				<chance>0.1</chance>
+			</li>
+		</extraDamages>
+		<statOffsets>
+			<MarketValue>90</MarketValue>
+		</statOffsets>
+		<traitAdjectives>
+			<li>critical</li>
+			<li>vicious</li>
+			<li>deadly</li>
+			<li>tuned</li>
+			<li>lucky</li>
+		</traitAdjectives>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="VanillaExpanded.VWEMS">
+		<defName>VWE_MakeshiftTrait</defName>
+		<label>makeshift</label>
+		<description>This weapon is cobbled together from mismatched parts with a faulty sear mechanism. It is wildly unpredictable; sometimes it fails to fire entirely, while other times it accidentally discharges a double-length burst.</description>
+		<commonality>0.5</commonality>
+		<weaponCategory>BulletFiring</weaponCategory>
+		<canGenerateAlone>false</canGenerateAlone>
+		<statFactors>
+			<MarketValue>0.6</MarketValue>
+		</statFactors>
+		<traitAdjectives>
+			<li>makeshift</li>
+			<li>cobbled</li>
+			<li>jury-rigged</li>
+			<li>scrap</li>
+			<li>unpredictable</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+				<burstShotCountRange>
+					<li>0</li>
+					<li>0.5</li>
+					<li>1</li>
+					<li>1.5</li>
+					<li>2</li>
+				</burstShotCountRange>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="vanillaquestsexpanded.deadlife">
+		<defName>VWE_AncientTrait</defName>
+		<label>ancient</label>
+		<description>This weapon is a relic from a bygone era, its internal stress fractures held together by mere luck. It functions normally for a limited time, but after a set number of shots, the mechanism will shatter completely and the weapon will be destroyed.</description>
+		<commonality>0.5</commonality>
+		<weaponCategory>BulletFiring</weaponCategory>
+		<statFactors>
+			<MarketValue>0.5</MarketValue>
+		</statFactors>
+		<traitAdjectives>
+			<li>ancient</li>
+			<li>relic</li>
+			<li>fragile</li>
+			<li>crumbling</li>
+			<li>finite</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+				<limitedUses>100</limitedUses>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="vanillaquestsexpanded.cryptoforge">
+		<defName>VWE_CryptoRounds</defName>
+		<label>crypto rounds</label>
+		<description>This weapon fires rounds coated in active cryptoparticles that induce a rapid stasis-freeze effect on impact.</description>
+		<commonality>1</commonality>
+		<weaponCategory>BulletFiring</weaponCategory>
+		<exclusionTags>
+			<li>AmmoType</li>
+		</exclusionTags>
+		<statOffsets>
+			<MarketValue>130</MarketValue>
+		</statOffsets>
+		<traitAdjectives>
+			<li>crypto</li>
+			<li>stasis</li>
+			<li>freezing</li>
+			<li>preserving</li>
+			<li>absolute</li>
+		</traitAdjectives>
+		<modExtensions>
+			<li Class="VEF.Weapons.WeaponTraitDefExtension">
+				<projectileOverride>VWE_Cryptobullet</projectileOverride>
+				<soundOverride>VQE_Shot_Cryptobolter</soundOverride>
+				<projectileOverrides>
+					<li>
+						<key>Gun_Revolver_Unique</key>
+						<value>VWE_Cryptobullet_Revolver</value>
+					</li>
+					<li>
+						<key>Gun_BoltActionRifle_Unique</key>
+						<value>VWE_Cryptobullet_BoltActionRifle</value>
+					</li>
+					<li>
+						<key>Gun_HeavySMG_Unique</key>
+						<value>VWE_Cryptobullet_HeavySMG</value>
+					</li>
+					<li>
+						<key>Gun_LMG_Unique</key>
+						<value>VWE_Cryptobullet_LMG</value>
+					</li>
+					<li>
+						<key>Gun_AssaultRifle_Unique</key>
+						<value>VWE_Cryptobullet_AssaultRifle</value>
+					</li>
+					<li>
+						<key>Gun_SniperRifle_Unique</key>
+						<value>VWE_Cryptobullet_SniperRifle</value>
+					</li>
+					<li>
+						<key>Gun_Minigun_Unique</key>
+						<value>VWE_Cryptobullet_Minigun</value>
+					</li>
+					<li>
+						<key>VWE_Gun_HandCannon_Unique</key>
+						<value>VWE_Cryptobullet_HandCannon</value>
+					</li>
+					<li>
+						<key>VWE_Gun_CombatHandgun_Unique</key>
+						<value>VWE_Cryptobullet_CombatHandgun</value>
+					</li>
+					<li>
+						<key>VWE_Gun_SemiAutomaticRifle_Unique</key>
+						<value>VWE_Cryptobullet_SemiAutomaticRifle</value>
+					</li>
+					<li>
+						<key>VWE_Gun_LeverActionRifle_Unique</key>
+						<value>VWE_Cryptobullet_LeverActionRifle</value>
+					</li>
+					<li>
+						<key>VWE_Gun_LightSMG_Unique</key>
+						<value>VWE_Cryptobullet_LightSMG</value>
+					</li>
+					<li>
+						<key>VWE_Gun_SMG_Unique</key>
+						<value>VWE_Cryptobullet_SMG</value>
+					</li>
+					<li>
+						<key>VWE_Gun_HMG_Unique</key>
+						<value>VWE_Cryptobullet_HMG</value>
+					</li>
+					<li>
+						<key>VWE_Gun_ServiceRifle_Unique</key>
+						<value>VWE_Cryptobullet_ServiceRifle</value>
+					</li>
+					<li>
+						<key>VWE_Gun_BattleRifle_Unique</key>
+						<value>VWE_Cryptobullet_BattleRifle</value>
+					</li>
+					<li>
+						<key>VWE_Gun_Carbine_Unique</key>
+						<value>VWE_Cryptobullet_Carbine</value>
+					</li>
+					<li>
+						<key>VWE_Gun_MarksmanRifle_Unique</key>
+						<value>VWE_Cryptobullet_MarksmanRifle</value>
+					</li>
+					<li>
+						<key>VWE_Gun_AntiMaterialRifle_Unique</key>
+						<value>VWE_Cryptobullet_AntiMaterialRifle</value>
+					</li>
+				</projectileOverrides>
+			</li>
+		</modExtensions>
+	</WeaponTraitDef>
+	<WeaponTraitDef MayRequire="VanillaExpanded.VAnomalyEInsanity">
+		<defName>VWE_VoidInscriptions</defName>
+		<label>void inscriptions</label>
+		<description>This weapon is etched with shifting, non-euclidean glyphs that whisper to the wielder, continually draining their mental stability while equipped.</description>
+		<commonality>0.5</commonality>
+		<canGenerateAlone>false</canGenerateAlone>
+		<weaponCategory>Gun</weaponCategory>
+		<statFactors>
+			<MarketValue>0.75</MarketValue>
+		</statFactors>
+		<equippedHediffs>
+			<li>VWE_VoidInscriptions</li>
+		</equippedHediffs>
+		<traitAdjectives>
+			<li>void</li>
+			<li>accursed</li>
+			<li>whispering</li>
+			<li>maddening</li>
+			<li>eldritch</li>
+		</traitAdjectives>
+		
+	</WeaponTraitDef>
+</Defs>

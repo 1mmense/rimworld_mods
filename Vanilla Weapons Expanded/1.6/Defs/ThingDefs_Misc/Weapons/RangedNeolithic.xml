@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Throwing Rocks -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Throwing_Rocks</defName>
+    <label>throwing rocks</label>
+    <description>A handful of rocks. Can inflict minor injuries in close range. Doesn't drop on death. Simple but effective.</description>
+    <graphicData>
+      <texPath>NewThings/ThrowingRocks</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>0.5</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.15</AccuracyMedium>
+      <AccuracyLong>0.0</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <tradeability>None</tradeability>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+      <li>NoRelic</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>ShortShots</li>
+    </weaponClasses>
+    <recipeMaker Inherit="False" IsNull="True" />
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Rock</defaultProjectile>
+        <warmupTime>0.67</warmupTime>
+        <range>9.9</range>
+        <soundCast>ThrowGrenade</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>rock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <armorPenetration>0.05</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="VEF.Apparels.ApparelExtension">
+        <destroyedOnDeath>true</destroyedOnDeath>
+      </li>
+      <li Class="VEF.Things.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_Rock</defName>
+    <label>small rock</label>
+    <graphicData>
+      <texPath>Things/Projectile/RockThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>0.5</stoppingPower>
+      <armorPenetrationBase>0.05</armorPenetrationBase>
+      <arcHeightFactor>1.5</arcHeightFactor>
+      <shadowSize>0.5</shadowSize>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>VWE_MakeThrowingRocks</defName>
+    <label>make throwing rocks</label>
+    <description>Chip rock chunks into usable weapons.</description>
+    <jobString>Chipping rock chunks into usable weapon.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <descriptionHyperlinks>
+      <ThingDef>VWE_Throwing_Rocks</ThingDef>
+    </descriptionHyperlinks>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+    <ingredients>
+      <!-- Chunks need to be first for chunksAsStuff -->
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <VWE_Throwing_Rocks>1</VWE_Throwing_Rocks>
+    </products>
+    <!-- Needed for chunksAsStuff -->
+    <productHasIngredientStuff>true</productHasIngredientStuff>
+    <modExtensions>
+      <li Class="VEF.Cooking.Recipe_Extension">
+        <chunksAsStuff>true</chunksAsStuff>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+</Defs>

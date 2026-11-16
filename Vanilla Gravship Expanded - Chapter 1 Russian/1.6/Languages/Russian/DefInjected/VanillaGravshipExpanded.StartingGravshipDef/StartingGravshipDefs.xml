@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- EN: Default -->
+	<VGE_StartingGravjumper_Default.label>Стандартный</VGE_StartingGravjumper_Default.label>
+	<!-- EN: The default starting gravjumper from Vanilla Gravships Expanded - Chapter 1. -->
+	<VGE_StartingGravjumper_Default.description>Стандартный стартовый гравиджампер из Vanilla Gravships Expanded — Chapter 1.</VGE_StartingGravjumper_Default.description>
+
+	<!-- EN: Odysseus -->
+	<VGE_StartingGravjumper_OdysseyDLC.label>Одиссей</VGE_StartingGravjumper_OdysseyDLC.label>
+	<!-- EN: The Odyssey DLC-inspired starting gravjumper. -->
+	<VGE_StartingGravjumper_OdysseyDLC.description>Стартовый гравиджампер, вдохновлённый дополнением Odyssey DLC.</VGE_StartingGravjumper_OdysseyDLC.description>
+
+	<!-- EN: Runaway -->
+	<VGE_StartingGravjumper_Runaway.label>Беглец</VGE_StartingGravjumper_Runaway.label>
+	<!-- EN: A large but heavily damaged runaway gravjumper. -->
+	<VGE_StartingGravjumper_Runaway.description>Большой, но сильно повреждённый гравиджампер беглецов.</VGE_StartingGravjumper_Runaway.description>
+
+	<!-- EN: Fighter -->
+	<VGE_StartingGravjumper_Fighter.label>Истребитель</VGE_StartingGravjumper_Fighter.label>
+	<!-- EN: A small combat gravjumper with defensive turrets. -->
+	<VGE_StartingGravjumper_Fighter.description>Небольшой боевой гравиджампер с защитными турелями.</VGE_StartingGravjumper_Fighter.description>
+
+	<!-- EN: Trading vessel -->
+	<VGE_StartingGravjumper_Trader.label>Торговое судно</VGE_StartingGravjumper_Trader.label>
+	<!-- EN: A trade-capable gravjumper with large storage space. -->
+	<VGE_StartingGravjumper_Trader.description>Приспособленный для торговли гравиджампер с вместительным грузовым отсеком.</VGE_StartingGravjumper_Trader.description>
+
+	<!-- EN: Transport barge -->
+	<VGE_StartingGravjumper_TransportBarge.label>Транспортная баржа</VGE_StartingGravjumper_TransportBarge.label>
+	<!-- EN: A transport barge with a small pilot cabin. -->
+	<VGE_StartingGravjumper_TransportBarge.description>Транспортная баржа с небольшой пилотской рубкой.</VGE_StartingGravjumper_TransportBarge.description>
+
+	<!-- EN: Personnel transport -->
+	<VGE_StartingGravjumper_PersonnelTransport.label>Пассажирский транспорт</VGE_StartingGravjumper_PersonnelTransport.label>
+	<!-- EN: A long personnel transport with a sleeping cabin. -->
+	<VGE_StartingGravjumper_PersonnelTransport.description>Удлинённый пассажирский транспорт с жилыми каютами.</VGE_StartingGravjumper_PersonnelTransport.description>
+</LanguageData>

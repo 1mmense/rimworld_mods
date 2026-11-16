@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!--Controller-->
+	<Quick_Stockpile_Creation>速创储存区</Quick_Stockpile_Creation>
+	<Create_new_stockpiles_at_this_priority>新创建的储存区的优先级</Create_new_stockpiles_at_this_priority>
+	<Where_items_are_already_in_stockpiles_create_a_stockpile_at_a_higher_priority_overriding_the_value_above>当所选物品能被其他储存区储存时，为其创建一个比下方配置更高的优先级储存区</Where_items_are_already_in_stockpiles_create_a_stockpile_at_a_higher_priority_overriding_the_value_above>
+	<!--ThingExtensions-->
+	<Unable_to_use_a_higher_priority_for_new_stockpile_item_was_already_in_a_maximumPriority_priority_stockpile>无法新建优先级更高的储存区，物品已在 {maximumPriority} 优先级的储存区</Unable_to_use_a_higher_priority_for_new_stockpile_item_was_already_in_a_maximumPriority_priority_stockpile>
+	<!--ReallowInStockpileGizmo-->
+	<Reallow_in_stockpile>允许储存</Reallow_in_stockpile>
+	<Reallow_this_item_in_its_stockpile>在当前储存区中储存该物品</Reallow_this_item_in_its_stockpile>
+	<Stockpile_will_again_allow_thing_in_it>{zoneStockpileLabel} 现可储存 {thingLabel}</Stockpile_will_again_allow_thing_in_it>
+	<!--RemoveFromStockpileGizmo-->
+	<Disallow_in_stockpile>禁止储存</Disallow_in_stockpile>
+	<Disallow_this_item_in_its_current_stockpile>在当前储存区中取消储存该物品</Disallow_this_item_in_its_current_stockpile>
+	<Disallow_label_in_its_current_stockpile>在当前储存区中取消储存 {label}</Disallow_label_in_its_current_stockpile>
+	<Stockpile_will_no_longer_allow_label_in_it>{stockpile} 已取消储存 {label}</Stockpile_will_no_longer_allow_label_in_it>
+	<!--SmartStockpileFloatMenuOption-->
+	<Create_thing_stockpile>创建 {thing} 储存区</Create_thing_stockpile>
+	<!--SmartStockpileGizmo-->
+	<Create_stockpile>创建储存区</Create_stockpile>
+	<Create_a_stockpile_specifically_for_this_item_type>单独为该类物品创建储存区。</Create_a_stockpile_specifically_for_this_item_type>
+	<There_are_no_shared_categories_for_the_items_selected>所选物品没有上级分类。</There_are_no_shared_categories_for_the_items_selected>
+	<Multiple_item>多个物品</Multiple_item>
+	<!--SmartStockpileDesignator-->
+	<Stockpile_name_template>{nonGenericRoomType} {stockpileContents} 储存区</Stockpile_name_template>
+
+	<Select_container_material>改变建筑材料</Select_container_material>
+	<BookcasePlural>书柜</BookcasePlural>
+	
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1410_FSFRescue_Worktype28.xml -->
+<!-- EN: rescue downed allies to bed -->
+<FSFDoctorRescue.label>спасать обездвиженных союзников</FSFDoctorRescue.label>
+<!-- EN: rescue -->
+<FSFDoctorRescue.verb>спасение</FSFDoctorRescue.verb>
+<!-- EN: rescuing -->
+<FSFDoctorRescue.gerund>спасти</FSFDoctorRescue.gerund>
+</LanguageData>

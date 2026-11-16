@@ -1,0 +1,447 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
+using HarmonyLib;
+using UnityEngine;
+using Verse;
+using YayoAnimation.Compat;
+
+namespace YayoAnimation.HarmonyPatches.PawnPatches;
+
+[HarmonyPatch(typeof(PawnRenderUtility), nameof(PawnRenderUtility.DrawEquipmentAndApparelExtras))]
+// [HarmonyPatchCategory(HarmonyCategories.Combat)]
+public static class AimingPatch
+{
+    // Shouldn't be threaded
+
+    #region Setup
+
+    private static float OffsetX = -0.2f;
+    // private static float OffsetXSub = 0.2f;
+    private static float OffsetZ = 0.1f;
+
+    private static bool IsAimingAnimation = true;
+    private static Pawn CurrentPawn;
+    private static int CurrentPawnTick;
+    private static float Wiggle;
+    private static bool IsTwirling;
+
+    public static bool HasPawn => CurrentPawn != null;
+
+    private static void Prefix(Pawn pawn)
+    {
+        // Cache the pawn for the remaining methods
+        CurrentPawn = pawn;
+    }
+
+    private static void Finalizer(Pawn pawn)
+    {
+        // Clear the cache so item stands aren't animated
+        CurrentPawn = null;
+    }
+
+    private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instr, MethodBase baseMethod, ILGenerator generator)
+    {
+        var drawEquipmentAiming = MethodUtil.MethodOf(PawnRenderUtility.DrawEquipmentAiming);
+        var addWiggleToAngle = MethodUtil.MethodOf(AddWiggleToAngle);
+
+        var rotatedBy = AccessTools.DeclaredMethod(typeof(Vector3Utility), nameof(Vector3Utility.RotatedBy),
+            [typeof(Vector3), typeof(float)]);
+        var addWiggleToAimingRotation = MethodUtil.MethodOf(AddWiggleToAimingRotation);
+
+        // Dual wield patch stuff
+        var dualWieldPatchField = ModLister.AnyModActiveNoSuffix(["MemeGoddess.DualWield"])
+            ? AccessTools.DeclaredField("DualWield.Harmony.PawnRenderUtility_DrawEquipmentAndApparelExtras:PatchApplied")
+            : null;
+        var dualWieldLoaded = dualWieldPatchField != null && dualWieldPatchField.GetValue(null) is true;
+
+        var skippingInstructionsState = 0;
+        var jumpOverRotationLabel = dualWieldLoaded ? generator.DefineLabel() : default;
+        // End of dual wield patch stuff
+
+        var patchedAimingCalls = 0;
+        var patchedRotatedByCalls = 0;
+
+        foreach (var ci in instr)
+        {
+            if (dualWieldLoaded)
+            {
+                // Just jump over the whole line here:
+                // drawPos += new Vector3(0f, 0f, 0.4f + pawn.equipment.Primary.def.equippedDistanceOffset).RotatedBy(num) * equipmentDrawDistanceFactor;
+                // We'll handle it by prefixing DualWield methods, since we want different values for main hand and offhand weapons.
+                // Keep the old code unused in case something wants to patch it, I suppose?
+
+                if (patchedRotatedByCalls == 0 && ci.IsLdarg() && ci.ArgumentIndex() == 1)
+                {
+                    yield return new CodeInstruction(OpCodes.Br_S, jumpOverRotationLabel).MoveLabelsFrom(ci);
+
+                    skippingInstructionsState++;
+                }
+                else
+                    switch (skippingInstructionsState)
+                    {
+                        case 2:
+                            ci.labels.Add(jumpOverRotationLabel);
+                            skippingInstructionsState++;
+                            patchedRotatedByCalls++;
+                            break;
+                        case 1 when ci.IsStarg() && ci.ArgumentIndex() == 1:
+                            skippingInstructionsState++;
+                            break;
+                    }
+
+                yield return ci;
+            }
+            else
+            {
+                // If DrawEquipmentAiming, then the last value on stack is float (angle) - replace it with ours
+                if (ci.Calls(drawEquipmentAiming))
+                {
+                    yield return new CodeInstruction(OpCodes.Call, addWiggleToAngle);
+
+                    patchedAimingCalls++;
+                }
+                // If RotatedBy called, apply our operations and then rotate
+                else if (ci.Calls(rotatedBy))
+                {
+                    // Load false (main hand)
+                    yield return new CodeInstruction(OpCodes.Ldc_I4_0);
+
+                    // Replace rotation with our own method
+                    ci.opcode = OpCodes.Call;
+                    ci.operand = addWiggleToAimingRotation;
+
+                    patchedRotatedByCalls++;
+                }
+
+                yield return ci;
+            }
+        }
+
+        if (dualWieldLoaded)
+        {
+            const int expectedRotatedByCalls = 1;
+
+            if (patchedRotatedByCalls != expectedRotatedByCalls)
+                Log.Error($"[{Core.ModName}] - (Dual Wield compat) patched incorrect number of calls to Vector3Utility.RotatedBy (expected: {expectedRotatedByCalls}, patched: {patchedRotatedByCalls}) for method {baseMethod.GetNameWithNamespace()}");
+        }
+        else
+        {
+            const int expectedPatchedAimingCalls = 1;
+            const int expectedRotatedByCalls = 1;
+
+            if (patchedAimingCalls != expectedPatchedAimingCalls)
+                Log.Error($"[{Core.ModName}] - patched incorrect number of calls to PawnRenderUtility.DrawEquipmentAiming (expected: {expectedPatchedAimingCalls}, patched: {patchedAimingCalls}) for method {baseMethod.GetNameWithNamespace()}");
+            if (patchedRotatedByCalls != expectedRotatedByCalls)
+                Log.Error($"[{Core.ModName}] - patched incorrect number of calls to Vector3Utility.RotatedBy (expected: {expectedRotatedByCalls}, patched: {patchedRotatedByCalls}) for method {baseMethod.GetNameWithNamespace()}");
+        }
+    }
+
+    #endregion
+
+    #region Utilities
+
+    private static bool UseTwirl(bool isOffhand)
+    {
+        if (!Core.settings.combatTwirlEnabled)
+            return false;
+        if (CurrentPawn.RaceProps.IsMechanoid)
+            return false;
+        if (!Core.settings.combatTwirlMaxMassEnabled)
+            return true;
+
+        var equipment = isOffhand
+            ? DualWieldCompat.GetOffhandWeapons(CurrentPawn) ?? CurrentPawn.equipment.Primary
+            : CurrentPawn.equipment.Primary;
+        return equipment.def.BaseMass <= Core.settings.combatTwirlMaxMass;
+    }
+
+    private static void SetCurrentPawnTick() => CurrentPawnTick = CurrentPawn.HashOffsetTicks() & 0b0011_1111_1111;
+
+    #endregion
+
+    #region Shared
+
+    internal static float AddWiggleToAngle(float angle)
+    {
+        if (!Core.settings.combatEnabled || CurrentPawn == null)
+            return angle;
+
+        // Aiming angle handled earlier.
+        if (IsAimingAnimation)
+        {
+            // Debug.drawAngle = Wiggle;
+            return Wiggle;
+        }
+
+        if (IsTwirling)
+            if (angle < 180)
+                angle += CurrentPawnTick * 36f;
+            else
+                angle -= CurrentPawnTick * 36f;
+
+        return angle + Wiggle * -5f;
+    }
+
+    #endregion
+
+    #region Weapon aiming
+
+    internal static Vector3 AddWiggleToAimingRotation(Vector3 vec, float angle, bool isOffhand)
+    {
+        if (!Core.settings.combatEnabled || CurrentPawn == null)
+            return vec.RotatedBy(angle);
+
+        // Guaranteed non-null in vanilla, could be null with dual wield.
+        var weapon = isOffhand
+            ? DualWieldCompat.GetOffhandWeapons(CurrentPawn)
+            : CurrentPawn.equipment.Primary;
+
+        // For dual wield
+        if (weapon == null)
+            return vec.RotatedBy(angle);
+
+        IsAimingAnimation = true;
+        IsTwirling = false;
+        SetCurrentPawnTick();
+        // Since we always override the angle with wiggle, set it up to angle as fallback
+        Wiggle = angle;
+
+        // Could probably pass as argument, however this should be safer.
+        // Guaranteed non-null, focusTarg is valid, neverAimWeapon is false
+        var stance = (CurrentPawn.stances.curStance as Stance_Busy)!;
+
+        if (weapon.def.IsRangedWeapon && stance.verb is { IsMeleeAttack: false })
+        {
+            if (!CurrentPawn.RaceProps.IsMechanoid)
+            {
+                var ticksToNextBurstShot = stance.verb.ticksToNextBurstShot;
+                var addX = 0f;
+                var addZ = 0f;
+                var addAngle = 0f;
+
+                if (ticksToNextBurstShot > 10)
+                    ticksToNextBurstShot = 10;
+
+                var ani = ticksToNextBurstShot > 0
+                    ? ticksToNextBurstShot * 0.02f
+                    : Mathf.Max(stance.ticksLeft, 25f) * 0.001f;
+
+                [MethodImpl(MethodImplOptions.AggressiveInlining)]
+                float WiggleSlow() => !isOffhand
+                    ? Mathf.Sin(stance.ticksLeft * 0.035f) * 0.05f
+                    : Mathf.Sin(stance.ticksLeft * 0.035f + 0.5f) * 0.05f;
+
+                switch (FastRandom.NewNext(7, CurrentPawn.LastAttackTargetTick ^ weapon.thingIDNumber))
+                {
+                    // Twirl, unused/not finished
+                    // case 0:
+                    // case 1:
+                    //     if (UseTwirl())
+                    //     {
+                    //         
+                    //     }
+                    //     else
+                    //     {
+                    //         if (stanceBusy.ticksLeft > 1)
+                    //         {
+                    //             addY += wiggleSlow;
+                    //         }
+                    //     }
+                    //     break;
+                    // Reload animation
+                    case 2:
+                    case 3:
+                        if (ticksToNextBurstShot == 0)
+                        {
+                            switch (stance.ticksLeft)
+                            {
+                                case > 78:
+                                    break;
+                                case > 48 when stance is not Stance_Warmup:
+                                {
+                                    var wiggle = Mathf.Sin(stance.ticksLeft * 0.1f) * 0.05f;
+                                    addX += wiggle - 0.2f;
+                                    addZ += wiggle + 0.2f;
+                                    addAngle += wiggle + 30f + stance.ticksLeft * 0.5f;
+                                    break;
+                                }
+                                case > 40 when stance is not Stance_Warmup:
+                                {
+                                    var wiggle = Mathf.Sin(stance.ticksLeft * 0.1f) * 0.05f;
+                                    var wiggleFast = Mathf.Sin(stance.ticksLeft) * 0.05f;
+                                    addX += wiggleFast + 0.05f;
+                                    addZ += wiggle - 0.05f;
+                                    addAngle += wiggleFast * 100f - 15f;
+                                    break;
+                                }
+                                case > 1:
+                                    addZ += WiggleSlow();
+                                    break;
+                            }
+                        }
+
+                        break;
+                    default:
+                        if (stance.ticksLeft > 1)
+                        {
+                            addZ += WiggleSlow();
+                        }
+
+                        break;
+                }
+
+                const float reboundFactor = 70f;
+
+                // Our input is a Vec3(0, 0, 0.4f + pawn.equipment.Primary.def.equippedDistanceOffset)
+                if (CurrentPawn.Rotation == Rot4.West)
+                {
+                    vec = new Vector3(addZ, 0, vec.z + addX + ani);
+                    Wiggle = angle + ani * reboundFactor + addAngle;
+                }
+                else
+                {
+                    vec = new Vector3(-addZ, 0, vec.z + addX - ani);
+                    Wiggle = angle - ani * reboundFactor - addAngle;
+                }
+            }
+            // else is mechanoid, don't do anything
+        }
+        else
+        {
+            var atkType = FastRandom.NewNext(3, CurrentPawn.LastAttackTargetTick ^ weapon.thingIDNumber);
+
+            var addAngle = atkType switch
+            {
+                1 => 25f, // Takedown
+                2 => -25f, // Head stab
+                _ => 0f
+            };
+
+            // Correct angles for ranged weapons
+            if (weapon.def.IsRangedWeapon)
+                addAngle -= 35f;
+
+            const float readyZ = 0.2f;
+
+            if (stance.ticksLeft > 15)
+            {
+                var ani = Mathf.Min(stance.ticksLeft, 60f);
+                var ani2 = ani * 0.0075f;
+                float addZ;
+                float addX;
+
+                switch (atkType)
+                {
+                    default:
+                        // Ordinary attack
+                        addZ = readyZ + 0.05f + ani2; // Higher -> closer to enemy
+                        addX = 0.45f - 0.5f - ani2 * 0.1f; // Higher -> weapon is lower
+                        break;
+                    case 1:
+                        // Takedown
+                        addZ = readyZ + 0.05f + ani2; // Higher -> closer to enemy
+                        addX = 0.45f - 0.35f + ani2 * 0.5f; // Higher -> weapon is lower, animate in opposite direction
+                        ani = 30f + ani * 0.5f; // Fixed angle value + angle change amount
+                        break;
+                    case 2:
+                        // Head stab
+                        addZ = readyZ + 0.05f + ani2; // Higher -> closer to enemy
+                        addX = 0.45f - 0.35f - ani2; // Higher -> weapon is lower
+                        break;
+                }
+
+                // Debug.addX = addX;
+                // Debug.addZ = addZ;
+                // Debug.ani = ani;
+                // Debug.ani2 = ani2;
+                // Debug.addAngle = addAngle;
+                // Debug.attackType = atkType;
+                // Debug.before = vec;
+
+                switch (CurrentPawn.Rotation.AsInt)
+                {
+                    case Core.RotWest:
+                    {
+                        vec = new Vector3(vec.x - addX, vec.y, vec.z + addZ);
+                        Wiggle = angle - addAngle - ani; // + 540f;
+                        break;
+                    }
+                    case Core.RotEast:
+                    {
+                        vec = new Vector3(vec.x + addX, vec.y, vec.z + addZ);
+                        Wiggle = angle + addAngle + ani;
+                        break;
+                    }
+                    case Core.RotSouth:
+                    {
+                        vec = new Vector3(vec.x - addX, vec.y, vec.z + addZ);
+                        // Stops the game from subtracting 180 degrees and flipping the weapon.
+                        // It really doesn't want that knife to be pointing downwards.
+                        Wiggle = angle + addAngle + ani + 360f;
+                        break;
+                    }
+                    default:
+                    {
+                        vec = new Vector3(vec.x - addX, vec.y, vec.z + addZ);
+                        Wiggle = angle + addAngle + ani;
+                        break;
+                    }
+                }
+
+                // Debug.wiggle = Wiggle;
+                // Debug.after = vec;
+            }
+            else
+            {
+                vec = new Vector3(vec.x, vec.y, vec.z + readyZ);
+            }
+        }
+
+        return vec.RotatedBy(angle);
+    }
+
+    #endregion
+
+    #region Weapon carry
+
+    internal static Vector3 AddWiggleToCarryPos(Vector3 vec, bool isOffhand)
+    {
+        if (!Core.settings.combatEnabled || CurrentPawn == null)
+            return vec;
+
+        IsAimingAnimation = false;
+        IsTwirling = false;
+        SetCurrentPawnTick();
+
+        Wiggle = !isOffhand
+            ? Mathf.Sin(CurrentPawnTick * 0.05f)
+            : Mathf.Sin(CurrentPawnTick * 0.05f + 0.5f);
+
+        if (UseTwirl(isOffhand))
+        {
+            if (!isOffhand)
+            {
+                if (CurrentPawnTick is < 80 and >= 40)
+                {
+                    IsTwirling = true;
+                    return new Vector3(vec.x + OffsetX, vec.y, vec.z + OffsetZ + Wiggle * 0.05f);
+                }
+            }
+            else
+            {
+                if (CurrentPawnTick < 40)
+                {
+                    IsTwirling = true;
+                    return new Vector3(vec.x - OffsetX, vec.y, vec.z + OffsetZ + Wiggle * 0.05f);
+                }
+            }
+        }
+
+        return new Vector3(vec.x, vec.y, vec.z + Wiggle * 0.05f);
+    }
+
+    #endregion
+}

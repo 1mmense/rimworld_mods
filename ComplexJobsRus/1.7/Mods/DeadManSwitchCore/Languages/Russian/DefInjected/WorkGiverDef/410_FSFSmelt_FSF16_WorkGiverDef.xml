@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\Aoba_DeadManSwitch_Core\410_FSFSmelt_FSF16.xml -->
+<!-- EN: Operate sintering furnace -->
+<FSFDMS_Furnace.label>работать со спекательной печью</FSFDMS_Furnace.label>
+<!-- EN: Operate -->
+<FSFDMS_Furnace.verb>работать</FSFDMS_Furnace.verb>
+<!-- EN: Operating at -->
+<FSFDMS_Furnace.gerund>работать</FSFDMS_Furnace.gerund>
+</LanguageData>

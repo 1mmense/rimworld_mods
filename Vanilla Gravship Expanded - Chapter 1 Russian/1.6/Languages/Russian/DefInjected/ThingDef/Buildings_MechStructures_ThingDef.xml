@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_MechStructures.xml -->
+	<!-- EN: GroundToSpace, SpaceToGround, SpaceToSpace, GroundToGround -->
+	<VGE_MassDriver.comps.3.firingMode>GroundToSpace, SpaceToGround, SpaceToSpace, GroundToGround</VGE_MassDriver.comps.3.firingMode>
+	<!-- EN: mass driver -->
+	<VGE_MassDriver.label>масс-драйвер</VGE_MassDriver.label>
+	<VGE_MassDriver.description>Трёхствольная электромагнитная артиллерийская система, встроенная в механоидные оборонительные платформы. Она выпускает плотные снаряды с невероятной скоростью, одинаково легко пробивая как бронированные гравишипы на орбите, так и наземные цели. Орудие полностью автономно и управляется машинным мозгом, которому не нужен экипаж. Часто встречается на орбитальных бомбардировочных платформах.</VGE_MassDriver.description>
+	
+	<!-- EN: mass driver -->
+	<VGE_Gun_MassDriver.label>масс-драйвер</VGE_Gun_MassDriver.label>
+	<!-- EN: A triple-barrel electromagnetic artillery system. -->
+	<VGE_Gun_MassDriver.description>Трёхствольная электромагнитная артиллерийская система.</VGE_Gun_MassDriver.description>
+	
+	<!-- EN: mass driver shot -->
+	<VGE_Bullet_MassDriver.label>выстрел масс-драйвера</VGE_Bullet_MassDriver.label>
+	
+	<!-- EN: heavy charge annihilator -->
+	<VGE_HeavyChargeAnnihilator.label>тяжёлый зарядный аннигилятор</VGE_HeavyChargeAnnihilator.label>
+	<VGE_HeavyChargeAnnihilator.description>Тяжёлое импульсно-зарядное оружие, созданное для длительного подавляющего огня при обороне механоидных орбитальных платформ. Улучшенные конденсаторы и системы охлаждения позволяют выпускать более длинные и разрушительные очереди, чем у стандартных зарядных бластеров, накрывая целые участки неожиданно точным огнём.</VGE_HeavyChargeAnnihilator.description>
+	
+	<!-- EN: heavy charge annihilator -->
+	<VGE_Gun_HeavyChargeAnnihilator.label>тяжёлый зарядный аннигилятор</VGE_Gun_HeavyChargeAnnihilator.label>
+	<!-- EN: A heavy pulse-charged weapon for mechanoid defense. -->
+	<VGE_Gun_HeavyChargeAnnihilator.description>Тяжёлое импульсно-зарядное оружие для обороны механоидов.</VGE_Gun_HeavyChargeAnnihilator.description>
+	<!-- EN: ㅤ -->
+	<VGE_Gun_HeavyChargeAnnihilator.verbs.0.label>ㅤ</VGE_Gun_HeavyChargeAnnihilator.verbs.0.label>
+	
+	<!-- EN: mechanoid grav engine -->
+	<VGE_MechanoidGravEngine.label>механоидный грав-двигатель</VGE_MechanoidGravEngine.label>
+	<VGE_MechanoidGravEngine.description>Холодное искусственное сердце механоидной орбитальной платформы. В отличие от построенных людьми грав-двигателей, эти создаются самим механоидным ядром и оптимизированы для беспощадной эффективности и бесконечной работы. Они генерируют огромные поля подъёма и стабилизации, позволяя целым платформам висеть на орбите и служа основой господства механоидов в космосе. Хотя они в основном несовместимы с человеческими системами и не подходят для строительства гравишипов, их можно уничтожить и получить грав-ядро — редкую и ценную добычу для тех, кто осмелится бросить им вызов.</VGE_MechanoidGravEngine.description>
+	
+	<!-- EN: large mechanoid thruster -->
+	<VGE_LargeMechanoidThruster.label>крупный механоидный двигатель</VGE_LargeMechanoidThruster.label>
+	<VGE_LargeMechanoidThruster.description>Массивный двигатель на космотопливе, созданный механоидным ядром для движения их орбитальных платформ. По конструкции он напоминает человеческие образцы, но усилен механической точностью и эффективностью и облицован толстыми плитами вак-камня, выдерживающими экстремальный жар и нагрузки. Эти двигатели позволяют механоидным платформам маневрировать и удерживать позицию на орбите. Для человеческих гравишипов они непригодны, но при разрушении дают немного драгоценных блоков вак-камня.</VGE_LargeMechanoidThruster.description>
+	
+	<!-- EN: resource processor -->
+	<VGE_MechanoidResourceProcessor.label>переработчик ресурсов</VGE_MechanoidResourceProcessor.label>
+	<VGE_MechanoidResourceProcessor.description>Построенная машинами структура, поддерживающая механоидные платформы, перерабатывая космический мусор и обломки в полезные ресурсы. Работает с регулярными интервалами, постепенно производя металлы и топливо, необходимые для снабжения их орбитальных крепостей.</VGE_MechanoidResourceProcessor.description>
+	
+	<!-- EN: mechanoid pod launcher -->
+	<VGE_MechanoidPodLauncher.label>пусковая установка капсул механоидов</VGE_MechanoidPodLauncher.label>
+	<VGE_MechanoidPodLauncher.description>Механизированный пусковой отсек, который периодически запускает траспортные капсулы, набитые механоидами. Эти капсулы поражают дальние цели или ближайшие корабли, позволяя платформе проецировать свои силы далеко за пределы корпуса.</VGE_MechanoidPodLauncher.description>
+	
+	<!-- EN: mechanoid temp shield -->
+	<VGE_MechanoidTempShield.label>временный механоидный щит</VGE_MechanoidTempShield.label>
+	<VGE_MechanoidTempShield.description>Компактный оборонительный модуль, создающий локальный щит вокруг себя. Барьер работает лишь короткое время, затем схлопывается, после чего устройству нужно остыть перед повторным развёртыванием.</VGE_MechanoidTempShield.description>
+	
+	<!-- EN: astrofuel node -->
+	<VGE_MechanoidAstrofuelNode.label>узел космотоплива</VGE_MechanoidAstrofuelNode.label>
+	<VGE_MechanoidAstrofuelNode.description>Компактный топливный резервуар, встроенный в механоидные платформы. Он хранит очищенное космотопливо для их систем, но при повреждении крайне нестабилен и склонен к мощным взрывам.</VGE_MechanoidAstrofuelNode.description>
+</LanguageData>

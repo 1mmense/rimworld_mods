@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Buildings\Buildings_Biotech.xml -->
+	<!-- EN: operator subpersona core -->
+	<VGE_OperatorSubpersonaCore.label>ядро субперсоны оператора</VGE_OperatorSubpersonaCore.label>
+	<!-- EN: A high-grade subcore specialized in gravship combat. It can link with a single gravship artillery piece and control it the same way a crewmember manning a targeting terminal can. It’s combat capabilities are subpar, but it allows for autonomous artillery batteries without the need for human operators. -->
+	<VGE_OperatorSubpersonaCore.description>Субядро высокого класса, специализированное на бою гравишипов. Оно может связаться с одним артиллерийским орудием гравишипа и управлять им так же, как член экипажа за терминалом наведения. Его боевые возможности уступают, но оно позволяет создавать автономные артиллерийские батареи без необходимости в человеческих операторах.</VGE_OperatorSubpersonaCore.description>
+  <VGE_CompactGeneBank.label>компактный генобанк</VGE_CompactGeneBank.label>
+  <VGE_CompactGeneBank.description>Уменьшенная версия генобанка, рассчитанная на тесные помещения гравишипа. Хранит генопакеты и позволяет использовать их при создании новых ксеногерм, если установлена рядом с генным ассемблером. Питается напрямую от грав-двигателя, не даёт генопакетам разрушаться и понемногу восстанавливает уже накопившиеся повреждения.</VGE_CompactGeneBank.description>
+  <VGE_GravshipBasicRecharger.label>компактный мехзарядник</VGE_GravshipBasicRecharger.label>
+  <VGE_GravshipBasicRecharger.description>Уменьшенная версия мехзарядника, рассчитанная на тесные помещения гравишипа. Здесь могут заряжаться лёгкие механоиды. Во время зарядки станция производит и накапливает внутри токсичные отходы, которые грузчикам время от времени приходится уносить. Большую часть энергии получает напрямую от грав-двигателя.</VGE_GravshipBasicRecharger.description>
+  <VGE_GravshipStandardRecharger.label>компактный большой мехзарядник</VGE_GravshipStandardRecharger.label>
+  <VGE_GravshipStandardRecharger.description>Уменьшенная версия большого мехзарядника, рассчитанная на тесные помещения гравишипа. Здесь могут заряжаться средние, тяжёлые и сверхтяжёлые механоиды. Во время зарядки станция производит и накапливает внутри токсичные отходы, которые грузчикам время от времени приходится уносить. Большую часть энергии получает напрямую от грав-двигателя.</VGE_GravshipStandardRecharger.description>
+</LanguageData>

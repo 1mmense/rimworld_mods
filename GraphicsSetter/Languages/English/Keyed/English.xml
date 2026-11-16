@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<GS_MenuTitle>Graphics Settings</GS_MenuTitle>
+	<GS_PresetsTitle>Presets</GS_PresetsTitle>
+	<GS_PresetsHelp>Recommended sharpens textures and improves detail on angled surfaces. Default restores the game's settings.</GS_PresetsHelp>
+	<GS_DefaultPreset>Default</GS_DefaultPreset>
+	<GS_RecommendedPreset>Recommended</GS_RecommendedPreset>
+
+	<!--Tabs-->
+	<GS_AdvancedTab>Settings</GS_AdvancedTab>
+	<GS_MemoryTab>Memory profiler</GS_MemoryTab>
+
+	<!--Settings-->
+	<GS_GeneralSettings>General Settings</GS_GeneralSettings>
+	<GS_MipMapping>(Recommended) Activate Mip-Mapping</GS_MipMapping>
+	<GS_MipMapBias>MipMap Bias</GS_MipMapBias>
+	<GS_MipMapSharp>Sharpest</GS_MipMapSharp>
+	<GS_MipMapBlurry>Blurriest</GS_MipMapBlurry>
+	<GS_AnisoLevel>Anisotropic Filter Level</GS_AnisoLevel>
+
+	<GS_TextureFiltering>Texture Filtering</GS_TextureFiltering>
+	<!--<GS_FilterModePoint>Point</GS_FilterModePoint>-->
+	<GS_FilterModeBilinear>Bilinear</GS_FilterModeBilinear>
+	<GS_FilterModeTrilinear>Trilinear</GS_FilterModeTrilinear>
+
+	<GS_Reset>Reset</GS_Reset>
+	<GS_RestartRequired>You will have to restart the game to apply changes!</GS_RestartRequired>
+	<GS_RestartGameButton>Restart Game</GS_RestartGameButton>
+
+	<GS_MipMapToolTip>This value changes how blurry textures can get depending on zoom, it is recommended to be equal or below 0.</GS_MipMapToolTip>
+	<GS_AnisoLevelToolTip>Set the level of anisotropic filtering, higher levels may reduce performance on older graphics cards.</GS_AnisoLevelToolTip>
+
+	<!-- Memory -->
+	<GS_ModsToProcessLabel>{0} mods have loaded textures. Run an analysis to see results.</GS_ModsToProcessLabel>
+	<GS_NoModsToProcess>No mod textures are loaded.</GS_NoModsToProcess>
+
+	<GS_CacheRecalc>Analyze textures</GS_CacheRecalc>
+	<GS_CacheStop>Stop</GS_CacheStop>
+	<GS_CacheContinue>Continue</GS_CacheContinue>
+
+	<GS_CacheWarnRAM>Not Enough VRAM</GS_CacheWarnRAM>
+	<GS_RecalcProcess>Calculating... Please wait.</GS_RecalcProcess>
+	<GS_CacheWarning>Warning:\n{0}</GS_CacheWarning>
+	<GS_CacheWarnOverflow>Your system cannot support these settings."</GS_CacheWarnOverflow>
+	<GS_CacheWarnStruggle>Your system may struggle with these settings.</GS_CacheWarnStruggle>
+
+	<!-- Refreshed settings and memory interface -->
+	<GS_OpenSettings>Graphics Settings</GS_OpenSettings>
+	<GS_TextureSampling>Texture filtering</GS_TextureSampling>
+	<GS_OverrideFilterMode>Change texture filtering</GS_OverrideFilterMode>
+	<GS_FilterModeHelp>Point keeps pixels sharp. Bilinear softens edges. Trilinear also smooths changes between texture detail levels.</GS_FilterModeHelp>
+	<GS_FilterModePoint>Point</GS_FilterModePoint>
+	<GS_FilterModeValue>Filtering: {0}</GS_FilterModeValue>
+	<GS_OverrideAnisotropicLevel>Improve detail on angled surfaces</GS_OverrideAnisotropicLevel>
+	<GS_AnisotropicLevelHelp>Keeps surfaces like floors clearer when viewed at an angle. Higher levels may affect performance.</GS_AnisotropicLevelHelp>
+	<GS_AnisotropicLevelValue>Detail level: {0}</GS_AnisotropicLevelValue>
+	<GS_GlobalMipmapLimit>Overall texture resolution</GS_GlobalMipmapLimit>
+	<GS_GlobalMipmapLimitDescription>Affects vanilla and mod textures.</GS_GlobalMipmapLimitDescription>
+	<GS_GlobalMipmapLimitHelp>Lower resolutions reduce detail and can reduce memory use.</GS_GlobalMipmapLimitHelp>
+	<GS_OverrideGlobalMipmapLimit>Adjust texture resolution</GS_OverrideGlobalMipmapLimit>
+	<GS_GlobalMipmapLimitValue>Texture resolution: {0}</GS_GlobalMipmapLimitValue>
+	<GS_FullResolution>Full resolution</GS_FullResolution>
+	<GS_HalfResolution>1/2 resolution</GS_HalfResolution>
+	<GS_QuarterResolution>1/4 resolution</GS_QuarterResolution>
+	<GS_EighthResolution>1/8 resolution</GS_EighthResolution>
+	<GS_InterfaceGroup>Interface</GS_InterfaceGroup>
+
+	<GS_EstimatedTextureData>Estimated mod texture data: {0}</GS_EstimatedTextureData>
+	<GS_EstimateNotReady>Run an analysis to see the estimate.</GS_EstimateNotReady>
+	<GS_UnestimatedTextureCount>{0} textures not included in the estimate</GS_UnestimatedTextureCount>
+
+	<GS_MainMenuButton>Show Graphics Settings on the main menu</GS_MainMenuButton>
+	<GS_MainMenuButtonHelp>Show or hide this shortcut on the main menu.</GS_MainMenuButtonHelp>
+	<GS_MipMapBiasSection>Texture sharpness</GS_MipMapBiasSection>
+	<GS_OverrideMipMapBias>Adjust texture sharpness</GS_OverrideMipMapBias>
+	<GS_MipMapBiasHelp>Move right for sharper textures. Very sharp settings can make fine details shimmer.</GS_MipMapBiasHelp>
+	<GS_MipMapBiasDescription>Adjust texture sharpness as you zoom in and out.</GS_MipMapBiasDescription>
+	<GS_MipMapBiasValue>Sharpness: {0}</GS_MipMapBiasValue>
+	<GS_MipMapPerformanceMode>Performance</GS_MipMapPerformanceMode>
+	<GS_MipMapBalancedPerformance>Balanced performance</GS_MipMapBalancedPerformance>
+	<GS_MipMapBalancedDefault>Balanced (default)</GS_MipMapBalancedDefault>
+	<GS_MipMapBalancedQuality>Balanced quality</GS_MipMapBalancedQuality>
+	<GS_MipMapQualityMode>Quality</GS_MipMapQualityMode>
+	<GS_ResetToDefaults>Reset to defaults</GS_ResetToDefaults>
+	<GS_ApplySettings>Apply</GS_ApplySettings>
+	<GS_Preview>Preview</GS_Preview>
+	<GS_PreviewDefault>Default</GS_PreviewDefault>
+	<GS_PreviewCurrent>Current settings</GS_PreviewCurrent>
+	<GS_PreviewSplitTestColors>Show split test colors</GS_PreviewSplitTestColors>
+	<GS_PreviewHint>This is a sample image, not a game scene. Results may look different in game.</GS_PreviewHint>
+	<GS_PreviewUnavailable>Preview image is unavailable.</GS_PreviewUnavailable>
+	<GS_ModsShown>{0} / {1} mods analyzed</GS_ModsShown>
+	<GS_SearchMods>Search mods</GS_SearchMods>
+	<GS_SearchModsTip>Filter by mod name or package ID.</GS_SearchModsTip>
+	<GS_ClearSearch>Clear</GS_ClearSearch>
+	<GS_NoMatchingMods>No mods match this search.</GS_NoMatchingMods>
+
+	<!-- Memory profiler scope and summary -->
+	<GS_ModEstimatedPayloadTooltip>Estimated texture data: {0}. This is {1} of the total estimate.</GS_ModEstimatedPayloadTooltip>
+	<GS_ModMemoryRowLabel>{0}: {1}, {3} textures ({2})</GS_ModMemoryRowLabel>
+	<GS_ModMemoryRowNoEstimateLabel>{0}: no estimate, {1} textures</GS_ModMemoryRowNoEstimateLabel>
+	<GS_ModNoTextureEstimate>No size estimate available</GS_ModNoTextureEstimate>
+	<GS_ModNoTextureEstimateTooltip>This mod's texture sizes could not be estimated.</GS_ModNoTextureEstimateTooltip>
+	<GS_ReadTextureMetadataProgress>Checking textures: {2} / {3} assets ({0} / {1} mods)</GS_ReadTextureMetadataProgress>
+	<GS_EstimateProgress>Estimating sizes: {0} / {1} mods</GS_EstimateProgress>
+	<GS_AnalysisFailedStatus>Analysis stopped before it finished. Try again.</GS_AnalysisFailedStatus>
+	<GS_CachePause>Pause</GS_CachePause>
+	<GS_CacheResume>Resume</GS_CacheResume>
+	<GS_CacheWorking>Analyzing…</GS_CacheWorking>
+	<GS_MemorySummaryTitle>Memory overview</GS_MemorySummaryTitle>
+	<GS_SummaryEstimateLabel>Mod texture estimate</GS_SummaryEstimateLabel>
+	<GS_SummaryCounts>{0} mods, {1} textures</GS_SummaryCounts>
+	<GS_SummaryEstimateScenario>Approximate texture data for loaded mods</GS_SummaryEstimateScenario>
+	<GS_SummaryUnestimatedTextures>{0} textures could not be estimated</GS_SummaryUnestimatedTextures>
+	<GS_SummaryModsTitle>Estimated texture data by mod</GS_SummaryModsTitle>
+	<GS_ShowMemoryInfo>Show details about these readings.</GS_ShowMemoryInfo>
+	<GS_HideMemoryInfo>Hide reading details.</GS_HideMemoryInfo>
+	<GS_MemoryInfoTitle>About these readings</GS_MemoryInfoTitle>
+	<GS_MemoryInfoVramTitle>VRAM</GS_MemoryInfoVramTitle>
+	<GS_MemoryInfoVramText>Shows current graphics memory reported by the game. Driver readings can include all graphics resources used by the game. If unavailable, this shows allocations tracked by the game.</GS_MemoryInfoVramText>
+	<GS_MemoryInfoRangeTitle>Minimum and peak</GS_MemoryInfoRangeTitle>
+	<GS_MemoryInfoRangeText>Shows the lowest and highest readings recorded while this window is open. Readings update every two seconds.</GS_MemoryInfoRangeText>
+	<GS_MemoryInfoRamTitle>RAM</GS_MemoryInfoRamTitle>
+	<GS_MemoryInfoRamText>Shows memory used by the whole game, including non-graphics data.</GS_MemoryInfoRamText>
+	<GS_MemoryInfoEstimateTitle>Mod texture estimate</GS_MemoryInfoEstimateTitle>
+	<GS_MemoryInfoEstimateText>Estimates texture data for loaded mods. This is not a measured VRAM total.</GS_MemoryInfoEstimateText>
+	<GS_SummaryWaiting>Run an analysis to see the estimate.</GS_SummaryWaiting>
+	<GS_RuntimeRamLabel>RAM</GS_RuntimeRamLabel>
+	<GS_RuntimeRamValue>{0}</GS_RuntimeRamValue>
+	<GS_RuntimeVramLabel>VRAM</GS_RuntimeVramLabel>
+	<GS_VramDriverBudgetValue>{0} reported of {1} budget</GS_VramDriverBudgetValue>
+	<GS_VramDriverTotalValue>{0} reported of {1} GPU memory</GS_VramDriverTotalValue>
+	<GS_VramDriverOnlyValue>{0} reported by the driver</GS_VramDriverOnlyValue>
+	<GS_VramTrackedTotalValue>{0} tracked by the game of {1} GPU memory</GS_VramTrackedTotalValue>
+	<GS_VramTrackedOnlyValue>{0} tracked by the game</GS_VramTrackedOnlyValue>
+	<GS_RuntimeUnavailable>Not available</GS_RuntimeUnavailable>
+	<GS_VramObservedRange>Min: {0}, Peak: {1}</GS_VramObservedRange>
+	<GS_VramMinLabel>Min: {0}</GS_VramMinLabel>
+	<GS_VramPeakLabel>Peak: {0}</GS_VramPeakLabel>
+	<GS_VramRangeWaiting>Collecting readings</GS_VramRangeWaiting>
+	<GS_VramRangeUnavailable>No readings available</GS_VramRangeUnavailable>
+	<GS_VramCurrentTooltip>Current reading: {0}</GS_VramCurrentTooltip>
+	<GS_VramLowTooltip>Minimum VRAM usage recorded while this window is open</GS_VramLowTooltip>
+	<GS_VramPeakTooltip>Maximum VRAM usage recorded while this window is open</GS_VramPeakTooltip>
+	<GS_VramBudgetTooltip>Reported GPU memory budget: {0}</GS_VramBudgetTooltip>
+	<GS_VramDeviceLimitTooltip>GPU memory limit used for the bar scale: {0}</GS_VramDeviceLimitTooltip>
+	<GS_VramDriverTooltip>Reading reported by the graphics driver. It includes GPU resources beyond mod textures.</GS_VramDriverTooltip>
+	<GS_VramTrackedTooltip>Fallback reading of GPU allocations tracked by the game. It may miss allocations managed elsewhere.</GS_VramTrackedTooltip>
+</LanguageData>

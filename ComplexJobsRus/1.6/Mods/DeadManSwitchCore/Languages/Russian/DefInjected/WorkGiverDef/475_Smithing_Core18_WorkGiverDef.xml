@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\Aoba_DeadManSwitch_Core\475_Smithing_Core18.xml -->
+<!-- EN: Operate machinery printer -->
+<FSFDMS_TableMachinePrinter.label>работать с печатным станком</FSFDMS_TableMachinePrinter.label>
+<!-- EN: Operate -->
+<FSFDMS_TableMachinePrinter.verb>работать</FSFDMS_TableMachinePrinter.verb>
+<!-- EN: Operating at -->
+<FSFDMS_TableMachinePrinter.gerund>работать</FSFDMS_TableMachinePrinter.gerund>
+</LanguageData>

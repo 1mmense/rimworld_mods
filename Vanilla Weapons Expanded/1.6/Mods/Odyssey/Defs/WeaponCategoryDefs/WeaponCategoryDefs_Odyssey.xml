@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<WeaponCategoryDef>
+		<defName>VWE_Revolvers</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_FireSelector</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_HeavyMachineguns</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_HeavyMachinegunsNoMinigun</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_Bipods</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_SaturationFeed</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_SniperAndAntiMateriel</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_AllVESnipers</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_ChargeWeaponsWithoutBlasters</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_ThumpRetrofittable</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_AcidFlechettes</defName>
+	</WeaponCategoryDef>
+	<WeaponCategoryDef>
+		<defName>VWE_Akimbo</defName>
+	</WeaponCategoryDef>
+</Defs>

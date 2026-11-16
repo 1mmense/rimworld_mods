@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\715_FSFPruning_Worktype35.xml -->
+<!-- EN: Prune -->
+<FSFPruning.labelShort>остригание</FSFPruning.labelShort>
+<!-- EN: Pruner -->
+<FSFPruning.pawnLabel>Садовник</FSFPruning.pawnLabel>
+<!-- EN: pruning -->
+<FSFPruning.gerundLabel>Остригать</FSFPruning.gerundLabel>
+<!-- EN: Prune trees. -->
+<FSFPruning.description>Подрезают и остригают деревья.</FSFPruning.description>
+<!-- EN: Prune -->
+<FSFPruning.verb>Остричь</FSFPruning.verb>
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <KeyBindingCategoryDef>
+    <defName>GroundTargeter</defName>
+    <label>Ground Targeter</label>
+    <description>Keybinds for Ground Targeter.</description>
+    <isGameUniversal>true</isGameUniversal>
+  </KeyBindingCategoryDef>
+
+  <KeyBindingDef>
+    <category>GroundTargeter</category>
+    <defName>GroundTargeterKey</defName>
+    <label>Ground Target Key</label>
+    <defaultKeyCodeA>LeftShift</defaultKeyCodeA>
+  </KeyBindingDef>
+
+</Defs>

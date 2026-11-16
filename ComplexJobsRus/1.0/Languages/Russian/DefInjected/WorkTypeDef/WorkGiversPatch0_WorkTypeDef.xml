@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\WorkGiversPatch0.xml -->
+<!-- EN: Treat the sick, bring them food and cheer them up. Doctors will care for both colonists and prisoners. -->
+<Doctor.description>Врачи приносят еду и лечат тех, кто выведен из строя. Они заботятся и о поселенцах, и о пленниках.</Doctor.description>
+<!-- EN: Harvest resources from and slaughter animals. -->
+<Handling.description>Животноводы собирают приносимые животными ресурсы и забивают их.</Handling.description>
+<!-- EN: Prepare meals. -->
+<Cooking.description>Повара готовят еду.</Cooking.description>
+<!-- EN: Build things that you've designated. -->
+<Construction.description>Строители возводят разнообразные сооружения.</Construction.description>
+<!-- EN: Plant seeds. -->
+<Growing.description>Сажают семена.</Growing.description>
+<!-- EN: Digging. -->
+<Mining.description>Разрабатывают горные породы.</Mining.description>
+<!-- EN: Create weapons and tools from raw materials as a blacksmith. -->
+<Smithing.description>Кузнецы, работая на кузнях и станках, изготавливают оружие и снаряжение.</Smithing.description>
+<!-- EN: Do general low-skilled labor at work stations. -->
+<Crafting.description>Ремесленники занимаются на станках работой, не требующей специальных навыков.</Crafting.description>
+</LanguageData>

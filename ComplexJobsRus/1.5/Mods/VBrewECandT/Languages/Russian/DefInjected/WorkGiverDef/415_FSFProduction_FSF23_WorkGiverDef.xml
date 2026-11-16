@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VBrewECandT\415_FSFProduction_FSF23.xml -->
+<!-- EN: brew at espresso machine -->
+<FSFVBE_DoBillsEspressoMachine.label>варить в эспрессо-машине</FSFVBE_DoBillsEspressoMachine.label>
+<!-- EN: brew -->
+<FSFVBE_DoBillsEspressoMachine.verb>варить</FSFVBE_DoBillsEspressoMachine.verb>
+<!-- EN: brew at -->
+<FSFVBE_DoBillsEspressoMachine.gerund>варить в</FSFVBE_DoBillsEspressoMachine.gerund>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\WeatherDefs\Weathers.xml -->
+	<!-- EN: dust cloud -->
+	<VGE_DustCloud.label>пылевое облако</VGE_DustCloud.label>
+	<!-- EN: A dense cosmic dust cloud has drifted across your sector... -->
+	<VGE_DustCloud.description>Плотное облако космической пыли дрейфует через ваш сектор и окутывает гравишип взвесью частиц. Видимость почти нулевая, системы наведения с трудом захватывают цели. Со временем облако уйдёт, и пыль рассеется.</VGE_DustCloud.description>
+	
+	<!-- EN: toxic dust cloud -->
+	<VGE_ToxicDustCloud.label>токсичное пылевое облако</VGE_ToxicDustCloud.label>
+	<!-- EN: A drifting cloud of highly toxic cosmic dust has enveloped your gravship... -->
+	<VGE_ToxicDustCloud.description>Дрейфующее облако крайне токсичной космической пыли накрыло ваш гравишип. Микрочастицы проникают во все открытые пространства, разъедают поверхности и отравляют экипаж.</VGE_ToxicDustCloud.description>
+</LanguageData>

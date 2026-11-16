@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Ritual_Behaviors.xml -->
+	<!-- EN: Crew -->
+	<VGE_GravjumperLaunch.spectatorsLabel>Экипаж</VGE_GravjumperLaunch.spectatorsLabel>
+	<!-- EN: crew -->
+	<VGE_GravjumperLaunch.spectatorGerund>экипаж</VGE_GravjumperLaunch.spectatorGerund>
+	<!-- EN: pilot -->
+	<VGE_GravjumperLaunch.roles.0.label>пилот</VGE_GravjumperLaunch.roles.0.label>
+	<!-- EN: copilot -->
+	<VGE_GravjumperLaunch.roles.1.label>копилот</VGE_GravjumperLaunch.roles.1.label>
+	
+	<!-- EN: Crew -->
+	<VGE_GravhulkLaunch.spectatorsLabel>Экипаж</VGE_GravhulkLaunch.spectatorsLabel>
+	<!-- EN: crew -->
+	<VGE_GravhulkLaunch.spectatorGerund>экипаж</VGE_GravhulkLaunch.spectatorGerund>
+	<!-- EN: pilot -->
+	<VGE_GravhulkLaunch.roles.0.label>пилот</VGE_GravhulkLaunch.roles.0.label>
+	<!-- EN: copilot -->
+	<VGE_GravhulkLaunch.roles.1.label>копилот</VGE_GravhulkLaunch.roles.1.label>
+	<!-- EN: gravtech researcher -->
+	<VGE_GravhulkLaunch.roles.2.label>исследователь гравтеха</VGE_GravhulkLaunch.roles.2.label>
+	<!-- EN: gravtech engineer -->
+	<VGE_GravhulkLaunch.roles.3.label>инженер гравтеха</VGE_GravhulkLaunch.roles.3.label>
+</LanguageData>

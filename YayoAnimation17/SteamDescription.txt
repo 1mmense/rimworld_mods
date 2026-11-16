@@ -1,0 +1,121 @@
+[h1]Yayo Animation 1.7 + Tick Fix[/h1]
+Original animations by YAYO. Continued version by Soky. Tick Overflow Fix by ifchen0.
+
+[h1]20 October 2026 — Custom Job Facing Fix[/h1]
+[list]
+[*]Updated the bundled Tick Fix with ifchen0's custom-job facing repair. Stationary pawns now visibly turn when a custom JobDriver changes direction through Pawn.Rotation or FaceTarget().
+[*]The repair refreshes only indefinitely cached standing-job results when their facing changes. Scheduled animations and lying poses retain their chosen direction.
+[*]Retained the tick-overflow arithmetic correction, explicit-assembly Harmony startup fix, and new-game/load animation-cache resets.
+[*]Verified on native RimWorld 1.7.4982 rev1280 / Harmony 3: all 37 native checks passed, including both turning APIs in all four directions before and after private save/reload, preservation of scheduled-animation facing, and 1,080 tick-arithmetic cases.
+[/list]
+[b]Scope:[/b] The updated DLL targets native RimWorld 1.7. Older version folders are unchanged. Prepatcher-enabled operation and the full player mod stack have not been validated.
+
+Thanks to seeki for the detailed report and to ifchen0 for the upstream repair. Original animation credits remain YAYO and Soky; copyright, source and license notices are retained. Enable this bundled package without also enabling the separate Yayo or Tick Fix copies.
+
+[h1]Changes in this package[/h1]
+[list]
+[*]RimWorld 1.7 compatibility, including a new-game animation-cache reset correction.
+[*]Includes ifchen0's Tick Overflow Fix. Negative animation frames caused by large tick counts or pawn IDs are converted to valid non-negative frames in the standing and laying animation code.
+[*]Includes ifchen0's custom-job facing repair for indefinitely cached standing jobs, preserving scheduled-animation and lying-pose facing.
+[*]Already-valid remainder results are unchanged. Existing explicit-assembly startup and lifecycle fixes are retained.
+[*]Requires Harmony. Enable this package only: do not also enable Yayo's Animation (Continued) or the separate Tick Overflow Fix.
+[/list]
+The tick correction addresses broken work, social, idle and other job animations, including distorted burning-and-rolling motion. High pawn IDs can trigger the issue even before a colony becomes old.
+
+Tested locally on native RimWorld 1.7.4982 rev1280 / Harmony 3: 37 native checks passed, including both custom-job turning APIs before and after private save/reload, preservation of scheduled-animation facing, and 1,080 arithmetic cases. The updated DLL targets native 1.7; older version folders are unchanged. Prepatcher-enabled operation and the full player mod stack remain untested.
+
+[h1]Original mod by Yayo![/h1]
+[b]This is an update. You can find the original here:[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2575938407
+
+[h1]Changes from original — inherited Continued-version description[/h1]
+The following feature and compatibility notes are retained from Soky's Workshop description; third-party integrations have not all been re-tested for this 1.7 package.
+[list]
+[*]Updated to 1.4, while also bringing all those improvements to 1.3 as well
+[*]Added animation to new interactions that previously had none
+[*]No longer depending on HugsLib
+[*]Improved performance in a couple of places
+[*]Added several options that can help with performance
+[*]Built-in fix for Humanoid Alien Races
+[*]Fix for stargazing
+[*]Fix for Facial Animation
+[*]Support for (basically) all Vanilla Expanded mods and their interactions
+[*]Support for Dubs mods: Bad Hygiene, Rimefeller, Rimatomics, Paint Shop
+[/list]
+
+[h1]Add Animation for Pawns[/h1]
+Animations can be individually turned off in the options menu.
+Use only the animations you want.
+
+[h1]Marriage Ceremony[/h1]
+[img]https://imgur.com/hIvz7V4.png[/img]
+[h1]Burning & Roll[/h1]
+[img]https://imgur.com/Lx4wx8l.png[/img]
+[h1]Joy[/h1]
+[img]https://imgur.com/uxQ5FhH.png[/img]
+[h1]Funeral[/h1]
+[img]https://imgur.com/goYmcjD.png[/img]
+[h1]Lovin[/h1]
+[img]https://imgur.com/JBovscs.png[/img]
+[h1]Work[/h1]
+[img]https://imgur.com/X1fQkx1.png[/img]
+[h1]Walk[/h1]
+[img]https://imgur.com/UrB9l8q.png[/img]
+[h1]Sleep[/h1]
+[img]https://imgur.com/wlmqvq9.png[/img]
+[h1]Eat[/h1]
+[img]https://imgur.com/kS3WmgR.png[/img]
+[h1]Weapon[/h1]
+[img]https://i.imgur.com/JtJtPrr.gif[/img]
+[img]https://i.imgur.com/ygYZwe2.gif[/img]
+
+[h1]And Others[/h1]
+About 90 actions are animated. (almost every action)
+
+[url=https://www.youtube.com/channel/UCfrw-AKo2Ax-TnDXNmhE28w]>> Yayo's Youtube[/url]
+[img]https://imgur.com/vGVHUDk.png[/img]
+The latest news about Yayo's mods are posted on YouTube.
+Subscribe to YouTube and be the first to know.
+
+[h1]Options[/h1]
+[list]
+[*]Walk Animation Angle
+[*]Walk Animation Speed
+[*]Animations can be individually turned on/off.
+[/list]
+
+[h1]Language — original mod graphics[/h1]
+[img]https://i.imgur.com/rzuK9gG.png[/img]
+[img]https://i.imgur.com/zuugeKd.png[/img]
+[url=https://www.flaticon.com/packs/rectangular-country-simple-flags]Original flag artwork attribution[/url]
+These graphics are retained from YAYO's original listing; they do not certify translation coverage for the new 1.7/tick-fix notes.
+
+[h1]Recommended Mods — original recommendations[/h1]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842]Show Me Your Hands (Adds hand when using weapons, carrying things)[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2886919774]Yayo's Caravan (Change the visual of the caravan on the world map)[/url]
+[/list]
+
+[h1]Credits and source[/h1]
+YAYO — original animations.
+Soky — Yayo's Animation (Continued).
+ifchen0 — Tick Overflow Fix.
+Continued Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2877292196
+Animation source: https://github.com/DRA-Mods/Yayos-Animation
+Tick fix Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3813339062
+Tick fix source: https://github.com/ifchen0/YayoAnimationTickFix
+The fix's source, MIT LICENSE and NOTICE are included in ThirdParty/YayoAnimationTickFix.
+------------------------------------------------------------------------------------------
+
+[h1]17 October 2026[/h1]
+
+[b]Update: RimWorld 1.7 Animation Startup Fix[/b]
+
+[list]
+
+[*] Updated Yayo Animation and the bundled Tick Fix to explicitly identify their own assemblies when applying Harmony patches. This addresses a reported issue where automatic assembly detection could silently leave animations unpatched.
+
+[*] Improved the 1.7 compatibility helper to ensure animation-cache resets are applied for both starting a new game and loading an existing save, without duplicating existing hooks.
+
+[*] Preserved the long-running-save tick overflow fix. No animation timing or arithmetic changes in this update.
+[/list]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+	<v1.0>
+		<li>1.0</li>
+	</v1.0>
+	<v1.1>
+		<li>1.1</li>
+	</v1.1>
+	<v1.2>
+		<li>1.2</li>
+	</v1.2>
+	<v1.3>
+		<li IfModNotActive="Ogam.Rimedieval">1.3/Core</li>
+		<li IfModActive="Ogam.Rimedieval">1.3/Mods/ComplexJobsMedieval</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.3/Mods/VEF</li>
+	</v1.3>
+	<v1.4>
+		<li>1.4/Core</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.4/Biotech</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.4/Mods/VEF</li>
+	</v1.4>
+	<v1.5>
+		<li>1.5/Core</li>
+		<li IfModActive="imranfish.xmlextensions">1.5/XMLExtensions</li>
+		<li IfModActive="brrainz.zombieland">1.5/Mods/Zombieland</li>
+		<li IfModActive="Dubwise.DubsBadHygiene">1.5/Mods/DubsBadHygiene</li>
+		<li IfModActive="Farxmai2.VanillaFurnitureExpandedPack">1.5/Mods/VFExpandedPack</li>
+		<li IfModActive="VanillaExpanded.VBrewECandT">1.5/Mods/VBrewECandT</li>
+		<li IfModActive="VanillaExpanded.VFEA">1.5/Mods/VFEA</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore,VanillaExpanded.VCookE">1.5/Mods/VCookE</li>
+		<li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>
+		<li IfModActive="Aoba.DeadManSwitch.Core">1.5/Mods/DeadManSwitchCore</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.5/Mods/VPlantsEMore</li>
+	</v1.5>
+	<v1.6>
+		<li>1.6/Core</li>
+		<li IfModActive="imranfish.xmlextensions">1.6/XMLExtensions</li>
+		<li IfModActive="brrainz.zombieland">1.6/Mods/Zombieland</li>
+		<li IfModActive="Dubwise.DubsBadHygiene">1.6/Mods/DubsBadHygiene</li>
+		<li IfModActive="Farxmai2.VanillaFurnitureExpandedPack">1.6/Mods/VFExpandedPack</li>
+		<li IfModActive="VanillaExpanded.VBrewECandT">1.6/Mods/VBrewECandT</li>
+		<li IfModActive="VanillaExpanded.VFEA">1.6/Mods/VFEA</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore,VanillaExpanded.VCookE">1.6/Mods/VCookE</li>
+		<li IfModActive="Aoba.DeadManSwitch.Core">1.6/Mods/DeadManSwitchCore</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VPlantsEMore</li>
+	</v1.6>
+	<v1.7>
+		<li>1.7/Core</li>
+		<li IfModActive="imranfish.xmlextensions">1.7/XMLExtensions</li>
+		<li IfModActive="brrainz.zombieland">1.7/Mods/Zombieland</li>
+		<li IfModActive="Dubwise.DubsBadHygiene">1.7/Mods/DubsBadHygiene</li>
+		<li IfModActive="Farxmai2.VanillaFurnitureExpandedPack">1.7/Mods/VFExpandedPack</li>
+		<li IfModActive="VanillaExpanded.VBrewECandT">1.7/Mods/VBrewECandT</li>
+		<li IfModActive="VanillaExpanded.VFEA">1.7/Mods/VFEA</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore,VanillaExpanded.VCookE">1.7/Mods/VCookE</li>
+		<li IfModActive="Aoba.DeadManSwitch.Core">1.7/Mods/DeadManSwitchCore</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.7/Mods/VPlantsEMore</li>
+	</v1.7>
+</loadFolders>

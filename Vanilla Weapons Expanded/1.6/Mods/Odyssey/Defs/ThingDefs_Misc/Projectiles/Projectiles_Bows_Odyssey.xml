@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VWE_BaseExplosiveProjectile">
+		<defName>VWE_BlastTips_Arrow</defName>
+		<label>blast tip arrow</label>
+		<graphicData>
+			<texPath>Things/Projectile/ExplosiveTip_Arrow_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+		</graphicData>
+			
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius>
+			 <speed>44</speed>
+		</projectile>
+		
+	</ThingDef>
+	<ThingDef ParentName="VWE_BaseExplosiveProjectile">
+		<defName>VWE_BlastTips_LargeArrow</defName>
+		<label>blast tip arrow</label>
+		<graphicData>
+			<texPath>Things/Projectile/ExplosiveTip_Arrow_Large</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+		</graphicData>
+			
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius>
+			<speed>60</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="VEF.Weapons.ProjectileExtension">
+				<excludeFromStaticCollection>true</excludeFromStaticCollection>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VWE_BaseExplosiveProjectile">
+		<defName>VWE_BlastTips_Bolt</defName>
+		<label>blast tip bolt</label>
+		<graphicData>
+			<texPath>Things/Projectile/ExplosiveTip_Arrow_Bolt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+			
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius>
+			<speed>65</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="VEF.Weapons.ProjectileExtension">
+				<excludeFromStaticCollection>true</excludeFromStaticCollection>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="VWE_BaseExplosiveProjectile">
+		<defName>VWE_BlastTips_Compound</defName>
+		<label>blast tip compound arrow</label>
+		<graphicData>
+			<texPath>Things/Projectile/ExplosiveTip_Arrow_Modern</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+			
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius>
+			 <speed>65</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="VEF.Weapons.ProjectileExtension">
+				<excludeFromStaticCollection>true</excludeFromStaticCollection>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	
+	
+</Defs>

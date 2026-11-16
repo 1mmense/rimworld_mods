@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Numbers_Trait_AddOn>Numbers Trait AddOn</Numbers_Trait_AddOn>
+	<Trait_AddOn_Setting_Trait_Width>Breite der Eigenschaftsspalte (bei Platzmangel anpassen, Standardwert 350)</Trait_AddOn_Setting_Trait_Width>
+	<Trait_AddOn_Setting_Use_Customized_Color>Farbige Eigenschaften in Numbers verwenden</Trait_AddOn_Setting_Use_Customized_Color>
+	<Trait_AddOn_Setting_Remake_Button>Das Diktat neu erstellen ( Klicke sie einmal an, nachdem du modifizierte Eigenschaften hinzugefügt hast, sonst können sie nicht erkannt werden)</Trait_AddOn_Setting_Remake_Button>
+	<Trait_AddOn_Setting_Reset_All>Alle Einstellungen zurücksetzen</Trait_AddOn_Setting_Reset_All>
+	<Trait_AddOn_Setting_Customized_Color_Table>Benutzerdefinierte Farbpalette</Trait_AddOn_Setting_Customized_Color_Table>
+	
+</LanguageData>

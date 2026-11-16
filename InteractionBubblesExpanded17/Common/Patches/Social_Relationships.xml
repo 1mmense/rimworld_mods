@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Initial numbers match the installed game. Edit these values to tune opinion, memory duration, stacking and linked mood effects. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Chitchat"]/stackLimit</xpath>
+    <value>
+      <stackLimit>300</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Chitchat"]/maxCumulatedOpinionOffset</xpath>
+    <value>
+      <maxCumulatedOpinionOffset>10</maxCumulatedOpinionOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Chitchat"]/stages/li[1]/baseOpinionOffset</xpath>
+    <value>
+      <baseOpinionOffset>0.66</baseOpinionOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="DeepTalk"]/durationDays</xpath>
+    <value>
+      <durationDays>20</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="DeepTalk"]/stackLimit</xpath>
+    <value>
+      <stackLimit>300</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="DeepTalk"]/stackLimitForSameOtherPawn</xpath>
+    <value>
+      <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="DeepTalk"]/stackedEffectMultiplier</xpath>
+    <value>
+      <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="DeepTalk"]/stages/li[1]/baseOpinionOffset</xpath>
+    <value>
+      <baseOpinionOffset>15</baseOpinionOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Slighted"]/durationDays</xpath>
+    <value>
+      <durationDays>20</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Slighted"]/stackLimit</xpath>
+    <value>
+      <stackLimit>300</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Slighted"]/stackLimitForSameOtherPawn</xpath>
+    <value>
+      <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Slighted"]/stackedEffectMultiplier</xpath>
+    <value>
+      <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Slighted"]/stages/li[1]/baseOpinionOffset</xpath>
+    <value>
+      <baseOpinionOffset>-5</baseOpinionOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Insulted"]/durationDays</xpath>
+    <value>
+      <durationDays>20</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Insulted"]/stackLimit</xpath>
+    <value>
+      <stackLimit>300</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Insulted"]/stackLimitForSameOtherPawn</xpath>
+    <value>
+      <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Insulted"]/stackedEffectMultiplier</xpath>
+    <value>
+      <stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="Insulted"]/stages/li[1]/baseOpinionOffset</xpath>
+    <value>
+      <baseOpinionOffset>-15</baseOpinionOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWords"]/durationDays</xpath>
+    <value>
+      <durationDays>20</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWords"]/stackLimit</xpath>
+    <value>
+      <stackLimit>300</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWords"]/stackLimitForSameOtherPawn</xpath>
+    <value>
+      <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWords"]/stackedEffectMultiplier</xpath>
+    <value>
+      <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWords"]/stages/li[1]/baseOpinionOffset</xpath>
+    <value>
+      <baseOpinionOffset>15</baseOpinionOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="InsultedMood"]/durationDays</xpath>
+    <value>
+      <durationDays>2</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="InsultedMood"]/stackLimit</xpath>
+    <value>
+      <stackLimit>10</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="InsultedMood"]/stackedEffectMultiplier</xpath>
+    <value>
+      <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="InsultedMood"]/stages/li[1]/baseMoodEffect</xpath>
+    <value>
+      <baseMoodEffect>-5</baseMoodEffect>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWordsMood"]/durationDays</xpath>
+    <value>
+      <durationDays>2</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWordsMood"]/stackLimit</xpath>
+    <value>
+      <stackLimit>10</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWordsMood"]/stackedEffectMultiplier</xpath>
+    <value>
+      <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KindWordsMood"]/stages/li[1]/baseMoodEffect</xpath>
+    <value>
+      <baseMoodEffect>5</baseMoodEffect>
+    </value>
+  </Operation>
+</Patch>

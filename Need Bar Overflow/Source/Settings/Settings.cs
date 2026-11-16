@@ -1,0 +1,102 @@
+﻿using NeedBarOverflow.Needs;
+using RimWorld;
+using UnityEngine;
+using Verse;
+using static NeedBarOverflow.Utility;
+
+namespace NeedBarOverflow;
+
+[StaticConstructorOnStartup]
+public class Settings : ModSettings
+{
+	public static bool showHiddenSettings;
+	public Vector2 settingsScrollPos;
+
+	static Settings()
+	{
+		// We use this static constructor to initialize everything required on start up
+		Debug.StaticConstructorLog(typeof(Settings));
+
+		// Try get settings first
+		// if there's a settings file, ExposeData() would initialize everything
+		// As well as applying the patches
+		NeedBarOverflow.settings = NeedBarOverflow.ModInstance!.GetSettings<Settings>();
+
+		// if there's no settings file, ExposeData() would not be called
+		// so we call the PatchApplier
+		// If the patches has already been applied (due to prev line)
+		//    it'd just re-verify that patches has been applied and exit
+		Patches.PatchApplier.ApplyPatches();
+	}
+
+	public void DoWindowContents(Rect inRect)
+	{
+		Rect outRect = new(0f, 0f, inRect.width, inRect.height);
+		Rect rect = new(0f, 0f, inRect.width - 20f, Mathf.Max(inRect.height, height));
+		GUI.BeginGroup(inRect);
+		Widgets.BeginScrollView(outRect, ref settingsScrollPos, rect);
+		Listing_Standard ls = new();
+		height = 0f;
+		ls.Begin(rect);
+		LsGap(ls);
+		ls.Label(Strings.RestartNReq_Tip.Translate());
+		DisableNeedOverflow.Common.AddSettings(ls);
+		if (AddSimpleSetting(ls, typeof(Need_Food)))
+			Setting_Food.AddSettings(ls);
+		if (AddSimpleSetting(ls, typeof(Need_Rest)))
+			OverflowStats_DrainGain<Need_Rest>.AddSettings(ls);
+		if (AddSimpleSetting(ls, typeof(Need_Joy)))
+			OverflowStats_DrainGain<Need_Joy>.AddSettings(ls);
+		AddSimpleSetting(ls, typeof(Need_Mood));
+		AddSimpleSetting(ls, typeof(Need_Beauty));
+		AddSimpleSetting(ls, typeof(Need_Comfort));
+		AddSimpleSetting(ls, typeof(Need_Chemical));
+		AddSimpleSetting(ls, typeof(Need_Chemical_Any));
+		AddSimpleSetting(ls, typeof(Need_Outdoors));
+#if g1_3
+		AddSimpleSetting(ls, typeof(Need_Indoors));
+		AddSimpleSetting(ls, typeof(Need_Suppression));
+#endif
+		AddSimpleSetting(ls, typeof(Need_RoomSize));
+#if g1_4
+		AddSimpleSetting(ls, typeof(Need_Deathrest));
+		if (AddSimpleSetting(ls, typeof(Need_KillThirst)))
+			OverflowStats_DrainGain<Need_KillThirst>.AddSettings(ls);
+		AddSimpleSetting(ls, typeof(Need_MechEnergy));
+		AddSimpleSetting(ls, typeof(Need_Learning));
+		AddSimpleSetting(ls, typeof(Need_Play));
+#endif
+		LsGap(ls);
+		SettingLabel settingLabel = new(string.Empty, Strings.ShowHiddenSettings);
+		ls.CheckboxLabeled(settingLabel.TranslatedLabel(), ref showHiddenSettings, settingLabel.TranslatedTip());
+		if (showHiddenSettings)
+		{
+			AddSimpleSetting(ls, typeof(Need));
+			AddSimpleSetting(ls, typeof(Need_Authority));
+#if g1_3
+			AddSimpleSetting(ls, typeof(Need_Sadism));
+#endif
+		}
+		LsGap(ls);
+		ls.End();
+		Widgets.EndScrollView();
+		GUI.EndGroup();
+	}
+
+	public override void ExposeData()
+	{
+		Debug.Message("Settings.ExposeData() called with Scribe.mode == " + Scribe.mode);
+		base.ExposeData();
+
+		Setting_Common.StaticExposeData();
+		Setting_Food.StaticExposeData();
+		OverflowStats_DrainGain<Need_Rest>.StaticExposeData();
+		OverflowStats_DrainGain<Need_Joy>.StaticExposeData();
+#if g1_4
+		OverflowStats_DrainGain<Need_KillThirst>.StaticExposeData();
+#endif
+
+		if (Scribe.mode is LoadSaveMode.PostLoadInit or LoadSaveMode.Saving)
+			Patches.PatchApplier.ApplyPatches();
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <QuickArea>Quick Area</QuickArea>
+    <QA_FenceFirstDesc>Count fences as walls when it's enclosed</QA_FenceFirstDesc>
+    <QA_KeyBindingQAModifierDesc>Quick action key modifier</QA_KeyBindingQAModifierDesc>
+    <QA_KeyBindingRAModifierDesc>Reverse action key modifier</QA_KeyBindingRAModifierDesc>
+    <QA_FillMapDesc>enable function when room is able to reach edge of map</QA_FillMapDesc>
+	<QA_OnlyFurniture>Apply on building</QA_OnlyFurniture>
+	<QA_DesignateWall>Apply on wall</QA_DesignateWall>
+	<QA_SameOrigin>Apply on same origin</QA_SameOrigin>
+	<QA_Undo>Undo</QA_Undo>
+	<QA_SelectOrigin>Select a origin (single click)</QA_SelectOrigin>
+	<QA_OriginSelected>Origin selected</QA_OriginSelected>
+	<QA_Cancelled>Cancelled</QA_Cancelled>
+	<QA_PatchSameTerrian>Check terrian instead of room for same origin mode</QA_PatchSameTerrian>
+</LanguageData>

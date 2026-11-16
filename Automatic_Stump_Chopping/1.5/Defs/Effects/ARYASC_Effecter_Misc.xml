@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeOak ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeOak_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeOak_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeOak_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeOak_Leafless/TreeOak_LeaflessA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreePoplar ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreePoplar_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreePoplar_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreePoplar_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreePoplar_Leafless/TreePoplar_LeaflessA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeCypress ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeCypress_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeCypress_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeCypress_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeCypress_Leafless/TreeCypress_LeaflessA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeMaple ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeMaple_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeMaple_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeMaple_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeMaple_Leafless/TreeMaple_LeaflessA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeWillow ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeWillow_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeWillow_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeWillow_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeWillow_Leafless/TreeWillow_LeaflessB</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeBamboo ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeBamboo_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeBamboo_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeBamboo_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeBamboo_Leafless/TreeBamboo_Leafless</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeCecropia ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeCecropia_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeCecropia_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeCecropia_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeCecropia_Leafless/TreeCecropiaA_Leafless</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreePalm ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreePalm_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreePalm_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreePalm_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreePalm/TreePalmA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeTeak ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeTeak_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeTeak_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeTeak_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeTeak/TreeTeakA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeDrago ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeDrago_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeDrago_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeDrago_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeDrago/TreeDragoA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_SaguaroCactus ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_SaguaroCactus_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_SaguaroCactus_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_SaguaroCactus_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/SaguaroCactus_Leafless/SaguaroCactus_Leafless</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeBirch ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeBirch_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeBirch_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeBirch_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeBirch_Leafless/TreeBirchA_Leafless</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreePine ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreePine_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreePine_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreePine_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreePine/TreePineA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= Plant_TreeCocoa ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_TreeCocoa_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_TreeCocoa_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_TreeCocoa_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/TreeCocoa/TreeCocoaA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+<!-- =======================================================  ======================================================= -->
+
+<!-- ======================================================= BurnedTree X ======================================================= -->
+	<EffecterDef>
+		<defName>ARYASC_BurnedTree_EffectFall</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>ARYASC_BurnedTree_Fleck</fleckDef>
+				<burstCount>1</burstCount>
+				<spawnLocType>OnSource</spawnLocType>
+				<scale>1</scale>
+				<rotation>0</rotation>
+				<rotationRate>90</rotationRate>
+				<absoluteAngle>True</absoluteAngle>
+				<positionOffset>(0, 0, .75)</positionOffset>
+				<positionRadiusMin>.0</positionRadiusMin>
+				<positionRadius>.0</positionRadius>
+				<angle>130</angle>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+				<speed>1.5</speed>
+			</li>
+		</children>
+	</EffecterDef>
+	<!-- ======================================================= FLECKS ======================================================= -->
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>ARYASC_BurnedTree_Fleck</defName>
+		<graphicData>
+			<texPath>Things/Plant/BurnedTree/BurnedTreeA</texPath>
+			<shaderType>Mote</shaderType>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<renderInstanced>true</renderInstanced>
+			<color>(1, 1, 1, 1)</color>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>0</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+</Defs>

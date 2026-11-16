@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\VanillaChemfuelTanks5.xml -->
+	<!-- EN: small astrofuel tank -->
+	<ChemfuelTank.label>малый бак космотоплива</ChemfuelTank.label>
+	<!-- EN: An astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
+	<ChemfuelTank.description>Бак для хранения космотоплива, снабжающий топливом тяговые двигатели гравишипа.</ChemfuelTank.description>
+	
+	<!-- EN: large astrofuel tank -->
+	<LargeChemfuelTank.label>большой бак космотоплива</LargeChemfuelTank.label>
+	<!-- EN: A massive astrofuel storage tank that supplies fuel for thrusters on a gravship. -->
+	<LargeChemfuelTank.description>Огромный бак для хранения космотоплива, снабжающий топливом тяговые двигатели гравишипа.</LargeChemfuelTank.description>
+</LanguageData>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{906AAAAA-C2DD-48E1-B176-6BB47B10A568}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomizeAnimals</RootNamespace>
+    <AssemblyName>CustomizeAnimals</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\1.6\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.1</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\1.6\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>embedded</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ControlArmorRating.cs" />
+    <Compile Include="Controls\ControlCrossAggroWith.cs" />
+    <Compile Include="Controls\ControlDrawSize.cs" />
+    <Compile Include="Controls\ControlAttackModifiers.cs" />
+    <Compile Include="Controls\ControlCanCrossBreedWith.cs" />
+    <Compile Include="Controls\ControlFenceBlocked.cs" />
+    <Compile Include="Controls\ControlSpecialTrainables.cs" />
+    <Compile Include="Controls\ControlMateMtbHours.cs" />
+    <Compile Include="Controls\ControlGestationPeriodDays.cs" />
+    <Compile Include="Controls\ControlLitterSizeCurve.cs" />
+    <Compile Include="Controls\ControlToxicEnvironmentResistance.cs" />
+    <Compile Include="Controls\ControlVacuumResistance.cs" />
+    <Compile Include="Controls\ControlLeatherAmount.cs" />
+    <Compile Include="Controls\ControlMeatAmount.cs" />
+    <Compile Include="Controls\ControlPredator.cs" />
+    <Compile Include="Controls\ControlHealthScale.cs" />
+    <Compile Include="Controls\ControlFilthRate.cs" />
+    <Compile Include="Controls\ControlHungerRate.cs" />
+    <Compile Include="Controls\ControlBodySize.cs" />
+    <Compile Include="Controls\ControlMoveSpeed.cs" />
+    <Compile Include="Controls\ControlNuzzleMtbHours.cs" />
+    <Compile Include="Controls\ControlMarketValue.cs" />
+    <Compile Include="Controls\ControlManhunter.cs" />
+    <Compile Include="Controls\ControlCarryingCapacity.cs" />
+    <Compile Include="Controls\ControlCaravanRidingSpeed.cs" />
+    <Compile Include="Controls\ControlToxicSensitivity.cs" />
+    <Compile Include="Controls\ControlLifeExpectancy.cs" />
+    <Compile Include="Controls\ControlPackAnimal.cs" />
+    <Compile Include="Controls\ControlFoodType.cs" />
+    <Compile Include="Controls\ControlWildness.cs" />
+    <Compile Include="Controls\ControlTemperature.cs" />
+    <Compile Include="Controls\ControlWillNeverEat.cs" />
+    <Compile Include="Controls\SpecialControlGrowthTier.cs" />
+    <Compile Include="Main\AnimalSettings.cs" />
+    <Compile Include="Controls\SpecialControlShearable.cs" />
+    <Compile Include="Controls\SpecialControlMilkable.cs" />
+    <Compile Include="Controls\SpecialControlEggLayer.cs" />
+    <Compile Include="Controls\SpecialControlLifeStageAges.cs" />
+    <Compile Include="GeneralSettings\GeneralSettingsControls.cs" />
+    <Compile Include="Main\CustomizeAnimals.cs" />
+    <Compile Include="Main\CustomizeAnimalsUtility.cs" />
+    <Compile Include="Main\CustomizeAnimals_ModSettings.cs" />
+    <Compile Include="GeneralSettings\GeneralSettings.cs" />
+    <Compile Include="Main\GlobalSettings.cs" />
+    <Compile Include="Main\HarmonyPatches.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\BaseControl.cs" />
+    <Compile Include="Controls\ControlRoamMtbDays.cs" />
+    <Compile Include="Controls\ControlTrainability.cs" />
+    <Compile Include="Settings\BaseSetting.cs" />
+    <Compile Include="Settings\SettingArmorRating.cs" />
+    <Compile Include="Settings\SettingCrossAggroWith.cs" />
+    <Compile Include="Settings\SettingDrawSize.cs" />
+    <Compile Include="Settings\SettingAttackModifiers.cs" />
+    <Compile Include="Settings\SettingCanCrossBreedWith.cs" />
+    <Compile Include="Settings\SettingFenceBlocked.cs" />
+    <Compile Include="Settings\SettingSpecialTrainables.cs" />
+    <Compile Include="Settings\SettingToxicEnvironmentResistance.cs" />
+    <Compile Include="Settings\SettingVacuumResistance.cs" />
+    <Compile Include="Settings\SettingMateMtbHours.cs" />
+    <Compile Include="Settings\SettingGestationPeriodDays.cs" />
+    <Compile Include="Settings\SettingWillNeverEat.cs" />
+    <Compile Include="Settings\SettingManhunter.cs" />
+    <Compile Include="Settings\SettingHealthScale.cs" />
+    <Compile Include="Settings\SettingFilthRate.cs" />
+    <Compile Include="Settings\SettingHungerRate.cs" />
+    <Compile Include="Settings\SettingBodySize.cs" />
+    <Compile Include="Settings\SettingLeatherAmount.cs" />
+    <Compile Include="Settings\SettingMeatAmount.cs" />
+    <Compile Include="Settings\SettingPredator.cs" />
+    <Compile Include="Settings\SettingMoveSpeed.cs" />
+    <Compile Include="Settings\SettingNuzzleMtbHours.cs" />
+    <Compile Include="Settings\SettingMaxPreyBodySize.cs" />
+    <Compile Include="Settings\SettingMarketValue.cs" />
+    <Compile Include="Settings\SettingCarryingCapacity.cs" />
+    <Compile Include="Settings\SettingCaravanRidingSpeed.cs" />
+    <Compile Include="Settings\SettingToxicSensitivity.cs" />
+    <Compile Include="Settings\SettingLifeExpectancy.cs" />
+    <Compile Include="Settings\SettingPackAnimal.cs" />
+    <Compile Include="Settings\SettingFoodType.cs" />
+    <Compile Include="Settings\SettingWildness.cs" />
+    <Compile Include="Settings\SettingTemperature.cs" />
+    <Compile Include="Settings\SettingRoamMtbDays.cs" />
+    <Compile Include="Settings\SettingTrainability.cs" />
+    <Compile Include="Settings\SpecialSettingGrowthTier.cs" />
+    <Compile Include="Settings\SpecialSettingShearable.cs" />
+    <Compile Include="Settings\SpecialSettingMilkable.cs" />
+    <Compile Include="Settings\SpecialSettingEggLayer.cs" />
+    <Compile Include="Settings\SpecialSettingLitterSizeCurve.cs" />
+    <Compile Include="Settings\SpecialSettingLifeStageAges.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Publicizer">
+      <Version>2.3.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Krafs.Rimworld.Ref">
+      <Version>1.6.4566</Version>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony">
+      <ExcludeAssets>runtime</ExcludeAssets>
+      <Version>2.4.1</Version>
+      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Publicize Include="Assembly-CSharp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>setlocal ENABLEDELAYEDEXPANSION
+
+if $(ConfigurationName) neq Release (
+echo COMPILE IN RELEASE MODE!
+exit /b 1
+)
+
+set dir=$(TargetDir)
+if "x!dir:RimWorld\Mods=!"=="x%25dir%25" D:\0Stuff\2Games\RimWorld\_mods\_deploy.bat $(TargetName)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

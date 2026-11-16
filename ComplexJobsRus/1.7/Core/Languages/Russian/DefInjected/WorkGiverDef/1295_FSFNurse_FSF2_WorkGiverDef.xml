@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\1295_FSFNurse_FSF2.xml -->
+<!-- EN: take patients to bed for operations -->
+<FSFTakeToBedToOperate.label>относить пациентов на кровать для проведения операции</FSFTakeToBedToOperate.label>
+<!-- EN: take to operate -->
+<FSFTakeToBedToOperate.verb>отнести на операцию</FSFTakeToBedToOperate.verb>
+<!-- EN: taking to operate -->
+<FSFTakeToBedToOperate.gerund>отнести на операцию</FSFTakeToBedToOperate.gerund>
+<!-- EN: feed prisoners -->
+<FSFFeedPrisoner.label>кормить пленников</FSFFeedPrisoner.label>
+<!-- EN: feed -->
+<FSFFeedPrisoner.verb>кормить</FSFFeedPrisoner.verb>
+<!-- EN: feeding -->
+<FSFFeedPrisoner.gerund>кормить</FSFFeedPrisoner.gerund>
+</LanguageData>

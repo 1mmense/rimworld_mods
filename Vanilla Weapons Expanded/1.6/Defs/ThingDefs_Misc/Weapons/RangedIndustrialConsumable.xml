@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Rocket Launcher -->
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>VWE_Gun_RocketLauncher</defName>
+    <label>rocket launcher</label>
+    <description>A single-use rocket launcher firing a massive, high-explosive warhead. Slow to aim with a significant minimum range due to its power, it excels against structures, mechanoids, and armored foes. Its unwieldiness, single-use nature, and sheer destruction make it a rare and scary sight in combat.</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>NewThings/RocketLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>4</Mass>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>VWE_HeavyWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <!-- Same tags as triple/doomsday rocket launchers -->
+      <li>Gun</li>
+      <li>GunSingleUse</li>
+    </weaponTags>
+    <weaponClasses>
+      <!-- Same tags as triple/doomsday rocket -->
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_Rocket</defaultProjectile>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>4.5</warmupTime>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <range>35.9</range>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <armorPenetration>0.18</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.8</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_Rocket</defName>
+    <label>rocket</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>4.9</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

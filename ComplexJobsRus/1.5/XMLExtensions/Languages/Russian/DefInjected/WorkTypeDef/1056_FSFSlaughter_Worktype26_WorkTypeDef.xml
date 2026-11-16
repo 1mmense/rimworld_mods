@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1056_FSFSlaughter_Worktype26.xml -->
+<!-- EN: slaughter -->
+<FSFSlaughter.labelShort>убой</FSFSlaughter.labelShort>
+<!-- EN: Handler -->
+<FSFSlaughter.pawnLabel>Убойщик</FSFSlaughter.pawnLabel>
+<!-- EN: handling -->
+<FSFSlaughter.gerundLabel>Забивать</FSFSlaughter.gerundLabel>
+<!-- EN: Slaughter designated animals. -->
+<FSFSlaughter.description>Убой указанных животных.</FSFSlaughter.description>
+<!-- EN: Handle -->
+<FSFSlaughter.verb>Забить</FSFSlaughter.verb>
+</LanguageData>

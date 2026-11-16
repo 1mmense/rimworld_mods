@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compact Hediff 1.7 Fix", "Compact Hediff 1.7 Fix.csproj", "{EC9B75B7-32D7-4750-B9DF-7D813C2C17ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC9B75B7-32D7-4750-B9DF-7D813C2C17ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9B75B7-32D7-4750-B9DF-7D813C2C17ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9B75B7-32D7-4750-B9DF-7D813C2C17ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9B75B7-32D7-4750-B9DF-7D813C2C17ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

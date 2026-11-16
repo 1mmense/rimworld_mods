@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\Ideology\Defs\PreceptDefs\Precepts_Role_PilotingSpecialist.xml -->
+	<!-- EN: piloting specialist -->
+	<VGE_IdeoRole_PilotingSpecialist.label>специалист по пилотированию</VGE_IdeoRole_PilotingSpecialist.label>
+	<!-- EN: A special ideoligious status devoted to the art of flight and control of gravship engines. Piloting specialists are trained to maneuver the vessel through planetary orbits and emergency situations, keeping the crew alive when systems fail. They can save the gravship and the crew from peril. -->
+	<VGE_IdeoRole_PilotingSpecialist.description>Особый идеолигиозный статус, посвящённый искусству полёта и управлению двигателями гравишипа. Специалисты по пилотированию обучены маневрировать судном на планетарных орбитах и в аварийных ситуациях, сохраняя жизнь экипажу при отказе систем. Они способны спасти гравишип и команду от гибели.</VGE_IdeoRole_PilotingSpecialist.description>
+</LanguageData>

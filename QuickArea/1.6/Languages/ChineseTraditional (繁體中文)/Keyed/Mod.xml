@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <QuickArea>Quick Area</QuickArea>
+    <QA_FenceFirstDesc>將柵欄視為牆體</QA_FenceFirstDesc>
+    <QA_KeyBindingQAModifierDesc>輔助鍵</QA_KeyBindingQAModifierDesc>
+    <QA_KeyBindingRAModifierDesc>快速撤回</QA_KeyBindingRAModifierDesc>
+    <QA_FillMapDesc>在室外起效</QA_FillMapDesc>
+	<QA_OnlyFurniture>只對自己的建築生效</QA_OnlyFurniture>
+	<QA_DesignateWall>只對牆生效</QA_DesignateWall>
+	<QA_SameOrigin>只對同源生效</QA_SameOrigin>
+	<QA_Undo>撤回</QA_Undo>
+	<QA_SelectOrigin>請選擇來源 (單擊)</QA_SelectOrigin>
+	<QA_OriginSelected>來源已選擇</QA_OriginSelected>
+	<QA_Cancelled>已取消</QA_Cancelled>
+	<QA_PatchSameTerrian>同源模式使用地形而不是房間</QA_PatchSameTerrian>
+</LanguageData>

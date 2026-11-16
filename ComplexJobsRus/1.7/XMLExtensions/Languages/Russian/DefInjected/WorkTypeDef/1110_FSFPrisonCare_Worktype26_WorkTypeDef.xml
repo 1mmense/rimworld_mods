@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1110_FSFPrisonCare_Worktype26.xml -->
+<!-- EN: Prison Care -->
+<FSFPrisonCare.labelShort>уход за плен.</FSFPrisonCare.labelShort>
+<!-- EN: Warden -->
+<FSFPrisonCare.pawnLabel>Надзиратель</FSFPrisonCare.pawnLabel>
+<!-- EN: wardening -->
+<FSFPrisonCare.gerundLabel>Ухаживают за пленниками</FSFPrisonCare.gerundLabel>
+<!-- EN: Feed prisoners. -->
+<FSFPrisonCare.description>Кормят пленников.</FSFPrisonCare.description>
+<!-- EN: Handle -->
+<FSFPrisonCare.verb>Надзирать</FSFPrisonCare.verb>
+<!-- EN: Manage, chat with, and recruit prisoners. -->
+<Warden.description>Надзиратели присматривают за пленниками, беседуют и вербуют.</Warden.description>
+</LanguageData>

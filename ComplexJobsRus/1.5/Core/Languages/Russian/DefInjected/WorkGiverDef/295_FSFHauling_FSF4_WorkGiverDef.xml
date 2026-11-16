@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\295_FSFHauling_FSF4.xml -->
+<!-- EN: deliver resources to frames -->
+<FSFDeliverResourcesToFrames.label>переносить материалы к строящимся объектам</FSFDeliverResourcesToFrames.label>
+<!-- EN: deliver to -->
+<FSFDeliverResourcesToFrames.verb>нести материалы к</FSFDeliverResourcesToFrames.verb>
+<!-- EN: delivering to -->
+<FSFDeliverResourcesToFrames.gerund>нести материалы к</FSFDeliverResourcesToFrames.gerund>
+<!-- EN: deliver resources to blueprints -->
+<FSFDeliverResourcesToBlueprints.label>переносить материалы к проектам</FSFDeliverResourcesToBlueprints.label>
+<!-- EN: deliver to -->
+<FSFDeliverResourcesToBlueprints.verb>нести материалы к</FSFDeliverResourcesToBlueprints.verb>
+<!-- EN: delivering to -->
+<FSFDeliverResourcesToBlueprints.gerund>нести материалы к</FSFDeliverResourcesToBlueprints.gerund>
+</LanguageData>

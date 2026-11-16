@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- EN: Mod Settings -->
+	<HugsLib_settings_btn>Настройки модов</HugsLib_settings_btn>
+	<!-- EN: Mod Settings -->
+	<HugsLib_settings_windowTitle>Настройки модов</HugsLib_settings_windowTitle>
+	<!-- EN: Reset setting to default -->
+	<HugsLib_settings_resetValue>Сбросить настройки</HugsLib_settings_resetValue>
+	<!-- EN: Reset all -->
+	<HugsLib_settings_resetAll>Сбросить все</HugsLib_settings_resetAll>
+	<!-- EN: Reset all mod settings to their original values? -->
+	<HugsLib_settings_resetAll_prompt>Сбросить все настройки мода до значений по умолчанию?</HugsLib_settings_resetAll_prompt>
+	<!-- EN: No mods with configurable settings are loaded. -->
+	<HugsLib_settings_noSettings>Нет модов с настраиваемыми параметрами.</HugsLib_settings_noSettings>
+	<!-- EN: Reset {0} settings to default -->
+	<HugsLib_settings_resetMod>Сбросить настройки {0}</HugsLib_settings_resetMod>
+	<!-- EN: Reset all {0} settings to their original values? -->
+	<HugsLib_settings_resetMod_prompt>Установить настройки мода {0} на их изначальные значения?</HugsLib_settings_resetMod_prompt>
+	<!-- EN: Include hidden settings ({0}) -->
+	<HugsLib_settings_resetIncludeHidden>Включая скрытые настройки ({0})</HugsLib_settings_resetIncludeHidden>
+	<!-- EN: Hidden mod settings: -->
+	<HugsLib_settings_hiddenSettingsHeader>Скрытые настройки мода:</HugsLib_settings_hiddenSettingsHeader>
+	<!-- EN: {0} settings have been reset. -->
+	<HugsLib_settings_resetSuccessMessage>Настройки мода {0} были сброшены.</HugsLib_settings_resetSuccessMessage>
+
+	<!-- EN: Show mod update news -->
+	<HugsLib_setting_showNews_label>Показать новости обновления мода</HugsLib_setting_showNews_label>
+	<!-- EN: Allows newly installed mods to highlight their new features in a pop-up window when you start your game. -->
+	<HugsLib_setting_showNews_desc>Позволяет недавно установленным модам показывать свои новые функции во всплывающем окне при запуске игры.</HugsLib_setting_showNews_desc>
+	<!-- EN: All mod update news -->
+	<HugsLib_setting_allNews_label>Все новости обновлений модов</HugsLib_setting_allNews_label>
+	<!-- EN: Shows all available mod update news, including those that have already been displayed. -->
+	<HugsLib_setting_allNews_desc>Показывает все доступные новости об обновлениях модов, включая те, которые уже были отображены.</HugsLib_setting_allNews_desc>
+	<!-- EN: Show now -->
+	<HugsLib_setting_allNews_button>Показать сейчас</HugsLib_setting_allNews_button>
+	<!-- EN: None of the active mods have any update news to display. -->
+	<HugsLib_setting_allNews_fail>Ни один из установленных модов не содержит новостей об обновлении.</HugsLib_setting_allNews_fail>
+	<!-- EN: (unnamed mod) -->
+	<HugsLib_setting_unnamed_mod>(мод без названия)</HugsLib_setting_unnamed_mod>
+	<!-- EN: Show settings -->
+	<HugsLib_setting_show_settings>Показать настройки</HugsLib_setting_show_settings>
+	<!-- EN: Mod settings for {0} -->
+	<HugsLib_setting_mod_name_title>Настройки мода {0}</HugsLib_setting_mod_name_title>
+	<!-- EN: Open -->
+	<HugsLib_setting_expand_mod>Открыть</HugsLib_setting_expand_mod>
+	<!-- EN: Close -->
+	<HugsLib_setting_collapse_mod>Закрыть</HugsLib_setting_collapse_mod>
+	<!-- EN: Quickstart configuration -->
+	<HugsLib_setting_quickstartSettings_label>Настройки быстрого запуска</HugsLib_setting_quickstartSettings_label>
+	<!-- EN: Log publisher preferences -->
+	<HugsLib_setting_logPublisherSettings_label>Настройки публикации log-файлов</HugsLib_setting_logPublisherSettings_label>
+	<!-- EN: Ignored mod update news providers -->
+	<HugsLib_setting_ignoredUpdateNews_label>Игнорируемые новости обновлений модов</HugsLib_setting_ignoredUpdateNews_label>
+
+	<!-- EN: New Mod Features -->
+	<HugsLib_features_title>Новости обновлений мода</HugsLib_features_title>
+	<!-- EN: The following mod updates were installed, and these are the new features and improvements that came with them.\nYou can disable this dialog in Options > Mod Settings -->
+	<HugsLib_features_description>Обновления модов, а также новый функционал и улучшения, которые пришли вместе с ними.\nВы можете отключить это сообщение в Настройках. &gt; Настройки модов</HugsLib_features_description>
+	<!-- EN: {0} v{1} -->
+	<HugsLib_features_update>{0} v{1}</HugsLib_features_update>
+	<!-- EN: Link -->
+	<HugsLib_features_link>Ссылка</HugsLib_features_link>
+	<!-- EN: Opens your browser on a page where you can learn more about this update.\nAddress: {0} -->
+	<HugsLib_features_linkDesc>Открыть браузер на странице информации об этом обновлении.\nСсылка: {0}</HugsLib_features_linkDesc>
+	<!-- EN: Notify about future updates from this mod -->
+	<HugsLib_features_ignoreTooltip>Уведомлять о будущих обновлениях этого мода</HugsLib_features_ignoreTooltip>
+	<!-- EN: Confirm -->
+	<HugsLib_features_confirmIgnoreTitle>Подтвердить</HugsLib_features_confirmIgnoreTitle>
+	<!-- EN: Ignore future update news from {0}?\n\nCan be re-enabled in Mod Options > All mod update news -->
+	<HugsLib_features_confirmIgnore>Игорировать будущие новости об обновлениях {0}?\n\nМожно включить повторно в Настройках мода &gt; Все новости обновлений модов</HugsLib_features_confirmIgnore>
+	<!-- EN: Filter by mod -->
+	<HugsLib_features_filterBtn>Фильтр по модам</HugsLib_features_filterBtn>
+	<!-- EN: Current filter: {0} -->
+	<HugsLib_features_filterStatus>Текущий фильтр: {0}</HugsLib_features_filterStatus>
+	<!-- EN: All mods -->
+	<HugsLib_features_filterAllMods>Все моды</HugsLib_features_filterAllMods>
+	<!-- EN: {0} ({1} news{2}) -->
+	<HugsLib_features_filterDropdownEntry>{0} ({1} новостей{2})</HugsLib_features_filterDropdownEntry>
+	<!-- EN: , ignored -->
+	<HugsLib_features_filterIgnoredModSuffix>, игнорируется</HugsLib_features_filterIgnoredModSuffix>
+
+	<!-- EN: Copied to clipboard. -->
+	<HugsLib_copiedToClipboard>Скопировано в буфер обмена.</HugsLib_copiedToClipboard>
+
+	<!-- EN: Copy -->
+	<HugsLib_logs_copy>Скопировать</HugsLib_logs_copy>
+	<!-- EN: Share logs -->
+	<HugsLib_logs_shareBtn>Поделиться log-файлом</HugsLib_logs_shareBtn>
+	<!-- EN: Confirm -->
+	<HugsLib_logs_shareConfirmTitle>Подтвердить</HugsLib_logs_shareConfirmTitle>
+	<!-- EN: Upload game logs now?\n\nThis will post your game logs to a public server and give you the link to share with others. This is useful if you need help fixing a problem or would like to report an issue to a mod author.\n\nNo private information will be shared. -->
+	<HugsLib_logs_shareConfirmMessage>Опубликовать log-файл?\n\nЭта операция загрузит log-файл на публичный сервер и передаст Вам ссылку на него. Это полезно, чтобы запросить помощь других пользователей или передать отчет о проблеме автору мода.\n\nНикакой приватной информации передано не будет.</HugsLib_logs_shareConfirmMessage>
+	<!-- EN: Log publisher -->
+	<HugsLib_logs_publisherTitle>Опубликовать журнал логов</HugsLib_logs_publisherTitle>
+	<!-- EN: Uploading{0} -->
+	<HugsLib_logs_uploading>Загрузка {0}</HugsLib_logs_uploading>
+	<!-- EN: Getting link{0} -->
+	<HugsLib_logs_shortening>Получение ссылки {0}</HugsLib_logs_shortening>
+	<!-- EN: Upload complete! -->
+	<HugsLib_logs_uploaded>Загрузка успешно завершена!</HugsLib_logs_uploaded>
+	<!-- EN: Upload error: {0} -->
+	<HugsLib_logs_uploadError>Ошибка загрузки: {0}</HugsLib_logs_uploadError>
+	<!-- EN: Abort -->
+	<HugsLib_logs_abortBtn>Отменить</HugsLib_logs_abortBtn>
+	<!-- EN: Retry -->
+	<HugsLib_logs_retryBtn>Повторить</HugsLib_logs_retryBtn>
+	<!-- EN: Open in browser -->
+	<HugsLib_logs_browseBtn>Открыть в браузере</HugsLib_logs_browseBtn>
+	<!-- EN: Use recommended settings -->
+	<HugsLib_logs_useRecommendedSettings>Использовать рекомендуемые настройки</HugsLib_logs_useRecommendedSettings>
+	<!-- EN: Use URL shortener -->
+	<HugsLib_logs_shortUrls>Использовать коротку ссылку</HugsLib_logs_shortUrls>
+	<!-- EN: Produces a shorter link when uploading. Not recommended on Steam- short links are automatically removed. -->
+	<HugsLib_logs_shortUrls_tip>Создает короткую ссылку при загрузке. Не рекомендуется для размещения в Steam: короткие ссылки удаляются автоматически.</HugsLib_logs_shortUrls_tip>
+	<!-- EN: Include platform information -->
+	<HugsLib_logs_platformInfo>Включить информацию о системе</HugsLib_logs_platformInfo>
+	<!-- EN: Includes information about your CPU, memory and video card in the log. -->
+	<HugsLib_logs_platformInfo_tip>Включает информацию о Вашем процессоре, памяти и видеокарте в log-файле.</HugsLib_logs_platformInfo_tip>
+	<!-- EN: Allow unlimited log size -->
+	<HugsLib_logs_unlimitedLogSize>Разрешить неограниченный размер log-файла</HugsLib_logs_unlimitedLogSize>
+	<!-- EN: When disabled, log size is limited to 10K lines to prevent very long logs from causing issues. -->
+	<HugsLib_logs_unlimitedLogSize_tip>Когда опция отключена, журнал логов ограничен 10 000 строками для избежания проблем с загрузкой журналов с большим количеством ошибок.</HugsLib_logs_unlimitedLogSize_tip>
+	<!-- EN: GitHub access token -->
+	<HugsLib_logs_github_token>Токен доступа к GitHub</HugsLib_logs_github_token>
+	<!-- EN: Publishes logs to your own GitHub account when set. Paste a token from GitHub > Settings > Developer Settings > Personal access tokens. Leave blank to publish to the public HugsLib account.\n\nLogs published to your account can only be viewed by others using a link. -->
+	<HugsLib_logs_github_token_tip>Разрешить публикацию журналов в Вашей собственной учетной записи GitHub. Вставьте токен из GitHub в &gt; Настройки &gt; Настройки разработчика &gt; Токены личного доступа. Оставьте поле пустым, чтобы опубликовать его в общедоступной учетной записи HugsLib.\n\nЖурналы, опубликованные в Вашей учетной записи, могут просматривать только другие пользователи по ссылке.</HugsLib_logs_github_token_tip>
+	<!-- EN: To clipboard -->
+	<HugsLib_logs_toClipboardBtn>В буфер обмена</HugsLib_logs_toClipboardBtn>
+	<!-- EN: Upload -->
+	<HugsLib_logs_uploadBtn>Загрузить</HugsLib_logs_uploadBtn>
+
+	<!-- EN: Files -->
+	<HugsLib_logs_filesBtn>Файлы</HugsLib_logs_filesBtn>
+	<!-- EN: Open log file -->
+	<HugsLib_logs_openLogFile>Открыть log-файл</HugsLib_logs_openLogFile>
+	<!-- EN: Open save folder -->
+	<HugsLib_logs_openSaveDir>Открыть папку с сохранениями</HugsLib_logs_openSaveDir>
+	<!-- EN: Open mods folder -->
+	<HugsLib_logs_openModsDir>Открыть папку с модами</HugsLib_logs_openModsDir>
+
+	<!-- EN: The game language has changed. The game will now restart automatically. -->
+	<HugsLib_restart_language_text>Язык игры был изменен. Игра перезапустится автоматически.</HugsLib_restart_language_text>
+
+	<!-- EN: Improper mod load order -->
+	<HugsLib_loadOrderWarning_title>Неверный порядок загрузки модов</HugsLib_loadOrderWarning_title>
+	<!-- EN: <b>The HugsLib mod</b> should always be loaded after <b>Core</b> to avoid issues.\nPlease adjust your mod order in the Mods menu and restart the game. -->
+	<HugsLib_loadOrderWarning_text>&lt;b&gt;Мод The HugsLib&lt;/b&gt; должен всегда загружаться после &lt;b&gt;Core&lt;/b&gt; во избежание проблем.\nПожалуйста, исправьте порядок модов и перезапустите игру.</HugsLib_loadOrderWarning_text>
+
+	<!-- EN: Library update required -->
+	<HugsLib_updateRequired_title>Требуется обновление библиотеки</HugsLib_updateRequired_title>
+	<!-- EN: <b>{0}</b> requires version <b>{1}</b> of the <b>HugsLib library</b> to work properly.\n\nWould you like to update it now? -->
+	<HugsLib_updateRequired_text>&lt;b&gt;{0}&lt;/b&gt; требует версию &lt;b&gt;{1}&lt;/b&gt; библиотеки &lt;b&gt;HugsLib&lt;/b&gt; для правильной работы.\n\nЖелаете обновить ее сейчас?</HugsLib_updateRequired_text>
+	<!-- EN: Update now -->
+	<HugsLib_updateRequired_updateBtn>Обновить сейчас</HugsLib_updateRequired_updateBtn>
+
+	<!-- EN: Default Value -->
+	<test_enumSetting_DefaultValue>Значение по умолчанию</test_enumSetting_DefaultValue>
+	<!-- EN: Value One -->
+	<test_enumSetting_ValueOne>Первое значение</test_enumSetting_ValueOne>
+	<!-- EN: Value Two -->
+	<test_enumSetting_ValueTwo>Второе значение</test_enumSetting_ValueTwo>
+</LanguageData>

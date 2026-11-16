@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--
+    No Odyssey Category deliberately removes DesignationCategoryDef Odyssey.
+    VGE's nested architect categories still refer to it, which produces a
+    missing-def error during ResolveReferences.  Keep the user's consolidated
+    Ship category and move only those nested-category parents to Ship.
+  -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>No Odyssey Category</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/DesignationCategoryDef/modExtensions/li[@Class="VanillaGravshipExpanded.NestedCategoryExtension"]/parentCategory[text()="Odyssey"]</xpath>
+      <value>
+        <parentCategory>Ship</parentCategory>
+      </value>
+    </match>
+  </Operation>
+</Patch>

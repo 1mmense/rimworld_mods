@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- RimWorld 1.6/1.7: edit the original rules below or add li entries. All supplied dialogue is copied from the installed game. -->
+  <Operation Class="Bubbles.PatchOperationWithoutSpeakUp">
+    <patch Class="PatchOperationReplace">
+      <xpath>/Defs/InteractionDef[defName="Chitchat"]/logRulesInitiator</xpath>
+      <value>
+        <logRulesInitiator>
+          <rulesStrings>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+            <li>r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [subject] to [RECIPIENT_nameDef].</li>
+            <li>subject(INITIATOR_cubeInterest==false)-&gt;[TalkTopicLight]</li>
+            <li>subject(INITIATOR_cubeInterest==true)-&gt;[TalkTopicCube]</li>
+            <li>talkedabout(p=4)-&gt;chatted about</li>
+            <li>talkedabout-&gt;shared a word about</li>
+            <li>talkedabout-&gt;spoke about</li>
+            <li>talkedabout-&gt;gabbed about</li>
+            <li>talkedabout-&gt;talked about</li>
+            <li>talkedabout-&gt;joked about</li>
+            <li>talkedabout-&gt;quipped about</li>
+            <li>commentedabout-&gt;said something about</li>
+            <li>commentedabout-&gt;said a word about</li>
+            <li>commentedabout-&gt;made a comment about</li>
+            <li>commentedabout-&gt;commented about</li>
+            <li>commentedabout-&gt;told a joke about</li>
+          </rulesStrings>
+          <include>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">TalkTopicsCube</li>
+          </include>
+        </logRulesInitiator>
+      </value>
+    </patch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Chitchat"]/initiatorThought</xpath>
+    <value>
+      <initiatorThought>Chitchat</initiatorThought>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Chitchat"]/recipientThought</xpath>
+    <value>
+      <recipientThought>Chitchat</recipientThought>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Chitchat"]/initiatorXpGainAmount</xpath>
+    <value>
+      <initiatorXpGainAmount>4</initiatorXpGainAmount>
+    </value>
+  </Operation>
+  <Operation Class="Bubbles.PatchOperationWithoutSpeakUp">
+    <patch Class="PatchOperationReplace">
+      <xpath>/Defs/InteractionDef[defName="DeepTalk"]/logRulesInitiator</xpath>
+      <value>
+        <logRulesInitiator>
+          <rulesStrings>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+            <li>talkedabout-&gt;communicated thoughts about</li>
+            <li>talkedabout-&gt;exchanged thoughts about</li>
+            <li>talkedabout-&gt;exchanged ideas about</li>
+            <li>talkedabout-&gt;shared views on</li>
+            <li>talkedabout-&gt;shared beliefs on</li>
+            <li>talkedabout-&gt;discussed the topic of</li>
+            <li>talkedabout-&gt;had a heartfelt conversation about</li>
+            <li>talkedabout-&gt;talked quietly about</li>
+            <li>talkedabout-&gt;talked deeply about</li>
+            <li>talkedabout-&gt;connected on the topic of</li>
+            <li>talkedabout-&gt;debated about</li>
+            <li>talkedabout-&gt;Discussed their feelings on</li>
+            <li>talkedabout-&gt;laughed while talking about</li>
+            <li>subject(INITIATOR_cubeInterest==false)-&gt;[TalkTopicHeavy]</li>
+            <li>subject(INITIATOR_cubeInterest==true)-&gt;[TalkTopicCube]</li>
+          </rulesStrings>
+          <include>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">TalkTopicsCube</li>
+          </include>
+        </logRulesInitiator>
+      </value>
+    </patch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="DeepTalk"]/initiatorThought</xpath>
+    <value>
+      <initiatorThought>DeepTalk</initiatorThought>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="DeepTalk"]/recipientThought</xpath>
+    <value>
+      <recipientThought>DeepTalk</recipientThought>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="DeepTalk"]/initiatorXpGainAmount</xpath>
+    <value>
+      <initiatorXpGainAmount>10</initiatorXpGainAmount>
+    </value>
+  </Operation>
+  <Operation Class="Bubbles.PatchOperationWithoutSpeakUp">
+    <patch Class="PatchOperationReplace">
+      <xpath>/Defs/InteractionDef[defName="Slight"]/logRulesInitiator</xpath>
+      <value>
+        <logRulesInitiator>
+          <rulesStrings>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] [madefunof] [target]'s [characteristic].</li>
+            <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>
+            <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>
+            <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+            <li>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</li>
+            <li>madefunof-&gt;made fun of</li>
+            <li>madefunof-&gt;disrespected</li>
+            <li>madefunof-&gt;subtly scorned</li>
+            <li>madefunof-&gt;subtly shamed</li>
+            <li>madefunof-&gt;spoke badly of</li>
+            <li>madefunof-&gt;spoke negatively of</li>
+            <li>madefunof-&gt;laughed at</li>
+            <li>madefunof-&gt;sniggered at</li>
+            <li>madefunof-&gt;implied negative things about</li>
+            <li>madefunof-&gt;belittled</li>
+            <li>madefunof-&gt;made a contemptuous remark about</li>
+            <li>madefunof-&gt;offered a backhanded compliment about</li>
+          </rulesStrings>
+          <include>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+          </include>
+        </logRulesInitiator>
+      </value>
+    </patch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Slight"]/recipientThought</xpath>
+    <value>
+      <recipientThought>Slighted</recipientThought>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Slight"]/socialFightBaseChance</xpath>
+    <value>
+      <socialFightBaseChance>0.005</socialFightBaseChance>
+    </value>
+  </Operation>
+  <Operation Class="Bubbles.PatchOperationWithoutSpeakUp">
+    <patch Class="PatchOperationReplace">
+      <xpath>/Defs/InteractionDef[defName="Insult"]/logRulesInitiator</xpath>
+      <value>
+        <logRulesInitiator>
+          <rulesStrings>
+            <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] called [target] [insultcomparison].</li>
+            <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)-&gt;[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+            <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)-&gt;[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+            <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)-&gt;[INITIATOR_nameDef] [insulted] the golden cube.</li>
+            <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>
+            <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>
+            <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>
+            <li>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</li>
+            <li>insulted(p=3)-&gt;insulted</li>
+            <li>insulted-&gt;openly insulted</li>
+            <li>insulted-&gt;loudly insulted</li>
+            <li>insulted-&gt;flagrantly insulted</li>
+            <li>insulted-&gt;directly insulted</li>
+            <li>insulted-&gt;viciously insulted</li>
+            <li>insulted-&gt;angrily insulted</li>
+            <li>insulted-&gt;flagrantly disrespected</li>
+            <li>insulted-&gt;slandered</li>
+            <li>insulted-&gt;hurled invective about</li>
+            <li>insulted-&gt;derided</li>
+            <li>insulted-&gt;verbally abused</li>
+            <li>insulted-&gt;hatefully spoke at</li>
+            <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)-&gt;a [Animal]</li>
+            <li>insultcomparison(INITIATOR_cubeInterest==false)-&gt;a [Enemy]</li>
+            <li>insultcomparison(INITIATOR_cubeInterest==true)-&gt;a sphere</li>
+            <li>insultcomparison(INITIATOR_cubeInterest==true)-&gt;something totally pointless</li>
+            <li>insultcomparison(INITIATOR_cubeInterest==true)-&gt;a non-cubic platonic object</li>
+          </rulesStrings>
+          <include>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+          </include>
+        </logRulesInitiator>
+      </value>
+    </patch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Insult"]/recipientThought</xpath>
+    <value>
+      <recipientThought>Insulted</recipientThought>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="Insult"]/socialFightBaseChance</xpath>
+    <value>
+      <socialFightBaseChance>0.04</socialFightBaseChance>
+    </value>
+  </Operation>
+  <Operation Class="Bubbles.PatchOperationWithoutSpeakUp">
+    <patch Class="PatchOperationReplace">
+      <xpath>/Defs/InteractionDef[defName="KindWords"]/logRulesInitiator</xpath>
+      <value>
+        <logRulesInitiator>
+          <rulesStrings>
+            <li>r_logentry-&gt;[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [characteristic].</li>
+            <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>
+            <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>
+            <li>complimented(p=3)-&gt;complimented</li>
+            <li>complimented-&gt;praised</li>
+            <li>complimented-&gt;commended</li>
+            <li>complimented-&gt;lauded</li>
+            <li>complimented-&gt;applauded</li>
+            <li>complimented-&gt;celebrated</li>
+            <li>complimented-&gt;saluted</li>
+            <li>complimented-&gt;spoke kindly of</li>
+            <li>complimented-&gt;expressed good things about</li>
+            <li>complimented-&gt;offered kinds words about</li>
+            <li>complimented-&gt;verbally appreciated</li>
+            <li>complimented-&gt;expressed appreciation for</li>
+            <li>complimented-&gt;said good things about</li>
+            <li>complimented-&gt;spread some joy to</li>
+            <li>complimented-&gt;expressed good words to</li>
+          </rulesStrings>
+          <include>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+          </include>
+        </logRulesInitiator>
+      </value>
+    </patch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/InteractionDef[defName="KindWords"]/recipientThought</xpath>
+    <value>
+      <recipientThought>KindWords</recipientThought>
+    </value>
+  </Operation>
+</Patch>

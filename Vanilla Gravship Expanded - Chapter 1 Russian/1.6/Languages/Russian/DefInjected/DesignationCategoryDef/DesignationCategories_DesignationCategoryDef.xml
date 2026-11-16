@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\DesignationCategories\DesignationCategories.xml -->
+	<!-- EN: Platform -->
+	<VGE_Platform.label>Платформа</VGE_Platform.label>
+	<!-- EN: Manage the gravship's essential functions. -->
+	<VGE_Platform.description>Управление основными функциями гравишипа.</VGE_Platform.description>
+	
+	<!-- EN: Vacuum -->
+	<VGE_Vacuum.label>Вакуум</VGE_Vacuum.label>
+	<!-- EN: Manage the gravship's vacuum functions. -->
+	<VGE_Vacuum.description>Управление вакуумными системами гравишипа.</VGE_Vacuum.description>
+	
+	<!-- EN: Fuel -->
+	<VGE_Fuel.label>Топливо</VGE_Fuel.label>
+	<!-- EN: Manage fuel on the gravship. -->
+	<VGE_Fuel.description>Управление топливом на гравишипе.</VGE_Fuel.description>
+	
+	<!-- EN: Combat -->
+	<VGE_Combat.label>Бой</VGE_Combat.label>
+	<!-- EN: Manage weapons on the gravship. -->
+	<VGE_Combat.description>Управление оружием на гравишипе.</VGE_Combat.description>
+</LanguageData>

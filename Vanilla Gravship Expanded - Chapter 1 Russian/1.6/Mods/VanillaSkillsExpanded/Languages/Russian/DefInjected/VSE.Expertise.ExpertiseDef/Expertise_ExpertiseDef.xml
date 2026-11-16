@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Mods\VanillaSkillsExpanded\Defs\ExpertiseDefs\Expertise.xml -->
+	<!-- EN: Gravship researching -->
+	<VGE_GravshipResearch.label>изучение гравишипов</VGE_GravshipResearch.label>
+	<!-- EN: An expertise in researching new gravship technologies. -->
+	<VGE_GravshipResearch.description>Экспертиза в изучении новых технологий гравишипов.</VGE_GravshipResearch.description>
+	
+	<!-- EN: Gravship maintaining -->
+	<VGE_GravshipMaintaining.label>уход за гравишипами</VGE_GravshipMaintaining.label>
+	<!-- EN: An expertise in maintaining gravship structures. -->
+	<VGE_GravshipMaintaining.description>Экспертиза в обслуживании конструкций гравишипа.</VGE_GravshipMaintaining.description>
+	
+	<!-- EN: Gravship combat -->
+	<VGE_GravshipTargeting.label>бой гравишипов</VGE_GravshipTargeting.label>
+	<!-- EN: An expertise in handling the targeting terminal aboard a gravship. -->
+	<VGE_GravshipTargeting.description>Экспертиза в работе с терминалом наведения на борту гравишипа.</VGE_GravshipTargeting.description>
+</LanguageData>

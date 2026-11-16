@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Hammer -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>VWE_MeleeWeapon_Hammer</defName>
+    <label>hammer</label>
+    <description>A simple, single-handed weapon with a heavy head, designed to deliver powerful blunt force to crush enemies. Using a hammer increases the construction speed slightly.</description>
+    <graphicData>
+      <texPath>NewThings/Hammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ConstructionSpeed>0.05</ConstructionSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <armorPenetration>0.13</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <armorPenetration>0.22</armorPenetration>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <modExtensions>
+      <li Class="VEF.Things.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Battle Axe -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_BattleAxe</defName>
+    <label>battle axe</label>
+    <description>A hefty, two-handed axe designed for cleaving through foes. Its wide, sharp blade delivers devastating cutting damage, while its mass allows for powerful but slow strikes.</description>
+    <graphicData>
+      <texPath>NewThings/BattleAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+      <li>Axe</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <costStuffCount>150</costStuffCount>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>5</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <armorPenetration>0.16</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <armorPenetration>0.25</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Poleaxe -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_Halberd</defName>
+    <label>poleaxe</label>
+    <description>A versatile polearm featuring a sharp axe head and a back spike, designed for rapid, decisive blows against armored foes. The reach of the poleaxe allows to strike enemies much further away.</description>
+    <graphicData>
+      <texPath>NewThings/Poleaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.0</drawSize>
+    </graphicData>
+    <!-- We need an uiIconPath to make the uiIconOffset have an effect. -->
+    <uiIconPath>NewThings/Poleaxe</uiIconPath>
+    <uiIconOffset>(-0.15, 0.15)</uiIconOffset>
+    <uiIconScale>1.5</uiIconScale>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>7.5</Mass>
+      <VEF_MeleeWeaponRange>2</VEF_MeleeWeaponRange>
+    </statBases>
+    <equippedAngleOffset>
+      <MoveSpeed>-0.35</MoveSpeed>
+    </equippedAngleOffset>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+      <li>Spear</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <armorPenetration>0.18</armorPenetration>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>spike</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <armorPenetration>0.45</armorPenetration>
+        <cooldownTime>3.2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <armorPenetration>0.18</armorPenetration>
+        <cooldownTime>3.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

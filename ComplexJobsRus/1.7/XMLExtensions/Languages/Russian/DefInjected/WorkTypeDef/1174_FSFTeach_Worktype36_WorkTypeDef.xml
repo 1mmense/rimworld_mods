@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1174_FSFTeach_Worktype36.xml -->
+<!-- EN: teach -->
+<FSFTeach.labelShort>учить</FSFTeach.labelShort>
+<!-- EN: Teacher -->
+<FSFTeach.pawnLabel>Учитель</FSFTeach.pawnLabel>
+<!-- EN: teaching -->
+<FSFTeach.gerundLabel>Учить</FSFTeach.gerundLabel>
+<!-- EN: Teach children of the colony. -->
+<FSFTeach.description>Обучают детей.</FSFTeach.description>
+<!-- EN: Teach -->
+<FSFTeach.verb>Учить</FSFTeach.verb>
+</LanguageData>

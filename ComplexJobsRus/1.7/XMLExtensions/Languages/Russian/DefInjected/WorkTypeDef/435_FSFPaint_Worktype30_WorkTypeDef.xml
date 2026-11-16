@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\435_FSFPaint_Worktype30.xml -->
+<!-- EN: Paint -->
+<FSFPaint.labelShort>моляр</FSFPaint.labelShort>
+<!-- EN: Painter -->
+<FSFPaint.pawnLabel>Маляр</FSFPaint.pawnLabel>
+<!-- EN: painting -->
+<FSFPaint.gerundLabel>Красить</FSFPaint.gerundLabel>
+<!-- EN: Paint floors, walls and items. -->
+<FSFPaint.description>Красят полы, стены и другие предметы.</FSFPaint.description>
+<!-- EN: Paint -->
+<FSFPaint.verb>Покрасить</FSFPaint.verb>
+</LanguageData>

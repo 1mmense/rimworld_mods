@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN:
+  <li>subject->innovation's path</li>
+  <li>subject_story->unveiled simple truths behind complex phenomena</li>
+  <li>subject_story->simplified the intricate to make way for practical applications</li>
+  <li>subject_story->harnessed basic principles to achieve remarkable feats</li>
+  <li>subject_gerund->streamlining the essence of discovery</li>
+
+  <li>subject->building blocks of progress</li>
+  <li>subject_story->laid the groundwork for monumental leaps forward</li>
+  <li>subject_story->connected dots across disciplines to reveal new insights</li>
+  <li>subject_story->crafted the foundation upon which future innovations stand</li>
+  <li>subject_gerund->laying down the keystones of advancement</li>
+
+  <li>subject->seeds of tomorrow</li>
+  <li>subject_story->planted ideas that would grow into transformative solutions</li>
+  <li>subject_story->cultivated a garden of knowledge, ripe with potential</li>
+  <li>subject_story->nurtured the roots of change with care and foresight</li>
+  <li>subject_gerund->sowing the future with today’s discoveries</li>
+
+  <li>subject->the ripple of curiosity</li>
+  <li>subject_story->set forth waves of inquiry that echoed through time</li>
+  <li>subject_story->dropped pebbles of innovation into the pond of knowledge</li>
+  <li>subject_story->watched as one question led to another, expanding the circle of understanding</li>
+  <li>subject_gerund->casting stones to create waves of progress</li>
+  
+  <li>subject->the alchemy of progress</li>
+  <li>subject_story->merged disparate disciplines to unlock new realms of possibility</li>
+  <li>subject_story->turned the impossible into the inevitable through sheer ingenuity</li>
+  <li>subject_story->crafted solutions that reshaped the understanding of what's achievable</li>
+  <li>subject_gerund->blending science and magic into the fabric of reality</li>
+
+  <li>subject->the tapestry of discovery</li>
+  <li>subject_story->wove together threads of knowledge from the four corners of the world</li>
+  <li>subject_story->revealed patterns in the chaos, charting paths to untold innovations</li>
+  <li>subject_story->embroidered the annals of history with tales of serendipitous breakthroughs</li>
+  <li>subject_gerund->weaving the future from the loom of the present</li>
+
+  <li>subject->the crucible of creation</li>
+  <li>subject_story->fused raw elements into the building blocks of tomorrow</li>
+  <li>subject_story->tempered the fires of creativity to forge unprecedented technologies</li>
+  <li>subject_story->quenched the thirst for knowledge with the elixir of invention</li>
+  <li>subject_gerund->molding the raw materials of today into the artifacts of the future</li>
+
+  <li>subject->the beacon of enlightenment</li>
+  <li>subject_story->illuminated the dark corners of ignorance, guiding the way forward</li>
+  <li>subject_story->cast light on the unknown, making the unseen visible to curious minds</li>
+  <li>subject_story->ignited the flames of curiosity, kindling a worldwide pursuit of understanding</li>
+  <li>subject_gerund->lighting the torches of progress and knowledge</li>
+  
+  <li>subject->the frontier of knowledge</li>
+  <li>subject_story->crossed new horizons in the pursuit of understanding</li>
+  <li>subject_story->challenged the status quo with groundbreaking theories</li>
+  <li>subject_story->merged ancient wisdom with modern technology for innovative solutions</li>
+  <li>subject_gerund->pushing the boundaries of science and art</li>
+
+  <li>subject->the essence of innovation</li>
+  <li>subject_story->transformed everyday materials into extraordinary tools</li>
+  <li>subject_story->paved the way for future generations with sustainable practices</li>
+  <li>subject_story->harnessed the power of nature to fuel new advancements</li>
+  <li>subject_gerund->fostering an ecosystem of creativity and progress</li>
+
+  <li>subject->the architects of tomorrow</li>
+  <li>subject_story->built the foundations for a utopia where technology serves all</li>
+  <li>subject_story->envisioned a future where harmony between technology and nature thrives</li>
+  <li>subject_story->crafted tools that empower humanity to reach its fullest potential</li>
+  <li>subject_gerund->laying the keystones for future landscapes</li>
+  
+  <li>subject->exploratory leaps</li>
+  <li>subject_story->stepped boldly into uncharted territories of knowledge</li>
+  <li>subject_story->bridged the gap between the known and the unknown</li>
+  <li>subject_story->ventured where curiosity dared to lead</li>
+  <li>subject_gerund->embarking on journeys of discovery</li>
+
+  <li>subject->the essence of ingenuity</li>
+  <li>subject_story->transformed challenges into opportunities for growth</li>
+  <li>subject_story->applied creative thinking to overcome traditional obstacles</li>
+  <li>subject_story->crafted elegant solutions with a blend of art and science</li>
+  <li>subject_gerund->unlocking potential through innovation</li>
+
+  <li>subject->knowledge’s harvest</li>
+  <li>subject_story->gathered insights as one reaps the fields at harvest</li>
+  <li>subject_story->cultivated a bounty of understanding from the seeds of inquiry</li>
+  <li>subject_story->shared the fruits of research with the world</li>
+  <li>subject_gerund->reaping the rewards of relentless curiosity</li>
+
+  <li>subject->the puzzle of progress</li>
+  <li>subject_story->assembled the pieces of mystery to reveal the big picture</li>
+  <li>subject_story->matched theory with practice to solve longstanding puzzles</li>
+  <li>subject_story->uncovered hidden connections that unlocked new possibilities</li>
+  <li>subject_gerund->piecing together the elements of advancement</li>
+  -->
+  <VEF_Description_Schematic_Defaults.rulePack.rulesStrings>
+    <li>subject->путь инноваций</li>
+    <li>subject_gen->пути инноваций</li>
+    <li>subject_dat->пути инноваций</li>
+    <li>subject_pre_about->о пути инноваций</li>
+    <li>subject_story->{ANYPAWN_gender ? раскрыл : раскрыла} простые истины, скрытые за сложными явлениями</li>
+    <li>subject_story->{ANYPAWN_gender ? упростил : упростила} сложные идеи, чтобы сделать их применение на практике доступнее</li>
+    <li>subject_story->{ANYPAWN_gender ? применил : применила} базовые принципы для достижения выдающихся результатов</li>
+    <li>subject_gerund->упрощения сути открытий</li>
+
+    <li>subject->кирпичики прогресса</li>
+    <li>subject_gen->кирпичиков прогресса</li>
+    <li>subject_dat->кирпичикам прогресса</li>
+    <li>subject_pre_about->о кирпичиках прогресса</li>
+    <li>subject_story->{ANYPAWN_gender ? заложил : заложила} основу для грандиозных скачков вперёд</li>
+    <li>subject_story->{ANYPAWN_gender ? установил : установила} связи между дисциплинами, открыв новые перспективы</li>
+    <li>subject_story->{ANYPAWN_gender ? создал : создала} фундамент, на котором строятся будущие инновации</li>
+    <li>subject_gerund->закладывания краеугольных камней прогресса</li>
+
+    <li>subject->семена будущего</li>
+    <li>subject_gen->семян будущего</li>
+    <li>subject_dat->семенам будущего</li>
+    <li>subject_pre_about->о семенах будущего</li>
+    <li>subject_story->{ANYPAWN_gender ? посеял : посеяла} идеи, которым предстояло вырасти в преобразующие решения</li>
+    <li>subject_story->{ANYPAWN_gender ? взрастил : взрастила} полный перспектив сад знаний</li>
+    <li>subject_story->{ANYPAWN_gender ? взрастил : взрастила} корни перемен, проявив заботу и дальновидность</li>
+    <li>subject_gerund->посева семян будущего сегодняшними открытиями</li>
+
+    <li>subject->пульсация любопытства</li>
+    <li>subject_gen->пульсации любопытства</li>
+    <li>subject_dat->пульсации любопытства</li>
+    <li>subject_pre_about->о пульсации любопытства</li>
+    <li>subject_story->{ANYPAWN_gender ? вызвал : вызвала} волну исследований, отозвавшуюся эхом сквозь время</li>
+    <li>subject_story->{ANYPAWN_gender ? бросил : бросила} камешки инноваций в пруд знаний</li>
+    <li>subject_story->{ANYPAWN_gender ? наблюдал : наблюдала}, как один вопрос порождал другой, расширяя круг понимания</li>
+    <li>subject_gerund->создания волн прогресса, расходящихся от брошенных камней</li>
+
+    <li>subject->алхимия прогресса</li>
+    <li>subject_gen->алхимии прогресса</li>
+    <li>subject_dat->алхимии прогресса</li>
+    <li>subject_pre_about->об алхимии прогресса</li>
+    <li>subject_story->{ANYPAWN_gender ? объединил : объединила} разные дисциплины, открыв новые возможности</li>
+    <li>subject_story->{ANYPAWN_gender ? превратил : превратила} невозможное в неизбежное благодаря одной лишь изобретательности</li>
+    <li>subject_story->{ANYPAWN_gender ? создал : создала} решения, изменившие представления о границах возможного</li>
+    <li>subject_gerund->сочетания науки и магии, меняющего саму ткань реальности</li>
+
+    <li>subject->гобелен открытий</li>
+    <li>subject_gen->гобелена открытий</li>
+    <li>subject_dat->гобелену открытий</li>
+    <li>subject_pre_about->о гобелене открытий</li>
+    <li>subject_story->{ANYPAWN_gender ? сплёл : сплела} нити знаний со всех уголков мира</li>
+    <li>subject_story->{ANYPAWN_gender ? обнаружил : обнаружила} закономерности в хаосе, наметив путь к невиданным открытиям</li>
+    <li>subject_story->{ANYPAWN_gender ? вписал : вписала} в историю рассказы о случайных озарениях и прорывах</li>
+    <li>subject_gerund->создания будущего из нитей настоящего</li>
+
+    <li>subject->тигель созидания</li>
+    <li>subject_gen->тигля созидания</li>
+    <li>subject_dat->тиглю созидания</li>
+    <li>subject_pre_about->о тигле созидания</li>
+    <li>subject_story->{ANYPAWN_gender ? соединил : соединила} исходные элементы, заложив основу будущего</li>
+    <li>subject_story->{ANYPAWN_gender ? укротил : укротила} пламя творчества, выковав невиданные технологии</li>
+    <li>subject_story->{ANYPAWN_gender ? утолил : утолила} жажду знаний эликсиром изобретений</li>
+    <li>subject_gerund->превращения сегодняшнего сырья в артефакты будущего</li>
+
+    <li>subject->маяк просветления</li>
+    <li>subject_gen->маяка просветления</li>
+    <li>subject_dat->маяку просветления</li>
+    <li>subject_pre_about->о маяке просветления</li>
+    <li>subject_story->{ANYPAWN_gender ? осветил : осветила} тёмные уголки невежества, указав путь вперёд</li>
+    <li>subject_story->{ANYPAWN_gender ? пролил : пролила} свет на неизвестное, сделав его видимым пытливым умам</li>
+    <li>subject_story->{ANYPAWN_gender ? разжёг : разожгла} любопытство, пробудив стремление к знаниям во всём мире</li>
+    <li>subject_gerund->зажжения факелов прогресса и знаний</li>
+
+    <li>subject->рубеж познания</li>
+    <li>subject_gen->рубежа познания</li>
+    <li>subject_dat->рубежу познания</li>
+    <li>subject_pre_about->о рубеже познания</li>
+    <li>subject_story->{ANYPAWN_gender ? открыл : открыла} новые горизонты в поисках знаний</li>
+    <li>subject_story->{ANYPAWN_gender ? бросил : бросила} вызов устоявшимся представлениям с помощью новаторских теорий</li>
+    <li>subject_story->{ANYPAWN_gender ? объединил : объединила} древнюю мудрость с современными технологиями, найдя инновационные решения</li>
+    <li>subject_gerund->расширения границ науки и искусства</li>
+
+    <li>subject->суть инновации</li>
+    <li>subject_gen->сути инновации</li>
+    <li>subject_dat->сути инновации</li>
+    <li>subject_pre_about->о сути инновации</li>
+    <li>subject_story->{ANYPAWN_gender ? превратил : превратила} повседневные материалы в необычные инструменты</li>
+    <li>subject_story->{ANYPAWN_gender ? проложил : проложила} путь будущим поколениям благодаря экологичным решениям</li>
+    <li>subject_story->{ANYPAWN_gender ? использовал : использовала} силы природы для новых достижений</li>
+    <li>subject_gerund->создания среды, благоприятной для творчества и прогресса</li>
+
+    <li>subject->архитекторы будущего</li>
+    <li>subject_gen->архитекторов будущего</li>
+    <li>subject_dat->архитекторам будущего</li>
+    <li>subject_pre_about->об архитекторах будущего</li>
+    <li>subject_story->{ANYPAWN_gender ? заложил : заложила} основы утопии, где технологии служат всем</li>
+    <li>subject_story->{ANYPAWN_gender ? представил : представила} будущее, в котором технологии и природа сосуществуют в гармонии</li>
+    <li>subject_story->{ANYPAWN_gender ? создал : создала} инструменты, помогающие человечеству раскрыть свой потенциал</li>
+    <li>subject_gerund->закладывания краеугольных камней будущего</li>
+
+    <li>subject->исследовательские прорывы</li>
+    <li>subject_gen->исследовательских прорывов</li>
+    <li>subject_dat->исследовательским прорывам</li>
+    <li>subject_pre_about->об исследовательских прорывах</li>
+    <li>subject_story->{ANYPAWN_gender ? смело шагнул : смело шагнула} на неизведанную территорию знаний</li>
+    <li>subject_story->{ANYPAWN_gender ? преодолел : преодолела} разрыв между известным и неизвестным</li>
+    <li>subject_story->{ANYPAWN_gender ? отправился : отправилась} туда, куда вело любопытство</li>
+    <li>subject_gerund->путешествий в поисках открытий</li>
+
+    <li>subject->суть изобретательности</li>
+    <li>subject_gen->сути изобретательности</li>
+    <li>subject_dat->сути изобретательности</li>
+    <li>subject_pre_about->о сути изобретательности</li>
+    <li>subject_story->{ANYPAWN_gender ? превратил : превратила} трудности в возможности для роста</li>
+    <li>subject_story->{ANYPAWN_gender ? применил : применила} нестандартное мышление, чтобы преодолеть привычные препятствия</li>
+    <li>subject_story->{ANYPAWN_gender ? нашёл : нашла} элегантные решения на стыке искусства и науки</li>
+    <li>subject_gerund->раскрытия потенциала благодаря инновациям</li>
+
+    <li>subject->урожай знаний</li>
+    <li>subject_gen->урожая знаний</li>
+    <li>subject_dat->урожаю знаний</li>
+    <li>subject_pre_about->об урожае знаний</li>
+    <li>subject_story->{ANYPAWN_gender ? собрал : собрала} ценные сведения, словно урожай во время жатвы</li>
+    <li>subject_story->{ANYPAWN_gender ? взрастил : взрастила} богатое понимание мира из семян любознательности</li>
+    <li>subject_story->{ANYPAWN_gender ? поделился : поделилась} плодами исследований со всем миром</li>
+    <li>subject_gerund->пожинания плодов неутолимой любознательности</li>
+
+    <li>subject->загадка прогресса</li>
+    <li>subject_gen->загадки прогресса</li>
+    <li>subject_dat->загадке прогресса</li>
+    <li>subject_pre_about->о загадке прогресса</li>
+    <li>subject_story->{ANYPAWN_gender ? собрал : собрала} части головоломки, увидев общую картину</li>
+    <li>subject_story->{ANYPAWN_gender ? сопоставил : сопоставила} теорию с практикой, решив давние загадки</li>
+    <li>subject_story->{ANYPAWN_gender ? обнаружил : обнаружила} скрытые связи, открывшие новые возможности</li>
+    <li>subject_gerund->соединения элементов прогресса в единое целое</li>
+  </VEF_Description_Schematic_Defaults.rulePack.rulesStrings>
+</LanguageData>

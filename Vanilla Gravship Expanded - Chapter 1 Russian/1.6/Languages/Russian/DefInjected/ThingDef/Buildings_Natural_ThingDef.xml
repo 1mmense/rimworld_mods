@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Natural.xml -->
+	<!-- EN: compressed vacstone -->
+	<VGE_Compressed_Vacstone.label>спрессованный вак-камень</VGE_Compressed_Vacstone.label>
+	<!-- EN: An ultra-dense mass of asteroid rock and dust... -->
+	<VGE_Compressed_Vacstone.description>Сверхплотная масса астероидной породы и пыли, спрессованная за тысячелетия в почти неразрушимый блок. Встречается только в глубоком космосе.</VGE_Compressed_Vacstone.description>
+	
+	<!-- EN: compressed steel -->
+	<VGE_Compressed_Steel.label>спрессованная сталь</VGE_Compressed_Steel.label>
+	<!-- EN: Ancient structural mass fused into a single, ultra-dense vacstone-steel deposit... -->
+	<VGE_Compressed_Steel.description>Древняя конструкционная масса, сплавленная в единое сверхплотное месторождение вак-камня и стали. Встречается только в глубоком космосе.</VGE_Compressed_Steel.description>
+	
+	<!-- EN: compressed silver ore -->
+	<VGE_Compressed_Silver.label>спрессованная серебряная руда</VGE_Compressed_Silver.label>
+	<!-- EN: Silver-bearing rock compacted under extreme pressure... -->
+	<VGE_Compressed_Silver.description>Серебросодержащая порода, спрессованная под колоссальным давлением в плотную однородную жилу. Встречается только в глубоком космосе.</VGE_Compressed_Silver.description>
+	
+	<!-- EN: compressed gold ore -->
+	<VGE_Compressed_Gold.label>спрессованная золотая руда</VGE_Compressed_Gold.label>
+	<!-- EN: Gold-rich strata crushed and recrystallized... -->
+	<VGE_Compressed_Gold.description>Богатые золотом слои, сжатые и перекристаллизованные в прочную устойчивую жилу. Встречается только в глубоком космосе.</VGE_Compressed_Gold.description>
+	
+	<!-- EN: compressed uranium ore -->
+	<VGE_Compressed_Uranium.label>спрессованная урановая руда</VGE_Compressed_Uranium.label>
+	<!-- EN: Uranium-laden rock sintered into a nearly monolithic deposit... -->
+	<VGE_Compressed_Uranium.description>Ураносодержащая порода, спёкшаяся в почти монолитное месторождение, которое трудно расколоть. Встречается только в глубоком космосе.</VGE_Compressed_Uranium.description>
+	
+	<!-- EN: compressed plasteel -->
+	<VGE_Compressed_Plasteel.label>спрессованный пласталь</VGE_Compressed_Plasteel.label>
+	<!-- EN: Ultra-dense plasteel conglomerate formed in vacuum over generations... -->
+	<VGE_Compressed_Plasteel.description>Сверхплотное скопление пластали, сформированное в вакууме за поколения; крайне труден для добычи. Встречается только в глубоком космосе.</VGE_Compressed_Plasteel.description>
+	
+	<!-- EN: compressed jade -->
+	<VGE_Compressed_Jade.label>спрессованный нефрит</VGE_Compressed_Jade.label>
+	<!-- EN: Jade-bearing vacstone compacted into a rigid, fine-grained mass... -->
+	<VGE_Compressed_Jade.description>Нефритосодержащий вак-камень, спрессованный в жёсткую мелкозернистую массу. Встречается только в глубоком космосе.</VGE_Compressed_Jade.description>
+</LanguageData>

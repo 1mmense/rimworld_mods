@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<!-- EN: For any changed settings to take effect the game must be restarted.\nIf you enable new Worktypes midsave you must replace your existing mechanoids for them to get the new Worktypes. -->
+<FSFComplexJobsModWarning>Для применения изменений требуется перезапуск игры.\nЕсли вы включите новые типы работ в процессе игры, вам придётся заменить существующих механоидов, чтобы они получили эти новые типы работ.</FSFComplexJobsModWarning>
+<!-- EN: Complex Jobs Settings -->
+<FSFComplexJobsSettingsTitle>Настройка «Complex Jobs»</FSFComplexJobsSettingsTitle>
+<!-- EN: Anomaly Tasks In Dark Study -->
+<FSFComplexJobsAnomalyTasksInDarkStudyTitle>Работа с аномалиями в тёмных исследованиях</FSFComplexJobsAnomalyTasksInDarkStudyTitle>
+<!-- EN: Moves all the Anomaly related tasks from other worktypes into Dark Study and changes the worktype requirements to include Social. -->
+<FSFComplexJobsAnomalyTasksInDarkStudyDesc>Перемещение всех задач, связанных с аномалиями, из разных типов работ в «Тёмное исследование» и изменение требований к типу работы на «Общение».</FSFComplexJobsAnomalyTasksInDarkStudyDesc>
+<!-- EN: Drafted Work Tasks -->
+<FSFComplexJobsDraftedWorkTasksTitle>Работа в режиме призыва</FSFComplexJobsDraftedWorkTasksTitle>
+<!-- EN: Changes all work tasks so they can be done while drafted.  Making it so you no longer need to undraft and redraft pawns to perform a task.\nNote: A few tasks may still not be usable while being drafted and some tasks may forcibly undraft a pawn to perform them. -->
+<FSFComplexJobsDraftedWorkTasksDesc>Изменение всех рабочих заданий таким образом, чтобы их можно было выполнять во время призыва. Вам больше не нужно будет распускать пешек для выполнения работ.\nПримечание: некоторые виды работ могут быть недоступны в режиме призыва, а для выполнения других работ пешка может быть принудительно распущена.</FSFComplexJobsDraftedWorkTasksDesc>
+<!-- EN: Rescue In Firefighting -->
+<FSFComplexJobsRescueInFirefightingTitle>Спасение в Пожаротушении</FSFComplexJobsRescueInFirefightingTitle>
+<!-- EN: Adds a duplicated task of Rescue to Firefighting.  This will cause people on the firefighting worktype to first rescue downed allies before attempting to fight fires.\nNote: Although this is intended to be an alternative to the Rescue worktype both options can be enabled without issue. -->
+<FSFComplexJobsRescueInFirefightingDesc>Продублировать задачу на спасение в Пожаротушении Это заставит пешек, занимающихся пожаротушением, сначала спасать раненых союзников, а уже только потом приступать к тушению пожаров.\nПримечание: Несмотря на то, что эта работа является той же работой, что находится в Спасении, вы можете задействовать оба варианта без проблем.</FSFComplexJobsRescueInFirefightingDesc>
+<!-- EN: Ideoligion Roles Are Capable -->
+<FSFComplexJobsIdeoRolesAreCapableTitle>Роли идеолигии не бесполезны</FSFComplexJobsIdeoRolesAreCapableTitle>
+<!-- EN: Removes all the disabled worktypes from all ideoligion roles. -->
+<FSFComplexJobsIdeoRolesAreCapableDesc>Удаление всех ограничений на работы для всех ролей идеолигий.</FSFComplexJobsIdeoRolesAreCapableDesc>
+<!-- EN: Mechanoids Are Capable -->
+<FSFComplexJobsMechanoidsAreCapableTitle>Механоиды тоже могут</FSFComplexJobsMechanoidsAreCapableTitle>
+<!-- EN: Changes the canBeDoneByMechs field on all work type tasks from false to true.\nNote: Some tasks break the game without code to further patch the task.  These tasks are not included for obvious reasons. -->
+<FSFComplexJobsMechanoidsAreCapableDesc>Изменение полей «canBeDoneByMechs» во всех рабочих задачах с «Выкл» на «Вкл».\nПримечание: выполнение некоторой работы без дополнительной правки кода ломает игру. Естественно, такие работы не будут доступны.</FSFComplexJobsMechanoidsAreCapableDesc>
+<!-- EN: Slaves Are Capable -->
+<FSFComplexJobsSlavesAreCapableTitle>Рабы тоже могут</FSFComplexJobsSlavesAreCapableTitle>
+<!-- EN: Allows Slaves to do all Worktypes except for Warden. -->
+<FSFComplexJobsSlavesAreCapableDesc>Позволяет рабам выполнять любую работу, кроме надзора.</FSFComplexJobsSlavesAreCapableDesc>
+<!-- EN: Warcaskets Are Capable -->
+<FSFComplexJobsWarcasketsAreCapableTitle>В броне мертвеца тоже могут</FSFComplexJobsWarcasketsAreCapableTitle>
+<!-- EN: Allows Warcaskets to do all Worktypes. -->
+<FSFComplexJobsWarcasketsAreCapableDesc>Разблокирует все виды работ для облачённых в броню мертвеца.</FSFComplexJobsWarcasketsAreCapableDesc>
+<!-- EN: Clear Pollution Worktype -->
+<FSFComplexJobsClearPollutionWorktypeTitle>Очистка загрязнений как работа</FSFComplexJobsClearPollutionWorktypeTitle>
+<!-- EN: Enables the Clear Pollution Worktype which moves the Clear Pollution task to its own Worktype. -->
+<FSFComplexJobsClearPollutionWorktypeDesc>Добавление задачи «Очистить загрязнения», которая добавится в отдельный тип работы «Очистка загрязнений».</FSFComplexJobsClearPollutionWorktypeDesc>
+<!-- EN: Clear Snow Worktype -->
+<FSFComplexJobsClearSnowWorktypeTitle>Уборка снега как работа</FSFComplexJobsClearSnowWorktypeTitle>
+<!-- EN: Enables the Clear Snow Worktype which moves the Clear Snow task to its own Worktype. -->
+<FSFComplexJobsClearSnowWorktypeDesc>Добавление задачи «Убрать снег», которая добавится в отдельный тип работы «Уборка снега».</FSFComplexJobsClearSnowWorktypeDesc>
+<!-- EN: Convert Worktype -->
+<FSFComplexJobsConvertWorktypeTitle>Обращение как работа</FSFComplexJobsConvertWorktypeTitle>
+<!-- EN: Enables the Convert Worktype which focuses around converting prisoners to your Ideologion. -->
+<FSFComplexJobsConvertWorktypeDesc>Добавление задачи «Обратить», которая добавится в отдельный тип работы «Обращение».</FSFComplexJobsConvertWorktypeDesc>
+<!-- EN: Fishing Worktype -->
+<FSFComplexJobsFishingWorktypeTitle>Рыбалка как работа</FSFComplexJobsFishingWorktypeTitle>
+<!-- EN: Enables the Fishing Worktype which moves the fishing task from Hunting to its own Worktype. -->
+<FSFComplexJobsFishingWorktypeDesc>Перенос задачи «Рыбачить» с охоты, в отдельный тип работы «Рыбалка».</FSFComplexJobsFishingWorktypeDesc>
+<!-- EN: Mechanoids Worktype -->
+<FSFComplexJobsMechanoidsWorktypeTitle>Заниматься механоидами как работа</FSFComplexJobsMechanoidsWorktypeTitle>
+<!-- EN: Enables the Mechanoids Worktype which focuses around everything to do with Mechanoids. -->
+<FSFComplexJobsMechanoidsWorktypeDesc>Добавление всех задач связанных с механоидами в отдельный тип работы «Механитор».</FSFComplexJobsMechanoidsWorktypeDesc>
+<!-- EN: Merge Worktype -->
+<FSFComplexJobsMergeWorktypeTitle>Складирование как работа</FSFComplexJobsMergeWorktypeTitle>
+<!-- EN: Enables the Merge Worktype which moves the Merge task from Hauling to its own Worktype. -->
+<FSFComplexJobsMergeWorktypeDesc>Перенос задачи «Объединить» с переноски, в отдельный тип работы «Складирование».</FSFComplexJobsMergeWorktypeDesc>
+<!-- EN: Paint Worktype -->
+<FSFComplexJobsPaintWorktypeTitle>Покраска как работа</FSFComplexJobsPaintWorktypeTitle>
+<!-- EN: Enables the Paint Worktype which moves all Paint related tasks to its own Worktype. -->
+<FSFComplexJobsPaintWorktypeDesc>Добавление всех задач связанных с раскраской в отдельный тип работы «Покраска».</FSFComplexJobsPaintWorktypeDesc>
+<!-- EN: Prison Care Worktype -->
+<FSFComplexJobsPrisonCareWorktypeTitle>Уход за пленниками как работа</FSFComplexJobsPrisonCareWorktypeTitle>
+<!-- EN: Enables the Prison Care Worktype which focuses around delivering food and caring for prisoners. -->
+<FSFComplexJobsPrisonCareWorktypeDesc>Добавление отдельной работы «Уход за пленниками», в которой будут такие задачи, как кормление и уход за пленниками.</FSFComplexJobsPrisonCareWorktypeDesc>
+<!-- EN: Pruning Worktype -->
+<FSFComplexJobsPruningWorktypeTitle>Остригание как работа</FSFComplexJobsPruningWorktypeTitle>
+<!-- EN: Enables the Pruning Worktype which focuses around pruning trees. -->
+<FSFComplexJobsPruningWorktypeDesc>Добавление задач связанных со стрижкой деревьев в отдельный тип работы «Остригание».</FSFComplexJobsPruningWorktypeDesc>
+<!-- EN: Rescue Worktype -->
+<FSFComplexJobsRescueWorktypeTitle>Спасение как работа</FSFComplexJobsRescueWorktypeTitle>
+<!-- EN: Enables the Rescue Worktype which focuses on rescuing downed allies. -->
+<FSFComplexJobsRescueWorktypeDesc>Добавление отдельной работы «Спасение», которая направлена на спасение раненых союзников.</FSFComplexJobsRescueWorktypeDesc>
+<!-- EN: Slaughter Worktype -->
+<FSFComplexJobsSlaughterWorktypeTitle>Убой как работа</FSFComplexJobsSlaughterWorktypeTitle>
+<!-- EN: Enables the Slaughter Worktype which focuses on slaughtering designated animals. -->
+<FSFComplexJobsSlaughterWorktypeDesc>Добавление отдельной работы «Убой», которая направлена на убой указанных животных.</FSFComplexJobsSlaughterWorktypeDesc>
+<!-- EN: Smoothing Worktype -->
+<FSFComplexJobsSmoothingWorktypeTitle>Выравнивание как работа</FSFComplexJobsSmoothingWorktypeTitle>
+<!-- EN: Enables the Smoothing Worktype which focuses around smoothing surfaces for a nicer look. -->
+<FSFComplexJobsSmoothingWorktypeDesc>Добавление всех задач связанных с выравниванием поверхностей в отдельный тип работы «Выравнивание».</FSFComplexJobsSmoothingWorktypeDesc>
+<!-- EN: Taming Worktype -->
+<FSFComplexJobsTamingWorktypeTitle>Приручение как работа</FSFComplexJobsTamingWorktypeTitle>
+<!-- EN: Enables the Taming Worktype which focuses around taming animals. -->
+<FSFComplexJobsTamingWorktypeDesc>Вынесение задачи по приручению животных в отдельный тип работы «Приручение».</FSFComplexJobsTamingWorktypeDesc>
+<!-- EN: Teach Worktype -->
+<FSFComplexJobsTeachWorktypeTitle>Учитель как работа</FSFComplexJobsTeachWorktypeTitle>
+<!-- EN: Enables the Teach Worktype which moves the Teach Children task from Childcare to its own Worktype. -->
+<FSFComplexJobsTeachWorktypeDesc>Вынесение задач связанных с обучением детей и уходом за ними в отдельный тип работы «Учитель».</FSFComplexJobsTeachWorktypeDesc>
+</LanguageData>

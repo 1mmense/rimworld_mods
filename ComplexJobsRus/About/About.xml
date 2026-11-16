@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[FSF] Complex Jobs Russian Language</name>
+	<author>pashka</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<packageId>RU.pashka.FrozenSnowFox.ComplexJobs</packageId>
+	<modDependencies>
+		<li>
+			<packageId>FrozenSnowFox.ComplexJobs</packageId>
+			<displayName>[FSF] Complex Jobs</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2069684319</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>FrozenSnowFox.ComplexJobs</li>
+	</loadAfter>
+	<description>
+Русский язык для модов [FSF] Complex Jobs.
+Для того, что бы дополнить существующий перевод (если он есть) - поместите выше основного мода. Что бы полностью применить данный перевод - поместите ниже основного мода.
+Данный мод разделяет существующие работы на более мелкие, позволяя сделать их более удобными и эффективными.
+	</description>
+</ModMetaData>

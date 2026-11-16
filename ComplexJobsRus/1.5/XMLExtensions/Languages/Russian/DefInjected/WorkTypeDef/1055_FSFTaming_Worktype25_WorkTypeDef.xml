@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\1055_FSFTaming_Worktype25.xml -->
+<!-- EN: Tame -->
+<FSFTaming.labelShort>приручение</FSFTaming.labelShort>
+<!-- EN: Tamer -->
+<FSFTaming.pawnLabel>Укротитель</FSFTaming.pawnLabel>
+<!-- EN: Taming -->
+<FSFTaming.gerundLabel>Приручать</FSFTaming.gerundLabel>
+<!-- EN: Tame wild animals. -->
+<FSFTaming.description>Приручают диких животных.</FSFTaming.description>
+<!-- EN: Tame -->
+<FSFTaming.verb>Приручить</FSFTaming.verb>
+<!-- EN: Train domesticated animals. -->
+<FSFTraining.description>Дрессируют домашних животных.</FSFTraining.description>
+</LanguageData>

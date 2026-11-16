@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <OutputPath>..\1.6\Assemblies\</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <DebugType>portable</DebugType>
+        <PublicizeAsReferenceAssemblies>false</PublicizeAsReferenceAssemblies>
+        <RootNamespace>YayoAnimation</RootNamespace>
+        <PackageId>yayoAni</PackageId>
+        <Configurations>Release;Debug</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration.StartsWith(Release))' ">
+        <Optimize Condition=" '$(Optimize)' == '' ">true</Optimize>
+        <DefineConstants>TRACE;RELEASE;</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration.StartsWith(Debug))' ">
+        <DebugSymbols Condition=" '$(DebugSymbols)' == '' ">true</DebugSymbols>
+        <Optimize Condition=" '$(Optimize)' == '' ">false</Optimize>
+        <DefineConstants>TRACE;DEBUG;</DefineConstants>
+    </PropertyGroup>
+
+<!--    <PropertyGroup>-->
+<!--        <PublicizerClearCacheOnClean>true</PublicizerClearCacheOnClean>-->
+<!--    </PropertyGroup>-->
+
+    <ItemGroup>
+        <PackageReference Include="Krafs.Publicizer" Version="2.3.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Lib.Harmony" Version="2.4.2" ExcludeAssets="runtime" />
+        <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*-*" />
+        <PackageReference Include="Zetrith.Prepatcher" Version="1.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove=".editorconfig"/>
+        <None Remove="mono_crash.*.json"/>
+        <None Include="..\About\**" LinkBase="Common\About"/>
+        <None Include="..\Defs\**" LinkBase="Common\Defs"/>
+        <None Include="..\Languages\**" LinkBase="Common\Languages"/>
+        <None Include="..\Patches\**" LinkBase="Common\Patches"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Publicize Include="Assembly-CSharp"/>
+        <Publicize Include="DualWield"/>
+<!--        <Publicize Include="CompOversizedWeapon"/>-->
+<!--        <Publicize Include="Tacticowl"/>-->
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Temporary Giddy-Up 2 fork -->
+        <Reference Include="GiddyUpCore">
+            <HintPath>..\..\..\..\..\workshop\content\294100\3674332861\1.6\Assemblies\GiddyUpCore.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="DualWield">
+            <HintPath>..\..\..\..\..\workshop\content\294100\3630049419\1.6\Assemblies\DualWield.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+<!--        <Reference Include="GiddyUpCore">-->
+<!--            <HintPath>..\..\..\..\..\workshop\content\294100\2934245647\1.5\Assemblies\GiddyUpCore.dll</HintPath>-->
+<!--            <Private>false</Private>-->
+<!--        </Reference>-->
+<!--        <Reference Include="ReinforcedMechanoids2">-->
+<!--            <HintPath>..\..\..\..\..\workshop\content\294100\2910050186\1.5\Assemblies\ReinforcedMechanoids.dll</HintPath>-->
+<!--            <Private>false</Private>-->
+<!--        </Reference>-->
+<!--        <Reference Include="SheathYourSword">-->
+<!--            <HintPath>..\..\..\..\..\workshop\content\294100\1586105873\1.5\Assemblies\SYS.dll</HintPath>-->
+<!--            <Private>false</Private>-->
+<!--        </Reference>-->
+<!--        <Reference Include="Tacticowl">-->
+<!--            <HintPath>..\..\..\..\..\workshop\content\294100\2936140288\1.4\Assemblies\Tacticowl.dll</HintPath>-->
+<!--            <Private>false</Private>-->
+<!--        </Reference>-->
+    </ItemGroup>
+</Project>

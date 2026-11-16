@@ -1,0 +1,188 @@
+﻿using RimWorld;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using UnityEngine;
+using Verse;
+
+namespace CustomizeAnimals.Settings
+{
+	public interface ISetting
+	{
+		void GetValue();
+		void SetValue();
+		void Reset();
+		void ExposeData();
+		bool IsModified();
+	}
+
+	public interface ISettingWithGlobal : ISetting
+	{
+		void ResetGlobal();
+		void ExposeGlobal();
+		bool IsGlobalUsed();
+	}
+
+	internal abstract class BaseSetting<T> : ISettingWithGlobal, IExposable
+	{
+		#region PROPERTIES
+		public ThingDef Animal { get; }
+		public T Value { get; set; }
+		public T DefaultValue { get; protected set; }
+
+		public bool IsGlobal { get; } = false;
+
+		protected abstract string ScribeLabel { get; }
+		#endregion
+
+		#region CONSTRUCTORS
+		public BaseSetting(ThingDef animal, bool isGlobal = false)
+		{
+			IsGlobal = isGlobal;
+
+			Animal = animal;
+
+			GetValue();
+			DefaultValue = Value;
+		}
+		#endregion
+
+		#region METHODS
+		public abstract void GetValue();
+		public abstract void SetValue();
+		public virtual void Reset() =>
+			Value = DefaultValue;
+		public virtual void ExposeData()
+		{
+			var value = Value;
+			Scribe_Values.Look(ref value, ScribeLabel, DefaultValue);
+			Value = value;
+		}
+		public virtual bool IsModified() =>
+			!(DefaultValue == null && Value == null || DefaultValue?.Equals(Value) == true);
+
+		public virtual void ResetGlobal()
+		{ }
+		public virtual void ExposeGlobal()
+		{ }
+		public virtual bool IsGlobalUsed() =>
+			false;
+		#endregion
+	}
+
+	internal abstract class NullableFloatSetting : BaseSetting<float?>
+	{
+		#region CONSTRUCTORS
+		public NullableFloatSetting(ThingDef animal, bool isGlobal) : 
+			base(animal, isGlobal)
+		{ }
+		#endregion
+
+		#region METHODS
+		protected virtual float? GetStat(StatDef stat, bool useDefaultValueIfNull, float modifier = 1f)
+		{
+			var statBases = Animal?.statBases;
+			if (statBases != null)
+			{
+				var value = statBases.FirstOrDefault((s) => s.stat == stat)?.value;
+				if (useDefaultValueIfNull && value == null)
+					value = stat.defaultBaseValue;
+				return value / modifier;
+			}
+
+			if (!IsGlobal)
+				Log.Warning($"{nameof(CustomizeAnimals)}.{GetType()}.{nameof(GetStat)}: '{Animal?.defName}' statBases is null, cannot get stat: animal: {Animal} stat: {stat}");
+			return null;
+		}
+		protected virtual void SetStat(StatDef stat, bool useLimits = false, float min = 0f, float? max = 1e9f, float modifier = 1f) =>
+			SetStat(stat, Value, useLimits, min, max, modifier);
+		protected virtual void SetStat(StatDef stat, float? value, bool useLimits = false, float min = 0f, float? max = 1e9f, float modifier = 1f)
+		{
+			if (Animal == null || stat == null)
+			{
+				Log.Error($"{nameof(CustomizeAnimals)}.{GetType()}.{nameof(SetStat)}: '{Animal?.defName}' invalid parameters: animal: {Animal} stat: {stat}");
+				return;
+			}
+
+			var statBases = Animal.statBases;
+			if (statBases != null)
+			{
+				var local = value * modifier;
+				if (useLimits)
+				{
+					if (max == null)
+						local = null;
+					else if (local < min)
+						local = min;
+					else if (local > max)
+						local = max;
+				}
+
+				var statModifier = statBases.FirstOrDefault((s) => s.stat == stat);
+				if (local is float statValue)
+				{
+					if (statModifier != null)
+						statModifier.value = statValue;
+					else
+						statBases.Add(new StatModifier { stat = stat, value = statValue });
+				}
+				else if (statModifier != null)
+					statBases.Remove(statModifier);
+			}
+		}
+		#endregion
+	}
+
+	internal abstract class ListSetting<T> : BaseSetting<List<T>>
+	{
+		#region CONSTRUCTORS
+		public ListSetting(ThingDef animal, bool isGlobal = false) :
+			base(animal, isGlobal)
+		{
+			if (!IsGlobal)
+				DefaultValue = new List<T>(Value);
+		}
+		#endregion
+
+		#region INTERFACES
+		public override void Reset()
+		{
+			Value.Clear();
+			if (DefaultValue.Count > 0)
+				foreach (var def in DefaultValue)
+					Value.Add(def);
+		}
+
+		public override void ExposeData()
+		{
+			if (Scribe.mode != LoadSaveMode.Saving || IsModified())
+			{
+				var value = Value;
+				Scribe_Collections.Look(ref value, ScribeLabel);
+				Value = value ?? new List<T>(DefaultValue);
+			}
+		}
+
+		public override bool IsModified() =>
+			Value.IsDifferent(DefaultValue);
+		#endregion
+	}
+
+	internal abstract class BaseSpecialSetting : ISetting, IExposable
+	{
+		public ThingDef Animal { get; }
+
+		public BaseSpecialSetting(ThingDef animal)
+		{
+			Animal = animal;
+		}
+
+		public abstract void GetValue();
+		public abstract void SetValue();
+		public abstract void Reset();
+		public abstract void ExposeData();
+		public abstract bool IsModified();
+	}
+}

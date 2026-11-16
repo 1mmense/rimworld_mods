@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UsefulMarks_SettingsCategory>UsefulMarks</UsefulMarks_SettingsCategory>
+  <DrawMarksOnColonistBar>Show icons on colonist bar</DrawMarksOnColonistBar>
+  <DrawMarksInWorld>Show icons in world</DrawMarksInWorld>
+  <DrawTitlesOnColonistBar>Show text on colonist bar</DrawTitlesOnColonistBar>
+  <WhereToEnableTitlesUnderPawnName>Displaying text under pawns name is toggled in the nickname menu on the bio tab</WhereToEnableTitlesUnderPawnName>
+  <HideCosmeticGenes>Hide cosmetic genes</HideCosmeticGenes>
+  <ChangeFromMainMenu>This can only be changed from the main menu</ChangeFromMainMenu>
+
+  <DrawLabelsInWorldTooltip>Show in world</DrawLabelsInWorldTooltip>
+
+  <ConditionMeleeFighter>Melee fighter</ConditionMeleeFighter>
+  <ConditionRangedFighter>Ranged fighter</ConditionRangedFighter>
+  <ConditionPawnDrugInduced>Drugs</ConditionPawnDrugInduced>
+  <ConditionPawnToxinInduced>Toxins</ConditionPawnToxinInduced>
+  <ConditionPawnDisease>Diseases</ConditionPawnDisease>
+  <ConditionRelation>Relations</ConditionRelation>
+  <ConditionPawnTemperature>Temperature</ConditionPawnTemperature>
+
+  <MarkerAny>Any</MarkerAny>
+  <MarkerPills>Any pills</MarkerPills>
+  <MarkerPsychite>Any psychite</MarkerPsychite>
+
+  <HasMeleeWeapon>Has melee weapon</HasMeleeWeapon>
+  <HasRangedWeapon>Has ranged weapon</HasRangedWeapon>
+  <MeleeSkillOver5>Melee skill {0} 5 (and melee &gt; ranged)</MeleeSkillOver5>
+  <RangedSkillOver5>Ranged skill {0} 5 (and ranged &gt; melee)</RangedSkillOver5>
+  <MeleeSkillOver10>Melee skill {0} 10 (and melee &gt; ranged)</MeleeSkillOver10>
+  <RangedSkillOver10>Ranged skill {0} 10 (and ranged &gt; melee)</RangedSkillOver10>
+  <MeleeSkillOver15>Melee skill {0} 15 (and melee &gt; ranged)</MeleeSkillOver15>
+  <RangedSkillOver15>Ranged skill {0} 15 (and ranged &gt; melee)</RangedSkillOver15>
+
+  <IsBestSkill>Best skill</IsBestSkill>
+  <IsWorstSkill>Worst skill</IsWorstSkill>
+  <IsBestSkillColonist>Best in colony</IsBestSkillColonist>
+  <IsWorstSkillColonist>Worst in colony</IsWorstSkillColonist>
+  <SkillAbove5>Skill {0} 5</SkillAbove5>
+  <SkillAbove10>Skill {0} 10</SkillAbove10>
+  <SkillAbove15>Skill {0} 15</SkillAbove15>
+  <SkillValue>Value</SkillValue>
+
+  <ObsoletedWarning>Obsoleted, please re-add</ObsoletedWarning>
+
+  <AboveComfortTemperature>Above comfort</AboveComfortTemperature>
+  <BelowComfortTemperature>Below comfort</BelowComfortTemperature>
+  <AboveSafeTemperature>Above safe</AboveSafeTemperature>
+  <BelowSafeTemperature>Below safe</BelowSafeTemperature>
+
+  <MarkerAlignLeft>Left</MarkerAlignLeft>
+  <MarkerAlignBottom>Bottom</MarkerAlignBottom>
+  <MarkerAlignRight>Right</MarkerAlignRight>
+
+  <AutoAssignMarker>Assign automatically</AutoAssignMarker>
+
+  <ConditionMarker>Condition:</ConditionMarker>
+  <ConditionParamMarker>Parameter:</ConditionParamMarker>
+
+  <MarkerLowPriority>Low priority</MarkerLowPriority>
+  <MarkerPriority>Priority</MarkerPriority>
+  <MarkerLowPriorityTooltip>Automatic low priority markers will be hidden if there is a manually assigned marker on the pawn</MarkerLowPriorityTooltip>
+
+  <AssignMarkerFor>Use for:</AssignMarkerFor>
+  <AssignToColonistMarker>Colonists</AssignToColonistMarker>
+  <AssignToSlaveOrPrisonerMarker>Slaves and prisoners</AssignToSlaveOrPrisonerMarker>
+  <AssignToHostileMarker>Enemies</AssignToHostileMarker>
+  <AssignToNeutralMarker>Neutrals and allies</AssignToNeutralMarker>
+
+  <EditMarkers>Edit markers</EditMarkers>
+  <SelectAmarkerFromTheListToEdit>Select a marker from the list to edit</SelectAmarkerFromTheListToEdit>
+
+  <MarkerHasCondition>Auto</MarkerHasCondition>
+
+  <ConditionHealth>Wounds</ConditionHealth>
+  <IsBleeding>Is bleeding</IsBleeding>
+  <NotTended>Has untreated wounds</NotTended>
+  <NotTendedGood>Wounds poorly bandaged/not bandaged</NotTendedGood>
+  <HasScars>Has scars</HasScars>
+  <HasPain>Has pain</HasPain>
+
+  <ConditionExactHediff>Specific hediffs</ConditionExactHediff>
+
+  <ConditionStat>Pawn stats</ConditionStat>
+  <ConditionBest>Best: {0}</ConditionBest>
+  <ConditionWorst>Worst: {0}</ConditionWorst>
+
+  <ConditionImplant>Implants</ConditionImplant>
+  <ConditionSchedule>Daily schedule</ConditionSchedule>
+
+  <MarkerParamsSelected>Selected {0}</MarkerParamsSelected>
+
+  <ConditionXenotype>Xenotype</ConditionXenotype>
+  <ConditionHasGene>Has gene</ConditionHasGene>
+  <ConditionHasTrait>Trait</ConditionHasTrait>
+  <ConditionFaction>Faction</ConditionFaction>
+  <ConditionAlienIdeology>Alien ideology</ConditionAlienIdeology>
+  <ConditionHoldingWeapon>Holding weapon</ConditionHoldingWeapon>
+  <ConditionHoldingWeaponThing>Weapon</ConditionHoldingWeaponThing>
+  <ConditionHoldingWeaponStat>Weapon stat</ConditionHoldingWeaponStat>
+  <ConditionWearingApparel>Wearing apparel</ConditionWearingApparel>
+  <ConditionWearingApparelStat>Apparel stat</ConditionWearingApparelStat>
+  <ConditionAttackRange>Attack range</ConditionAttackRange>
+  <ConditionTechLevel>Tech level</ConditionTechLevel>
+  <ConditionIsRanged>Is ranged</ConditionIsRanged>
+  <ConditionIsGrenade>Is grenade</ConditionIsGrenade>
+  <ConditionBiocoded>Biocoded</ConditionBiocoded>
+  <ConditionPawnAge>Pawn age</ConditionPawnAge>
+
+  <MarkerApparelNotForNudist>Apparel not for nudists</MarkerApparelNotForNudist>
+
+  <AllowTagNonHumans>Allow mark non-human pawns</AllowTagNonHumans>
+  <AlwaysShowPawnNameIfMarked>Always show pawn name if marked</AlwaysShowPawnNameIfMarked>
+  <AllowTagNonHumansEnabledButAlwaysShowNot>Marking non-human pawns enabled, but 'always show name' disabled</AllowTagNonHumansEnabledButAlwaysShowNot>
+  <IconShadowOffset>Icon shadow offset {0} px</IconShadowOffset>
+  <MeleeVSRangedSkill>Melee &gt; Ranged skill</MeleeVSRangedSkill>
+  <RangedVSMeleeSkill>Ranged &gt; Melee skill</RangedVSMeleeSkill>
+
+  <ConditionInvert>Invert</ConditionInvert>
+  <MarkerAND>AND</MarkerAND>
+  <MarkerOR>OR</MarkerOR>
+  <ConditionExcept>Except: {0}</ConditionExcept>
+
+  <ConditionPawnGender>Gender</ConditionPawnGender>
+  <MarkerShowOnColonistBar>Show on colonist bar</MarkerShowOnColonistBar>
+  <ConditionQuest>Reserved by quest</ConditionQuest>
+
+  <IconSizeMultiplier>Icons size (x{0})</IconSizeMultiplier>
+
+  <ConditionUpdateRate>Conditions update rate (x{0})</ConditionUpdateRate>
+
+  <FinalSolveInfo>Checking for: {0}\nFinal: {1}\n</FinalSolveInfo>
+  <ConditionPass>Pass</ConditionPass>
+  <ConditionFail>Fail</ConditionFail>
+
+  <HediffSubMenuConditions>Hediffs</HediffSubMenuConditions>
+  <SkillSubMenuConditions>Skills</SkillSubMenuConditions>
+  <IdeologySubMenuConditions>Ideology</IdeologySubMenuConditions>
+  <BiotechSubMenuConditions>Biotech</BiotechSubMenuConditions>
+  <RoyaltySubMenuConditions>Royalty</RoyaltySubMenuConditions>
+
+  <ConditionRoyalTitle>Royal title</ConditionRoyalTitle>
+
+  <BottomMarksUnderWeaponOnPortrait>Bottom marks under weapon on portrait</BottomMarksUnderWeaponOnPortrait>
+  <WeaponUnderPortraitOffset>Weapon under portrait offset {0} px</WeaponUnderPortraitOffset>
+
+  <MinorPassion>Minor passion</MinorPassion>
+  <MajorPassion>Major passion</MajorPassion>
+  <AnyPassion>Any passion</AnyPassion>
+  <NoPassion>No passion</NoPassion>
+
+  <CopyOnlyCurrentMarker>Copy only current</CopyOnlyCurrentMarker>
+  <CopyAllSelectedMarkers>Copy all selected</CopyAllSelectedMarkers>
+  <AddMarkers>Add markers</AddMarkers>
+  <ReplaceMarkers>Replace markers</ReplaceMarkers>
+  <PasteMarkersFail>Paste markers failed</PasteMarkersFail>
+  <CopyMarkers>Copied {0} markers</CopyMarkers>
+
+  <ShowInAnyDraftMode>Show in\nany mode</ShowInAnyDraftMode>
+  <ShowInOnlyDraftMode>Show in\nonly drafted</ShowInOnlyDraftMode>
+  <ShowInOnlyNotDraftMode>Show in\nonly not drafted</ShowInOnlyNotDraftMode>
+
+  <MarkerShowOnColonistBarAndInWorld>Show everywhere</MarkerShowOnColonistBarAndInWorld>
+  <MarkerShowOnColonistBarOnly>Show only on colonist bar</MarkerShowOnColonistBarOnly>
+  <MarkerShowInWorldOnly>Show only in world</MarkerShowInWorldOnly>
+
+  <RestoreDefaultMarkers>Restore default markers</RestoreDefaultMarkers>
+
+  <Presets>Presets</Presets>
+  <PresetLoaded>Loaded preset</PresetLoaded>
+  <PresetName>Preset name</PresetName>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_GravshipStructuralBeam.label>структурная балка гравишипа</VGE_GravshipStructuralBeam.label>
+  <VGE_GravshipStructuralBeam.description>Несущая балка, вокруг которой можно строить гравишип. Позволяет возводить субструктуру в квадрате 5×5. При разрушении вызывает обрушение соседних балок.</VGE_GravshipStructuralBeam.description>
+</LanguageData>

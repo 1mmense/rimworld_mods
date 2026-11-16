@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Charge Pistol -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>VWE_Bullet_ChargePistol</defName>
+		<label>charge pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.05</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<stoppingPower>1.5</stoppingPower>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_ChargePistol_Base">
+		<defName>VWE_Gun_ChargePistol</defName>
+		<label>charge pistol</label>
+		<description>This high-tech, self-loading pistol uses pulse-charge technology to channel unstable energy into each shot. The charged energy is released on impact, delivering superior damage and armor penetration. Its compact size and reliability make it an ideal backup weapon in high-tech combat.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>NewThings/ChargePistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+		<statBases>
+			<Mass>2</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.5</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.266666</RangedWeapon_Cooldown>
+			<WorkToMake>30000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Plasteel>30</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>VWE_Bullet_ChargePistol</defaultProjectile>
+				<warmupTime>0.366666</warmupTime>
+				<range>23.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>VWE_Shot_ChargePistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <weaponClasses>
+      <!-- Lighter than charge rifle, which is considered light. -->
+      <li>RangedLight</li>
+    </weaponClasses>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<armorPenetration>0.13</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<armorPenetration>0.13</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+    <modExtensions>
+      <li Class="VEF.Things.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+	</ThingDef>
+	<!-- Charge Shotgun -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>VWE_Bullet_ChargeShotgun</defName>
+		<label>charge shotgun blast</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Charge_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>26</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<stoppingPower>4</stoppingPower>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_ChargeShotgun_Base">
+		<defName>VWE_Gun_ChargeShotgun</defName>
+		<label>charge shotgun</label>
+		<description>A sophisticated, high-tech scattergun utilizing pulse-charge technology. The energy is channeled into a single, high-impact slug, delivering devastating damage and superior armor penetration at close range. Its integrated pump-action mechanism cycles rounds rapidly, making it the ultimate tool for close-quarters breach and clear operations.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>NewThings/ChargeShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<statBases>
+			<Mass>3.8</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.72</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+			<WorkToMake>45000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+				<!-- Dok 7 all -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>SpacerGun</li>
+      <!-- Not including ShortShots, the weapon would be given to ordinary raiders (like basic pigskins). -->
+		</weaponTags>
+    <weaponClasses>
+      <!-- Lighter than charge rifle, which is considered light... but no shotguns are considered light, so not including the tag. -->
+      <li>ShortShots</li>
+    </weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>VWE_Bullet_ChargeShotgun</defaultProjectile>
+				<warmupTime>0.66666</warmupTime>
+				<range>15.9</range>
+				<soundCast>VWE_Shot_ChargeShotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<armorPenetration>0.13</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<armorPenetration>0.13</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<!-- Charge SMG -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>VWE_Bullet_ChargeSMG</defName>
+		<label>charge SMG shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>13</damageAmountBase>
+			<armorPenetrationBase>0.30</armorPenetrationBase>
+			<stoppingPower>0.5</stoppingPower>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_ChargeSMG_Base">
+		<defName>VWE_Gun_ChargeSMG</defName>
+		<label>charge SMG</label>
+		<description>A compact submachine gun built using advanced pulse-charge technology. It fires a rapid burst of kinetic rounds charged with unstable energy, trading long-range precision for devastating, high-penetration firepower at close quarters. Its speed and size make it an exceptional weapon for clearing enclosed spaces.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>NewThings/ChargeSMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<statBases>
+			<Mass>2.6</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.4</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
+			<RangedWeapon_Cooldown>1.933333</RangedWeapon_Cooldown>
+			<WorkToMake>40000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>SpacerGun</li>
+      <!-- Not including ShortShots, the weapon would be given to ordinary raiders (like basic pigskins). -->
+		</weaponTags>
+    <weaponClasses>
+      <!-- Lighter than charge rifle, which is considered light. -->
+      <li>RangedLight</li>
+      <li>ShortShots</li>
+    </weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>VWE_Bullet_ChargeSMG</defaultProjectile>
+				<warmupTime>0.833333</warmupTime>
+				<range>16.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<soundCast>VWE_Shot_ChargeSMG</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<armorPenetration>0.13</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<armorPenetration>0.13</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<!-- Charge Blaster -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>VWE_Bullet_ChargeLMG</defName>
+		<label>charge blaster shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Charge_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<armorPenetrationBase>0.22</armorPenetrationBase>
+			<stoppingPower>0.5</stoppingPower>
+			<speed>90</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_ChargeLMG_Base">
+		<defName>VWE_Gun_ChargeLMG</defName>
+		<label>charge blaster</label>
+		<description>A massive, portable charge weapon designed for sustained, suppressive fire. It uses advanced pulse-charge technology to channel and release devastating shots charged with unstable energy through its heavy-duty barrel. This design sacrifices spread for sheer focused power, making it capable of tearing apart multiple enemies or structures in a single, prolonged burst.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>NewThings/ChargeBlaster</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<statBases>
+			<Mass>20</Mass>
+			<AccuracyTouch>0.18</AccuracyTouch>
+			<AccuracyShort>0.26</AccuracyShort>
+			<AccuracyMedium>0.26</AccuracyMedium>
+			<AccuracyLong>0.18</AccuracyLong>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<WorkToMake>85000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>VWE_LaserTargetingSystems</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Plasteel>100</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>SpacerGun</li>
+      <!-- Not including GunHeavy, as it would give this gun to normal mercenaries. -->
+		</weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>VWE_Bullet_ChargeLMG</defaultProjectile>
+				<warmupTime>1.25</warmupTime>
+				<range>26.9</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>24</burstShotCount>
+				<soundCast>Shot_ChargeBlaster</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<armorPenetration>0.18</armorPenetration>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<!-- Heavy Charge Blaster -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>VWE_Bullet_ChargeMinigun</defName>
+		<label>heavy charge blaster shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Charge_Minigun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>26</damageAmountBase>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>80</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_ChargeMinigun_Base">
+		<defName>VWE_Gun_ChargeMinigun</defName>
+		<label>heavy charge blaster</label>
+		<description>A colossal charge weapon adapted for portable use. It channels immense pulse-charge energy into heavy-caliber slugs, firing them in devastating, sustained bursts. While its mass makes it difficult to handle, it is unrivaled in its capacity to tear through hardened targets and armored columns.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>NewThings/HeavyChargeBlaster</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.22</drawSize>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>100000</WorkToMake>
+			<Mass>24</Mass>
+			<AccuracyTouch>0.22</AccuracyTouch>
+			<AccuracyShort>0.3</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.38</AccuracyLong>
+			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>VWE_LaserTargetingSystems</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Plasteel>140</Plasteel>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<weaponTags>
+			<li>SpacerGun</li>
+      <!-- Not including GunHeavy, as it would give this gun to normal mercenaries. -->
+		</weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>VWE_Bullet_ChargeMinigun</defaultProjectile>
+				<warmupTime>1.25</warmupTime>
+				<range>30.9</range>
+				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
+				<soundCast>VWE_Shot_ChargeMinigun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<armorPenetration>0.18</armorPenetration>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+  <!-- Charge Missile Launcher -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_ChargeRocketLauncher</defName>
+    <label>charge missile launcher</label>
+    <description>A portable, shoulder-fired launcher that uses laser targeting to fire an explosive, charged missile high into the air. The projectile follows a ballistic arc, allowing it to bypass cover and strike targets without needing a direct line of sight. Must be used in an unroofed area.</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>NewThings/ChargeRocketLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.22</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>18</Mass>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>80</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>VWE_LaserTargetingSystems</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>VEF.Weapons.Verb_Shoot_FlyOverhead</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Rocket_AntiGrain</defaultProjectile>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>3.5</warmupTime>
+        <range>36.9</range>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetPawns>false</canTargetPawns>
+        </targetParams>
+        <muzzleFlashScale>30</muzzleFlashScale>
+        <ai_AvoidFriendlyFireRadius>4</ai_AvoidFriendlyFireRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <armorPenetration>0.13</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <armorPenetration>0.13</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Rocket_AntiGrain</defName>
+    <label>antigrain rocket</label>
+    <thingClass>VEF.Weapons.Projectile_TopAttackMissile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Charge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <explosionRadius>2.9</explosionRadius>
+      <speed>60</speed>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeSniperRifle</defName>
+    <label>charge sniper slug</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <stoppingPower>2.0</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_ChargeSniperRifle_Base">
+    <defName>VWE_Gun_ChargeSniperRifle</defName>
+    <label>charge sniper rifle</label>
+    <description>A specialized, high-velocity charge rifle designed for extreme-range engagement with anti-armor capabilities. It channels immense pulse-charge energy into a single, kinetic slug, delivering extremely high damage and armor penetration with pinpoint accuracy at maximum distance. Its bulk requires a stable firing position.</description>
+    <graphicData>
+      <texPath>NewThings/ChargeSniperRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.34</drawSize>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <WorkToMake>70000</WorkToMake>
+      <Mass>5.5</Mass>
+      <AccuracyTouch>0.4</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>VWE_LaserTargetingSystems</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeSniperRifle</defaultProjectile>
+        <warmupTime>2.67</warmupTime>
+        <range>44.9</range>
+        <soundCast>VWE_Shot_ChargeSniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0.15</armorPenetration>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0.15</armorPenetration>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

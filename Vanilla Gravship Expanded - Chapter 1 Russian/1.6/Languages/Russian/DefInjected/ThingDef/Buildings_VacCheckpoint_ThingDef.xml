@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_VacCheckpoint.xml -->
+	<!-- EN: vac checkpoint -->
+	<VGE_VacCheckpoint.label>вак-контроль</VGE_VacCheckpoint.label>
+	<!-- EN: A safety checkpoint indicating the entrance to vacuum environment. Colonists will not cross it without required vacuum resistance. -->
+	<VGE_VacCheckpoint.description>Контрольная точка безопасности, обозначающая вход в вакуумную зону. Колонисты не пересекут её без необходимой защиты от вакуума.</VGE_VacCheckpoint.description>
+</LanguageData>

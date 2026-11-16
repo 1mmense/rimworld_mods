@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\creepjoinersromancepatch\\source\\code\\pawn_relationstracker_compatibilitywith_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|solutionrelative:code\\pawn_relationstracker_compatibilitywith_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\code\\pawn_relationstracker_secondarylovinchancefactor_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|solutionrelative:code\\pawn_relationstracker_secondarylovinchancefactor_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\code\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|solutionrelative:code\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\code\\patchfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CB4B21C-AD56-4E86-94CD-D05044C5825F}|CreepJoinersRomancePatch.csproj|solutionrelative:code\\patchfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatchFunctions.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\PatchFunctions.cs",
+              "RelativeDocumentMoniker": "Code\\PatchFunctions.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\PatchFunctions.cs",
+              "RelativeToolTip": "Code\\PatchFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:58:24.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Init.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\Init.cs",
+              "RelativeDocumentMoniker": "Code\\Init.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\Init.cs",
+              "RelativeToolTip": "Code\\Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:57:38.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pawn_RelationsTracker_SecondaryLovinChanceFactor_Patch.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\Pawn_RelationsTracker_SecondaryLovinChanceFactor_Patch.cs",
+              "RelativeDocumentMoniker": "Code\\Pawn_RelationsTracker_SecondaryLovinChanceFactor_Patch.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\Pawn_RelationsTracker_SecondaryLovinChanceFactor_Patch.cs",
+              "RelativeToolTip": "Code\\Pawn_RelationsTracker_SecondaryLovinChanceFactor_Patch.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:57:29.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pawn_RelationsTracker_CompatibilityWith_Patch.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\Pawn_RelationsTracker_CompatibilityWith_Patch.cs",
+              "RelativeDocumentMoniker": "Code\\Pawn_RelationsTracker_CompatibilityWith_Patch.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\CreepJoinersRomancePatch\\Source\\Code\\Pawn_RelationsTracker_CompatibilityWith_Patch.cs",
+              "RelativeToolTip": "Code\\Pawn_RelationsTracker_CompatibilityWith_Patch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:57:24.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

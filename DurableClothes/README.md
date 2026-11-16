@@ -1,0 +1,42 @@
+# [Durable Clothes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2015395963)
+
+![Image](https://img.litet.net/logos/Info.png)
+
+Update of mpwoz mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1483544020
+
+- Affects all items of type Apparel
+- Added setting for taking damage based on percent of the original
+- Removed HugsLib dependency
+- Added setting to exclude apparel categories
+- Added setting to exclude apparel based on quality
+- Added setting to include all apparel without quality
+
+![Image](https://img.litet.net/logos/Notice.png)
+	
+![Image](https://img.litet.net/logos/OriginalDescription.png)
+
+Requires HugsLib https://steamcommunity.com/sharedfiles/filedetails/?id=818773962 for patching c# methods.
+        
+This mod will prevent any worn clothes from deteriorating on your pawns. It does this by hooking into the deterioration function and setting the item's HP to max whenever it runs.
+        
+There is a setting to disable autorepair, which will only stop degradation.
+
+NOTE: bullets hitting clothing will still cause it to take damage! It'll be repaired on the next "degradation tick" which randomly occurs about once per day.
+
+
+![Image](https://img.litet.net/logos/ReportingIssues.png)
+
+
+
+-  See if the the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
+
+ 
+
+[![Image](https://img.shields.io/github/v/release/emipa606/DurableClothes?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2015395963) | 1.6, Mod, 1.5, 1.2, 1.3, 1.0, 1.4, 1.1

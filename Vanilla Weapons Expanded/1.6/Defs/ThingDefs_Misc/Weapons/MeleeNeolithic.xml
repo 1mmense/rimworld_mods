@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Hatchet -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_Axe</defName>
+    <label>hatchet</label>
+    <description>A small, single-handed axe designed for quick, repeated strikes. Its light weight and short handle allow for fast swinging speed. Using a hatchet increases the plant harvest yield slightly.</description>
+    <graphicData>
+      <texPath>NewThings/Hatchet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeBasic</li>
+      <li>Axe</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.03</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <armorPenetration>0.12</armorPenetration>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>13</power>
+        <armorPenetration>0.2</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="VEF.Things.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

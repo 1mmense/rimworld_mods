@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>SearchAndDestroy</RootNamespace>
+        <AssemblyName>SearchAndDestroy</AssemblyName>
+        <Configurations>Debug;Release;1.5;1.6</Configurations>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <Version>1.7</Version>
+    	<GenerateDependencyFile>false</GenerateDependencyFile>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>..\..\$(Version)\Assemblies\</OutputPath>
+        <DefineConstants>DEBUG</DefineConstants>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <!-- Release configuration -->
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <DebugType>embedded</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>..\..\$(Version)\Assemblies\</OutputPath>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+
+    <ItemDefinitionGroup>
+        <PackageReference ExcludeAssets="runtime"/>
+    </ItemDefinitionGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Krafs.Rimworld.Ref" Version="$(Version).*-*"/>
+        <PackageReference Include="Lib.Harmony" Version="2.3.6"/>
+    </ItemGroup>
+
+
+</Project>

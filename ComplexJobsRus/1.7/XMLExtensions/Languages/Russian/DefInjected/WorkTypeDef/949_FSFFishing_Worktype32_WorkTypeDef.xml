@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!-- _Translation\Grabbed_Defs_from_patches\imranfish_xmlextensions\949_FSFFishing_Worktype32.xml -->
+<!-- EN: fish -->
+<FSFFishing.labelShort>рыбалка</FSFFishing.labelShort>
+<!-- EN: Fisher -->
+<FSFFishing.pawnLabel>Рыбак</FSFFishing.pawnLabel>
+<!-- EN: fishing -->
+<FSFFishing.gerundLabel>Рыбачить</FSFFishing.gerundLabel>
+<!-- EN: Fish in designated fishing zones. -->
+<FSFFishing.description>Ловят рыбу в выделенных для рыбалки областях.</FSFFishing.description>
+<!-- EN: Hunt -->
+<FSFFishing.verb>Охотиться</FSFFishing.verb>
+<!-- EN: Kill animals which are designated to be hunted. -->
+<Hunting.description>Охотники убивают животных, которые отмечены для охоты.</Hunting.description>
+</LanguageData>

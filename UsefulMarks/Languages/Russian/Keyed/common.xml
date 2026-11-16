@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UsefulMarks_SettingsCategory>UsefulMarks</UsefulMarks_SettingsCategory>
+  <DrawMarksOnColonistBar>Показывать иконки на панели колонистов</DrawMarksOnColonistBar>
+  <DrawMarksInWorld>Показывать иконки в мире</DrawMarksInWorld>
+  <DrawTitlesOnColonistBar>Показывать текст на панели колонистов</DrawTitlesOnColonistBar>
+  <WhereToEnableTitlesUnderPawnName>Отображение текста под именем пешки включается или выключается в меню псевдонима во вкладке био</WhereToEnableTitlesUnderPawnName>
+  <HideCosmeticGenes>Скрыть косметические гены</HideCosmeticGenes>
+  <ChangeFromMainMenu>Это можно изменить только в главном меню</ChangeFromMainMenu>
+
+  <DrawLabelsInWorldTooltip>Показывать в мире</DrawLabelsInWorldTooltip>
+
+  <ConditionMeleeFighter>Боец ближнего боя</ConditionMeleeFighter>
+  <ConditionRangedFighter>Боец дальнего боя</ConditionRangedFighter>
+  <ConditionPawnDrugInduced>Препараты</ConditionPawnDrugInduced>
+  <ConditionPawnToxinInduced>Токсины</ConditionPawnToxinInduced>
+  <ConditionPawnDisease>Заболевания</ConditionPawnDisease>
+  <ConditionRelation>Отношения</ConditionRelation>
+  <ConditionPawnTemperature>Температура</ConditionPawnTemperature>
+
+  <MarkerAny>Любой</MarkerAny>
+  <MarkerPills>Любые таблетки</MarkerPills>
+  <MarkerPsychite>Любой психин</MarkerPsychite>
+
+  <HasMeleeWeapon>Есть оружие ближнего боя</HasMeleeWeapon>
+  <HasRangedWeapon>Есть оружие дальнего боя</HasRangedWeapon>
+  <MeleeSkillOver5>Ближний бой {0} 5 (и ближний &gt; дальний)</MeleeSkillOver5>
+  <RangedSkillOver5>Дальний бой {0} 5 (и дальний &gt; ближний)</RangedSkillOver5>
+  <MeleeSkillOver10>Ближний бой {0} 10 (и ближний &gt; дальний)</MeleeSkillOver10>
+  <RangedSkillOver10>Дальний бой {0} 10 (и дальний &gt; ближний)</RangedSkillOver10>
+  <MeleeSkillOver15>Ближний бой {0} 15 (и ближний &gt; дальний)</MeleeSkillOver15>
+  <RangedSkillOver15>Дальний бой {0} 15 (и дальний &gt; ближний)</RangedSkillOver15>
+
+  <IsBestSkill>Лучший навык</IsBestSkill>
+  <IsWorstSkill>Худший навык</IsWorstSkill>
+  <IsBestSkillColonist>Лучший в колонии</IsBestSkillColonist>
+  <IsWorstSkillColonist>Худший в колонии</IsWorstSkillColonist>
+  <SkillAbove5>Навык {0} 5</SkillAbove5>
+  <SkillAbove10>Навык {0} 10</SkillAbove10>
+  <SkillAbove15>Навык {0} 15</SkillAbove15>
+  <SkillValue>Значение</SkillValue>
+
+  <ObsoletedWarning>Устарело, настройте заново</ObsoletedWarning>
+
+  <AboveComfortTemperature>Выше комфортной</AboveComfortTemperature>
+  <BelowComfortTemperature>Ниже комфортной</BelowComfortTemperature>
+  <AboveSafeTemperature>Выше безопасной</AboveSafeTemperature>
+  <BelowSafeTemperature>Ниже безопасной</BelowSafeTemperature>
+
+  <MarkerAlignLeft>Слева</MarkerAlignLeft>
+  <MarkerAlignBottom>Снизу</MarkerAlignBottom>
+  <MarkerAlignRight>Справа</MarkerAlignRight>
+
+  <AutoAssignMarker>Назначать автоматически</AutoAssignMarker>
+
+  <ConditionMarker>Условие:</ConditionMarker>
+  <ConditionParamMarker>Параметр:</ConditionParamMarker>
+
+  <MarkerLowPriority>Низкий приоритет</MarkerLowPriority>
+  <MarkerPriority>Приоритет</MarkerPriority>
+  <MarkerLowPriorityTooltip>Автоматические метки с низким приоритетом будут скрываться, если есть назначенная вручную метка на пешке</MarkerLowPriorityTooltip>
+
+  <AssignMarkerFor>Использовать для:</AssignMarkerFor>
+  <AssignToColonistMarker>Колонистов</AssignToColonistMarker>
+  <AssignToSlaveOrPrisonerMarker>Рабов и заключенных</AssignToSlaveOrPrisonerMarker>
+  <AssignToHostileMarker>Врагов</AssignToHostileMarker>
+  <AssignToNeutralMarker>Нейтралов и союзников</AssignToNeutralMarker>
+
+  <EditMarkers>Редактор меток</EditMarkers>
+  <SelectAmarkerFromTheListToEdit>Выберите метку из списка для редактирования</SelectAmarkerFromTheListToEdit>
+
+  <MarkerHasCondition>Авто</MarkerHasCondition>
+
+  <ConditionHealth>Раны</ConditionHealth>
+  <IsBleeding>Есть кровотечение</IsBleeding>
+  <NotTended>Есть необработанные раны</NotTended>
+  <NotTendedGood>Раны перевязаны плохо/не перевязаны</NotTendedGood>
+  <HasScars>Есть шрамы</HasScars>
+  <HasPain>Есть боль</HasPain>
+
+  <ConditionExactHediff>Конкретные хедиффы</ConditionExactHediff>
+
+  <ConditionStat>Показатели пешки</ConditionStat>
+  <ConditionBest>Лучший: {0}</ConditionBest>
+  <ConditionWorst>Худший: {0}</ConditionWorst>
+
+  <ConditionImplant>Импланты</ConditionImplant>
+  <ConditionSchedule>Расписание дня</ConditionSchedule>
+
+  <MarkerParamsSelected>Выбрано {0}</MarkerParamsSelected>
+
+  <ConditionXenotype>Ксенотип</ConditionXenotype>
+  <ConditionHasGene>Есть ген</ConditionHasGene>
+  <ConditionHasTrait>Характер</ConditionHasTrait>
+  <ConditionFaction>Фракция</ConditionFaction>
+  <ConditionAlienIdeology>Чужая идеология</ConditionAlienIdeology>
+  <ConditionHoldingWeapon>Держит оружие</ConditionHoldingWeapon>
+  <ConditionHoldingWeaponThing>Оружие</ConditionHoldingWeaponThing>
+  <ConditionHoldingWeaponStat>Параметры оружия</ConditionHoldingWeaponStat>
+  <ConditionWearingApparel>Носит одежду</ConditionWearingApparel>
+  <ConditionWearingApparelStat>Параметры одежды</ConditionWearingApparelStat>
+  <ConditionAttackRange>Дальность атаки</ConditionAttackRange>
+  <ConditionTechLevel>Технология</ConditionTechLevel>
+  <ConditionIsRanged>Дистанционное</ConditionIsRanged>
+  <ConditionIsGrenade>Граната</ConditionIsGrenade>
+  <ConditionBiocoded>Биокодированно</ConditionBiocoded>
+  <ConditionPawnAge>Возраст</ConditionPawnAge>
+
+  <MarkerApparelNotForNudist>Одежда не для нудистов</MarkerApparelNotForNudist>
+
+  <AllowTagNonHumans>Разрешить теги для нечеловеческих пешек</AllowTagNonHumans>
+  <AlwaysShowPawnNameIfMarked>Всегда показывать имя пешки если есть метка</AlwaysShowPawnNameIfMarked>
+  <AllowTagNonHumansEnabledButAlwaysShowNot>Теги для нечеловеческих пешек включены, но 'всегда показывать имя' выключено</AllowTagNonHumansEnabledButAlwaysShowNot>
+  <IconShadowOffset>Сдвиг тени у иконки {0} px</IconShadowOffset>
+
+  <MeleeVSRangedSkill>Ближний &gt; Дальний навык</MeleeVSRangedSkill>
+  <RangedVSMeleeSkill>Дальний &gt; Ближний навык</RangedVSMeleeSkill>
+
+  <ConditionInvert>Инвертировать</ConditionInvert>
+  <MarkerAND>И</MarkerAND>
+  <MarkerOR>ИЛИ</MarkerOR>
+  <ConditionExcept>Кроме: {0}</ConditionExcept>
+
+  <ConditionPawnGender>Пол</ConditionPawnGender>
+  <MarkerShowOnColonistBar>Показывать на панели колонистов</MarkerShowOnColonistBar>
+  <ConditionQuest>Связанный квест</ConditionQuest>
+
+  <IconSizeMultiplier>Размер иконок (x{0})</IconSizeMultiplier>
+
+  <ConditionUpdateRate>Частота проверки условий (x{0})</ConditionUpdateRate>
+
+  <FinalSolveInfo>Проверка для: {0}\nИтог: {1}\n</FinalSolveInfo>
+  <ConditionPass>Прошло</ConditionPass>
+  <ConditionFail>Провал</ConditionFail>
+
+  <HediffSubMenuConditions>Хедиффы</HediffSubMenuConditions>
+  <SkillSubMenuConditions>Навыки</SkillSubMenuConditions>
+  <IdeologySubMenuConditions>Идеология</IdeologySubMenuConditions>
+  <BiotechSubMenuConditions>Биотех</BiotechSubMenuConditions>
+  <RoyaltySubMenuConditions>Роялти</RoyaltySubMenuConditions>
+
+  <ConditionRoyalTitle>Королевский титул</ConditionRoyalTitle>
+
+  <BottomMarksUnderWeaponOnPortrait>Нижние метки отображать под оружием на портрете</BottomMarksUnderWeaponOnPortrait>
+  <WeaponUnderPortraitOffset>Доп. смещение оружия под портретом {0} px</WeaponUnderPortraitOffset>
+
+  <MinorPassion>Малое увлечение</MinorPassion>
+  <MajorPassion>Сильное увлечение</MajorPassion>
+  <AnyPassion>Любое увлечение</AnyPassion>
+  <NoPassion>Без увлечения</NoPassion>
+
+  <CopyOnlyCurrentMarker>Копировать выбранную метку</CopyOnlyCurrentMarker>
+  <CopyAllSelectedMarkers>Копировать все выбранные метки</CopyAllSelectedMarkers>
+  <AddMarkers>Добавить метки</AddMarkers>
+  <ReplaceMarkers>Заменить метки</ReplaceMarkers>
+  <PasteMarkersFail>Вставить метки не удалось</PasteMarkersFail>
+  <CopyMarkers>Скопировано {0} меток</CopyMarkers>
+
+  <ShowInAnyDraftMode>Показывать в\nлюбом режиме</ShowInAnyDraftMode>
+  <ShowInOnlyDraftMode>Показывать в\nтолько в призыве</ShowInOnlyDraftMode>
+  <ShowInOnlyNotDraftMode>Показывать в\nтолько не в призыве</ShowInOnlyNotDraftMode>
+
+  <MarkerShowOnColonistBarAndInWorld>Показывать везде</MarkerShowOnColonistBarAndInWorld>
+  <MarkerShowOnColonistBarOnly>Показывать только на панели колонистов</MarkerShowOnColonistBarOnly>
+  <MarkerShowInWorldOnly>Показывать только в мире</MarkerShowInWorldOnly>
+
+  <RestoreDefaultMarkers>Восстановить метки по умолчанию</RestoreDefaultMarkers>
+
+  <Presets>Пресеты</Presets>
+  <PresetLoaded>Загружен пресет</PresetLoaded>
+  <PresetName>Название пресета</PresetName>
+</LanguageData>

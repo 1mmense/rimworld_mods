@@ -1,0 +1,36 @@
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[nodeClass="PawnRenderNode_Head"]/children/li[nodeClass="PawnRenderNode_Hair"]/subworkerClasses</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[nodeClass="PawnRenderNode_Head"]/children/li[nodeClass="PawnRenderNode_Hair"]</xpath>
+			<value>
+				<subworkerClasses>
+					<li>ShowHair.PawnRenderSubWorkerHair</li>
+				</subworkerClasses>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[nodeClass="PawnRenderNode_Head"]/children/li[nodeClass="PawnRenderNode_Hair"]/subworkerClasses</xpath>
+			<value>
+				<li>ShowHair.PawnRenderSubWorkerHair</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[nodeClass="PawnRenderNode_Head"]/children/li[nodeClass="PawnRenderNode_Beard"]/subworkerClasses</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[nodeClass="PawnRenderNode_Head"]/children/li[nodeClass="PawnRenderNode_Beard"]</xpath>
+			<value>
+				<subworkerClasses>
+					<li>ShowHair.PawnRenderSubWorkerBeard</li>
+				</subworkerClasses>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[nodeClass="PawnRenderNode_Head"]/children/li[nodeClass="PawnRenderNode_Beard"]/subworkerClasses</xpath>
+			<value>
+				<li>ShowHair.PawnRenderSubWorkerBeard</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
